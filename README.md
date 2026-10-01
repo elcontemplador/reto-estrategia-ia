@@ -6,7 +6,7 @@ Un concurso de cultura general sobre inteligencia artificial para celebrar tres 
 
 Quince preguntas, cuatro opciones, tres comodines y hasta **100.000 puntos**. La dificultad aumenta en cinco etapas. Cada acierto permite continuar o plantarse; un error termina la partida conservando el último seguro alcanzado: 1.000 puntos tras la quinta respuesta correcta y 10.000 tras la décima. No hay dinero, reloj ni clasificación pública.
 
-El banco reúne **1.000 preguntas**, 433 familias editoriales y 415 fuentes principales. Cada respuesta incluye explicación y referencia. La selección prioriza preguntas no vistas en este navegador y evita repetir familias dentro de una partida; un banco finito no garantiza que nunca se repitan preguntas.
+El banco reúne **1.000 preguntas**, 459 familias editoriales, 15 categorías temáticas y 426 fuentes principales. Cada respuesta incluye explicación y referencia. La selección prioriza preguntas no vistas en este navegador y evita repetir familias dentro de una partida; un banco finito no garantiza que nunca se repitan preguntas.
 
 ## Jugar y comunicar una incidencia
 
@@ -35,7 +35,11 @@ Abre `http://127.0.0.1:4319/` para jugar localmente. En Linux, la instalación d
 - `qa/`: pruebas de motor, validación del banco, simulación de selección y recorridos de navegador. Los resultados temporales se excluyen del repositorio.
 - `.github/workflows/pages.yml`: valida cada cambio de `main` y publica únicamente `dist/` si los controles pasan. Las pull requests ejecutan los controles sin publicar.
 
-El banco de partida conserva la revisión editorial del 20 de septiembre de 2026. Distribución por niveles: 90 / 219 / 354 / 258 / 79. SHA-256 inicial: `93e321d6f3f329bf2a716187f6e6c147abebec99d666afd546a3b2495d488632`.
+La actualización editorial del 1 de octubre de 2026 mejora 94 fichas: menos fechas menores, alternativas más plausibles, más preguntas iniciales y nuevos casos de gobernanza y uso responsable. Las preguntas con cuatro años como opciones pasan de 48 a 20. Las 60 etiquetas anteriores se agrupan en 15 categorías. Se mantienen personajes, empresas, ciencia y ficción como parte de la cultura general sobre IA.
+
+Distribución actual por niveles: **101 / 212 / 358 / 251 / 78**. SHA-256 del banco: `3b7cada41245199c042e2e26e3aa8cba067832f85889b24bc802e97d9b7d44e6`. Cada ficha indica su propia fecha de revisión; esta actualización no atribuye una nueva comprobación factual a las preguntas que solo cambian de etiqueta.
+
+Si una partida guardada contiene preguntas modificadas que ya no pueden recuperarse, el juego informa de la actualización y conserva la mejor marca y el número de partidas terminadas.
 
 ## Alcance de la revisión
 
