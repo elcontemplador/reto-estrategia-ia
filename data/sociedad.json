@@ -76,9 +76,9 @@
     "prompt": "¿Qué limitación reconoce OpenAI sobre las respuestas de ChatGPT?",
     "options": [
       "Pueden sonar convincentes y contener errores",
-      "Deben escribirse siempre en inglés",
-      "Solo pueden repetir literalmente la pregunta",
-      "Necesitan una grabación de voz para funcionar"
+      "Solo fallan cuando el usuario escribe con faltas de ortografía",
+      "La fluidez indica que la respuesta ha sido comprobada",
+      "Las respuestas más largas tienen garantizada mayor exactitud"
     ],
     "answer": 0,
     "hint": "La fluidez de una respuesta no permite comprobar si sus datos son ciertos.",
@@ -86,7 +86,7 @@
     "source": "https://openai.com/index/chatgpt/",
     "sourceTitle": "OpenAI · Introducing ChatGPT (30-11-2022)",
     "sourceLocator": "Fecha de publicación; apertura y apartado Limitations",
-    "reviewedAt": "2026-09-19",
+    "reviewedAt": "2026-10-01",
     "track": "sociedad"
   },
   {
@@ -164,9 +164,9 @@
     "prompt": "¿Qué compartió OpenAI al publicar Whisper en 2022?",
     "options": [
       "Los modelos y el código para ejecutarlos",
-      "Solo una demostración en vídeo",
-      "Una colección de canciones para descargar",
-      "Solo una interfaz de pago sin modelos descargables"
+      "Un catálogo de canciones para entrenar compositores",
+      "Una aplicación cerrada de doblaje de películas",
+      "Un servicio de llamadas telefónicas de pago"
     ],
     "answer": 0,
     "hint": "La publicación permitía experimentar con el sistema fuera de una demostración cerrada.",
@@ -174,7 +174,7 @@
     "source": "https://openai.com/index/whisper/",
     "sourceTitle": "OpenAI · Introducing Whisper (21-09-2022)",
     "sourceLocator": "Apertura y descripción del reconocimiento y la traducción de voz",
-    "reviewedAt": "2026-09-19",
+    "reviewedAt": "2026-10-01",
     "track": "sociedad"
   },
   {
@@ -202,7 +202,7 @@
   {
     "id": "S0010",
     "band": 2,
-    "topic": "Protagonistas",
+    "topic": "Personas",
     "family": "gemini-2023",
     "factKey": "gemini-pichai",
     "prompt": "¿Qué director ejecutivo de Google y Alphabet firmó el anuncio de Gemini de diciembre de 2023?",
@@ -294,24 +294,26 @@
   {
     "id": "S0014",
     "band": 3,
-    "topic": "Empresas y herramientas",
-    "family": "claude-2023",
-    "factKey": "claude-anuncio-anio",
-    "prompt": "¿En qué año publicó Anthropic su anuncio «Introducing Claude»?",
+    "topic": "Política y gobierno",
+    "family": "ai-act-transparencia",
+    "factKey": "ai-act-chatbot-aviso",
+    "prompt": "En un chatbot comercial, ¿qué información pide el Reglamento europeo de IA si no resulta evidente que habla una máquina?",
     "options": [
-      "2023",
-      "2021",
-      "2022",
-      "2024"
+      "Que se está interactuando con una IA",
+      "Qué empresa fabricó los procesadores",
+      "Qué tamaño tiene el conjunto de entrenamiento",
+      "Qué versión del lenguaje de programación utiliza"
     ],
     "answer": 0,
-    "hint": "Fue durante la primera gran expansión de los asistentes posterior a ChatGPT.",
-    "explanation": "El anuncio de presentación está fechado el 14 de marzo de 2023.",
-    "source": "https://www.anthropic.com/news/introducing-claude",
-    "sourceTitle": "Anthropic · Introducing Claude (14-03-2023)",
-    "sourceLocator": "Apertura; las dos versiones; Partner Testimonials, Quora/Poe",
-    "reviewedAt": "2026-09-19",
-    "track": "sociedad"
+    "hint": "La obligación ayuda a reconocer quién —o qué— está al otro lado.",
+    "explanation": "El artículo 50.1 del texto de 2024 exige informar de la interacción con IA, salvo que resulte evidente. No exige revelar la marca de los chips ni el coste de entrenamiento.",
+    "source": "https://www.boe.es/buscar/doc.php?id=DOUE-L-2024-81079",
+    "sourceTitle": "BOE · Reglamento (UE) 2024/1689, texto publicado en 2024",
+    "sourceLocator": "Artículo 50.1: interacción directa con personas físicas.",
+    "reviewedAt": "2026-10-01",
+    "track": "sociedad",
+    "hintSource": "https://www.boe.es/buscar/doc.php?id=DOUE-L-2024-81079",
+    "hintSourceTitle": "BOE · Reglamento (UE) 2024/1689, texto publicado en 2024"
   },
   {
     "id": "S0015",
@@ -388,9 +390,9 @@
     "prompt": "¿Con qué material trabaja principalmente un cuaderno de NotebookLM?",
     "options": [
       "Con las fuentes que selecciona el usuario",
-      "Solo con noticias elegidas por Google",
-      "Solo con publicaciones de redes sociales",
-      "Solo con entradas de una enciclopedia"
+      "Con una agenda de noticias decidida por sus editores",
+      "Con el historial privado de correo de todas sus cuentas",
+      "Con las páginas mejor posicionadas de cada búsqueda"
     ],
     "answer": 0,
     "hint": "Puedes reunir los documentos que quieres estudiar en un mismo cuaderno.",
@@ -398,7 +400,7 @@
     "source": "https://blog.google/innovation-and-ai/technology/ai/notebooklm-google-ai/",
     "sourceTitle": "Google · Introducing NotebookLM (12-07-2023)",
     "sourceLocator": "Apertura: Project Tailwind, Google Labs y LM; NotebookLM: an AI notebook for everyone",
-    "reviewedAt": "2026-09-19",
+    "reviewedAt": "2026-10-01",
     "track": "sociedad"
   },
   {
@@ -492,7 +494,7 @@
   {
     "id": "S0023",
     "band": 2,
-    "topic": "Protagonistas",
+    "topic": "Personas",
     "family": "copilot365-2023",
     "factKey": "copilot365-nadella",
     "prompt": "¿Quién figuraba como presidente y CEO de Microsoft en el anuncio de Microsoft 365 Copilot de marzo de 2023?",
@@ -581,25 +583,27 @@
   },
   {
     "id": "S0027",
-    "band": 4,
-    "topic": "Empresas y herramientas",
-    "family": "firefly-2023",
-    "factKey": "firefly-anio-beta",
-    "prompt": "¿En qué año se presentó la primera beta de Adobe Firefly?",
+    "band": 5,
+    "topic": "Política y gobierno",
+    "family": "ai-act-modelos-abiertos",
+    "factKey": "ai-act-abiertos-resumen-datos",
+    "prompt": "En el Reglamento europeo de IA de 2024, ¿qué obligación se mantiene para los modelos de uso general abiertos, aunque cumplan la exención documental?",
     "options": [
-      "2023",
-      "2021",
-      "2022",
-      "2024"
+      "Publicar un resumen del contenido usado para entrenarlos",
+      "Publicar íntegramente todos los datos de entrenamiento",
+      "Registrar a cada persona que descargue el modelo",
+      "Cobrar una tarifa mínima por cada uso comercial"
     ],
     "answer": 0,
-    "hint": "Llegó en la etapa de expansión de las herramientas creativas posterior a DALL·E 2.",
-    "explanation": "Adobe fechó el anuncio inicial de Firefly el 21 de marzo de 2023.",
-    "source": "https://news.adobe.com/assets/downloads/pdfs/2023/3/032123adobefirefly.pdf",
-    "sourceTitle": "Adobe · Anuncio de Firefly (21-03-2023)",
-    "sourceLocator": "Página 1: fecha, familia de IA generativa, imágenes y efectos de texto",
-    "reviewedAt": "2026-09-19",
-    "track": "sociedad"
+    "hint": "Una exención concreta no elimina las obligaciones sobre transparencia del entrenamiento.",
+    "explanation": "El artículo 53.2 exime, bajo condiciones, de las letras a y b. Mantiene las letras c y d: política de derechos de autor y resumen público suficientemente detallado del contenido de entrenamiento. La exención no alcanza a modelos con riesgo sistémico.",
+    "source": "https://www.boe.es/buscar/doc.php?id=DOUE-L-2024-81079",
+    "sourceTitle": "BOE · Reglamento (UE) 2024/1689, texto publicado en 2024",
+    "sourceLocator": "Artículo 53.1.c-d y 53.2.",
+    "reviewedAt": "2026-10-01",
+    "track": "sociedad",
+    "hintSource": "https://www.boe.es/buscar/doc.php?id=DOUE-L-2024-81079",
+    "hintSourceTitle": "BOE · Reglamento (UE) 2024/1689, texto publicado en 2024"
   },
   {
     "id": "S0028",
@@ -627,25 +631,25 @@
     "id": "S0029",
     "band": 4,
     "topic": "IA y sociedad",
-    "family": "unesco-2021",
-    "factKey": "unesco-anio",
-    "prompt": "¿En qué año se adoptó la Recomendación de la UNESCO sobre la Ética de la IA?",
+    "family": "unesco-etica-proporcionalidad",
+    "factKey": "unesco-uso-proporcionado",
+    "prompt": "¿Qué significa el principio de proporcionalidad de UNESCO aplicado a la IA?",
     "options": [
-      "2021",
-      "2019",
-      "2020",
-      "2022"
+      "No exceder lo necesario para un fin legítimo",
+      "Aplicar la misma evaluación a usos de riesgos distintos",
+      "Dedicar al control el mismo presupuesto que al desarrollo",
+      "Recoger más datos personales cuanto más complejo sea el modelo"
     ],
     "answer": 0,
-    "hint": "Se adoptó el año anterior a la presentación pública de ChatGPT.",
-    "explanation": "La adopción de la recomendación tuvo lugar en noviembre de 2021.",
-    "source": "https://www.unesco.org/en/artificial-intelligence/recommendation-ethics?hub=66636",
-    "sourceTitle": "UNESCO · Recommendation on the Ethics of Artificial Intelligence",
-    "sourceLocator": "Introducción: adopción de noviembre de 2021 por 193 Estados; derechos y dignidad humanos",
-    "reviewedAt": "2026-09-20",
+    "hint": "Relaciona los medios empleados con la finalidad que se persigue.",
+    "explanation": "UNESCO vincula proporcionalidad con limitar el uso a lo necesario y evaluar riesgos para prevenir daños.",
+    "source": "https://www.unesco.org/en/artificial-intelligence/recommendation-ethics",
+    "sourceTitle": "UNESCO · Recomendación sobre la Ética de la IA",
+    "sourceLocator": "Core principles: 1. Proportionality and do no harm.",
+    "reviewedAt": "2026-10-01",
     "track": "sociedad",
-    "hintSource": "https://openai.com/index/chatgpt/",
-    "hintSourceTitle": "OpenAI · Introducing ChatGPT (30-11-2022)"
+    "hintSource": "https://www.unesco.org/en/artificial-intelligence/recommendation-ethics",
+    "hintSourceTitle": "UNESCO · Recomendación sobre la Ética de la IA"
   },
   {
     "id": "S0030",
@@ -760,7 +764,7 @@
   {
     "id": "S0035",
     "band": 5,
-    "topic": "Protagonistas",
+    "topic": "Personas",
     "family": "aiact-2024",
     "factKey": "aiact-ponentes",
     "prompt": "¿Qué pareja fue ponente del Reglamento de IA en el Parlamento Europeo, según la nota de aprobación de mayo de 2024?",
@@ -873,23 +877,25 @@
     "id": "S0040",
     "band": 3,
     "topic": "Política y gobierno",
-    "family": "bletchley-2023",
-    "factKey": "bletchley-anio",
-    "prompt": "¿En qué año se celebró la cumbre de seguridad de IA que dio lugar a la Declaración de Bletchley?",
+    "family": "ai-act-practicas-prohibidas",
+    "factKey": "ai-act-raspado-facial",
+    "prompt": "¿Qué práctica prohíbe expresamente el Reglamento europeo de IA de 2024?",
     "options": [
-      "2023",
-      "2021",
-      "2022",
-      "2024"
+      "Crear bases de reconocimiento facial rastreando indiscriminadamente internet o cámaras",
+      "Agrupar fotografías personales por la fecha en que se tomaron",
+      "Ajustar la exposición de una fotografía digital",
+      "Detectar caras para enfocar una cámara"
     ],
     "answer": 0,
-    "hint": "La cumbre se celebró tras la llegada de ChatGPT y antes de la reunión de Seúl.",
-    "explanation": "La declaración se publicó el 1 de noviembre de 2023.",
-    "source": "https://www.gov.uk/government/publications/ai-safety-summit-2023-the-bletchley-declaration",
-    "sourceTitle": "Gobierno británico · The Bletchley Declaration (01-11-2023)",
-    "sourceLocator": "Título, fecha original y descripción del encuentro en Bletchley Park, Buckinghamshire",
-    "reviewedAt": "2026-09-19",
-    "track": "sociedad"
+    "hint": "No es una prohibición de toda función que detecte una cara.",
+    "explanation": "El artículo 5.1.e prohíbe crear o ampliar bases de reconocimiento facial mediante extracción no selectiva de imágenes faciales de internet o de circuitos cerrados de televisión.",
+    "source": "https://www.boe.es/buscar/doc.php?id=DOUE-L-2024-81079",
+    "sourceTitle": "BOE · Reglamento (UE) 2024/1689, texto publicado en 2024",
+    "sourceLocator": "Artículo 5.1.e.",
+    "reviewedAt": "2026-10-01",
+    "track": "sociedad",
+    "hintSource": "https://www.boe.es/buscar/doc.php?id=DOUE-L-2024-81079",
+    "hintSourceTitle": "BOE · Reglamento (UE) 2024/1689, texto publicado en 2024"
   },
   {
     "id": "S0041",
@@ -1026,7 +1032,7 @@
   {
     "id": "S0047",
     "band": 3,
-    "topic": "Protagonistas",
+    "topic": "Personas",
     "family": "paris-2025",
     "factKey": "paris-modi",
     "prompt": "¿Qué primer ministro copresidió con Emmanuel Macron la Cumbre de Acción sobre IA de febrero de 2025?",
@@ -1092,26 +1098,26 @@
   {
     "id": "S0050",
     "band": 3,
-    "topic": "Empresas y herramientas",
-    "family": "github-2021",
-    "factKey": "github-copilot-preview",
-    "prompt": "¿En qué año empezó la prueba técnica de GitHub Copilot?",
+    "topic": "Política y gobierno",
+    "family": "ai-act-empleo",
+    "factKey": "ai-act-seleccion-personal",
+    "prompt": "¿Qué uso laboral incluye el Reglamento europeo de IA de 2024 en su lista de sistemas de alto riesgo?",
     "options": [
-      "2021",
-      "2019",
-      "2020",
-      "2022"
+      "Analizar y filtrar candidaturas para seleccionar personal",
+      "Elegir el fondo decorativo de una videollamada",
+      "Comprimir un documento antes de enviarlo",
+      "Sugerir colores para una presentación interna"
     ],
     "answer": 0,
-    "hint": "La prueba técnica llegó el año anterior al lanzamiento público de ChatGPT.",
-    "explanation": "El anuncio de la prueba técnica está fechado el 29 de junio de 2021.",
-    "source": "https://github.blog/news-insights/product-news/introducing-github-copilot-ai-pair-programmer/",
-    "sourceTitle": "GitHub · Presentación de Copilot (29-06-2021)",
-    "sourceLocator": "Fecha original; apertura y colaboración con OpenAI Codex",
-    "reviewedAt": "2026-09-20",
+    "hint": "La lista incluye usos capaces de condicionar el acceso al empleo.",
+    "explanation": "El anexo III.4.a incluye IA para contratación o selección, como analizar solicitudes y evaluar candidatos. La clasificación se aplica con las reglas y excepciones del artículo 6.",
+    "source": "https://www.boe.es/buscar/doc.php?id=DOUE-L-2024-81079",
+    "sourceTitle": "BOE · Reglamento (UE) 2024/1689, texto publicado en 2024",
+    "sourceLocator": "Anexo III, punto 4.a; artículo 6.2-3.",
+    "reviewedAt": "2026-10-01",
     "track": "sociedad",
-    "hintSource": "https://openai.com/index/chatgpt/",
-    "hintSourceTitle": "OpenAI · Introducing ChatGPT (30-11-2022)"
+    "hintSource": "https://www.boe.es/buscar/doc.php?id=DOUE-L-2024-81079",
+    "hintSourceTitle": "BOE · Reglamento (UE) 2024/1689, texto publicado en 2024"
   },
   {
     "id": "S0051",
@@ -1300,9 +1306,9 @@
     "prompt": "¿Qué significa que Le Chat se presentara como un asistente multilingüe en 2024?",
     "options": [
       "Conversar en varios idiomas",
-      "Usar varios monitores a la vez",
-      "Conectar varios teclados",
-      "Abrir varias cuentas obligatorias"
+      "Traducir programas entre lenguajes informáticos",
+      "Interpretar múltiples tipos de archivos sin atender a su idioma",
+      "Gestionar distintas cuentas desde una sola pantalla"
     ],
     "answer": 0,
     "hint": "La característica se refiere a las lenguas de comunicación.",
@@ -1310,7 +1316,7 @@
     "source": "https://mistral.ai/news/le-chat-mistral/",
     "sourceTitle": "Mistral AI · Presentación de Le Chat (2024)",
     "sourceLocator": "A multilingual conversational assistant based on Mistral models",
-    "reviewedAt": "2026-09-19",
+    "reviewedAt": "2026-10-01",
     "track": "sociedad"
   },
   {
@@ -1366,9 +1372,9 @@
     "prompt": "Según su presentación de 2023, ¿de dónde procedían los modelos ofrecidos por Amazon Bedrock?",
     "options": [
       "De varios proveedores de modelos",
-      "Solo de Amazon",
-      "Solo de universidades públicas",
-      "Solo del propio cliente"
+      "De una familia exclusiva de Amazon",
+      "De un consorcio universitario sin participación empresarial",
+      "De modelos que debe entrenar el cliente desde cero"
     ],
     "answer": 0,
     "hint": "Bedrock se presentó como un catálogo al que acceder desde un servicio común.",
@@ -1376,13 +1382,13 @@
     "source": "https://aws.amazon.com/blogs/machine-learning/announcing-new-tools-for-building-with-generative-ai-on-aws/",
     "sourceTitle": "AWS · Anuncio de Bedrock y Titan (2023)",
     "sourceLocator": "Announcing Amazon Bedrock and Amazon Titan models",
-    "reviewedAt": "2026-09-19",
+    "reviewedAt": "2026-10-01",
     "track": "sociedad"
   },
   {
     "id": "S0063",
     "band": 2,
-    "topic": "Protagonistas",
+    "topic": "Personas",
     "family": "blackwell-2024",
     "factKey": "blackwell-huang",
     "prompt": "¿Quién figuraba como fundador y CEO de NVIDIA en el anuncio de Blackwell de marzo de 2024?",
@@ -1405,30 +1411,32 @@
   },
   {
     "id": "S0064",
-    "band": 4,
-    "topic": "Empresas y herramientas",
-    "family": "blackwell-2024",
-    "factKey": "blackwell-anio",
-    "prompt": "¿En qué año presentó NVIDIA la plataforma Blackwell?",
+    "band": 5,
+    "topic": "Política y gobierno",
+    "family": "ai-act-biometria",
+    "factKey": "ai-act-verificacion-exclusion",
+    "prompt": "Al regular la biometría, ¿qué diferencia el Reglamento europeo de IA de 2024 de identificar a alguien entre muchas personas?",
     "options": [
-      "2024",
-      "2022",
-      "2023",
-      "2025"
+      "Verificar que alguien es la persona que afirma ser",
+      "Identificar desconocidos comparándolos con una base de datos",
+      "Identificar a distancia a quienes pasan ante una cámara",
+      "Buscar la identidad de una persona entre muchas candidatas"
     ],
     "answer": 0,
-    "hint": "Se presentó en la GTC posterior al gran auge de ChatGPT.",
-    "explanation": "El anuncio está fechado el 18 de marzo de 2024.",
-    "source": "https://nvidianews.nvidia.com/news/nvidia-blackwell-platform-arrives-to-power-a-new-era-of-computing",
-    "sourceTitle": "NVIDIA · Presentación de Blackwell (18-03-2024)",
-    "sourceLocator": "Apertura, declaración de Jensen Huang y origen del nombre David Harold Blackwell",
-    "reviewedAt": "2026-09-19",
-    "track": "sociedad"
+    "hint": "Comprobar una identidad declarada y averiguar una identidad son tareas distintas.",
+    "explanation": "El anexo III.1.a excluye de esa categoría los sistemas cuya única finalidad sea verificar una identidad declarada. Eso no equivale a una exención de toda la legislación aplicable.",
+    "source": "https://www.boe.es/buscar/doc.php?id=DOUE-L-2024-81079",
+    "sourceTitle": "BOE · Reglamento (UE) 2024/1689, texto publicado en 2024",
+    "sourceLocator": "Anexo III, punto 1.a.",
+    "reviewedAt": "2026-10-01",
+    "track": "sociedad",
+    "hintSource": "https://www.boe.es/buscar/doc.php?id=DOUE-L-2024-81079",
+    "hintSourceTitle": "BOE · Reglamento (UE) 2024/1689, texto publicado en 2024"
   },
   {
     "id": "S0065",
     "band": 3,
-    "topic": "Protagonistas",
+    "topic": "Personas",
     "family": "blackwell-2024",
     "factKey": "blackwell-campo-cientifico",
     "prompt": "¿En qué disciplinas destacó David Blackwell, homenajeado por NVIDIA al dar nombre a su arquitectura de 2024?",
@@ -1522,9 +1530,9 @@
     "prompt": "¿Qué función atribuyó el estatuto de 2023 a la Agencia Española de Supervisión de Inteligencia Artificial?",
     "options": [
       "Supervisar sistemas de IA dentro de sus competencias",
-      "Fabricar los chips de todos los organismos públicos",
-      "Dirigir las universidades españolas",
-      "Registrar nombres comerciales de aplicaciones"
+      "Resolver recursos judiciales contra sentencias automatizadas",
+      "Conceder patentes a los nuevos algoritmos",
+      "Gestionar la compra de todos los equipos informáticos del Estado"
     ],
     "answer": 0,
     "hint": "Su cometido se relaciona con reducir riesgos para los derechos de las personas.",
@@ -1532,7 +1540,7 @@
     "source": "https://www.boe.es/eli/es/rd/2023/08/22/729",
     "sourceTitle": "BOE · Estatuto original de AESIA (2023)",
     "sourceLocator": "Artículo 4: Objeto y fines",
-    "reviewedAt": "2026-09-19",
+    "reviewedAt": "2026-10-01",
     "track": "sociedad"
   },
   {
@@ -1588,9 +1596,9 @@
     "prompt": "¿Qué alcance lingüístico se anunció para ALIA en 2025?",
     "options": [
       "Castellano y lenguas cooficiales de España",
-      "Solo castellano",
-      "Solo inglés",
-      "Solo lenguas cooficiales distintas del castellano"
+      "Inglés y alemán",
+      "Francés e italiano",
+      "Portugués y neerlandés"
     ],
     "answer": 0,
     "hint": "La iniciativa se relaciona con la diversidad lingüística del país.",
@@ -1598,13 +1606,13 @@
     "source": "https://www.lamoncloa.gob.es/presidente/intervenciones/Paginas/2025/20250120-presidente-gobierno-hispania.aspx",
     "sourceTitle": "La Moncloa · Presentación de ALIA (20-01-2025)",
     "sourceLocator": "Intervención presidencial en Hispania 2040; publicación de los primeros modelos de ALIA",
-    "reviewedAt": "2026-09-19",
+    "reviewedAt": "2026-10-01",
     "track": "sociedad"
   },
   {
     "id": "S0073",
     "band": 2,
-    "topic": "Protagonistas",
+    "topic": "Personas",
     "family": "alia-2025",
     "factKey": "alia-sanchez",
     "prompt": "¿Qué presidente del Gobierno anunció los primeros modelos de ALIA el 20 de enero de 2025?",
@@ -1715,49 +1723,51 @@
   },
   {
     "id": "S0078",
-    "band": 4,
+    "band": 5,
     "topic": "Política y gobierno",
-    "family": "ocde-principios",
-    "factKey": "ocde-anio",
-    "prompt": "¿En qué año se adoptaron los Principios de la OCDE sobre IA?",
+    "family": "ai-act-impacto-derechos",
+    "factKey": "ai-act-administracion-fria",
+    "prompt": "Antes de que una administración use IA de alto riesgo para decidir ayudas sociales esenciales, ¿qué evaluación prevé el Reglamento europeo de IA de 2024?",
     "options": [
-      "2019",
-      "2017",
-      "2018",
-      "2020"
+      "El impacto en derechos fundamentales",
+      "El retorno de la inversión presupuestaria",
+      "La propiedad industrial de los componentes informáticos",
+      "La eficiencia energética del centro de procesamiento"
     ],
     "answer": 0,
-    "hint": "Se adoptaron un año antes de la presentación de la ENIA española.",
-    "explanation": "La OCDE sitúa la adopción de sus principios en 2019.",
-    "source": "https://www.oecd.org/en/topics/ai-principles.html",
-    "sourceTitle": "OCDE · Principios sobre IA",
-    "sourceLocator": "Introducción: adopción de 2019, actualización de 2024 y cinco principios basados en valores",
-    "reviewedAt": "2026-09-20",
+    "hint": "La evaluación se centra en las personas y en las consecuencias del uso.",
+    "explanation": "El artículo 27 exige a organismos públicos evaluar el impacto sobre derechos fundamentales antes de desplegar sistemas de alto riesgo del anexo III, con la excepción allí prevista para infraestructuras críticas. El anexo III.5.a incluye la evaluación de ayudas públicas esenciales.",
+    "source": "https://www.boe.es/buscar/doc.php?id=DOUE-L-2024-81079",
+    "sourceTitle": "BOE · Reglamento (UE) 2024/1689, texto publicado en 2024",
+    "sourceLocator": "Artículo 27.1; anexo III.5.a.",
+    "reviewedAt": "2026-10-01",
     "track": "sociedad",
-    "hintSource": "https://www.lamoncloa.gob.es/presidente/actividades/paginas/2020/021220-sanchezenia.aspx",
-    "hintSourceTitle": "La Moncloa · Presentación de la ENIA (02-12-2020)"
+    "hintSource": "https://www.boe.es/buscar/doc.php?id=DOUE-L-2024-81079",
+    "hintSourceTitle": "BOE · Reglamento (UE) 2024/1689, texto publicado en 2024"
   },
   {
     "id": "S0079",
-    "band": 4,
+    "band": 5,
     "topic": "Política y gobierno",
-    "family": "ocde-principios",
-    "factKey": "ocde-actualizacion",
-    "prompt": "¿En qué año se actualizaron los Principios de IA de la OCDE para responder, entre otros cambios, al auge de la IA generativa?",
+    "family": "ai-act-explicacion-decisiones",
+    "factKey": "ai-act-explicacion-contenido",
+    "prompt": "Cuando procede el derecho a explicación del artículo 86 del Reglamento europeo de IA, ¿qué debe explicar quien usa el sistema?",
     "options": [
-      "2024",
-      "2022",
-      "2023",
-      "2025"
+      "El papel de la IA y los elementos principales de la decisión",
+      "La identidad de todas las personas que aportaron datos al modelo",
+      "El código fuente íntegro de cada componente del sistema",
+      "Los contratos comerciales completos de la empresa proveedora"
     ],
     "answer": 0,
-    "hint": "La revisión llegó después de la expansión de la IA generativa iniciada con ChatGPT.",
-    "explanation": "La OCDE identifica 2024 como el año de actualización de sus principios.",
-    "source": "https://www.oecd.org/en/topics/ai-principles.html",
-    "sourceTitle": "OCDE · Principios sobre IA",
-    "sourceLocator": "Introducción: adopción de 2019, actualización de 2024 y cinco principios basados en valores",
-    "reviewedAt": "2026-09-19",
-    "track": "sociedad"
+    "hint": "Se trata de entender una decisión que afecta a una persona.",
+    "explanation": "El artículo 86 del texto de 2024 contempla explicaciones claras y significativas sobre el papel de la IA y los elementos principales de ciertas decisiones basadas en sistemas de alto riesgo. Su ámbito y condiciones están delimitados en ese artículo.",
+    "source": "https://www.boe.es/buscar/doc.php?id=DOUE-L-2024-81079",
+    "sourceTitle": "BOE · Reglamento (UE) 2024/1689, texto publicado en 2024",
+    "sourceLocator": "Artículo 86.1-3.",
+    "reviewedAt": "2026-10-01",
+    "track": "sociedad",
+    "hintSource": "https://www.boe.es/buscar/doc.php?id=DOUE-L-2024-81079",
+    "hintSourceTitle": "BOE · Reglamento (UE) 2024/1689, texto publicado en 2024"
   },
   {
     "id": "S0080",
@@ -1768,9 +1778,9 @@
     "prompt": "Según el principio de rendición de cuentas de la OCDE, ¿quién debe responder por el funcionamiento de los sistemas de IA?",
     "options": [
       "Los actores implicados, según su función y contexto",
-      "Solo quien utiliza el sistema al final",
-      "Solo quien fabrica los ordenadores",
-      "La propia IA como sustituta de las personas responsables"
+      "La persona usuaria como responsable de todo el ciclo de vida",
+      "El fabricante de chips con independencia del uso final",
+      "Un sistema automático en lugar de responsables humanos"
     ],
     "answer": 0,
     "hint": "La responsabilidad se vincula al papel de cada participante.",
@@ -1778,7 +1788,7 @@
     "source": "https://oecd.ai/en/accountability",
     "sourceTitle": "OCDE · Rendición de cuentas en IA",
     "sourceLocator": "Introducción: rendición de cuentas según función, contexto y capacidad de actuar",
-    "reviewedAt": "2026-09-19",
+    "reviewedAt": "2026-10-01",
     "track": "sociedad"
   },
   {
@@ -1874,24 +1884,26 @@
   {
     "id": "S0085",
     "band": 5,
-    "topic": "Protagonistas",
-    "family": "mcp-2024",
-    "factKey": "mcp-creadores",
-    "prompt": "¿Qué pareja identifica Anthropic como creadora del Model Context Protocol?",
+    "topic": "IA y sociedad",
+    "family": "nist-equidad-accesibilidad",
+    "factKey": "nist-balance-no-accesibilidad",
+    "prompt": "NIST plantea un sistema con predicciones equilibradas entre grupos, pero inaccesible para personas con discapacidad. ¿Qué muestra ese ejemplo?",
     "options": [
-      "David Soria Parra y Justin Spahr-Summers",
-      "John Schulman y Wojciech Zaremba",
-      "Guillaume Lample y Timothée Lacroix",
-      "Noam Brown y Tuomas Sandholm"
+      "Que equilibrar predicciones no resuelve toda la equidad",
+      "Que el equilibrio estadístico acredita también la accesibilidad",
+      "Que mitigar sesgos elimina la necesidad de estudiar barreras de acceso",
+      "Que la equidad se evalúa con independencia de quién puede usar el servicio"
     ],
     "answer": 0,
-    "hint": "El anuncio los identifica como dos ingenieros de Anthropic que crearon el protocolo.",
-    "explanation": "El anuncio acredita a David Soria Parra y Justin Spahr-Summers, de Anthropic.",
-    "source": "https://www.anthropic.com/news/model-context-protocol",
-    "sourceTitle": "Anthropic · Anuncio del Model Context Protocol (25-11-2024)",
-    "sourceLocator": "Apertura; Model Context Protocol; creadores",
-    "reviewedAt": "2026-09-20",
-    "track": "sociedad"
+    "hint": "Un servicio puede acertar y, aun así, dejar personas fuera.",
+    "explanation": "El apartado 3.7 del marco NIST de 2023 utiliza la accesibilidad y la brecha digital para mostrar por qué mitigar ciertos sesgos no basta para asegurar equidad.",
+    "source": "https://airc.nist.gov/airmf-resources/airmf/3-sec-characteristics/",
+    "sourceTitle": "NIST · AI Risk Management Framework 1.0, características de confianza",
+    "sourceLocator": "Apartado 3.7, ejemplo de discapacidad y brecha digital.",
+    "reviewedAt": "2026-10-01",
+    "track": "sociedad",
+    "hintSource": "https://airc.nist.gov/airmf-resources/airmf/3-sec-characteristics/",
+    "hintSourceTitle": "NIST · AI Risk Management Framework 1.0, características de confianza"
   },
   {
     "id": "S0086",
@@ -2080,9 +2092,9 @@
     "prompt": "¿Qué ayuda anunció Apple Intelligence en 2024 para manejar muchas notificaciones?",
     "options": [
       "Priorizar y resumir su contenido",
-      "Convertirlas automáticamente en llamadas telefónicas",
-      "Imprimirlas obligatoriamente",
-      "Sustituir cada aviso por una canción"
+      "Ordenarlas por el color del icono de cada aplicación",
+      "Convertir todos los avisos en llamadas de voz",
+      "Reenviarlas a todos los contactos del teléfono"
     ],
     "answer": 0,
     "hint": "Ayudaba a identificar la información principal entre distintos avisos.",
@@ -2090,7 +2102,7 @@
     "source": "https://machinelearning.apple.com/research/introducing-apple-foundation-models",
     "sourceTitle": "Apple · Modelos de Apple Intelligence (2024)",
     "sourceLocator": "Introducción, usos cotidianos",
-    "reviewedAt": "2026-09-19",
+    "reviewedAt": "2026-10-01",
     "track": "sociedad"
   },
   {
@@ -2120,7 +2132,7 @@
   {
     "id": "S0096",
     "band": 4,
-    "topic": "IA y cultura",
+    "topic": "Cultura y ficción",
     "family": "grok-2023",
     "factKey": "grok-inspiracion",
     "prompt": "¿Qué obra citaba xAI como inspiración para Grok en su anuncio de 2023?",
@@ -2252,26 +2264,26 @@
   {
     "id": "S0102",
     "band": 3,
-    "topic": "Empresas y herramientas",
-    "family": "deepl-origen",
-    "factKey": "deepl-lanzamiento",
-    "prompt": "¿En qué año se lanzó DeepL Translator?",
+    "topic": "IA y sociedad",
+    "family": "ocde-transparencia-impugnacion",
+    "factKey": "ocde-cuestionar-resultados",
+    "prompt": "Según los Principios de IA de la OCDE, ¿para qué debe servir la información que recibe quien sufre un resultado perjudicial?",
     "options": [
-      "2017",
-      "2015",
-      "2016",
-      "2018"
+      "Para poder cuestionar el resultado del sistema",
+      "Para sustituir la posibilidad de recurrir por un aviso informativo",
+      "Para aceptar la recomendación sin conocer los factores relevantes",
+      "Para trasladar la responsabilidad del resultado al destinatario"
     ],
     "answer": 0,
-    "hint": "Llegó el año siguiente al duelo entre AlphaGo y Lee Sedol.",
-    "explanation": "El blog de DeepL fecha el lanzamiento del traductor en agosto de 2017.",
-    "source": "https://www.deepl.com/en/blog/20180215",
-    "sourceTitle": "DeepL · Presentación del blog y origen del traductor (2018)",
-    "sourceLocator": "Párrafo sobre el lanzamiento de DeepL Translator en agosto de 2017",
-    "reviewedAt": "2026-09-20",
+    "hint": "La transparencia debe ayudar a actuar, además de informar.",
+    "explanation": "El principio de transparencia de la OCDE incluye información que permita impugnar o cuestionar resultados perjudiciales.",
+    "source": "https://www.oecd.org/en/topics/ai-principles.html",
+    "sourceTitle": "OCDE · Principios sobre inteligencia artificial",
+    "sourceLocator": "Transparency and explainability: challenge its output.",
+    "reviewedAt": "2026-10-01",
     "track": "sociedad",
-    "hintSource": "https://deepmind.google/research/alphago/",
-    "hintSourceTitle": "Google DeepMind: AlphaGo"
+    "hintSource": "https://www.oecd.org/en/topics/ai-principles.html",
+    "hintSourceTitle": "OCDE · Principios sobre inteligencia artificial"
   },
   {
     "id": "S0103",
@@ -2297,27 +2309,27 @@
   },
   {
     "id": "S0104",
-    "band": 5,
-    "topic": "Protagonistas",
-    "family": "deepl-origen",
-    "factKey": "deepl-fundador",
-    "prompt": "¿Quién fundó DeepL en 2017, según la historia de la compañía?",
+    "band": 4,
+    "topic": "IA y sociedad",
+    "family": "nist-origen-sesgos",
+    "factKey": "nist-sesgo-sin-intencion",
+    "prompt": "Según el marco NIST de 2023, ¿pueden aparecer sesgos perjudiciales sin intención de discriminar?",
     "options": [
-      "Jarek Kutylowski",
-      "Arthur Mensch",
-      "Dario Amodei",
-      "Aravind Srinivas"
+      "Sí, pueden surgir de procesos, muestras o prácticas sociales",
+      "No, requieren una instrucción discriminatoria del programador",
+      "No, requieren que el usuario introduzca expresamente un prejuicio",
+      "Sí, pero desaparecen al eliminar los nombres de las personas"
     ],
     "answer": 0,
-    "hint": "Fundó una empresa de tecnología lingüística nacida en Colonia.",
-    "explanation": "La compañía atribuye su fundación a Jarek Kutylowski.",
-    "source": "https://www.deepl.com/en/about-us",
-    "sourceTitle": "DeepL · Historia de la compañía",
-    "sourceLocator": "Fundación en Colonia en 2017 por Jarek Kutylowski",
-    "reviewedAt": "2026-09-19",
+    "hint": "La intención de quienes diseñan no describe todo el origen del problema.",
+    "explanation": "NIST distingue sesgos sistémicos, computacionales o estadísticos y cognitivos humanos. Señala que pueden aparecer sin prejuicio ni intención discriminatoria.",
+    "source": "https://airc.nist.gov/airmf-resources/airmf/3-sec-characteristics/",
+    "sourceTitle": "NIST · AI Risk Management Framework 1.0, características de confianza",
+    "sourceLocator": "Apartado 3.7, tres categorías de sesgo y ausencia de intención.",
+    "reviewedAt": "2026-10-01",
     "track": "sociedad",
-    "hintSource": "https://www.deepl.com/en/about-us",
-    "hintSourceTitle": "DeepL · Historia de la compañía"
+    "hintSource": "https://airc.nist.gov/airmf-resources/airmf/3-sec-characteristics/",
+    "hintSourceTitle": "NIST · AI Risk Management Framework 1.0, características de confianza"
   },
   {
     "id": "S0105",
@@ -2343,30 +2355,32 @@
   },
   {
     "id": "S0106",
-    "band": 4,
-    "topic": "Empresas y herramientas",
-    "family": "eleven-2023",
-    "factKey": "eleven-beta-fecha",
-    "prompt": "¿En qué año lanzó ElevenLabs su plataforma beta de voz?",
+    "band": 5,
+    "topic": "Cultura y ficción",
+    "family": "ai-act-transparencia",
+    "factKey": "ai-act-deepfake-obra",
+    "prompt": "¿Cómo trata el Reglamento europeo de IA de 2024 un deepfake que forma parte de una obra manifiestamente satírica?",
     "options": [
-      "2023",
-      "2021",
-      "2022",
-      "2024"
+      "Pide divulgar su origen artificial sin impedir disfrutar la obra",
+      "Exige que el aviso interrumpa cada escena manipulada",
+      "Considera suficiente informar al distribuidor, sin informar al público",
+      "Limita el aviso a obras financiadas con fondos públicos"
     ],
     "answer": 0,
-    "hint": "La beta llegó durante la expansión de las herramientas generativas posterior a ChatGPT.",
-    "explanation": "ElevenLabs anunció la beta en enero de 2023 tras desarrollar sus modelos durante 2022.",
-    "source": "https://elevenlabs.io/blog/elevenlabs-raises-2m-pre-seed-and-announces-ai-speech-platform-promising-to-revolutionize-audio-storytelling",
-    "sourceTitle": "ElevenLabs · Anuncio de la plataforma beta (23-01-2023)",
-    "sourceLocator": "Apertura, objetivo de narración y fundadores",
-    "reviewedAt": "2026-09-19",
-    "track": "sociedad"
+    "hint": "El texto adapta la transparencia al contexto artístico.",
+    "explanation": "El artículo 50.4 limita en estas obras la obligación a divulgar adecuadamente la existencia de contenido generado o manipulado, sin dificultar su exhibición o disfrute. No establece una prohibición general de la sátira.",
+    "source": "https://www.boe.es/buscar/doc.php?id=DOUE-L-2024-81079",
+    "sourceTitle": "BOE · Reglamento (UE) 2024/1689, texto publicado en 2024",
+    "sourceLocator": "Artículo 50.4, segundo párrafo.",
+    "reviewedAt": "2026-10-01",
+    "track": "sociedad",
+    "hintSource": "https://www.boe.es/buscar/doc.php?id=DOUE-L-2024-81079",
+    "hintSourceTitle": "BOE · Reglamento (UE) 2024/1689, texto publicado en 2024"
   },
   {
     "id": "S0107",
     "band": 4,
-    "topic": "Protagonistas",
+    "topic": "Personas",
     "family": "eleven-2023",
     "factKey": "eleven-fundadores",
     "prompt": "¿Quiénes fundaron ElevenLabs?",
@@ -2388,7 +2402,7 @@
   {
     "id": "S0108",
     "band": 4,
-    "topic": "Protagonistas",
+    "topic": "Personas",
     "family": "eleven-2023",
     "factKey": "eleven-origen-polonia",
     "prompt": "¿En qué país crecieron juntos los cofundadores de ElevenLabs?",
@@ -2453,27 +2467,27 @@
   },
   {
     "id": "S0111",
-    "band": 4,
-    "topic": "Empresas y herramientas",
-    "family": "synthesia-origen",
-    "factKey": "synthesia-fundacion",
-    "prompt": "¿En qué año se fundó Synthesia según su historia oficial?",
+    "band": 5,
+    "topic": "IA y sociedad",
+    "family": "nist-compromisos-privacidad",
+    "factKey": "nist-privacidad-precision",
+    "prompt": "El marco NIST de 2023 advierte de un posible coste de ciertas técnicas que protegen la privacidad cuando hay pocos datos. ¿Cuál?",
     "options": [
-      "2017",
-      "2015",
-      "2016",
-      "2018"
+      "Una pérdida de precisión en determinados casos",
+      "Una mejora de precisión por el mero hecho de usar menos información",
+      "Una eliminación de sesgos debida al anonimato de los datos",
+      "Una mayor transparencia de la identidad de quienes aportaron datos"
     ],
     "answer": 0,
-    "hint": "La empresa nació cinco años antes del lanzamiento público de ChatGPT.",
-    "explanation": "La compañía sitúa su fundación en 2017.",
-    "source": "https://www.synthesia.io/about",
-    "sourceTitle": "Synthesia · Historia y actividad de la compañía",
-    "sourceLocator": "Misión; fundación en 2017; plataforma de vídeo con IA",
-    "reviewedAt": "2026-09-20",
+    "hint": "Mejorar una propiedad no garantiza mejorar todas a la vez.",
+    "explanation": "NIST describe posibles tensiones entre privacidad y precisión, especialmente con datos escasos. No afirma que la pérdida ocurra en todos los sistemas.",
+    "source": "https://airc.nist.gov/airmf-resources/airmf/3-sec-characteristics/",
+    "sourceTitle": "NIST · AI Risk Management Framework 1.0, características de confianza",
+    "sourceLocator": "Apartado 3, tradeoffs; apartado 3.6 Privacy-Enhanced.",
+    "reviewedAt": "2026-10-01",
     "track": "sociedad",
-    "hintSource": "https://openai.com/index/chatgpt/",
-    "hintSourceTitle": "OpenAI · Introducing ChatGPT (30-11-2022)"
+    "hintSource": "https://airc.nist.gov/airmf-resources/airmf/3-sec-characteristics/",
+    "hintSourceTitle": "NIST · AI Risk Management Framework 1.0, características de confianza"
   },
   {
     "id": "S0112",
@@ -2590,7 +2604,7 @@
   {
     "id": "S0117",
     "band": 2,
-    "topic": "Protagonistas",
+    "topic": "Personas",
     "family": "bletchley-2023",
     "factKey": "bletchley-sunak",
     "prompt": "¿Qué primer ministro británico pronunció la declaración de clausura de Bletchley Park del 2 de noviembre de 2023?",
@@ -2614,7 +2628,7 @@
   {
     "id": "S0118",
     "band": 2,
-    "topic": "Protagonistas",
+    "topic": "Personas",
     "family": "bletchley-2023",
     "factKey": "bletchley-harris",
     "prompt": "¿A qué vicepresidenta de Estados Unidos menciona Rishi Sunak en su declaración de Bletchley del 2 de noviembre de 2023?",
@@ -2680,7 +2694,7 @@
   {
     "id": "S0121",
     "band": 5,
-    "topic": "Protagonistas",
+    "topic": "Personas",
     "family": "ukplan-2025",
     "factKey": "ukplan-clifford",
     "prompt": "¿A quién encargó el Gobierno británico el AI Opportunities Action Plan presentado en enero de 2025?",
@@ -2704,7 +2718,7 @@
   {
     "id": "S0122",
     "band": 2,
-    "topic": "Protagonistas",
+    "topic": "Personas",
     "family": "ukplan-2025",
     "factKey": "ukplan-starmer",
     "prompt": "¿Qué primer ministro británico presentó el AI Opportunities Action Plan el 13 de enero de 2025?",
@@ -2726,7 +2740,7 @@
   {
     "id": "S0123",
     "band": 3,
-    "topic": "Infraestructura y ciencia",
+    "topic": "Tecnología e infraestructura",
     "family": "marenostrum5-2023",
     "factKey": "mn5-ciudad",
     "prompt": "¿En qué ciudad española fue inaugurado MareNostrum 5 en diciembre de 2023?",
@@ -2748,7 +2762,7 @@
   {
     "id": "S0124",
     "band": 2,
-    "topic": "Infraestructura y ciencia",
+    "topic": "Tecnología e infraestructura",
     "family": "marenostrum5-2023",
     "factKey": "mn5-tipo",
     "prompt": "¿Qué clase de infraestructura es MareNostrum 5?",
@@ -2770,7 +2784,7 @@
   {
     "id": "S0125",
     "band": 4,
-    "topic": "Infraestructura y ciencia",
+    "topic": "Tecnología e infraestructura",
     "family": "marenostrum5-2023",
     "factKey": "mn5-anio",
     "prompt": "¿En qué año se inauguró oficialmente MareNostrum 5?",
@@ -2816,7 +2830,7 @@
   {
     "id": "S0127",
     "band": 3,
-    "topic": "Protagonistas",
+    "topic": "Personas",
     "family": "latamgpt-2026",
     "factKey": "latamgpt-boric",
     "prompt": "¿Qué presidente chileno participó en la presentación de Latam-GPT del 10 de febrero de 2026?",
@@ -2884,7 +2898,7 @@
   {
     "id": "S0130",
     "band": 2,
-    "topic": "Protagonistas",
+    "topic": "Personas",
     "family": "pbia-2024",
     "factKey": "pbia-lula",
     "prompt": "¿Qué presidente brasileño recibió la propuesta del Plan Brasileño de IA en julio de 2024?",
@@ -2930,7 +2944,7 @@
   {
     "id": "S0132",
     "band": 5,
-    "topic": "Protagonistas",
+    "topic": "Personas",
     "family": "pbia-2024",
     "factKey": "pbia-luciana",
     "prompt": "¿Qué ministra entregó a Lula la propuesta del Plan Brasileño de IA en 2024, según Finep?",
@@ -2952,7 +2966,7 @@
   {
     "id": "S0133",
     "band": 2,
-    "topic": "Protagonistas",
+    "topic": "Personas",
     "family": "eo14110-2023",
     "factKey": "eo14110-biden",
     "prompt": "¿Qué presidente estadounidense firmó la orden ejecutiva 14110 sobre IA en octubre de 2023?",
@@ -3084,7 +3098,7 @@
   {
     "id": "S0139",
     "band": 5,
-    "topic": "Protagonistas",
+    "topic": "Personas",
     "family": "aiforgood-2017",
     "factKey": "aiforgood-zhao",
     "prompt": "¿Quién figuraba como secretario general de la UIT en la presentación de AI for Good de 2017?",
@@ -3282,7 +3296,7 @@
   {
     "id": "S0148",
     "band": 4,
-    "topic": "IA y cultura",
+    "topic": "Cultura y ficción",
     "family": "veoimagen-2024",
     "factKey": "veo-glover",
     "prompt": "¿Con qué cineasta y su estudio Gilga destacó Google una colaboración en el anuncio de Veo de mayo de 2024?",
@@ -3414,46 +3428,50 @@
   {
     "id": "S0154",
     "band": 3,
-    "topic": "Empresas y herramientas",
-    "family": "siri-2011",
-    "factKey": "siri-anio",
-    "prompt": "¿En qué año anunció Apple el iPhone 4S con Siri?",
+    "topic": "Política y gobierno",
+    "family": "ai-act-practicas-prohibidas",
+    "factKey": "ai-act-emociones-trabajo",
+    "prompt": "¿Dónde prohíbe el Reglamento europeo de IA de 2024 inferir emociones a partir de datos biométricos, salvo motivos médicos o de seguridad?",
     "options": [
-      "2011",
-      "2009",
-      "2010",
-      "2012"
+      "En centros educativos y lugares de trabajo",
+      "En recomendaciones de música para escuchar en casa",
+      "En videojuegos de entretenimiento para adultos",
+      "En servicios recreativos fuera del trabajo y la educación"
     ],
     "answer": 0,
-    "hint": "Fue antes del iPhone 5.",
-    "explanation": "El comunicado de presentación está fechado el 4 de octubre de 2011.",
-    "source": "https://www.apple.com/es/newsroom/2011/10/04Apple-Launches-iPhone-4S-iOS-5-iCloud/",
-    "sourceTitle": "Apple · Presentación del iPhone 4S (04-10-2011)",
-    "sourceLocator": "Presentación de Siri e idiomas de la versión beta",
-    "reviewedAt": "2026-09-19",
-    "track": "sociedad"
+    "hint": "La prohibición se refiere a personas en dos entornos especialmente sensibles.",
+    "explanation": "El artículo 5.1.f prohíbe inferir emociones en el trabajo y la educación, con las excepciones indicadas. La definición del artículo 3.39 se refiere a inferencias basadas en datos biométricos.",
+    "source": "https://www.boe.es/buscar/doc.php?id=DOUE-L-2024-81079",
+    "sourceTitle": "BOE · Reglamento (UE) 2024/1689, texto publicado en 2024",
+    "sourceLocator": "Artículos 5.1.f y 3.39.",
+    "reviewedAt": "2026-10-01",
+    "track": "sociedad",
+    "hintSource": "https://www.boe.es/buscar/doc.php?id=DOUE-L-2024-81079",
+    "hintSourceTitle": "BOE · Reglamento (UE) 2024/1689, texto publicado en 2024"
   },
   {
     "id": "S0155",
     "band": 5,
-    "topic": "Empresas y herramientas",
-    "family": "siri-2011",
-    "factKey": "siri-idiomas-beta",
-    "prompt": "¿Qué tres idiomas admitía la beta de Siri anunciada en octubre de 2011?",
+    "topic": "Política y gobierno",
+    "family": "ai-act-evaluaciones-complementarias",
+    "factKey": "ai-act-fria-dpia",
+    "prompt": "Según el Reglamento europeo de IA de 2024, si parte de la evaluación de derechos fundamentales ya se hizo en una evaluación de protección de datos, ¿qué ocurre?",
     "options": [
-      "Inglés, francés y alemán",
-      "Inglés, español e italiano",
-      "Inglés, japonés y chino",
-      "Francés, español y portugués"
+      "La evaluación de derechos fundamentales complementa la de datos",
+      "La evaluación de protección de datos sustituye cualquier otro control",
+      "Las dos evaluaciones se anulan por medir riesgos relacionados",
+      "La evaluación de derechos se limita a contar los datos personales"
     ],
     "answer": 0,
-    "hint": "El español aún no figuraba en aquella lista inicial.",
-    "explanation": "Apple anunció inglés en tres variantes, francés y alemán para la beta inicial.",
-    "source": "https://www.apple.com/es/newsroom/2011/10/04Apple-Launches-iPhone-4S-iOS-5-iCloud/",
-    "sourceTitle": "Apple · Presentación del iPhone 4S (04-10-2011)",
-    "sourceLocator": "Presentación de Siri e idiomas de la versión beta",
-    "reviewedAt": "2026-09-19",
-    "track": "sociedad"
+    "hint": "Los dos controles tienen objetos relacionados, pero no idénticos.",
+    "explanation": "El artículo 27.4 establece que la evaluación de impacto sobre derechos fundamentales complementará la evaluación de impacto relativa a protección de datos cuando algunas obligaciones ya se hayan cumplido en esta última.",
+    "source": "https://www.boe.es/buscar/doc.php?id=DOUE-L-2024-81079",
+    "sourceTitle": "BOE · Reglamento (UE) 2024/1689, texto publicado en 2024",
+    "sourceLocator": "Artículo 27.4.",
+    "reviewedAt": "2026-10-01",
+    "track": "sociedad",
+    "hintSource": "https://www.boe.es/buscar/doc.php?id=DOUE-L-2024-81079",
+    "hintSourceTitle": "BOE · Reglamento (UE) 2024/1689, texto publicado en 2024"
   },
   {
     "id": "S0156",
@@ -3501,27 +3519,27 @@
   },
   {
     "id": "S0158",
-    "band": 4,
-    "topic": "IA y sociedad",
-    "family": "seeingai-2017",
-    "factKey": "seeingai-lanzamiento",
-    "prompt": "¿En qué año se lanzó públicamente Seeing AI para iOS?",
+    "band": 3,
+    "topic": "Política y gobierno",
+    "family": "ai-act-practicas-prohibidas",
+    "factKey": "ai-act-puntuacion-social",
+    "prompt": "¿Qué ejemplo encaja en la prohibición de puntuación social del Reglamento europeo de IA de 2024?",
     "options": [
-      "2017",
-      "2015",
-      "2016",
-      "2018"
+      "Usar una puntuación de conducta para penalizar en un contexto ajeno al original",
+      "Ordenar las películas de una plataforma por su duración",
+      "Puntuar la calidad técnica de una fotografía",
+      "Clasificar equipos según los resultados de un torneo"
     ],
     "answer": 0,
-    "hint": "Su estreno para iOS llegó el año después del encuentro AlphaGo–Lee Sedol.",
-    "explanation": "Microsoft fecha el lanzamiento de Seeing AI para iOS en el 12 de julio de 2017.",
-    "source": "https://www.microsoft.com/en-us/garage/wall-of-fame/seeing-ai/",
-    "sourceTitle": "Microsoft Garage · Seeing AI",
-    "sourceLocator": "Descripción del público, función y lanzamiento para iOS de julio de 2017",
-    "reviewedAt": "2026-09-20",
+    "hint": "La norma se refiere al trato a personas, no a cualquier puntuación.",
+    "explanation": "El artículo 5.1.c prohíbe determinadas evaluaciones de personas que provocan trato perjudicial en contextos no relacionados, o trato injustificado o desproporcionado. No prohíbe toda clasificación numérica.",
+    "source": "https://www.boe.es/buscar/doc.php?id=DOUE-L-2024-81079",
+    "sourceTitle": "BOE · Reglamento (UE) 2024/1689, texto publicado en 2024",
+    "sourceLocator": "Artículo 5.1.c, incisos i y ii.",
+    "reviewedAt": "2026-10-01",
     "track": "sociedad",
-    "hintSource": "https://deepmind.google/research/alphago/",
-    "hintSourceTitle": "Google DeepMind: AlphaGo"
+    "hintSource": "https://www.boe.es/buscar/doc.php?id=DOUE-L-2024-81079",
+    "hintSourceTitle": "BOE · Reglamento (UE) 2024/1689, texto publicado en 2024"
   },
   {
     "id": "S0159",
@@ -3974,9 +3992,9 @@
     "prompt": "¿Cómo describió Zoom en 2023 la combinación de modelos utilizada por AI Companion?",
     "options": [
       "Modelos propios y de otros proveedores",
-      "Solo un modelo propio de Zoom",
-      "Solo modelos de Meta",
-      "Solo modelos entrenados por cada cliente"
+      "Una única familia desarrollada íntegramente por Zoom",
+      "Un catálogo compuesto por modelos de Meta",
+      "Modelos que cada cliente debía entrenar desde cero"
     ],
     "answer": 0,
     "hint": "Su enfoque permitía combinar tecnología de distintas procedencias.",
@@ -3984,7 +4002,7 @@
     "source": "https://news.zoom.com/zoom-ai-companion/",
     "sourceTitle": "Zoom · Presentación de AI Companion (2023)",
     "sourceLocator": "Descripción de federated approach",
-    "reviewedAt": "2026-09-19",
+    "reviewedAt": "2026-10-01",
     "track": "sociedad"
   },
   {
@@ -4012,24 +4030,26 @@
   {
     "id": "S0181",
     "band": 3,
-    "topic": "Empresas y herramientas",
-    "family": "notion-2023",
-    "factKey": "notion-anio",
-    "prompt": "¿En qué año abrió Notion el acceso general a Notion AI?",
+    "topic": "Política y gobierno",
+    "family": "aesia-sostenibilidad",
+    "factKey": "aesia-doble-perspectiva-ambiental",
+    "prompt": "¿Qué doble objetivo ambiental recoge el estatuto de la AESIA?",
     "options": [
-      "2023",
-      "2021",
-      "2022",
-      "2024"
+      "Usar IA con eficiencia y aplicarla a problemas ambientales",
+      "Evaluar sus aplicaciones ambientales dejando fuera su consumo energético",
+      "Reducir el consumo de los dispositivos dejando fuera el de los servidores",
+      "Promover IA ambiental sin evaluar su propia eficiencia energética"
     ],
     "answer": 0,
-    "hint": "Fue durante la primera expansión de los asistentes generativos posterior a ChatGPT.",
-    "explanation": "La nota de la versión 2.21 está fechada el 22 de febrero de 2023.",
-    "source": "https://www.notion.com/releases/2023-02-22",
-    "sourceTitle": "Notion · Versión 2.21, Notion AI (22-02-2023)",
-    "sourceLocator": "Apertura del acceso y tareas de escritura y resumen",
-    "reviewedAt": "2026-09-19",
-    "track": "sociedad"
+    "hint": "Distingue la huella de la propia tecnología de aquello para lo que puede servir.",
+    "explanation": "El artículo 10.1.b del estatuto vincula el uso energéticamente eficiente de la IA con sus aplicaciones para resolver problemas ambientales.",
+    "source": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-18911",
+    "sourceTitle": "BOE · Estatuto de la AESIA, Real Decreto 729/2023",
+    "sourceLocator": "Artículo 10.1.b.",
+    "reviewedAt": "2026-10-01",
+    "track": "sociedad",
+    "hintSource": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-18911",
+    "hintSourceTitle": "BOE · Estatuto de la AESIA, Real Decreto 729/2023"
   },
   {
     "id": "S0182",
@@ -4078,7 +4098,7 @@
   {
     "id": "S0184",
     "band": 4,
-    "topic": "Protagonistas",
+    "topic": "Personas",
     "family": "mistral-fundacion",
     "factKey": "mistral-fundadores",
     "prompt": "¿Qué trío fundó Mistral AI?",
@@ -4122,7 +4142,7 @@
   {
     "id": "S0186",
     "band": 3,
-    "topic": "Protagonistas",
+    "topic": "Personas",
     "family": "anthropic-fundacion",
     "factKey": "anthropic-hermanos",
     "prompt": "¿Qué parentesco une a Dario y Daniela Amodei, cofundadores de Anthropic?",
@@ -4144,7 +4164,7 @@
   {
     "id": "S0187",
     "band": 3,
-    "topic": "Protagonistas",
+    "topic": "Personas",
     "family": "anthropic-fundacion",
     "factKey": "anthropic-dario",
     "prompt": "¿Quién aparecía como director ejecutivo de Anthropic en su anuncio de mayo de 2021?",
@@ -4166,7 +4186,7 @@
   {
     "id": "S0188",
     "band": 4,
-    "topic": "Protagonistas",
+    "topic": "Personas",
     "family": "anthropic-fundacion",
     "factKey": "anthropic-daniela",
     "prompt": "¿Quién figuraba como presidenta de Anthropic en el anuncio de mayo de 2021?",
@@ -4212,7 +4232,7 @@
   {
     "id": "S0190",
     "band": 3,
-    "topic": "Protagonistas",
+    "topic": "Personas",
     "family": "microsoftai-2024",
     "factKey": "suleyman-nombramiento",
     "prompt": "¿A quién anunció Microsoft en marzo de 2024 al frente de su nueva organización Microsoft AI?",
@@ -4234,7 +4254,7 @@
   {
     "id": "S0191",
     "band": 5,
-    "topic": "Protagonistas",
+    "topic": "Personas",
     "family": "microsoftai-2024",
     "factKey": "simonyan-cientifico",
     "prompt": "¿Qué investigador fue anunciado como científico jefe de Microsoft AI junto a Suleyman en marzo de 2024?",
@@ -4432,24 +4452,26 @@
   {
     "id": "S0200",
     "band": 4,
-    "topic": "Empresas y herramientas",
-    "family": "o1-2024",
-    "factKey": "o1-preview-anio",
-    "prompt": "¿En qué año se publicó la presentación de OpenAI o1-preview?",
+    "topic": "Política y gobierno",
+    "family": "ai-act-supervision-humana",
+    "factKey": "ai-act-supervisor-revertir",
+    "prompt": "En un sistema de IA de alto riesgo, ¿qué capacidad prevé la supervisión humana del Reglamento europeo de IA de 2024?",
     "options": [
-      "2024",
-      "2022",
-      "2023",
-      "2025"
+      "Decidir no usar el resultado o anularlo cuando corresponda",
+      "Cambiar el nombre del resultado sin revisar su contenido",
+      "Aprobar el resultado por defecto aunque se detecten errores",
+      "Delegar la revisión en el mismo resultado que se está revisando"
     ],
     "answer": 0,
-    "hint": "Llegó después de GPT-4 y durante la expansión de los modelos orientados al razonamiento.",
-    "explanation": "El anuncio de o1-preview está fechado el 12 de septiembre de 2024.",
-    "source": "https://openai.com/index/introducing-openai-o1-preview/",
-    "sourceTitle": "OpenAI · Introducing OpenAI o1-preview (12-09-2024)",
-    "sourceLocator": "Nueva serie que dedica más tiempo a razonar; fecha del lanzamiento preliminar",
-    "reviewedAt": "2026-09-19",
-    "track": "sociedad"
+    "hint": "Supervisar debe permitir intervenir realmente.",
+    "explanation": "El artículo 14.4.d contempla no utilizar el sistema en una situación concreta o ignorar, anular o revertir su resultado. La supervisión va más allá de añadir una firma humana.",
+    "source": "https://www.boe.es/buscar/doc.php?id=DOUE-L-2024-81079",
+    "sourceTitle": "BOE · Reglamento (UE) 2024/1689, texto publicado en 2024",
+    "sourceLocator": "Artículo 14.4.d.",
+    "reviewedAt": "2026-10-01",
+    "track": "sociedad",
+    "hintSource": "https://www.boe.es/buscar/doc.php?id=DOUE-L-2024-81079",
+    "hintSourceTitle": "BOE · Reglamento (UE) 2024/1689, texto publicado en 2024"
   },
   {
     "id": "S0201",
@@ -4520,7 +4542,7 @@
   {
     "id": "S0204",
     "band": 2,
-    "topic": "Protagonistas",
+    "topic": "Personas",
     "family": "un-asesor-2023",
     "factKey": "unasesor-guterres",
     "prompt": "¿Qué secretario general de la ONU nombró su órgano asesor de alto nivel sobre IA en octubre de 2023?",
@@ -4542,7 +4564,7 @@
   {
     "id": "S0205",
     "band": 4,
-    "topic": "Protagonistas",
+    "topic": "Personas",
     "family": "un-asesor-2023",
     "factKey": "unasesor-copresidentes",
     "prompt": "¿Quiénes copresidieron el órgano asesor de la ONU sobre IA creado en 2023?",
@@ -4564,24 +4586,26 @@
   {
     "id": "S0206",
     "band": 4,
-    "topic": "Política y gobierno",
-    "family": "un-asesor-2023",
-    "factKey": "unasesor-nombramiento-anio",
-    "prompt": "¿En qué año nombró Guterres el órgano asesor de alto nivel sobre IA copresidido por Artigas y Manyika?",
+    "topic": "IA y sociedad",
+    "family": "ocde-trazabilidad",
+    "factKey": "ocde-rastro-decisiones",
+    "prompt": "¿Qué práctica ejemplifica la trazabilidad que piden los Principios de IA de la OCDE?",
     "options": [
-      "2023",
-      "2021",
-      "2022",
-      "2024"
+      "Conservar información sobre datos, procesos y decisiones",
+      "Guardar la marca comercial, omitiendo versiones y cambios",
+      "Publicar el resultado final, eliminando el historial de su elaboración",
+      "Clasificar las aplicaciones por su número de usuarios registrados"
     ],
     "answer": 0,
-    "hint": "El órgano empezó a trabajar antes de publicar su informe final en 2024.",
-    "explanation": "El órgano asesor fue nombrado el 26 de octubre de 2023.",
-    "source": "https://www.un.org/sites/un2.un.org/files/un_ai_advisory_body_interim_report_press_release.pdf",
-    "sourceTitle": "ONU · Comunicado del órgano asesor sobre IA (21-12-2023)",
-    "sourceLocator": "Copresidencia de Artigas y Manyika; nombramiento por Guterres el 26 de octubre de 2023",
-    "reviewedAt": "2026-09-19",
-    "track": "sociedad"
+    "hint": "Permite reconstruir cómo se llegó a un resultado.",
+    "explanation": "La OCDE vincula la trazabilidad con datos, procesos y decisiones a lo largo del ciclo de vida para facilitar análisis y consultas.",
+    "source": "https://www.oecd.org/en/topics/ai-principles.html",
+    "sourceTitle": "OCDE · Principios sobre inteligencia artificial",
+    "sourceLocator": "Accountability: traceability of datasets, processes and decisions.",
+    "reviewedAt": "2026-10-01",
+    "track": "sociedad",
+    "hintSource": "https://www.oecd.org/en/topics/ai-principles.html",
+    "hintSourceTitle": "OCDE · Principios sobre inteligencia artificial"
   },
   {
     "id": "S0207",
@@ -4614,9 +4638,9 @@
     "prompt": "¿Para qué proponía un fondo mundial de IA el órgano asesor de la ONU en su informe de 2024?",
     "options": [
       "Ayudar a reducir las diferencias de capacidad en IA entre países",
-      "Comprar todas las empresas privadas de IA",
-      "Unificar las monedas digitales nacionales",
-      "Financiar exclusivamente campañas electorales"
+      "Financiar campañas comerciales de asistentes ya consolidados",
+      "Compensar a los accionistas por caídas bursátiles",
+      "Comprar licencias publicitarias para marcas tecnológicas"
     ],
     "answer": 0,
     "hint": "La propuesta se dirigía a la brecha en acceso a formación, datos y capacidad de cálculo.",
@@ -4624,30 +4648,32 @@
     "source": "https://www.un.org/sites/un2.un.org/files/governing_ai_for_humanity_final_report_en.pdf",
     "sourceTitle": "ONU · Governing AI for Humanity (2024)",
     "sourceLocator": "Recomendación 5: Global fund for AI",
-    "reviewedAt": "2026-09-19",
+    "reviewedAt": "2026-10-01",
     "track": "sociedad"
   },
   {
     "id": "S0209",
     "band": 3,
-    "topic": "Política y gobierno",
-    "family": "pacto-digital-2024",
-    "factKey": "pactodigital-anio",
-    "prompt": "¿En qué año se adoptó en la ONU el Pacto Digital Global?",
+    "topic": "IA y sociedad",
+    "family": "unesco-gobernanza-inclusiva",
+    "factKey": "unesco-participacion-actores",
+    "prompt": "¿Qué participación promueve UNESCO para que la gobernanza de la IA sea inclusiva?",
     "options": [
-      "2024",
-      "2022",
-      "2023",
-      "2025"
+      "La de diversos actores afectados e interesados",
+      "La de inversores, ponderada por el capital aportado",
+      "La de fabricantes, ponderada por sus patentes registradas",
+      "La de proveedores, ponderada por su cuota de mercado"
     ],
     "answer": 0,
-    "hint": "Fue en la Cumbre del Futuro.",
-    "explanation": "La ONU fecha su adopción en el 22 de septiembre de 2024.",
-    "source": "https://www.un.org/digital-emerging-technologies/node/1123",
-    "sourceTitle": "ONU · Global Digital Compact",
-    "sourceLocator": "Adopción el 22 de septiembre de 2024 en Nueva York, como parte del Pacto para el Futuro",
-    "reviewedAt": "2026-09-19",
-    "track": "sociedad"
+    "hint": "La gobernanza incluye perspectivas distintas de la del fabricante.",
+    "explanation": "La Recomendación de UNESCO pide participación de actores diversos para una gobernanza inclusiva.",
+    "source": "https://www.unesco.org/en/artificial-intelligence/recommendation-ethics",
+    "sourceTitle": "UNESCO · Recomendación sobre la Ética de la IA",
+    "sourceLocator": "Core principles: 4. Multi-stakeholder and adaptive governance and collaboration.",
+    "reviewedAt": "2026-10-01",
+    "track": "sociedad",
+    "hintSource": "https://www.unesco.org/en/artificial-intelligence/recommendation-ethics",
+    "hintSourceTitle": "UNESCO · Recomendación sobre la Ética de la IA"
   },
   {
     "id": "S0210",
@@ -4718,90 +4744,98 @@
   {
     "id": "S0213",
     "band": 3,
-    "topic": "Política y gobierno",
-    "family": "humphrey-2025",
-    "factKey": "humphrey-parlex",
-    "prompt": "¿Para qué se anunció Parlex dentro de las herramientas británicas Humphrey en 2025?",
+    "topic": "Empresas y herramientas",
+    "family": "asml-litografia",
+    "factKey": "asml-papel-cadena-chips",
+    "prompt": "¿Qué aporta ASML a la fabricación de chips utilizados, entre otros usos, en IA?",
     "options": [
-      "Consultar y analizar debates parlamentarios",
-      "Transcribir reuniones",
-      "Resumir leyes",
-      "Analizar respuestas a consultas públicas"
+      "Máquinas para proyectar patrones sobre obleas de silicio",
+      "Plantas de generación eléctrica destinadas a centros de datos",
+      "Servicios de alojamiento de modelos accesibles por internet",
+      "Procesadores gráficos acabados comercializados bajo la marca GeForce"
     ],
     "answer": 0,
-    "hint": "Permite estudiar lo que han debatido representantes de las cámaras legislativas.",
-    "explanation": "El anuncio de Humphrey asignaba a Parlex el análisis de debates de las cámaras parlamentarias.",
-    "source": "https://www.gov.uk/government/news/shake-up-of-tech-and-ai-usage-across-nhs-and-other-public-services-to-deliver-plan-for-change",
-    "sourceTitle": "Gobierno británico · Anuncio de Humphrey (21-01-2025)",
-    "sourceLocator": "Apertura: herramientas para Whitehall; referencia al plan de Matt Clifford",
-    "reviewedAt": "2026-09-19",
-    "track": "sociedad"
+    "hint": "Su especialidad está en una etapa de fabricación de los semiconductores.",
+    "explanation": "ASML desarrolla sistemas de litografía que proyectan con luz los patrones de las capas de un chip sobre una oblea fotosensible.",
+    "source": "https://www.asml.com/en/technology/lithography-principles",
+    "sourceTitle": "ASML · Principios de litografía",
+    "sourceLocator": "Lithography principles: descripción del sistema de proyección.",
+    "reviewedAt": "2026-10-01",
+    "track": "sociedad",
+    "hintSource": "https://www.asml.com/en/technology/lithography-principles",
+    "hintSourceTitle": "ASML · Principios de litografía"
   },
   {
     "id": "S0214",
     "band": 3,
-    "topic": "Política y gobierno",
-    "family": "humphrey-2025",
-    "factKey": "humphrey-minute",
-    "prompt": "¿Qué herramienta de Humphrey se anunció en 2025 para transcribir y resumir reuniones?",
+    "topic": "Empresas y herramientas",
+    "family": "tsmc-fundicion",
+    "factKey": "tsmc-actividad-fundicion",
+    "prompt": "¿Cuál es el papel principal de TSMC en la industria de los semiconductores?",
     "options": [
-      "Minute",
-      "Parlex",
-      "Lex",
-      "Consult"
+      "Fabricar chips para producir diseños de sus clientes",
+      "Fabricar las máquinas de litografía que vende ASML",
+      "Diseñar y comercializar las tarjetas gráficas GeForce",
+      "Ofrecer el servicio de nube comercial conocido como Azure"
     ],
     "answer": 0,
-    "hint": "Su nombre inglés puede asociarse con las actas.",
-    "explanation": "Minute se presentó como servicio de transcripción y resumen de reuniones.",
-    "source": "https://www.gov.uk/government/news/shake-up-of-tech-and-ai-usage-across-nhs-and-other-public-services-to-deliver-plan-for-change",
-    "sourceTitle": "Gobierno británico · Anuncio de Humphrey (21-01-2025)",
-    "sourceLocator": "Apertura: herramientas para Whitehall; referencia al plan de Matt Clifford",
-    "reviewedAt": "2026-09-19",
-    "track": "sociedad"
+    "hint": "Su papel está relacionado con las fábricas, no con una aplicación de chat.",
+    "explanation": "TSMC se presenta como una fundición especializada de semiconductores: fabrica circuitos integrados para sus clientes.",
+    "source": "https://www.tsmc.com/english/aboutTSMC/company_profile",
+    "sourceTitle": "TSMC · Perfil de la compañía",
+    "sourceLocator": "Company Profile: dedicated semiconductor foundry.",
+    "reviewedAt": "2026-10-01",
+    "track": "sociedad",
+    "hintSource": "https://www.tsmc.com/english/aboutTSMC/company_profile",
+    "hintSourceTitle": "TSMC · Perfil de la compañía"
   },
   {
     "id": "S0215",
-    "band": 3,
+    "band": 4,
     "topic": "Política y gobierno",
-    "family": "humphrey-2025",
-    "factKey": "humphrey-consult",
-    "prompt": "¿Qué herramienta de Humphrey se presentó para analizar respuestas a consultas públicas?",
+    "family": "ley40-automatizacion",
+    "factKey": "ley40-responsables-impugnacion",
+    "prompt": "En España, ¿qué exige identificar la Ley 40/2015 para una actuación administrativa automatizada?",
     "options": [
-      "Consult",
-      "Minute",
-      "Parlex",
-      "Redbox"
+      "El órgano responsable a efectos de impugnación",
+      "La persona física que firmará manualmente cada decisión automatizada",
+      "Un tribunal especial que sustituya a los órganos administrativos",
+      "La empresa de software como titular de la competencia administrativa"
     ],
     "answer": 0,
-    "hint": "Se relaciona con la participación ciudadana en la elaboración de políticas.",
-    "explanation": "Consult se orientó a analizar las aportaciones recibidas en procesos de consulta.",
-    "source": "https://www.gov.uk/government/news/shake-up-of-tech-and-ai-usage-across-nhs-and-other-public-services-to-deliver-plan-for-change",
-    "sourceTitle": "Gobierno británico · Anuncio de Humphrey (21-01-2025)",
-    "sourceLocator": "Apertura: herramientas para Whitehall; referencia al plan de Matt Clifford",
-    "reviewedAt": "2026-09-19",
-    "track": "sociedad"
+    "hint": "Automatizar no hace desaparecer los cauces para recurrir.",
+    "explanation": "El artículo 41.2 exige determinar los órganos competentes para varias funciones técnicas y el órgano responsable a efectos de impugnación. La definición de actuación automatizada no exige que use IA.",
+    "source": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a41",
+    "sourceTitle": "BOE · Ley 40/2015, artículo 41",
+    "sourceLocator": "Artículo 41.1-2.",
+    "reviewedAt": "2026-10-01",
+    "track": "sociedad",
+    "hintSource": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a41",
+    "hintSourceTitle": "BOE · Ley 40/2015, artículo 41"
   },
   {
     "id": "S0216",
     "band": 4,
-    "topic": "Política y gobierno",
-    "family": "humphrey-2025",
-    "factKey": "humphrey-lex",
-    "prompt": "¿Qué herramienta de Humphrey se anunció en 2025 para investigar y resumir legislación?",
+    "topic": "IA y sociedad",
+    "family": "ocde-intervencion-segura",
+    "factKey": "ocde-anular-reparar-retirar",
+    "prompt": "Según los Principios de IA de la OCDE, ¿qué debe poder hacerse si un sistema muestra un comportamiento perjudicial?",
     "options": [
-      "Lex",
-      "Parlex",
-      "Minute",
-      "Consult"
+      "Anularlo, repararlo o retirarlo de forma segura según proceda",
+      "Conservarlo en servicio hasta que termine su contrato comercial",
+      "Trasladar la revisión al usuario sin prever intervención sobre el sistema",
+      "Mantener sus resultados y modificar únicamente las condiciones de uso"
     ],
     "answer": 0,
-    "hint": "La herramienta se dedicaba a consultar textos normativos.",
-    "explanation": "El anuncio reservaba a Lex la investigación y el análisis de leyes relevantes para una consulta.",
-    "source": "https://www.gov.uk/government/news/shake-up-of-tech-and-ai-usage-across-nhs-and-other-public-services-to-deliver-plan-for-change",
-    "sourceTitle": "Gobierno británico · Anuncio de Humphrey (21-01-2025)",
-    "sourceLocator": "Apertura: herramientas para Whitehall; referencia al plan de Matt Clifford",
-    "reviewedAt": "2026-09-19",
-    "track": "sociedad"
+    "hint": "La respuesta debe actuar sobre el funcionamiento y el riesgo.",
+    "explanation": "El principio de robustez y seguridad pide mecanismos para intervenir, reparar o retirar sistemas cuando sea necesario.",
+    "source": "https://www.oecd.org/en/topics/ai-principles.html",
+    "sourceTitle": "OCDE · Principios sobre inteligencia artificial",
+    "sourceLocator": "Robustness, security and safety: overridden, repaired and/or decommissioned safely.",
+    "reviewedAt": "2026-10-01",
+    "track": "sociedad",
+    "hintSource": "https://www.oecd.org/en/topics/ai-principles.html",
+    "hintSourceTitle": "OCDE · Principios sobre inteligencia artificial"
   },
   {
     "id": "S0217",
@@ -4850,7 +4884,7 @@
   {
     "id": "S0219",
     "band": 2,
-    "topic": "Protagonistas",
+    "topic": "Personas",
     "family": "enia-2020",
     "factKey": "enia-presidente",
     "prompt": "¿Qué presidente del Gobierno presentó la ENIA española en diciembre de 2020?",
@@ -4873,23 +4907,25 @@
     "id": "S0220",
     "band": 3,
     "topic": "Política y gobierno",
-    "family": "enia-2020",
-    "factKey": "enia-anio",
-    "prompt": "¿En qué año se presentó la Estrategia Nacional de Inteligencia Artificial de España, conocida como ENIA?",
+    "family": "aesia-entornos-prueba",
+    "factKey": "aesia-entornos-finalidad",
+    "prompt": "¿Para qué prevé el estatuto de la AESIA promover entornos de prueba de IA?",
     "options": [
-      "2020",
-      "2018",
-      "2019",
-      "2021"
+      "Para facilitar la adaptación de sistemas innovadores a los marcos jurídicos",
+      "Para convertir pruebas privadas en autorizaciones automáticas",
+      "Para sustituir las evaluaciones por encuestas de popularidad",
+      "Para reservar la experimentación a empresas extranjeras"
     ],
     "answer": 0,
-    "hint": "Se presentó durante el primer año de la pandemia de COVID-19.",
-    "explanation": "La presentación oficial de la ENIA se celebró el 2 de diciembre de 2020.",
-    "source": "https://www.lamoncloa.gob.es/presidente/actividades/paginas/2020/021220-sanchezenia.aspx",
-    "sourceTitle": "La Moncloa · Presentación de la ENIA (02-12-2020)",
-    "sourceLocator": "Denominación, intervención de Pedro Sánchez y seis ejes estratégicos",
-    "reviewedAt": "2026-09-20",
-    "track": "sociedad"
+    "hint": "Experimentar y cumplir las reglas forman parte del mismo objetivo.",
+    "explanation": "El artículo 10.1.a del estatuto prevé entornos de prueba que faciliten adaptar sistemas innovadores a los marcos jurídicos en vigor.",
+    "source": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-18911",
+    "sourceTitle": "BOE · Estatuto de la AESIA, Real Decreto 729/2023",
+    "sourceLocator": "Artículo 10.1.a.",
+    "reviewedAt": "2026-10-01",
+    "track": "sociedad",
+    "hintSource": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-18911",
+    "hintSourceTitle": "BOE · Estatuto de la AESIA, Real Decreto 729/2023"
   },
   {
     "id": "S0221",
@@ -4922,8 +4958,8 @@
     "prompt": "¿Cuál era el objetivo divulgativo del curso Elements of AI?",
     "options": [
       "Enseñar fundamentos de IA a un público amplio",
-      "Formar únicamente a diseñadores de chips",
-      "Enseñar solo cálculo de redes neuronales avanzadas",
+      "Preparar una acreditación de diseño de microprocesadores",
+      "Formar especialistas en cálculo avanzado de redes neuronales",
       "Certificar la seguridad de modelos comerciales"
     ],
     "answer": 0,
@@ -4932,7 +4968,7 @@
     "source": "https://www.helsinki.fi/en/news/technology/finnish-elements-ai-online-course-trains-employees-european-union",
     "sourceTitle": "Universidad de Helsinki · Elements of AI para empleados de la UE (2019)",
     "sourceLocator": "Autores del curso, contenido introductorio y lanzamiento en la primavera de 2018",
-    "reviewedAt": "2026-09-19",
+    "reviewedAt": "2026-10-01",
     "track": "sociedad"
   },
   {
@@ -4961,93 +4997,97 @@
     "id": "S0224",
     "band": 4,
     "topic": "IA y sociedad",
-    "family": "elements-2018",
-    "factKey": "elements-lanzamiento",
-    "prompt": "¿En qué año se lanzó el curso Elements of AI en Finlandia?",
+    "family": "unesco-alfabetizacion",
+    "factKey": "unesco-formacion-ciudadania",
+    "prompt": "¿Qué vía propone UNESCO para mejorar la comprensión pública de la IA y los datos?",
     "options": [
-      "2018",
-      "2016",
-      "2017",
-      "2019"
+      "Educación accesible y alfabetización mediática e informacional",
+      "Formación avanzada en cálculo como requisito previo para la ciudadanía",
+      "Difusión comercial centrada en comparar marcas de productos",
+      "Confianza basada en la popularidad de las aplicaciones"
     ],
     "answer": 0,
-    "hint": "El curso se lanzó dos años después del duelo de AlphaGo contra Lee Sedol.",
-    "explanation": "La universidad sitúa el lanzamiento en la primavera de 2018.",
-    "source": "https://www.helsinki.fi/en/news/technology/finnish-elements-ai-online-course-trains-employees-european-union",
-    "sourceTitle": "Universidad de Helsinki · Elements of AI para empleados de la UE (2019)",
-    "sourceLocator": "Autores del curso, contenido introductorio y lanzamiento en la primavera de 2018",
-    "reviewedAt": "2026-09-20",
+    "hint": "La comprensión pública va más allá de aprender a pulsar botones.",
+    "explanation": "El principio de sensibilización y alfabetización promueve educación abierta, participación cívica y formación sobre medios, datos y ética de la IA.",
+    "source": "https://www.unesco.org/en/artificial-intelligence/recommendation-ethics",
+    "sourceTitle": "UNESCO · Recomendación sobre la Ética de la IA",
+    "sourceLocator": "Core principles: 9. Awareness and literacy.",
+    "reviewedAt": "2026-10-01",
     "track": "sociedad",
-    "hintSource": "https://deepmind.google/research/alphago/",
-    "hintSourceTitle": "Google DeepMind: AlphaGo"
+    "hintSource": "https://www.unesco.org/en/artificial-intelligence/recommendation-ethics",
+    "hintSourceTitle": "UNESCO · Recomendación sobre la Ética de la IA"
   },
   {
     "id": "S0225",
-    "band": 5,
-    "topic": "Protagonistas",
-    "family": "elements-2018",
-    "factKey": "elements-teemu",
-    "prompt": "¿Qué profesor figura como instructor principal de Elements of AI en el discurso de su graduación inaugural?",
+    "band": 4,
+    "topic": "IA y sociedad",
+    "family": "nist-validacion-contexto",
+    "factKey": "nist-validacion-uso-previsto",
+    "prompt": "En el marco NIST de 2023, ¿qué permite validar un sistema de IA para un uso concreto?",
     "options": [
-      "Teemu Roos",
-      "Andrew Ng",
-      "Stuart Russell",
-      "Pedro Domingos"
+      "Evidencia de cumplimiento de los requisitos del uso previsto",
+      "Una garantía comercial que sustituya las pruebas documentadas",
+      "La conformidad de la interfaz con la identidad visual de la entidad",
+      "La reproducción exacta del código, sin comprobar el uso al que se destina"
     ],
     "answer": 0,
-    "hint": "El profesor dirige la enseñanza de IA de ese curso en la Universidad de Helsinki.",
-    "explanation": "La Universidad de Helsinki identifica a Teemu Roos como instructor principal del curso.",
-    "source": "https://www.helsinki.fi/en/faculty-science/news/knowledge-power-speech-elements-ai-lead-instructor-teemu-roos-course-graduation-ceremony",
-    "sourceTitle": "Universidad de Helsinki · Discurso de Teemu Roos",
-    "sourceLocator": "Título y firma: instructor principal de Elements of AI",
-    "reviewedAt": "2026-09-19",
-    "track": "sociedad"
+    "hint": "La comprobación se refiere a una aplicación concreta y a sus requisitos.",
+    "explanation": "El apartado 3.1 relaciona la validación con evidencia objetiva de cumplimiento de los requisitos de un uso específico. Una exhibición aislada no equivale a esa validación.",
+    "source": "https://airc.nist.gov/airmf-resources/airmf/3-sec-characteristics/",
+    "sourceTitle": "NIST · AI Risk Management Framework 1.0, características de confianza",
+    "sourceLocator": "Apartado 3.1, definición de validación.",
+    "reviewedAt": "2026-10-01",
+    "track": "sociedad",
+    "hintSource": "https://airc.nist.gov/airmf-resources/airmf/3-sec-characteristics/",
+    "hintSourceTitle": "NIST · AI Risk Management Framework 1.0, características de confianza"
   },
   {
     "id": "S0226",
-    "band": 4,
+    "band": 5,
     "topic": "Política y gobierno",
-    "family": "singapur-estrategia",
-    "factKey": "singapur-original",
-    "prompt": "¿De qué año es la primera National AI Strategy que recoge el archivo oficial de Singapur?",
+    "family": "ai-act-elecciones",
+    "factKey": "ai-act-logistica-electoral-exclusion",
+    "prompt": "¿Qué herramienta electoral excluye expresamente el anexo III del Reglamento de IA de 2024 de su categoría sobre influencia en el voto?",
     "options": [
-      "2019",
-      "2017",
-      "2018",
-      "2020"
+      "La que organiza la logística interna sin exponer sus resultados al electorado",
+      "La que busca cambiar el voto mediante mensajes personalizados",
+      "La que dirige contenidos persuasivos a quienes van a votar",
+      "La que intenta influir directamente en el resultado de un referéndum"
     ],
     "answer": 0,
-    "hint": "La primera estrategia llegó un año antes de la ENIA española.",
-    "explanation": "Smart Nation fecha la estrategia original en 2019.",
-    "source": "https://www.smartnation.gov.sg/initiatives/national-ai-strategy/",
-    "sourceTitle": "Smart Nation Singapore · National AI Strategy",
-    "sourceLocator": "Estrategia original de 2019 y versión 2.0 lanzada en diciembre de 2023",
-    "reviewedAt": "2026-09-20",
+    "hint": "Distingue la organización interna de la influencia sobre votantes.",
+    "explanation": "El anexo III.8.b excluye herramientas administrativas o logísticas de campaña cuyos resultados no se muestran directamente a personas físicas. La categoría incluye sistemas destinados a influir en elecciones o en el comportamiento electoral.",
+    "source": "https://www.boe.es/buscar/doc.php?id=DOUE-L-2024-81079",
+    "sourceTitle": "BOE · Reglamento (UE) 2024/1689, texto publicado en 2024",
+    "sourceLocator": "Anexo III, punto 8.b.",
+    "reviewedAt": "2026-10-01",
     "track": "sociedad",
-    "hintSource": "https://www.lamoncloa.gob.es/presidente/actividades/paginas/2020/021220-sanchezenia.aspx",
-    "hintSourceTitle": "La Moncloa · Presentación de la ENIA (02-12-2020)"
+    "hintSource": "https://www.boe.es/buscar/doc.php?id=DOUE-L-2024-81079",
+    "hintSourceTitle": "BOE · Reglamento (UE) 2024/1689, texto publicado en 2024"
   },
   {
     "id": "S0227",
     "band": 4,
-    "topic": "Política y gobierno",
-    "family": "singapur-estrategia",
-    "factKey": "singapur-20",
-    "prompt": "¿En qué año lanzó Singapur su National AI Strategy 2.0?",
+    "topic": "IA y sociedad",
+    "family": "iea-energia-infraestructura",
+    "factKey": "iea-conexion-red-cuello-botella",
+    "prompt": "¿Qué red destaca la AIE en su informe de 2025 por sus colas de conexión y limitaciones para nuevos centros de datos?",
     "options": [
-      "2023",
-      "2021",
-      "2022",
-      "2024"
+      "La red eléctrica",
+      "La red de fibra óptica",
+      "La red de distribución de agua",
+      "La red de carreteras"
     ],
     "answer": 0,
-    "hint": "La actualización revisaba una estrategia anterior al auge de los asistentes generativos.",
-    "explanation": "El portal oficial fecha el lanzamiento de la versión 2.0 en diciembre de 2023.",
-    "source": "https://www.smartnation.gov.sg/initiatives/national-ai-strategy/",
-    "sourceTitle": "Smart Nation Singapore · National AI Strategy",
-    "sourceLocator": "Estrategia original de 2019 y versión 2.0 lanzada en diciembre de 2023",
-    "reviewedAt": "2026-09-19",
-    "track": "sociedad"
+    "hint": "La capacidad de cálculo necesita un suministro material.",
+    "explanation": "La AIE identifica conexiones a la red y equipos eléctricos como posibles cuellos de botella. El informe no reduce el desarrollo de IA a conseguir chips.",
+    "source": "https://www.iea.org/reports/energy-and-ai/executive-summary",
+    "sourceTitle": "AIE · Energy and AI, resumen ejecutivo (2025)",
+    "sourceLocator": "Smarter is faster when it comes to integrating data centres in electricity grids.",
+    "reviewedAt": "2026-10-01",
+    "track": "sociedad",
+    "hintSource": "https://www.iea.org/reports/energy-and-ai/executive-summary",
+    "hintSourceTitle": "AIE · Energy and AI, resumen ejecutivo (2025)"
   },
   {
     "id": "S0228",
@@ -5118,7 +5158,7 @@
   {
     "id": "S0231",
     "band": 4,
-    "topic": "Protagonistas",
+    "topic": "Personas",
     "family": "aileap-2025",
     "factKey": "aileap-karis",
     "prompt": "¿Qué presidente estonio impulsó el anuncio de AI Leap en febrero de 2025?",
@@ -5208,7 +5248,7 @@
   {
     "id": "S0235",
     "band": 2,
-    "topic": "Protagonistas",
+    "topic": "Personas",
     "family": "india-cumbre-2026",
     "factKey": "india-modi",
     "prompt": "¿Qué primer ministro inauguró el India AI Impact Summit de febrero de 2026?",
@@ -5252,7 +5292,7 @@
   {
     "id": "S0237",
     "band": 2,
-    "topic": "Protagonistas",
+    "topic": "Personas",
     "family": "eeuu-orden-2025",
     "factKey": "trump-orden-autor",
     "prompt": "¿Quién firmó la orden estadounidense Removing Barriers to American Leadership in AI del 23 de enero de 2025?",
@@ -5430,7 +5470,7 @@
   {
     "id": "S0245",
     "band": 3,
-    "topic": "Protagonistas",
+    "topic": "Personas",
     "family": "openai-2015",
     "factKey": "openai-copresidentes",
     "prompt": "¿Quiénes figuraban como copresidentes de OpenAI en su presentación de 2015?",
@@ -5474,7 +5514,7 @@
   {
     "id": "S0247",
     "band": 4,
-    "topic": "Protagonistas",
+    "topic": "Personas",
     "family": "openai-2015",
     "factKey": "openai-sutskever",
     "prompt": "¿Quién figuraba como director de investigación en el anuncio original de OpenAI de 2015?",
@@ -5498,7 +5538,7 @@
   {
     "id": "S0248",
     "band": 4,
-    "topic": "Protagonistas",
+    "topic": "Personas",
     "family": "openai-2015",
     "factKey": "openai-brockman",
     "prompt": "¿Quién figuraba como director de tecnología (CTO) en la presentación original de OpenAI de 2015?",
@@ -5541,27 +5581,27 @@
   },
   {
     "id": "S0250",
-    "band": 4,
-    "topic": "Empresas y herramientas",
-    "family": "openai-azure-2016",
-    "factKey": "openai-azure-anio",
-    "prompt": "¿En qué año anunció OpenAI que usaría Azure como su principal plataforma de nube para experimentos?",
+    "band": 5,
+    "topic": "IA y sociedad",
+    "family": "iea-energia-concentracion",
+    "factKey": "iea-impacto-local-global",
+    "prompt": "¿Por qué advierte la AIE de que un peso global pequeño de los centros de datos puede coexistir con un gran impacto eléctrico local?",
     "options": [
-      "2016",
-      "2014",
-      "2015",
-      "2017"
+      "Por su concentración geográfica en ciertas redes locales",
+      "Porque el porcentaje mundial mide potencia y el local mide energía",
+      "Porque las compras de energía renovable se restan del consumo mundial",
+      "Porque las cifras locales contabilizan dos veces cada operación de IA"
     ],
     "answer": 0,
-    "hint": "El acuerdo se anunció el mismo año del duelo entre AlphaGo y Lee Sedol.",
-    "explanation": "El anuncio OpenAI and Microsoft se publicó el 15 de noviembre de 2016.",
-    "source": "https://openai.com/index/openai-and-microsoft/",
-    "sourceTitle": "OpenAI · OpenAI and Microsoft (15-11-2016)",
-    "sourceLocator": "Anuncio de Azure como plataforma principal de nube para experimentos",
-    "reviewedAt": "2026-09-20",
+    "hint": "Un promedio mundial no describe cada territorio.",
+    "explanation": "El informe de 2025 destaca la concentración regional de centros de datos. Su peso local puede ser elevado aunque su cuota del consumo mundial sea menor.",
+    "source": "https://www.iea.org/reports/energy-and-ai/executive-summary",
+    "sourceTitle": "AIE · Energy and AI, resumen ejecutivo (2025)",
+    "sourceLocator": "Data centres account for a small share of global electricity consumption today, but their local impacts are far more pronounced.",
+    "reviewedAt": "2026-10-01",
     "track": "sociedad",
-    "hintSource": "https://deepmind.google/research/alphago/",
-    "hintSourceTitle": "Google DeepMind: AlphaGo"
+    "hintSource": "https://www.iea.org/reports/energy-and-ai/executive-summary",
+    "hintSourceTitle": "AIE · Energy and AI, resumen ejecutivo (2025)"
   },
   {
     "id": "S0251",
@@ -5588,7 +5628,7 @@
   {
     "id": "S0252",
     "band": 5,
-    "topic": "Protagonistas",
+    "topic": "Personas",
     "family": "nvidia-fundacion",
     "factKey": "nvidia-fundadores",
     "prompt": "¿Quiénes fundaron NVIDIA junto a Jensen Huang?",
@@ -5940,7 +5980,7 @@
   {
     "id": "S0268",
     "band": 5,
-    "topic": "Protagonistas",
+    "topic": "Personas",
     "family": "heygen",
     "factKey": "heygen-joshua",
     "prompt": "¿Cuál de estas personas es cofundador de HeyGen?",
@@ -5964,7 +6004,7 @@
   {
     "id": "S0269",
     "band": 4,
-    "topic": "Protagonistas",
+    "topic": "Personas",
     "family": "heygen",
     "factKey": "heygen-snap",
     "prompt": "¿En qué empresa trabajaba Joshua Xu antes de crear HeyGen, según la historia de la compañía?",
@@ -6052,7 +6092,7 @@
   {
     "id": "S0273",
     "band": 5,
-    "topic": "Protagonistas",
+    "topic": "Personas",
     "family": "suno",
     "factKey": "suno-mikey",
     "prompt": "¿Qué cofundador firmó como CEO la presentación de Suno v5.5 en marzo de 2026?",
@@ -6126,9 +6166,9 @@
     "prompt": "¿Qué tarea realiza Otter.ai en las reuniones?",
     "options": [
       "Transcribir conversaciones y preparar notas",
-      "Diseñar el mobiliario de la sala",
-      "Vender entradas para conferencias",
-      "Mezclar música para el descanso"
+      "Traducir páginas web durante su navegación",
+      "Diseñar presentaciones a partir de una plantilla",
+      "Restaurar imágenes antiguas del archivo de la empresa"
     ],
     "answer": 0,
     "hint": "Transforma audio hablado en información escrita.",
@@ -6136,13 +6176,13 @@
     "source": "https://otter.ai/blog/otter-raises-50-million",
     "sourceTitle": "Otter.ai · Anuncio de financiación (25-02-2021)",
     "sourceLocator": "Sam Liang como fundador y CEO; notas y transcripción de reuniones",
-    "reviewedAt": "2026-09-19",
+    "reviewedAt": "2026-10-01",
     "track": "sociedad"
   },
   {
     "id": "S0277",
     "band": 5,
-    "topic": "Protagonistas",
+    "topic": "Personas",
     "family": "otter-2021",
     "factKey": "otter-sam",
     "prompt": "¿Quién figuraba como fundador y CEO de Otter.ai en su anuncio de febrero de 2021?",
@@ -6476,7 +6516,7 @@
   {
     "id": "S0292",
     "band": 5,
-    "topic": "Protagonistas",
+    "topic": "Personas",
     "family": "salesforce-2016",
     "factKey": "einstein-socher",
     "prompt": "¿Qué científico dirigía Salesforce Research en el anuncio de Einstein de septiembre de 2016?",
@@ -6522,7 +6562,7 @@
   {
     "id": "S0294",
     "band": 2,
-    "topic": "Protagonistas",
+    "topic": "Personas",
     "family": "apple-2024",
     "factKey": "apple-cook",
     "prompt": "¿Quién figuraba como CEO de Apple en el anuncio de disponibilidad de Apple Intelligence de octubre de 2024?",

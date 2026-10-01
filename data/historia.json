@@ -222,7 +222,7 @@
   {
     "id": "H0011",
     "band": 4,
-    "topic": "Científicos y divulgadores",
+    "topic": "Personas",
     "family": "minsky",
     "prompt": "¿Quién escribió «The Society of Mind», un libro sobre la organización de la inteligencia?",
     "options": [
@@ -244,7 +244,7 @@
   {
     "id": "H0012",
     "band": 4,
-    "topic": "Científicos y divulgadores",
+    "topic": "Personas",
     "family": "minsky",
     "prompt": "¿Cuál de estos títulos es un libro de Marvin Minsky publicado en 2006?",
     "options": [
@@ -266,7 +266,7 @@
   {
     "id": "H0013",
     "band": 3,
-    "topic": "Científicos y divulgadores",
+    "topic": "Personas",
     "family": "minsky",
     "prompt": "¿A qué institución estuvo vinculado Marvin Minsky como cofundador de su laboratorio de IA?",
     "options": [
@@ -288,7 +288,7 @@
   {
     "id": "H0014",
     "band": 3,
-    "topic": "Científicos y divulgadores",
+    "topic": "Personas",
     "family": "minsky",
     "prompt": "En «La sociedad de la mente», ¿cómo explica Marvin Minsky la inteligencia?",
     "options": [
@@ -310,7 +310,7 @@
   {
     "id": "H0015",
     "band": 3,
-    "topic": "Científicos y divulgadores",
+    "topic": "Personas",
     "family": "papert-logo",
     "prompt": "¿Qué animal representa el cursor o pequeño robot con el que se aprende a dibujar en Logo?",
     "options": [
@@ -332,7 +332,7 @@
   {
     "id": "H0016",
     "band": 4,
-    "topic": "Científicos y divulgadores",
+    "topic": "Personas",
     "family": "papert-logo",
     "prompt": "¿Qué investigador de IA y educación escribió «Mindstorms: Children, Computers and Powerful Ideas»?",
     "options": [
@@ -353,10 +353,10 @@
   },
   {
     "id": "H0017",
-    "band": 2,
-    "topic": "Científicos y divulgadores",
+    "band": 1,
+    "topic": "Personas",
     "family": "papert-logo",
-    "prompt": "¿Qué marca dio a sus kits de robótica el nombre Mindstorms, inspirado en el libro de Papert?",
+    "prompt": "¿Qué marca de juguetes creó los kits de robótica Mindstorms?",
     "options": [
       "LEGO",
       "Playmobil",
@@ -365,11 +365,11 @@
     ],
     "answer": 0,
     "hint": "Sus piezas de construcción permiten montar robots programables.",
-    "explanation": "El MIT señala que las ideas de Papert inspiraron el kit y su nombre.",
+    "explanation": "LEGO creó los kits Mindstorms. Su nombre homenajea el libro de Seymour Papert, que defendía aprender construyendo y programando.",
     "source": "https://news.mit.edu/2016/seymour-papert-pioneer-of-constructionist-learning-dies-0801",
     "sourceTitle": "MIT: Seymour Papert, pioneer of constructionist learning",
     "sourceLocator": "Pasajes sobre Logo, la tortuga y Mindstorms",
-    "reviewedAt": "2026-09-19",
+    "reviewedAt": "2026-10-01",
     "factKey": "historia:mindstorms-lego",
     "track": "historia"
   },
@@ -419,24 +419,24 @@
   },
   {
     "id": "H0020",
-    "band": 5,
+    "band": 3,
     "topic": "Historia de la IA",
     "family": "eliza",
-    "prompt": "¿De qué obra procede la protagonista que inspiró el nombre ELIZA, según el MIT?",
+    "prompt": "¿Qué reacción de los usuarios de ELIZA sorprendió a su creador, Joseph Weizenbaum?",
     "options": [
-      "West Side Story",
-      "The Sound of Music",
-      "Cabaret",
-      "My Fair Lady"
+      "Le atribuían más capacidad de cálculo que de conversación",
+      "Preferían que contestara con frases idénticas en cada sesión",
+      "Encontraban sus respuestas divertidas, pero evitaban los asuntos personales",
+      "Le confiaban asuntos personales como si hablasen con alguien que los comprendía"
     ],
     "answer": 3,
-    "hint": "Su protagonista aprende a cambiar su forma de hablar.",
-    "explanation": "Weizenbaum eligió el nombre de la heroína de «My Fair Lady».",
+    "hint": "La sorpresa tuvo que ver con la confianza que inspiraba la conversación simulada.",
+    "explanation": "Weizenbaum descubrió que algunos usuarios se tomaban muy en serio a ELIZA y le abrían su intimidad. El MIT recoge que esa reacción le llevó a reflexionar sobre las implicaciones de la IA.",
     "source": "https://news.mit.edu/2008/obit-weizenbaum-0310",
     "sourceTitle": "MIT: Joseph Weizenbaum, professor emeritus of computer science",
-    "sourceLocator": "Pasajes sobre ELIZA, su nombre y el libro de 1976",
-    "reviewedAt": "2026-09-19",
-    "factKey": "historia:eliza-name",
+    "sourceLocator": "Párrafos sobre la simulación de psicoterapia y la reacción de sus usuarios",
+    "reviewedAt": "2026-10-01",
+    "factKey": "historia:eliza-user-trust",
     "track": "historia"
   },
   {
@@ -552,7 +552,7 @@
   {
     "id": "H0026",
     "band": 3,
-    "topic": "Científicos y divulgadores",
+    "topic": "Personas",
     "family": "simon-career",
     "prompt": "Herbert Simon, pionero de la IA, recibió en 1978 el premio del Banco de Suecia en memoria de Nobel en…",
     "options": [
@@ -574,7 +574,7 @@
   {
     "id": "H0027",
     "band": 4,
-    "topic": "Científicos y divulgadores",
+    "topic": "Personas",
     "family": "simon-career",
     "prompt": "¿En qué disciplina obtuvo Herbert Simon su doctorado en la Universidad de Chicago?",
     "options": [
@@ -596,7 +596,7 @@
   {
     "id": "H0028",
     "band": 3,
-    "topic": "Científicos y divulgadores",
+    "topic": "Personas",
     "family": "simon-career",
     "prompt": "¿Qué premio compartieron Allen Newell y Herbert Simon en 1975?",
     "options": [
@@ -618,7 +618,7 @@
   {
     "id": "H0029",
     "band": 3,
-    "topic": "Robots con historia",
+    "topic": "Robótica",
     "family": "shakey",
     "prompt": "¿Qué era Shakey, el proyecto de SRI de los años sesenta y setenta?",
     "options": [
@@ -640,7 +640,7 @@
   {
     "id": "H0030",
     "band": 4,
-    "topic": "Robots con historia",
+    "topic": "Robótica",
     "family": "shakey",
     "prompt": "¿Qué centro desarrolló el robot Shakey entre 1966 y 1972?",
     "options": [
@@ -662,7 +662,7 @@
   {
     "id": "H0031",
     "band": 3,
-    "topic": "Robots con historia",
+    "topic": "Robótica",
     "family": "shakey",
     "prompt": "¿Cuál de estas tareas podía realizar Shakey?",
     "options": [
@@ -684,7 +684,7 @@
   {
     "id": "H0032",
     "band": 5,
-    "topic": "Robots con historia",
+    "topic": "Robótica",
     "family": "shakey",
     "prompt": "¿Qué planificador se asocia históricamente al robot Shakey?",
     "options": [
@@ -706,7 +706,7 @@
   {
     "id": "H0033",
     "band": 3,
-    "topic": "Robots con historia",
+    "topic": "Robótica",
     "family": "centibots",
     "prompt": "El proyecto Centibots investigó grupos de robots móviles. ¿Qué quería conseguir?",
     "options": [
@@ -728,7 +728,7 @@
   {
     "id": "H0034",
     "band": 1,
-    "topic": "La IA compite",
+    "topic": "Historia de la IA",
     "family": "deep-blue",
     "prompt": "¿En qué juego venció Deep Blue a Garry Kasparov en un encuentro de 1997?",
     "options": [
@@ -750,7 +750,7 @@
   {
     "id": "H0035",
     "band": 2,
-    "topic": "La IA compite",
+    "topic": "Historia de la IA",
     "family": "deep-blue",
     "prompt": "¿En qué década ganó Deep Blue su célebre encuentro contra Kasparov?",
     "options": [
@@ -772,7 +772,7 @@
   {
     "id": "H0036",
     "band": 3,
-    "topic": "La IA compite",
+    "topic": "Historia de la IA",
     "family": "deep-blue",
     "prompt": "Deep Blue ganó a Kasparov una partida en 1996. ¿Qué ocurrió en el conjunto de aquel encuentro?",
     "options": [
@@ -794,29 +794,29 @@
   {
     "id": "H0037",
     "band": 5,
-    "topic": "La IA compite",
+    "topic": "Historia de la IA",
     "family": "deep-blue",
-    "prompt": "¿Qué investigador escribió «Behind Deep Blue», sobre la construcción del ordenador que derrotó a Kasparov?",
+    "prompt": "¿Qué combinación ayudaba a Deep Blue a elegir jugadas frente a Kasparov?",
     "options": [
-      "Feng-hsiung Hsu",
-      "Judea Pearl",
-      "Seymour Papert",
-      "Joseph Weizenbaum"
+      "Explorar muchas posiciones y evaluarlas con conocimiento ajedrecístico",
+      "Aprender una estrategia desde cero jugando contra sí mismo",
+      "Predecir jugadas a partir de comentarios de partidas escritos",
+      "Imitar con una red neuronal las jugadas de maestros humanos"
     ],
     "answer": 0,
-    "hint": "Formó parte del desarrollo de ChipTest y Deep Thought antes de Deep Blue.",
-    "explanation": "Hsu fue uno de los investigadores que IBM contrató en 1989 para el proyecto.",
+    "hint": "Su fuerza combinaba una enorme capacidad de búsqueda con criterios para valorar el tablero.",
+    "explanation": "Deep Blue evaluaba grandes cantidades de posiciones. El equipo también mejoró su función de evaluación y sus bases de finales con asesoramiento de grandes maestros.",
     "source": "https://www.ibm.com/history/deep-blue",
     "sourceTitle": "IBM: Deep Blue",
-    "sourceLocator": "Challenging Garry Kasparov y Building a digital chess master",
-    "reviewedAt": "2026-09-19",
-    "factKey": "historia:deep-blue-hsu",
+    "sourceLocator": "Párrafos iniciales y Challenging Garry Kasparov: potencia de cálculo, evaluación y bases de finales",
+    "reviewedAt": "2026-10-01",
+    "factKey": "historia:deep-blue-search-evaluation",
     "track": "historia"
   },
   {
     "id": "H0038",
     "band": 3,
-    "topic": "La IA compite",
+    "topic": "Historia de la IA",
     "family": "watson-jeopardy",
     "prompt": "¿En qué concurso televisivo venció Watson a Ken Jennings y Brad Rutter en 2011?",
     "options": [
@@ -838,7 +838,7 @@
   {
     "id": "H0039",
     "band": 4,
-    "topic": "La IA compite",
+    "topic": "Historia de la IA",
     "family": "watson-jeopardy",
     "prompt": "¿A quién homenajeaba el nombre del sistema Watson de IBM?",
     "options": [
@@ -860,7 +860,7 @@
   {
     "id": "H0040",
     "band": 5,
-    "topic": "La IA compite",
+    "topic": "Historia de la IA",
     "family": "watson-jeopardy",
     "prompt": "¿Quién dirigió como investigador principal el equipo de Watson que compitió en Jeopardy!?",
     "options": [
@@ -882,7 +882,7 @@
   {
     "id": "H0041",
     "band": 3,
-    "topic": "La IA compite",
+    "topic": "Historia de la IA",
     "family": "watson-jeopardy",
     "prompt": "Durante su participación en Jeopardy! en 2011, ¿cómo accedía Watson a la información para responder?",
     "options": [
@@ -904,7 +904,7 @@
   {
     "id": "H0042",
     "band": 2,
-    "topic": "La IA compite",
+    "topic": "Historia de la IA",
     "family": "alphago",
     "prompt": "¿Qué sistema de IA derrotó al campeón de go Lee Sedol en 2016?",
     "options": [
@@ -926,7 +926,7 @@
   {
     "id": "H0043",
     "band": 3,
-    "topic": "La IA compite",
+    "topic": "Historia de la IA",
     "family": "alphago",
     "prompt": "Antes de mejorar jugando contra sí mismo, ¿con qué empezó a entrenarse AlphaGo?",
     "options": [
@@ -948,7 +948,7 @@
   {
     "id": "H0044",
     "band": 5,
-    "topic": "La IA compite",
+    "topic": "Historia de la IA",
     "family": "alphago",
     "prompt": "¿Qué campeón europeo se enfrentó a AlphaGo en octubre de 2015?",
     "options": [
@@ -970,7 +970,7 @@
   {
     "id": "H0045",
     "band": 4,
-    "topic": "La IA compite",
+    "topic": "Historia de la IA",
     "family": "alphago",
     "prompt": "¿Quién realizó la célebre jugada 37 de la segunda partida del encuentro de go de 2016?",
     "options": [
@@ -992,7 +992,7 @@
   {
     "id": "H0046",
     "band": 3,
-    "topic": "IA y creación artística",
+    "topic": "Cultura y ficción",
     "family": "aaron",
     "prompt": "¿Para qué actividad artística creó Harold Cohen el sistema AARON?",
     "options": [
@@ -1014,7 +1014,7 @@
   {
     "id": "H0047",
     "band": 4,
-    "topic": "IA y creación artística",
+    "topic": "Cultura y ficción",
     "family": "aaron",
     "prompt": "¿Qué artista creó el sistema AARON?",
     "options": [
@@ -1036,7 +1036,7 @@
   {
     "id": "H0048",
     "band": 4,
-    "topic": "IA y creación artística",
+    "topic": "Cultura y ficción",
     "family": "aaron",
     "prompt": "¿Qué museo presentó la exposición «Harold Cohen: AARON» en 2024?",
     "options": [
@@ -1058,7 +1058,7 @@
   {
     "id": "H0049",
     "band": 3,
-    "topic": "IA y creación artística",
+    "topic": "Cultura y ficción",
     "family": "aaron",
     "prompt": "¿Cómo entendía Harold Cohen su trabajo artístico con el programa AARON?",
     "options": [
@@ -1080,7 +1080,7 @@
   {
     "id": "H0050",
     "band": 3,
-    "topic": "Científicos y divulgadores",
+    "topic": "Personas",
     "family": "nobel-physics-2024",
     "prompt": "¿Con quién compartió Geoffrey Hinton el Nobel de Física de 2024?",
     "options": [
@@ -1102,7 +1102,7 @@
   {
     "id": "H0051",
     "band": 2,
-    "topic": "Científicos y divulgadores",
+    "topic": "Personas",
     "family": "nobel-physics-2024",
     "prompt": "¿Qué tecnología de IA destacaba la motivación del Nobel de Física de 2024?",
     "options": [
@@ -1124,7 +1124,7 @@
   {
     "id": "H0052",
     "band": 4,
-    "topic": "Científicos y divulgadores",
+    "topic": "Personas",
     "family": "nobel-physics-2024",
     "prompt": "¿Qué capacidad estudiaba la máquina de Boltzmann desarrollada por Geoffrey Hinton y sus colaboradores?",
     "options": [
@@ -1146,7 +1146,7 @@
   {
     "id": "H0053",
     "band": 4,
-    "topic": "Científicos y divulgadores",
+    "topic": "Personas",
     "family": "nobel-physics-2024",
     "prompt": "¿Qué universidad canadiense figuraba como afiliación de Hinton al recibir el Nobel de 2024?",
     "options": [
@@ -1170,7 +1170,7 @@
   {
     "id": "H0054",
     "band": 2,
-    "topic": "Científicos y divulgadores",
+    "topic": "Personas",
     "family": "nobel-chemistry-2024",
     "prompt": "¿Qué moléculas protagonizaron los trabajos premiados con el Nobel de Química de 2024?",
     "options": [
@@ -1192,7 +1192,7 @@
   {
     "id": "H0055",
     "band": 3,
-    "topic": "Científicos y divulgadores",
+    "topic": "Personas",
     "family": "nobel-chemistry-2024",
     "prompt": "¿Qué investigador compartió con Demis Hassabis la mitad del Nobel de Química de 2024?",
     "options": [
@@ -1214,7 +1214,7 @@
   {
     "id": "H0056",
     "band": 4,
-    "topic": "Científicos y divulgadores",
+    "topic": "Personas",
     "family": "nobel-chemistry-2024",
     "prompt": "¿Quién recibió la otra mitad del Nobel de Química de 2024 por el diseño computacional de proteínas?",
     "options": [
@@ -1236,7 +1236,7 @@
   {
     "id": "H0057",
     "band": 3,
-    "topic": "Científicos y divulgadores",
+    "topic": "Personas",
     "family": "nobel-chemistry-2024",
     "prompt": "Antes de fundar DeepMind, ¿qué investigó Demis Hassabis en su doctorado en neurociencia?",
     "options": [
@@ -1258,7 +1258,7 @@
   {
     "id": "H0058",
     "band": 3,
-    "topic": "Científicos y divulgadores",
+    "topic": "Personas",
     "family": "turing-2018",
     "prompt": "¿Qué trío recibió el premio Turing de 2018 por sus aportaciones al aprendizaje profundo?",
     "options": [
@@ -1280,7 +1280,7 @@
   {
     "id": "H0059",
     "band": 3,
-    "topic": "Científicos y divulgadores",
+    "topic": "Personas",
     "family": "turing-2018",
     "prompt": "¿Qué organización concede el premio Turing?",
     "options": [
@@ -1302,7 +1302,7 @@
   {
     "id": "H0060",
     "band": 4,
-    "topic": "Científicos y divulgadores",
+    "topic": "Personas",
     "family": "turing-2018",
     "prompt": "En el anuncio del Turing de 2018, ¿qué universidad figuraba para Yoshua Bengio?",
     "options": [
@@ -1324,7 +1324,7 @@
   {
     "id": "H0061",
     "band": 4,
-    "topic": "Científicos y divulgadores",
+    "topic": "Personas",
     "family": "turing-2018",
     "prompt": "¿En qué universidad era profesor Yann LeCun según el anuncio del premio Turing de 2018?",
     "options": [
@@ -1346,7 +1346,7 @@
   {
     "id": "H0062",
     "band": 3,
-    "topic": "Científicos y divulgadores",
+    "topic": "Personas",
     "family": "turing-2024",
     "prompt": "¿Por qué área de la IA recibieron Andrew Barto y Richard Sutton el Turing de 2024?",
     "options": [
@@ -1368,7 +1368,7 @@
   {
     "id": "H0063",
     "band": 4,
-    "topic": "Científicos y divulgadores",
+    "topic": "Personas",
     "family": "turing-2024",
     "prompt": "¿Qué pareja escribió «Reinforcement Learning: An Introduction»?",
     "options": [
@@ -1390,7 +1390,7 @@
   {
     "id": "H0064",
     "band": 5,
-    "topic": "Científicos y divulgadores",
+    "topic": "Personas",
     "family": "turing-2024",
     "prompt": "¿Qué disciplina estudió Richard Sutton en su grado de Stanford antes de especializarse en informática?",
     "options": [
@@ -1412,7 +1412,7 @@
   {
     "id": "H0065",
     "band": 3,
-    "topic": "Científicos y divulgadores",
+    "topic": "Personas",
     "family": "turing-2024",
     "prompt": "¿Qué áreas inspiraron el trabajo de Barto y Sutton sobre aprendizaje por refuerzo?",
     "options": [
@@ -1434,7 +1434,7 @@
   {
     "id": "H0066",
     "band": 4,
-    "topic": "Científicos y divulgadores",
+    "topic": "Personas",
     "family": "early-neural-models",
     "prompt": "¿Qué investigador desarrolló el perceptrón en los años cincuenta?",
     "options": [
@@ -1456,7 +1456,7 @@
   {
     "id": "H0067",
     "band": 2,
-    "topic": "Científicos y divulgadores",
+    "topic": "Personas",
     "family": "early-neural-models",
     "prompt": "¿Qué sistema biológico inspiró el perceptrón de Rosenblatt?",
     "options": [
@@ -1478,7 +1478,7 @@
   {
     "id": "H0068",
     "band": 4,
-    "topic": "Científicos y divulgadores",
+    "topic": "Personas",
     "family": "early-neural-models",
     "prompt": "¿Qué distinguía el perceptrón en la demostración de 1958 descrita por Cornell?",
     "options": [
@@ -1500,7 +1500,7 @@
   {
     "id": "H0069",
     "band": 3,
-    "topic": "Científicos y divulgadores",
+    "topic": "Personas",
     "family": "feifei-imagenet",
     "prompt": "¿Qué investigadora impulsó ImageNet junto con sus estudiantes y colaboradores?",
     "options": [
@@ -1521,8 +1521,8 @@
   },
   {
     "id": "H0070",
-    "band": 2,
-    "topic": "Científicos y divulgadores",
+    "band": 1,
+    "topic": "Personas",
     "family": "feifei-imagenet",
     "prompt": "ImageNet ayudó a entrenar sistemas para reconocer objetos. ¿Qué reúne principalmente?",
     "options": [
@@ -1537,14 +1537,14 @@
     "source": "https://hai.stanford.edu/news/fei-fei-li-wins-queen-elizabeth-prize-for-engineering",
     "sourceTitle": "Stanford HAI: Fei-Fei Li Wins Queen Elizabeth Prize for Engineering",
     "sourceLocator": "Párrafos sobre ImageNet, HAI y ceremonia de 2025",
-    "reviewedAt": "2026-09-19",
+    "reviewedAt": "2026-10-01",
     "factKey": "historia:imagenet-data",
     "track": "historia"
   },
   {
     "id": "H0071",
     "band": 4,
-    "topic": "Científicos y divulgadores",
+    "topic": "Personas",
     "family": "feifei-imagenet",
     "prompt": "¿Qué premio de ingeniería recibió Fei-Fei Li en 2025 junto a otros pioneros de IA?",
     "options": [
@@ -1566,22 +1566,22 @@
   {
     "id": "H0072",
     "band": 2,
-    "topic": "Científicos y divulgadores",
+    "topic": "Personas",
     "family": "stanford-hai",
-    "prompt": "El instituto HAI de Stanford promueve una IA «centrada en las personas». ¿Qué incluye ese enfoque?",
+    "prompt": "¿Qué expresa la IA «centrada en las personas» que promueve Stanford HAI?",
     "options": [
-      "Estudiar cómo la IA afecta a las personas y sus capacidades",
-      "Investigar solo cómo aumentar la velocidad de los chips",
-      "Limitar la investigación a juegos de tablero",
-      "Diseñar exclusivamente robots con aspecto humano"
+      "Guiar su desarrollo por el impacto humano y la ampliación de nuestras capacidades",
+      "Dar prioridad a que las máquinas sustituyan la toma de decisiones humana",
+      "Medir el progreso por la semejanza física de los robots con el cuerpo humano",
+      "Concentrar la evaluación en la velocidad y el coste de los cálculos"
     ],
     "answer": 0,
-    "hint": "El enfoque abarca consecuencias sociales y colaboración entre disciplinas.",
+    "hint": "La atención se dirige a cómo influye la tecnología en nuestra vida y en la sociedad.",
     "explanation": "Stanford HAI combina investigación técnica con estudio de las consecuencias humanas y sociales de la IA. «Centrada en las personas» no significa que tenga forma humana.",
     "source": "https://hai.stanford.edu/about",
     "sourceTitle": "Stanford HAI: About",
-    "sourceLocator": "Misión del instituto y líneas de investigación",
-    "reviewedAt": "2026-09-19",
+    "sourceLocator": "Our Mission: human impact, augment rather than replace people",
+    "reviewedAt": "2026-10-01",
     "factKey": "historia:hai-human-centered-purpose",
     "track": "historia"
   },
@@ -1654,7 +1654,7 @@
   {
     "id": "H0076",
     "band": 4,
-    "topic": "Científicos y divulgadores",
+    "topic": "Personas",
     "family": "reddy",
     "prompt": "¿Con quién compartió Raj Reddy el premio Turing de 1994?",
     "options": [
@@ -1676,7 +1676,7 @@
   {
     "id": "H0077",
     "band": 4,
-    "topic": "Científicos y divulgadores",
+    "topic": "Personas",
     "family": "reddy",
     "prompt": "¿De qué universidad fue Raj Reddy director fundador del Robotics Institute?",
     "options": [
@@ -1698,7 +1698,7 @@
   {
     "id": "H0078",
     "band": 3,
-    "topic": "La IA compite",
+    "topic": "Historia de la IA",
     "family": "samuel-checkers",
     "prompt": "¿Qué juego utilizó Arthur Samuel para desarrollar uno de sus programas de aprendizaje en IBM?",
     "options": [
@@ -1720,7 +1720,7 @@
   {
     "id": "H0079",
     "band": 3,
-    "topic": "La IA compite",
+    "topic": "Historia de la IA",
     "family": "samuel-checkers",
     "prompt": "¿Qué información aprovechaba el programa de damas de Arthur Samuel para mejorar?",
     "options": [
@@ -1742,7 +1742,7 @@
   {
     "id": "H0080",
     "band": 3,
-    "topic": "La IA compite",
+    "topic": "Historia de la IA",
     "family": "td-gammon",
     "prompt": "¿Qué juego de tablero con dados utilizó Gerald Tesauro en el proyecto TD-Gammon?",
     "options": [
@@ -1764,7 +1764,7 @@
   {
     "id": "H0081",
     "band": 5,
-    "topic": "La IA compite",
+    "topic": "Historia de la IA",
     "family": "td-gammon",
     "prompt": "¿Qué investigador de IBM lideró el desarrollo de TD-Gammon?",
     "options": [
@@ -1786,7 +1786,7 @@
   {
     "id": "H0082",
     "band": 3,
-    "topic": "La IA compite",
+    "topic": "Historia de la IA",
     "family": "td-gammon",
     "prompt": "¿Cómo generaba TD-Gammon experiencia de juego en el trabajo de 1993?",
     "options": [
@@ -1808,7 +1808,7 @@
   {
     "id": "H0083",
     "band": 2,
-    "topic": "La IA compite",
+    "topic": "Historia de la IA",
     "family": "stanley",
     "prompt": "¿Qué hacía el robot Stanley, ganador del DARPA Grand Challenge de 2005?",
     "options": [
@@ -1830,7 +1830,7 @@
   {
     "id": "H0084",
     "band": 4,
-    "topic": "La IA compite",
+    "topic": "Historia de la IA",
     "family": "stanley",
     "prompt": "¿Qué universidad lideró el equipo de Stanley, ganador del Grand Challenge de 2005?",
     "options": [
@@ -1852,7 +1852,7 @@
   {
     "id": "H0085",
     "band": 3,
-    "topic": "La IA compite",
+    "topic": "Historia de la IA",
     "family": "stanley",
     "prompt": "En Stanley, el coche autónomo de Stanford, ¿en qué se convertía la información de sus sensores?",
     "options": [
@@ -1874,7 +1874,7 @@
   {
     "id": "H0086",
     "band": 3,
-    "topic": "La IA compite",
+    "topic": "Historia de la IA",
     "family": "stanley",
     "prompt": "¿Qué ocurrió en la primera prueba de vehículos autónomos del Grand Challenge de DARPA, en 2004?",
     "options": [
@@ -1896,7 +1896,7 @@
   {
     "id": "H0087",
     "band": 4,
-    "topic": "La IA compite",
+    "topic": "Historia de la IA",
     "family": "boss",
     "prompt": "¿Cómo se llamaba el vehículo de Carnegie Mellon que ganó el DARPA Urban Challenge de 2007?",
     "options": [
@@ -1918,7 +1918,7 @@
   {
     "id": "H0088",
     "band": 2,
-    "topic": "La IA compite",
+    "topic": "Historia de la IA",
     "family": "boss",
     "prompt": "¿Qué debían hacer los vehículos del DARPA Urban Challenge de 2007?",
     "options": [
@@ -1940,7 +1940,7 @@
   {
     "id": "H0089",
     "band": 3,
-    "topic": "La IA compite",
+    "topic": "Historia de la IA",
     "family": "boss",
     "prompt": "En el DARPA Urban Challenge de 2007, ganado por Boss, ¿qué se evaluaba además de la rapidez?",
     "options": [
@@ -1962,7 +1962,7 @@
   {
     "id": "H0090",
     "band": 3,
-    "topic": "La IA compite",
+    "topic": "Historia de la IA",
     "family": "libratus",
     "prompt": "¿En qué juego venció Libratus a profesionales en Pittsburgh en 2017?",
     "options": [
@@ -1984,7 +1984,7 @@
   {
     "id": "H0091",
     "band": 5,
-    "topic": "La IA compite",
+    "topic": "Historia de la IA",
     "family": "libratus",
     "prompt": "¿Qué pareja desarrolló Libratus en Carnegie Mellon?",
     "options": [
@@ -2006,7 +2006,7 @@
   {
     "id": "H0092",
     "band": 2,
-    "topic": "La IA compite",
+    "topic": "Historia de la IA",
     "family": "libratus",
     "prompt": "Libratus se midió con profesionales del póquer durante muchas manos. ¿Por qué era útil repetir tantas partidas?",
     "options": [
@@ -2028,7 +2028,7 @@
   {
     "id": "H0093",
     "band": 2,
-    "topic": "La IA compite",
+    "topic": "Historia de la IA",
     "family": "libratus",
     "prompt": "¿Cómo mejoraba Libratus su juego entre jornadas del duelo de póquer de 2017?",
     "options": [
@@ -2050,7 +2050,7 @@
   {
     "id": "H0094",
     "band": 3,
-    "topic": "La IA compite",
+    "topic": "Historia de la IA",
     "family": "chinook",
     "prompt": "¿Con qué juego está relacionado el programa Chinook de la Universidad de Alberta?",
     "options": [
@@ -2072,7 +2072,7 @@
   {
     "id": "H0095",
     "band": 5,
-    "topic": "La IA compite",
+    "topic": "Historia de la IA",
     "family": "chinook",
     "prompt": "¿Qué investigador encabeza la autoría de «Checkers is Solved», el artículo de 2007?",
     "options": [
@@ -2094,7 +2094,7 @@
   {
     "id": "H0096",
     "band": 4,
-    "topic": "La IA compite",
+    "topic": "Historia de la IA",
     "family": "chinook",
     "prompt": "Según el resultado del proyecto Chinook de 2007, ¿qué ocurre en las damas inglesas desde la posición inicial si ambos bandos juegan perfectamente?",
     "options": [
@@ -2115,8 +2115,8 @@
   },
   {
     "id": "H0097",
-    "band": 2,
-    "topic": "IA en la ficción",
+    "band": 1,
+    "topic": "Cultura y ficción",
     "family": "film-2001",
     "prompt": "¿En qué película aparece el ordenador HAL 9000?",
     "options": [
@@ -2131,14 +2131,14 @@
     "source": "https://whatson.bfi.org.uk/imax/Online/default.asp?BOparam%3A%3AWScontent%3A%3AloadArticle%3A%3Apermalink=2001-space-odyssey-imax",
     "sourceTitle": "BFI: 2001 — A Space Odyssey",
     "sourceLocator": "Ficha de programación: director, fecha y sinopsis",
-    "reviewedAt": "2026-09-19",
+    "reviewedAt": "2026-10-01",
     "factKey": "historia:hal-film",
     "track": "historia"
   },
   {
     "id": "H0098",
     "band": 2,
-    "topic": "IA en la ficción",
+    "topic": "Cultura y ficción",
     "family": "film-2001",
     "prompt": "¿Quién dirigió «2001: Una odisea del espacio», la película de HAL 9000?",
     "options": [
@@ -2162,7 +2162,7 @@
   {
     "id": "H0099",
     "band": 2,
-    "topic": "IA en la ficción",
+    "topic": "Cultura y ficción",
     "family": "film-2001",
     "prompt": "En «2001: una odisea del espacio», ¿qué es HAL 9000?",
     "options": [
@@ -2184,7 +2184,7 @@
   {
     "id": "H0100",
     "band": 3,
-    "topic": "IA en la ficción",
+    "topic": "Cultura y ficción",
     "family": "film-2001",
     "prompt": "¿En qué década se estrenó «2001: Una odisea del espacio»?",
     "options": [
@@ -2206,7 +2206,7 @@
   {
     "id": "H0101",
     "band": 5,
-    "topic": "IA en la ficción",
+    "topic": "Cultura y ficción",
     "family": "film-2001",
     "prompt": "¿Quién puso la voz original en inglés a HAL 9000?",
     "options": [
@@ -2230,7 +2230,7 @@
   {
     "id": "H0102",
     "band": 4,
-    "topic": "IA en la ficción",
+    "topic": "Cultura y ficción",
     "family": "film-wargames",
     "prompt": "¿Cómo se llama el ordenador militar al que accede el protagonista de «Juegos de guerra»?",
     "options": [
@@ -2252,7 +2252,7 @@
   {
     "id": "H0103",
     "band": 4,
-    "topic": "IA en la ficción",
+    "topic": "Cultura y ficción",
     "family": "film-wargames",
     "prompt": "¿Qué actor interpreta al joven que entra en el ordenador de «Juegos de guerra»?",
     "options": [
@@ -2274,7 +2274,7 @@
   {
     "id": "H0104",
     "band": 3,
-    "topic": "IA en la ficción",
+    "topic": "Cultura y ficción",
     "family": "film-her",
     "prompt": "¿Cómo se llama el sistema operativo con el que se relaciona Theodore en «Her»?",
     "options": [
@@ -2296,7 +2296,7 @@
   {
     "id": "H0105",
     "band": 3,
-    "topic": "IA en la ficción",
+    "topic": "Cultura y ficción",
     "family": "film-her",
     "prompt": "¿Quién dirigió y escribió «Her»?",
     "options": [
@@ -2320,7 +2320,7 @@
   {
     "id": "H0106",
     "band": 3,
-    "topic": "IA en la ficción",
+    "topic": "Cultura y ficción",
     "family": "film-her",
     "prompt": "¿Qué actriz presta su voz original a Samantha en «Her»?",
     "options": [
@@ -2344,7 +2344,7 @@
   {
     "id": "H0107",
     "band": 4,
-    "topic": "IA en la ficción",
+    "topic": "Cultura y ficción",
     "family": "film-her",
     "prompt": "¿Qué actor interpreta a Theodore Twombly en «Her»?",
     "options": [
@@ -2366,7 +2366,7 @@
   {
     "id": "H0108",
     "band": 3,
-    "topic": "IA en la ficción",
+    "topic": "Cultura y ficción",
     "family": "film-exmachina",
     "prompt": "¿Cómo se llama la inteligencia artificial que evalúa Caleb en «Ex Machina»?",
     "options": [
@@ -2388,7 +2388,7 @@
   {
     "id": "H0109",
     "band": 4,
-    "topic": "IA en la ficción",
+    "topic": "Cultura y ficción",
     "family": "film-exmachina",
     "prompt": "¿Quién escribió y dirigió «Ex Machina»?",
     "options": [
@@ -2410,7 +2410,7 @@
   {
     "id": "H0110",
     "band": 4,
-    "topic": "IA en la ficción",
+    "topic": "Cultura y ficción",
     "family": "film-exmachina",
     "prompt": "¿Quién interpreta a Ava en «Ex Machina»?",
     "options": [
@@ -2432,7 +2432,7 @@
   {
     "id": "H0111",
     "band": 3,
-    "topic": "IA en la ficción",
+    "topic": "Cultura y ficción",
     "family": "film-exmachina",
     "prompt": "¿Qué prueba sobre inteligencia de máquinas se menciona expresamente en la sinopsis oficial de «Ex Machina»?",
     "options": [
@@ -2454,7 +2454,7 @@
   {
     "id": "H0112",
     "band": 2,
-    "topic": "IA en la ficción",
+    "topic": "Cultura y ficción",
     "family": "film-ai",
     "prompt": "¿Quién dirigió «A.I. Inteligencia Artificial» en 2001?",
     "options": [
@@ -2476,7 +2476,7 @@
   {
     "id": "H0113",
     "band": 3,
-    "topic": "IA en la ficción",
+    "topic": "Cultura y ficción",
     "family": "film-ai",
     "prompt": "¿Cómo se llama el niño robot protagonista de «A.I. Inteligencia Artificial»?",
     "options": [
@@ -2498,7 +2498,7 @@
   {
     "id": "H0114",
     "band": 4,
-    "topic": "IA en la ficción",
+    "topic": "Cultura y ficción",
     "family": "film-ai",
     "prompt": "¿Qué actor interpreta al niño robot David en «A.I. Inteligencia Artificial»?",
     "options": [
@@ -2520,7 +2520,7 @@
   {
     "id": "H0115",
     "band": 5,
-    "topic": "IA en la ficción",
+    "topic": "Cultura y ficción",
     "family": "film-ai",
     "prompt": "¿Qué escritor escribió «Supertoys Last All Summer Long», origen literario de «A.I.»?",
     "options": [
@@ -2542,7 +2542,7 @@
   {
     "id": "H0116",
     "band": 1,
-    "topic": "IA en la ficción",
+    "topic": "Cultura y ficción",
     "family": "film-terminator",
     "prompt": "¿A qué saga pertenece la red de máquinas Skynet?",
     "options": [
@@ -2564,7 +2564,7 @@
   {
     "id": "H0117",
     "band": 1,
-    "topic": "IA en la ficción",
+    "topic": "Cultura y ficción",
     "family": "film-terminator",
     "prompt": "¿Qué actor interpreta al T-800 en «The Terminator» de 1984?",
     "options": [
@@ -2586,7 +2586,7 @@
   {
     "id": "H0118",
     "band": 2,
-    "topic": "IA en la ficción",
+    "topic": "Cultura y ficción",
     "family": "film-terminator",
     "prompt": "¿Quién dirigió «The Terminator» de 1984?",
     "options": [
@@ -2608,14 +2608,14 @@
   {
     "id": "H0119",
     "band": 2,
-    "topic": "IA en la ficción",
+    "topic": "Cultura y ficción",
     "family": "film-terminator",
     "prompt": "En «Terminator», ¿qué diferencia hay entre el T-800 y Skynet?",
     "options": [
       "El T-800 es un robot; Skynet, la red que lo envía",
-      "El T-800 es una red; Skynet, un robot humanoide",
-      "El T-800 es un humano; Skynet, su prótesis",
-      "El T-800 es un satélite; Skynet, su órbita"
+      "El T-800 es un robot; Skynet, el nombre de su modelo sucesor",
+      "El T-800 es una red militar; Skynet, uno de sus robots",
+      "El T-800 y Skynet son dos nombres del mismo robot"
     ],
     "answer": 0,
     "hint": "Uno tiene un cuerpo que se desplaza; el otro coordina máquinas.",
@@ -2623,14 +2623,14 @@
     "source": "https://www.bfi.org.uk/features/arnie-70-praise-terminator",
     "sourceTitle": "BFI: Arnie at 70 — in praise of The Terminator",
     "sourceLocator": "Descripción del T-800 y de la red Skynet",
-    "reviewedAt": "2026-09-19",
+    "reviewedAt": "2026-10-01",
     "factKey": "historia:terminator-skynet-distinction",
     "track": "historia"
   },
   {
     "id": "H0120",
     "band": 1,
-    "topic": "IA en la ficción",
+    "topic": "Cultura y ficción",
     "family": "film-walle",
     "prompt": "¿Qué tarea tenía asignada el robot WALL-E en la Tierra?",
     "options": [
@@ -2652,7 +2652,7 @@
   {
     "id": "H0121",
     "band": 2,
-    "topic": "IA en la ficción",
+    "topic": "Cultura y ficción",
     "family": "film-walle",
     "prompt": "¿Cómo se llama el robot sonda al que sigue WALL-E al espacio?",
     "options": [
@@ -2674,7 +2674,7 @@
   {
     "id": "H0122",
     "band": 3,
-    "topic": "IA en la ficción",
+    "topic": "Cultura y ficción",
     "family": "film-walle",
     "prompt": "En «WALL·E», ¿por qué Auto se opone al plan de regresar a la Tierra?",
     "options": [
@@ -2696,7 +2696,7 @@
   {
     "id": "H0123",
     "band": 2,
-    "topic": "IA en la ficción",
+    "topic": "Cultura y ficción",
     "family": "film-walle",
     "prompt": "En «WALL-E», ¿qué función cumple Auto?",
     "options": [
@@ -2718,7 +2718,7 @@
   {
     "id": "H0124",
     "band": 2,
-    "topic": "IA en la ficción",
+    "topic": "Cultura y ficción",
     "family": "film-big-hero",
     "prompt": "¿En qué película de Disney aparece Baymax?",
     "options": [
@@ -2740,7 +2740,7 @@
   {
     "id": "H0125",
     "band": 1,
-    "topic": "IA en la ficción",
+    "topic": "Cultura y ficción",
     "family": "film-big-hero",
     "prompt": "¿Para qué ámbito fue diseñado originalmente Baymax?",
     "options": [
@@ -2762,7 +2762,7 @@
   {
     "id": "H0126",
     "band": 3,
-    "topic": "IA en la ficción",
+    "topic": "Cultura y ficción",
     "family": "carme-torras",
     "prompt": "¿Qué papel tienen los robots en la sociedad de «La mutació sentimental», de Carme Torras?",
     "options": [
@@ -2784,7 +2784,7 @@
   {
     "id": "H0127",
     "band": 4,
-    "topic": "IA en la ficción",
+    "topic": "Cultura y ficción",
     "family": "carme-torras",
     "prompt": "¿Para qué se publicaron materiales docentes junto con la edición inglesa de la novela de Carme Torras «The Vestigial Heart»?",
     "options": [
@@ -2806,7 +2806,7 @@
   {
     "id": "H0128",
     "band": 2,
-    "topic": "IA en la ficción",
+    "topic": "Cultura y ficción",
     "family": "film-wild-robot",
     "prompt": "¿Cómo se llama el robot protagonista de «Robot salvaje»?",
     "options": [
@@ -2828,7 +2828,7 @@
   {
     "id": "H0129",
     "band": 3,
-    "topic": "IA en la ficción",
+    "topic": "Cultura y ficción",
     "family": "film-wild-robot",
     "prompt": "En «Robot salvaje», ¿qué cría huérfana adopta Roz?",
     "options": [
@@ -2850,7 +2850,7 @@
   {
     "id": "H0130",
     "band": 4,
-    "topic": "IA en la ficción",
+    "topic": "Cultura y ficción",
     "family": "film-wild-robot",
     "prompt": "¿Quién pone la voz original en inglés a Roz en «Robot salvaje»?",
     "options": [
@@ -2874,7 +2874,7 @@
   {
     "id": "H0131",
     "band": 5,
-    "topic": "IA en la ficción",
+    "topic": "Cultura y ficción",
     "family": "film-wild-robot",
     "prompt": "¿Qué autor escribió el libro «The Wild Robot», adaptado al cine por DreamWorks?",
     "options": [
@@ -2896,7 +2896,7 @@
   {
     "id": "H0132",
     "band": 1,
-    "topic": "IA en la ficción",
+    "topic": "Cultura y ficción",
     "family": "starwars-droids",
     "prompt": "¿Cuál es la especialidad principal de C-3PO en «Star Wars»?",
     "options": [
@@ -2918,7 +2918,7 @@
   {
     "id": "H0133",
     "band": 2,
-    "topic": "IA en la ficción",
+    "topic": "Cultura y ficción",
     "family": "starwars-droids",
     "prompt": "En «Star Wars», ¿en qué se especializa R2-D2 como droide astromecánico?",
     "options": [
@@ -2940,7 +2940,7 @@
   {
     "id": "H0134",
     "band": 1,
-    "topic": "IA en la ficción",
+    "topic": "Cultura y ficción",
     "family": "starwars-droids",
     "prompt": "¿Qué droide es el compañero habitual de C-3PO?",
     "options": [
@@ -2962,7 +2962,7 @@
   {
     "id": "H0135",
     "band": 1,
-    "topic": "IA en la ficción",
+    "topic": "Cultura y ficción",
     "family": "starwars-droids",
     "prompt": "¿Cómo se llama habitualmente a robots como R2-D2 y C-3PO en «Star Wars»?",
     "options": [
@@ -2984,7 +2984,7 @@
   {
     "id": "H0136",
     "band": 1,
-    "topic": "La IA compite",
+    "topic": "Historia de la IA",
     "family": "deep-blue",
     "prompt": "¿Qué empresa creó Deep Blue, el ordenador que derrotó a Kasparov en ajedrez?",
     "options": [
@@ -3006,7 +3006,7 @@
   {
     "id": "H0137",
     "band": 4,
-    "topic": "Libros sobre IA",
+    "topic": "Cultura y ficción",
     "family": "book-aima",
     "prompt": "¿Qué pareja escribió «Inteligencia artificial: un enfoque moderno»?",
     "options": [
@@ -3030,7 +3030,7 @@
   {
     "id": "H0138",
     "band": 3,
-    "topic": "Libros sobre IA",
+    "topic": "Cultura y ficción",
     "family": "book-aima",
     "prompt": "¿Qué idea organiza el manual «Inteligencia artificial: un enfoque moderno», de Russell y Norvig?",
     "options": [
@@ -3052,7 +3052,7 @@
   {
     "id": "H0139",
     "band": 4,
-    "topic": "Libros sobre IA",
+    "topic": "Cultura y ficción",
     "family": "book-human-compatible",
     "prompt": "¿Quién escribió «Human Compatible», sobre la relación entre IA y objetivos humanos?",
     "options": [
@@ -3074,7 +3074,7 @@
   {
     "id": "H0140",
     "band": 4,
-    "topic": "Libros sobre IA",
+    "topic": "Cultura y ficción",
     "family": "book-human-compatible",
     "prompt": "¿En qué universidad californiana ha desarrollado Stuart Russell su carrera como profesor de informática?",
     "options": [
@@ -3096,7 +3096,7 @@
   {
     "id": "H0141",
     "band": 4,
-    "topic": "Libros sobre IA",
+    "topic": "Cultura y ficción",
     "family": "book-mitchell",
     "prompt": "¿Quién escribió «Artificial Intelligence: A Guide for Thinking Humans»?",
     "options": [
@@ -3118,7 +3118,7 @@
   {
     "id": "H0142",
     "band": 4,
-    "topic": "Libros sobre IA",
+    "topic": "Cultura y ficción",
     "family": "book-why",
     "prompt": "¿Qué investigador de IA firma «The Book of Why» junto con Dana Mackenzie?",
     "options": [
@@ -3140,7 +3140,7 @@
   {
     "id": "H0143",
     "band": 3,
-    "topic": "Libros sobre IA",
+    "topic": "Cultura y ficción",
     "family": "book-why",
     "prompt": "¿Qué relación anuncia el subtítulo de «The Book of Why»?",
     "options": [
@@ -3162,7 +3162,7 @@
   {
     "id": "H0144",
     "band": 5,
-    "topic": "Libros sobre IA",
+    "topic": "Cultura y ficción",
     "family": "janelle-shane",
     "prompt": "¿Quién escribió «You Look Like a Thing and I Love You», una divulgación humorística de la IA?",
     "options": [
@@ -3184,7 +3184,7 @@
   {
     "id": "H0145",
     "band": 4,
-    "topic": "Libros sobre IA",
+    "topic": "Cultura y ficción",
     "family": "janelle-shane",
     "prompt": "¿Cómo se llama el blog en el que Janelle Shane muestra resultados curiosos de la IA?",
     "options": [
@@ -3206,7 +3206,7 @@
   {
     "id": "H0146",
     "band": 4,
-    "topic": "Libros sobre IA",
+    "topic": "Cultura y ficción",
     "family": "book-alignment",
     "prompt": "¿Quién escribió «The Alignment Problem»?",
     "options": [
@@ -3228,7 +3228,7 @@
   {
     "id": "H0147",
     "band": 3,
-    "topic": "Libros sobre IA",
+    "topic": "Cultura y ficción",
     "family": "book-atlas",
     "prompt": "¿Quién escribió «Atlas of AI»?",
     "options": [
@@ -3250,7 +3250,7 @@
   {
     "id": "H0148",
     "band": 4,
-    "topic": "IA y creación artística",
+    "topic": "Cultura y ficción",
     "family": "anadol-unsupervised",
     "prompt": "¿Qué artista creó «Unsupervised», la instalación de IA presentada en el MoMA en 2022?",
     "options": [
@@ -3272,7 +3272,7 @@
   {
     "id": "H0149",
     "band": 3,
-    "topic": "IA y creación artística",
+    "topic": "Cultura y ficción",
     "family": "anadol-unsupervised",
     "prompt": "¿Qué museo presentó «Unsupervised» de Refik Anadol entre 2022 y 2023?",
     "options": [
@@ -3294,7 +3294,7 @@
   {
     "id": "H0150",
     "band": 3,
-    "topic": "IA y creación artística",
+    "topic": "Cultura y ficción",
     "family": "anadol-unsupervised",
     "prompt": "¿Qué material del MoMA utilizó Anadol para entrenar el modelo de «Unsupervised»?",
     "options": [
@@ -3316,7 +3316,7 @@
   {
     "id": "H0151",
     "band": 4,
-    "topic": "IA y creación artística",
+    "topic": "Cultura y ficción",
     "family": "belamy",
     "prompt": "¿Qué casa subastó «Edmond de Belamy» en octubre de 2018?",
     "options": [
@@ -3340,7 +3340,7 @@
   {
     "id": "H0152",
     "band": 4,
-    "topic": "IA y creación artística",
+    "topic": "Cultura y ficción",
     "family": "belamy",
     "prompt": "¿Qué colectivo creó la serie de retratos de la familia ficticia Belamy?",
     "options": [
@@ -3362,7 +3362,7 @@
   {
     "id": "H0153",
     "band": 3,
-    "topic": "IA y creación artística",
+    "topic": "Cultura y ficción",
     "family": "belamy",
     "prompt": "¿Qué condición tenía la familia representada en la serie Belamy?",
     "options": [
@@ -3384,7 +3384,7 @@
   {
     "id": "H0154",
     "band": 5,
-    "topic": "IA y creación artística",
+    "topic": "Cultura y ficción",
     "family": "zizi",
     "prompt": "¿Qué artista creó «The Zizi Show», un cabaré drag con deepfakes?",
     "options": [
@@ -3406,7 +3406,7 @@
   {
     "id": "H0155",
     "band": 4,
-    "topic": "IA y creación artística",
+    "topic": "Cultura y ficción",
     "family": "zizi",
     "prompt": "¿Qué forma escénica utiliza «The Zizi Show» de Jake Elwes?",
     "options": [
@@ -3428,7 +3428,7 @@
   {
     "id": "H0156",
     "band": 5,
-    "topic": "IA y creación artística",
+    "topic": "Cultura y ficción",
     "family": "training-humans",
     "prompt": "¿Qué pareja concibió «Training Humans», una exposición de 2019 sobre imágenes usadas para entrenar IA?",
     "options": [
@@ -3450,7 +3450,7 @@
   {
     "id": "H0157",
     "band": 3,
-    "topic": "IA y creación artística",
+    "topic": "Cultura y ficción",
     "family": "training-humans",
     "prompt": "¿Qué tipo de material se mostraba en «Training Humans» de 2019?",
     "options": [
@@ -3472,7 +3472,7 @@
   {
     "id": "H0158",
     "band": 4,
-    "topic": "IA y creación artística",
+    "topic": "Cultura y ficción",
     "family": "training-humans",
     "prompt": "¿Qué querían examinar Kate Crawford y Trevor Paglen en la exposición «Training Humans»?",
     "options": [
@@ -3584,7 +3584,7 @@
   {
     "id": "H0163",
     "band": 3,
-    "topic": "Robots con historia",
+    "topic": "Robótica",
     "family": "walter-tortoises",
     "prompt": "¿Qué animales imitaban los robots Elsie y Elmer de Grey Walter?",
     "options": [
@@ -3606,7 +3606,7 @@
   {
     "id": "H0164",
     "band": 4,
-    "topic": "Robots con historia",
+    "topic": "Robótica",
     "family": "walter-tortoises",
     "prompt": "¿Cómo se llamaban las dos tortugas cibernéticas de Grey Walter?",
     "options": [
@@ -3628,7 +3628,7 @@
   {
     "id": "H0165",
     "band": 3,
-    "topic": "Robots con historia",
+    "topic": "Robótica",
     "family": "walter-tortoises",
     "prompt": "¿Qué combinación de señales guiaba a las tortugas de Grey Walter?",
     "options": [
@@ -3650,7 +3650,7 @@
   {
     "id": "H0166",
     "band": 4,
-    "topic": "Robots con historia",
+    "topic": "Robótica",
     "family": "kismet",
     "prompt": "¿Qué investigadora lideró el equipo del robot social Kismet en el MIT?",
     "options": [
@@ -3672,7 +3672,7 @@
   {
     "id": "H0167",
     "band": 3,
-    "topic": "Robots con historia",
+    "topic": "Robótica",
     "family": "kismet",
     "prompt": "¿Qué parte del cuerpo representaba principalmente Kismet?",
     "options": [
@@ -3694,7 +3694,7 @@
   {
     "id": "H0168",
     "band": 3,
-    "topic": "Robots con historia",
+    "topic": "Robótica",
     "family": "kismet",
     "prompt": "¿Qué tipo de interacción investigaba Kismet?",
     "options": [
@@ -3716,7 +3716,7 @@
   {
     "id": "H0169",
     "band": 4,
-    "topic": "Robots con historia",
+    "topic": "Robótica",
     "family": "wabot",
     "prompt": "¿Qué universidad japonesa desarrolló WABOT-1?",
     "options": [
@@ -3737,30 +3737,30 @@
   },
   {
     "id": "H0170",
-    "band": 4,
-    "topic": "Robots con historia",
+    "band": 2,
+    "topic": "Robótica",
     "family": "wabot",
-    "prompt": "¿En qué año se completó WABOT-1, según la historia de Waseda?",
+    "prompt": "¿Qué capacidades combinaba WABOT-1, un robot pionero de la Universidad de Waseda?",
     "options": [
-      "2013",
-      "1973",
-      "1953",
-      "1993"
+      "Rodar sobre ruedas y clasificar paquetes en una cinta",
+      "Caminar sobre dos piernas y coger objetos con las manos",
+      "Volar sobre cultivos y fotografiar el terreno",
+      "Desplazarse bajo el agua e inspeccionar tuberías"
     ],
     "answer": 1,
-    "hint": "Fue durante la década anterior a la popularización del ordenador personal.",
-    "explanation": "El robot podía andar sobre dos piernas y manipular objetos con las manos.",
+    "hint": "Fue un paso temprano en el desarrollo de robots con cuerpo humanoide.",
+    "explanation": "Completado en 1973, WABOT-1 podía caminar sobre dos piernas, coger objetos y comunicarse en japonés sencillo.",
     "source": "https://www.waseda.jp/top/en/news/88080",
     "sourceTitle": "Waseda University: The Robots of Waseda",
-    "sourceLocator": "Apartados WABOT-1 y WABOT-2",
-    "reviewedAt": "2026-09-19",
-    "factKey": "historia:wabot-year",
+    "sourceLocator": "WABOT-1 (1973): movimiento, manipulación y comunicación",
+    "reviewedAt": "2026-10-01",
+    "factKey": "historia:wabot1-capabilities",
     "track": "historia"
   },
   {
     "id": "H0171",
     "band": 3,
-    "topic": "Robots con historia",
+    "topic": "Robótica",
     "family": "wabot",
     "prompt": "¿Qué instrumento tocaba WABOT-2 en 1984?",
     "options": [
@@ -3782,7 +3782,7 @@
   {
     "id": "H0172",
     "band": 5,
-    "topic": "Robots con historia",
+    "topic": "Robótica",
     "family": "wabot",
     "prompt": "¿Qué profesor dirigió el desarrollo de WABOT-1?",
     "options": [
@@ -3870,7 +3870,7 @@
   {
     "id": "H0176",
     "band": 3,
-    "topic": "Robots con historia",
+    "topic": "Robótica",
     "family": "freddy",
     "prompt": "¿Qué podían hacer los robots Freddy I y Freddy II de Edimburgo?",
     "options": [
@@ -3892,7 +3892,7 @@
   {
     "id": "H0177",
     "band": 3,
-    "topic": "La IA compite",
+    "topic": "Historia de la IA",
     "family": "nimrod",
     "prompt": "¿Qué juego de retirar piezas de montones utilizó Ferranti en una demostración informática de 1951?",
     "options": [
@@ -3914,7 +3914,7 @@
   {
     "id": "H0178",
     "band": 4,
-    "topic": "La IA compite",
+    "topic": "Historia de la IA",
     "family": "nimrod",
     "prompt": "¿Qué empresa presentó Nimrod en 1951?",
     "options": [
@@ -3936,7 +3936,7 @@
   {
     "id": "H0179",
     "band": 4,
-    "topic": "Robots con historia",
+    "topic": "Robótica",
     "family": "squee",
     "prompt": "¿Qué animal imitaba el robot Squee?",
     "options": [
@@ -4024,7 +4024,7 @@
   {
     "id": "H0183",
     "band": 4,
-    "topic": "Robots con historia",
+    "topic": "Robótica",
     "family": "minsky-arm",
     "prompt": "¿Qué animal inspiraba el movimiento del Tentacle Arm de Marvin Minsky?",
     "options": [
@@ -4046,7 +4046,7 @@
   {
     "id": "H0184",
     "band": 3,
-    "topic": "Científicos y divulgadores",
+    "topic": "Personas",
     "family": "dendral",
     "prompt": "¿Con qué tipo histórico de IA se asocia especialmente a Edward Feigenbaum?",
     "options": [
@@ -4068,7 +4068,7 @@
   {
     "id": "H0185",
     "band": 4,
-    "topic": "Científicos y divulgadores",
+    "topic": "Personas",
     "family": "dendral",
     "prompt": "¿Qué factor resultó especialmente importante para la eficacia de DENDRAL como sistema experto?",
     "options": [
@@ -4090,7 +4090,7 @@
   {
     "id": "H0186",
     "band": 5,
-    "topic": "Científicos y divulgadores",
+    "topic": "Personas",
     "family": "dendral",
     "prompt": "¿Qué premio Nobel colaboró con Feigenbaum en el inicio de DENDRAL?",
     "options": [
@@ -4134,7 +4134,7 @@
   {
     "id": "H0188",
     "band": 4,
-    "topic": "Robots con historia",
+    "topic": "Robótica",
     "family": "stanford-cart",
     "prompt": "¿Qué situación se quería estudiar originalmente con el Stanford Cart?",
     "options": [
@@ -4155,30 +4155,30 @@
   },
   {
     "id": "H0189",
-    "band": 5,
-    "topic": "Robots con historia",
+    "band": 4,
+    "topic": "Robótica",
     "family": "stanford-cart",
-    "prompt": "¿Qué investigador utilizó el Stanford Cart en su tesis doctoral?",
+    "prompt": "¿Cómo adaptaba el Stanford Cart su recorrido cuando encontraba obstáculos nuevos?",
     "options": [
-      "Hans Moravec",
-      "Geoffrey Hinton",
-      "Yoshua Bengio",
-      "Judea Pearl"
+      "Recalculaba la ruta a partir de un modelo del entorno obtenido con imágenes",
+      "Repetía una ruta grabada por un conductor durante una vuelta previa",
+      "Seguía una línea pintada en el suelo entre la salida y la meta",
+      "Recibía por radio la siguiente dirección elegida por un operador"
     ],
     "answer": 0,
-    "hint": "Trabajó en visión por ordenador y robótica.",
-    "explanation": "El museo vincula su trabajo doctoral con este vehículo experimental.",
-    "source": "https://www.computerhistory.org/revolution/artificial-intelligence-robotics/13/293",
-    "sourceTitle": "Computer History Museum: Robot Research",
-    "sourceLocator": "Stanford Cart, Hans Moravec, Orm y Rancho Arm",
-    "reviewedAt": "2026-09-19",
-    "factKey": "historia:stanford-cart-moravec",
+    "hint": "Usaba visión para situar objetos y revisar el camino hacia su destino.",
+    "explanation": "El programa del Stanford Cart obtenía información tridimensional a partir de imágenes y modificaba la ruta al percibir obstáculos. Era un sistema lento, con avances breves y largas pausas de cálculo.",
+    "source": "https://publications.ri.cmu.edu/the-stanford-cart-and-the-cmu-rover",
+    "sourceTitle": "Hans Moravec: The Stanford Cart and the CMU Rover",
+    "sourceLocator": "Abstract: imágenes, reconstrucción tridimensional y actualización del plan",
+    "reviewedAt": "2026-10-01",
+    "factKey": "historia:stanford-cart-visual-replanning",
     "track": "historia"
   },
   {
     "id": "H0190",
     "band": 4,
-    "topic": "Robots con historia",
+    "topic": "Robótica",
     "family": "orm",
     "prompt": "¿Qué dificultad hizo abandonar el brazo robótico Orm?",
     "options": [
@@ -4200,7 +4200,7 @@
   {
     "id": "H0191",
     "band": 3,
-    "topic": "Robots con historia",
+    "topic": "Robótica",
     "family": "rancho-arm",
     "prompt": "¿Qué finalidad tuvo originalmente el Rancho Arm?",
     "options": [
@@ -4222,7 +4222,7 @@
   {
     "id": "H0192",
     "band": 2,
-    "topic": "Robots con historia",
+    "topic": "Robótica",
     "family": "aibo",
     "prompt": "¿Qué empresa creó AIBO, el conocido perro robot?",
     "options": [
@@ -4244,7 +4244,7 @@
   {
     "id": "H0193",
     "band": 5,
-    "topic": "Robots con historia",
+    "topic": "Robótica",
     "family": "shakey",
     "prompt": "¿Quién lideró el equipo que desarrolló Shakey en SRI?",
     "options": [
@@ -4266,7 +4266,7 @@
   {
     "id": "H0194",
     "band": 2,
-    "topic": "Científicos y divulgadores",
+    "topic": "Personas",
     "family": "asturias-ai-2022",
     "prompt": "¿En qué categoría recibieron el Princesa de Asturias de 2022 Hinton, LeCun, Bengio y Hassabis?",
     "options": [
@@ -4288,7 +4288,7 @@
   {
     "id": "H0195",
     "band": 3,
-    "topic": "Científicos y divulgadores",
+    "topic": "Personas",
     "family": "asturias-ai-2022",
     "prompt": "¿Qué investigador compartió el Princesa de Asturias de 2022 con Hinton, LeCun y Bengio?",
     "options": [
@@ -4310,7 +4310,7 @@
   {
     "id": "H0196",
     "band": 3,
-    "topic": "Científicos y divulgadores",
+    "topic": "Personas",
     "family": "nuria-oliver",
     "prompt": "¿Qué estudia Nuria Oliver en una de sus principales líneas de investigación?",
     "options": [
@@ -4332,7 +4332,7 @@
   {
     "id": "H0197",
     "band": 3,
-    "topic": "Científicos y divulgadores",
+    "topic": "Personas",
     "family": "nuria-oliver",
     "prompt": "¿En qué ciudad española cofundó Nuria Oliver una unidad de ELLIS?",
     "options": [
@@ -4356,7 +4356,7 @@
   {
     "id": "H0198",
     "band": 4,
-    "topic": "Científicos y divulgadores",
+    "topic": "Personas",
     "family": "carme-torras",
     "prompt": "¿Qué investigadora en robótica escribió «La mutación sentimental»?",
     "options": [
@@ -4378,7 +4378,7 @@
   {
     "id": "H0199",
     "band": 4,
-    "topic": "Científicos y divulgadores",
+    "topic": "Personas",
     "family": "carme-torras",
     "prompt": "¿En qué centro conjunto del CSIC y la UPC ha investigado Carme Torras en robótica asistencial?",
     "options": [
@@ -4400,7 +4400,7 @@
   {
     "id": "H0200",
     "band": 3,
-    "topic": "Científicos y divulgadores",
+    "topic": "Personas",
     "family": "lopez-mantaras",
     "prompt": "¿Qué investigador fue fundador del Instituto de Investigación en Inteligencia Artificial del CSIC?",
     "options": [
@@ -4422,7 +4422,7 @@
   {
     "id": "H0201",
     "band": 4,
-    "topic": "Científicos y divulgadores",
+    "topic": "Personas",
     "family": "lopez-mantaras",
     "prompt": "¿Qué hacía SaxEx, desarrollado por investigadores del IIIA-CSIC?",
     "options": [
@@ -4444,7 +4444,7 @@
   {
     "id": "H0202",
     "band": 3,
-    "topic": "La IA compite",
+    "topic": "Historia de la IA",
     "family": "alphastar",
     "prompt": "¿En qué videojuego compitió AlphaStar?",
     "options": [
@@ -4466,7 +4466,7 @@
   {
     "id": "H0203",
     "band": 3,
-    "topic": "La IA compite",
+    "topic": "Historia de la IA",
     "family": "alphastar",
     "prompt": "¿Por qué AlphaStar debía explorar el mapa al jugar a StarCraft II?",
     "options": [
@@ -4488,7 +4488,7 @@
   {
     "id": "H0204",
     "band": 2,
-    "topic": "La IA compite",
+    "topic": "Historia de la IA",
     "family": "alphastar",
     "prompt": "¿Qué clase de videojuego es StarCraft II, utilizado para evaluar AlphaStar?",
     "options": [
@@ -4510,7 +4510,7 @@
   {
     "id": "H0205",
     "band": 3,
-    "topic": "La IA compite",
+    "topic": "Historia de la IA",
     "family": "alphazero",
     "prompt": "¿Qué trío de juegos estudió AlphaZero en el trabajo presentado por DeepMind en 2017 y ampliado en 2018?",
     "options": [
@@ -4532,7 +4532,7 @@
   {
     "id": "H0206",
     "band": 3,
-    "topic": "La IA compite",
+    "topic": "Historia de la IA",
     "family": "alphazero",
     "prompt": "¿Cómo se conoce habitualmente el shogi, uno de los juegos de AlphaZero?",
     "options": [
@@ -4554,7 +4554,7 @@
   {
     "id": "H0207",
     "band": 4,
-    "topic": "La IA compite",
+    "topic": "Historia de la IA",
     "family": "alphazero",
     "prompt": "¿Contra qué motor de ajedrez se evaluó AlphaZero en los resultados publicados por DeepMind en 2018?",
     "options": [
@@ -4576,7 +4576,7 @@
   {
     "id": "H0208",
     "band": 5,
-    "topic": "La IA compite",
+    "topic": "Historia de la IA",
     "family": "alphazero",
     "prompt": "¿Qué libro de Matthew Sadler y Natasha Regan analizó las partidas de AlphaZero?",
     "options": [
@@ -4598,7 +4598,7 @@
   {
     "id": "H0209",
     "band": 4,
-    "topic": "La IA compite",
+    "topic": "Historia de la IA",
     "family": "pluribus",
     "prompt": "¿Para cuántos jugadores por mesa fue el póquer en el que destacó Pluribus en 2019?",
     "options": [
@@ -4620,7 +4620,7 @@
   {
     "id": "H0210",
     "band": 3,
-    "topic": "La IA compite",
+    "topic": "Historia de la IA",
     "family": "pluribus",
     "prompt": "¿Con qué organización colaboró Carnegie Mellon en el desarrollo de Pluribus?",
     "options": [
@@ -4642,7 +4642,7 @@
   {
     "id": "H0211",
     "band": 2,
-    "topic": "La IA compite",
+    "topic": "Historia de la IA",
     "family": "sophy",
     "prompt": "¿En qué saga de videojuegos compite la IA Sophy?",
     "options": [
@@ -4664,7 +4664,7 @@
   {
     "id": "H0212",
     "band": 2,
-    "topic": "La IA compite",
+    "topic": "Historia de la IA",
     "family": "sophy",
     "prompt": "Además de la velocidad, ¿qué incluyó Sony entre los objetivos de Gran Turismo Sophy?",
     "options": [
@@ -4686,7 +4686,7 @@
   {
     "id": "H0213",
     "band": 3,
-    "topic": "La IA compite",
+    "topic": "Historia de la IA",
     "family": "openai-five",
     "prompt": "¿En qué videojuego venció OpenAI Five al equipo OG en 2019?",
     "options": [
@@ -4708,7 +4708,7 @@
   {
     "id": "H0214",
     "band": 3,
-    "topic": "La IA compite",
+    "topic": "Historia de la IA",
     "family": "openai-five",
     "prompt": "Además de competir contra personas, ¿qué capacidad mostró OpenAI Five en su presentación de abril de 2019?",
     "options": [
@@ -4730,7 +4730,7 @@
   {
     "id": "H0215",
     "band": 3,
-    "topic": "La IA compite",
+    "topic": "Historia de la IA",
     "family": "cicero",
     "prompt": "¿En qué juego de negociación y estrategia se evaluó CICERO en 2022?",
     "options": [
@@ -4752,7 +4752,7 @@
   {
     "id": "H0216",
     "band": 3,
-    "topic": "La IA compite",
+    "topic": "Historia de la IA",
     "family": "cicero",
     "prompt": "Además de decidir movimientos, ¿qué debía hacer CICERO en Diplomacy?",
     "options": [
@@ -4774,7 +4774,7 @@
   {
     "id": "H0217",
     "band": 5,
-    "topic": "La IA compite",
+    "topic": "Historia de la IA",
     "family": "deepstack",
     "prompt": "¿Qué universidad canadiense albergaba el grupo de investigación de póquer responsable de DeepStack?",
     "options": [
@@ -4796,7 +4796,7 @@
   {
     "id": "H0218",
     "band": 4,
-    "topic": "La IA compite",
+    "topic": "Historia de la IA",
     "family": "deepstack",
     "prompt": "¿En qué modalidad de póquer se evaluó DeepStack en el estudio publicado en 2017?",
     "options": [
@@ -4820,7 +4820,7 @@
   {
     "id": "H0219",
     "band": 2,
-    "topic": "La IA compite",
+    "topic": "Historia de la IA",
     "family": "robocup",
     "prompt": "¿Qué deporte dio nombre y origen a RoboCup?",
     "options": [
@@ -4842,29 +4842,29 @@
   {
     "id": "H0220",
     "band": 4,
-    "topic": "La IA compite",
+    "topic": "Historia de la IA",
     "family": "robocup",
-    "prompt": "¿En qué año se celebró la primera RoboCup oficial?",
+    "prompt": "¿Qué desafío añade el fútbol de RoboCup frente al ajedrez para una IA?",
     "options": [
-      "1977",
-      "1987",
-      "2007",
-      "1997"
+      "Actuar por turnos con información completa",
+      "Actuar por turnos con información incompleta",
+      "Actuar en tiempo real con información completa",
+      "Actuar en tiempo real con información incompleta"
     ],
     "answer": 3,
-    "hint": "La iniciativa empezó a finales del siglo XX.",
-    "explanation": "La historia oficial sitúa sus primeros juegos y congreso en 1997.",
-    "source": "https://www.robocup.org/a_brief_history_of_robocup",
-    "sourceTitle": "RoboCup: A Brief History",
-    "sourceLocator": "Primeros encuentros y misión original",
-    "reviewedAt": "2026-09-19",
-    "factKey": "historia:robocup-first-year",
+    "hint": "Los rivales no esperan su turno y cada robot depende de lo que perciben sus sensores.",
+    "explanation": "RoboCup compara ambos desafíos: en ajedrez se juega por turnos y se conoce el estado del tablero; en fútbol robótico hay que actuar en tiempo real con información incompleta.",
+    "source": "https://www.robocup.org/objective",
+    "sourceTitle": "RoboCup: Objective",
+    "sourceLocator": "The Standard Problem: tabla de diferencias entre Chess y RoboCup",
+    "reviewedAt": "2026-10-01",
+    "factKey": "historia:robocup-chess-environment-comparison",
     "track": "historia"
   },
   {
     "id": "H0221",
     "band": 3,
-    "topic": "La IA compite",
+    "topic": "Historia de la IA",
     "family": "robocup",
     "prompt": "¿Por qué los equipos de la liga de plataforma estándar de RoboCup usan el mismo modelo de robot?",
     "options": [
@@ -4886,7 +4886,7 @@
   {
     "id": "H0222",
     "band": 4,
-    "topic": "La IA compite",
+    "topic": "Historia de la IA",
     "family": "robocup",
     "prompt": "¿Qué año fijó RoboCup como horizonte de su objetivo original de vencer a los campeones humanos de fútbol?",
     "options": [
@@ -4908,7 +4908,7 @@
   {
     "id": "H0223",
     "band": 2,
-    "topic": "Robots con historia",
+    "topic": "Robótica",
     "family": "asimo",
     "prompt": "¿Qué fabricante de automóviles presentó el robot humanoide ASIMO en 2000?",
     "options": [
@@ -4929,10 +4929,10 @@
   },
   {
     "id": "H0224",
-    "band": 2,
-    "topic": "Robots con historia",
+    "band": 1,
+    "topic": "Robótica",
     "family": "asimo",
-    "prompt": "¿Cómo se desplazaba ASIMO en su presentación de 2000?",
+    "prompt": "¿Cómo se desplazaba el robot ASIMO de Honda?",
     "options": [
       "Caminando sobre dos piernas",
       "Rodando sobre ruedas bajo una base",
@@ -4945,14 +4945,14 @@
     "source": "https://global.honda/en/newsroom/news/2000/c001120b-eng.html",
     "sourceTitle": "Honda: Debuts New Humanoid Robot ASIMO",
     "sourceLocator": "Comunicado de 20-11-2000",
-    "reviewedAt": "2026-09-19",
+    "reviewedAt": "2026-10-01",
     "factKey": "historia:asimo-locomotion",
     "track": "historia"
   },
   {
     "id": "H0225",
     "band": 2,
-    "topic": "Robots con historia",
+    "topic": "Robótica",
     "family": "asimo",
     "prompt": "¿Por qué Honda tuvo en cuenta puertas, interruptores y mesas al elegir la altura de ASIMO?",
     "options": [
@@ -4973,15 +4973,15 @@
   },
   {
     "id": "H0226",
-    "band": 2,
-    "topic": "Robots con historia",
+    "band": 1,
+    "topic": "Robótica",
     "family": "aibo",
-    "prompt": "¿A qué animal se parece el robot AIBO presentado por Sony en 1999?",
+    "prompt": "¿A qué animal se parece la mascota robótica AIBO de Sony?",
     "options": [
-      "Un águila",
+      "Un gato",
       "Un perro",
-      "Un caballo",
-      "Un delfín"
+      "Un conejo",
+      "Un zorro"
     ],
     "answer": 1,
     "hint": "Su diseño incluye patas, orejas y cola.",
@@ -4989,14 +4989,14 @@
     "source": "https://www.sony.com/en/SonyInfo/design/gallery/ERS-110/",
     "sourceTitle": "Sony Design: ERS-110",
     "sourceLocator": "Ficha del robot doméstico AIBO de 1999",
-    "reviewedAt": "2026-09-19",
+    "reviewedAt": "2026-10-01",
     "factKey": "historia:aibo-animal",
     "track": "historia"
   },
   {
     "id": "H0227",
     "band": 2,
-    "topic": "Robots con historia",
+    "topic": "Robótica",
     "family": "aibo",
     "prompt": "¿Para qué uso presentó Sony el primer AIBO?",
     "options": [
@@ -5018,7 +5018,7 @@
   {
     "id": "H0228",
     "band": 2,
-    "topic": "Robots con historia",
+    "topic": "Robótica",
     "family": "aibo",
     "prompt": "¿Qué podía adaptar AIBO con la interacción repetida con sus usuarios?",
     "options": [
@@ -5040,7 +5040,7 @@
   {
     "id": "H0229",
     "band": 2,
-    "topic": "Robots con historia",
+    "topic": "Robótica",
     "family": "unimate",
     "prompt": "¿En qué entorno comenzó a trabajar el robot Unimate en General Motors en 1961?",
     "options": [
@@ -5062,7 +5062,7 @@
   {
     "id": "H0230",
     "band": 4,
-    "topic": "Robots con historia",
+    "topic": "Robótica",
     "family": "unimate",
     "prompt": "¿Qué pareja está asociada a la creación del robot industrial Unimate?",
     "options": [
@@ -5084,7 +5084,7 @@
   {
     "id": "H0231",
     "band": 2,
-    "topic": "Robots con historia",
+    "topic": "Robótica",
     "family": "unimate",
     "prompt": "Unimate fue un pionero de los robots industriales. ¿Cómo realizaba sus tareas?",
     "options": [
@@ -5106,7 +5106,7 @@
   {
     "id": "H0232",
     "band": 1,
-    "topic": "Robots con historia",
+    "topic": "Robótica",
     "family": "irobot-history",
     "prompt": "¿Qué tarea doméstica realizaba el Roomba que iRobot lanzó en 2002?",
     "options": [
@@ -5128,7 +5128,7 @@
   {
     "id": "H0233",
     "band": 4,
-    "topic": "Robots con historia",
+    "topic": "Robótica",
     "family": "irobot-history",
     "prompt": "¿Qué ingeniera cofundó iRobot con Colin Angle y Rodney Brooks en 1990?",
     "options": [
@@ -5150,7 +5150,7 @@
   {
     "id": "H0234",
     "band": 2,
-    "topic": "Robots con historia",
+    "topic": "Robótica",
     "family": "irobot-history",
     "prompt": "¿Para qué están diseñados los sensores de desnivel de un robot aspirador Roomba?",
     "options": [
@@ -5238,7 +5238,7 @@
   {
     "id": "H0238",
     "band": 5,
-    "topic": "Robots con historia",
+    "topic": "Robótica",
     "family": "stanford-arm",
     "prompt": "¿Quién diseñó el Stanford Arm de 1969?",
     "options": [
@@ -5260,7 +5260,7 @@
   {
     "id": "H0239",
     "band": 3,
-    "topic": "Robots con historia",
+    "topic": "Robótica",
     "family": "stanford-arm",
     "prompt": "¿Qué combinó el Stanford Arm para guiar un montaje automático de piezas?",
     "options": [
@@ -5282,7 +5282,7 @@
   {
     "id": "H0240",
     "band": 3,
-    "topic": "Robots con historia",
+    "topic": "Robótica",
     "family": "paro",
     "prompt": "¿Qué animal imita el robot de compañía PARO?",
     "options": [
@@ -5304,7 +5304,7 @@
   {
     "id": "H0241",
     "band": 2,
-    "topic": "Robots con historia",
+    "topic": "Robótica",
     "family": "paro",
     "prompt": "¿Para qué entornos se diseñó el robot de compañía PARO?",
     "options": [
@@ -5326,7 +5326,7 @@
   {
     "id": "H0242",
     "band": 4,
-    "topic": "Robots con historia",
+    "topic": "Robótica",
     "family": "paro",
     "prompt": "¿Qué institución japonesa desarrolló PARO?",
     "options": [
@@ -5348,7 +5348,7 @@
   {
     "id": "H0243",
     "band": 3,
-    "topic": "La IA compite",
+    "topic": "Historia de la IA",
     "family": "robocup",
     "prompt": "¿Qué robot humanoide se incorporó en 2008 a la liga de plataforma estándar de RoboCup?",
     "options": [
@@ -5372,7 +5372,7 @@
   {
     "id": "H0244",
     "band": 4,
-    "topic": "La IA compite",
+    "topic": "Historia de la IA",
     "family": "robocup",
     "prompt": "¿Qué robot utilizaba la liga de plataforma estándar de RoboCup antes de adoptar NAO?",
     "options": [
@@ -5394,7 +5394,7 @@
   {
     "id": "H0245",
     "band": 4,
-    "topic": "Robots con historia",
+    "topic": "Robótica",
     "family": "pepper",
     "prompt": "¿Qué dos empresas presentaron juntas a Pepper en junio de 2014?",
     "options": [
@@ -5416,7 +5416,7 @@
   {
     "id": "H0246",
     "band": 2,
-    "topic": "Robots con historia",
+    "topic": "Robótica",
     "family": "pepper",
     "prompt": "¿Qué podían hacer los visitantes de las tiendas de SoftBank con Pepper desde junio de 2014?",
     "options": [
@@ -5438,7 +5438,7 @@
   {
     "id": "H0247",
     "band": 3,
-    "topic": "Robots con historia",
+    "topic": "Robótica",
     "family": "beast",
     "prompt": "¿Qué hacía The Beast para recuperar energía cuando bajaba su carga?",
     "options": [
@@ -5460,7 +5460,7 @@
   {
     "id": "H0248",
     "band": 4,
-    "topic": "Robots con historia",
+    "topic": "Robótica",
     "family": "beast",
     "prompt": "¿Qué combinación de sensores incorporó Hopkins Beast Model II para percibir su entorno?",
     "options": [
@@ -5481,10 +5481,10 @@
   },
   {
     "id": "H0249",
-    "band": 2,
-    "topic": "Robots con historia",
+    "band": 1,
+    "topic": "Robótica",
     "family": "ingenuity",
-    "prompt": "¿En qué planeta voló de forma autónoma el helicóptero Ingenuity en abril de 2021?",
+    "prompt": "¿En qué planeta realizó sus vuelos el helicóptero robótico Ingenuity de la NASA?",
     "options": [
       "Marte",
       "Venus",
@@ -5493,18 +5493,18 @@
     ],
     "answer": 0,
     "hint": "Llegó junto al rover Perseverance.",
-    "explanation": "Su cámara de navegación seguía el terreno de manera autónoma durante el vuelo.",
+    "explanation": "Ingenuity realizó su primer vuelo en Marte el 19 de abril de 2021. Sus sistemas a bordo controlaban el vuelo de forma autónoma.",
     "source": "https://www.nasa.gov/news-release/nasas-ingenuity-mars-helicopter-succeeds-in-historic-first-flight/",
     "sourceTitle": "NASA: Ingenuity Succeeds in Historic First Flight",
     "sourceLocator": "Comunicado de 19-04-2021, primer vuelo y cámara de navegación",
-    "reviewedAt": "2026-09-19",
+    "reviewedAt": "2026-10-01",
     "factKey": "historia:ingenuity-world",
     "track": "historia"
   },
   {
     "id": "H0250",
     "band": 2,
-    "topic": "Robots con historia",
+    "topic": "Robótica",
     "family": "ingenuity",
     "prompt": "¿Qué tipo de vehículo era Ingenuity?",
     "options": [
@@ -5526,7 +5526,7 @@
   {
     "id": "H0251",
     "band": 2,
-    "topic": "Robots con historia",
+    "topic": "Robótica",
     "family": "ingenuity",
     "prompt": "Durante su primer vuelo en Marte, ¿quién controlaba los movimientos de Ingenuity?",
     "options": [
@@ -5548,7 +5548,7 @@
   {
     "id": "H0252",
     "band": 2,
-    "topic": "IA para la ciencia",
+    "topic": "Ciencia y medio ambiente",
     "family": "alphafold",
     "prompt": "¿Qué permite predecir AlphaFold a partir de información sobre proteínas?",
     "options": [
@@ -5570,7 +5570,7 @@
   {
     "id": "H0253",
     "band": 3,
-    "topic": "IA para la ciencia",
+    "topic": "Ciencia y medio ambiente",
     "family": "alphafold",
     "prompt": "¿Cómo se evaluaron en CASP14 las predicciones de AlphaFold 2?",
     "options": [
@@ -5592,7 +5592,7 @@
   {
     "id": "H0254",
     "band": 4,
-    "topic": "IA para la ciencia",
+    "topic": "Ciencia y medio ambiente",
     "family": "alphafold",
     "prompt": "¿Con qué institución europea lanzó DeepMind la base de estructuras AlphaFold en 2021?",
     "options": [
@@ -5614,7 +5614,7 @@
   {
     "id": "H0255",
     "band": 3,
-    "topic": "IA para la ciencia",
+    "topic": "Ciencia y medio ambiente",
     "family": "alphafold",
     "prompt": "¿Qué permite interpretar el código de colores que AlphaFold usa para mostrar sus estructuras predichas?",
     "options": [
@@ -5636,7 +5636,7 @@
   {
     "id": "H0256",
     "band": 3,
-    "topic": "IA para la ciencia",
+    "topic": "Ciencia y medio ambiente",
     "family": "alphageometry",
     "prompt": "¿Qué sistema presentado por DeepMind en 2024 resolvía problemas de geometría de olimpiadas?",
     "options": [
@@ -5658,7 +5658,7 @@
   {
     "id": "H0257",
     "band": 3,
-    "topic": "IA para la ciencia",
+    "topic": "Ciencia y medio ambiente",
     "family": "alphageometry",
     "prompt": "¿Qué resolvió AlphaGeometry en la evaluación presentada en 2024?",
     "options": [
@@ -5680,7 +5680,7 @@
   {
     "id": "H0258",
     "band": 3,
-    "topic": "IA para la ciencia",
+    "topic": "Ciencia y medio ambiente",
     "family": "alphageometry",
     "prompt": "¿Qué tipo de ejemplos generó el equipo para entrenar AlphaGeometry?",
     "options": [
@@ -5702,7 +5702,7 @@
   {
     "id": "H0259",
     "band": 3,
-    "topic": "IA para la ciencia",
+    "topic": "Ciencia y medio ambiente",
     "family": "alphadev",
     "prompt": "¿Qué tarea informática mejoró AlphaDev en el anuncio de junio de 2023?",
     "options": [
@@ -5724,7 +5724,7 @@
   {
     "id": "H0260",
     "band": 3,
-    "topic": "IA para la ciencia",
+    "topic": "Ciencia y medio ambiente",
     "family": "alphadev",
     "prompt": "¿Qué hizo el equipo de AlphaDev con algoritmos de ordenación descubiertos por el sistema?",
     "options": [
@@ -5746,7 +5746,7 @@
   {
     "id": "H0261",
     "band": 3,
-    "topic": "IA para la ciencia",
+    "topic": "Ciencia y medio ambiente",
     "family": "alphamissense",
     "prompt": "¿Qué estudia AlphaMissense, presentado en 2023?",
     "options": [
@@ -5768,7 +5768,7 @@
   {
     "id": "H0262",
     "band": 4,
-    "topic": "IA para la ciencia",
+    "topic": "Ciencia y medio ambiente",
     "family": "alphamissense",
     "prompt": "¿De qué sistema partió el desarrollo de AlphaMissense?",
     "options": [
@@ -5790,51 +5790,51 @@
   {
     "id": "H0263",
     "band": 4,
-    "topic": "La IA compite",
+    "topic": "Historia de la IA",
     "family": "muzero",
-    "prompt": "¿Qué distinguía a MuZero al aprender juegos, según su presentación de 2020?",
+    "prompt": "¿Qué distinguía a MuZero al aprender juegos?",
     "options": [
-      "Solo podía jugar con cartas físicas",
-      "Requería memorizar todas las partidas posibles",
-      "No necesitaba recibir de antemano las reglas del entorno",
-      "Necesitaba que un humano eligiera cada jugada"
+      "Necesitaba un simulador exacto de las reglas escrito a mano",
+      "Aprendía a imitar las partidas grabadas de grandes maestros",
+      "No necesitaba un modelo de las reglas proporcionado de antemano",
+      "Decidía cada jugada a partir de los consejos de un tutor humano"
     ],
     "answer": 2,
-    "hint": "Aprendía aspectos del entorno útiles para planificar.",
-    "explanation": "MuZero se evaluó en go, ajedrez, shogi y videojuegos de Atari.",
+    "hint": "Aprendía de la experiencia qué información era útil para anticipar acciones.",
+    "explanation": "MuZero aprendía un modelo del entorno orientado a planificar. Se evaluó en go, ajedrez, shogi y Atari sin necesitar un modelo de las reglas proporcionado de antemano.",
     "source": "https://deepmind.google/blog/muzero-mastering-go-chess-shogi-and-atari-without-rules/",
     "sourceTitle": "Google DeepMind: MuZero",
-    "sourceLocator": "Anuncio de 23-12-2020, párrafos iniciales",
-    "reviewedAt": "2026-09-19",
+    "sourceLocator": "Introducción y Generalising to unknown models",
+    "reviewedAt": "2026-10-01",
     "factKey": "historia:muzero-distinction",
     "track": "historia"
   },
   {
     "id": "H0264",
-    "band": 3,
-    "topic": "La IA compite",
+    "band": 4,
+    "topic": "Historia de la IA",
     "family": "muzero",
     "prompt": "¿Qué aprendía a representar MuZero para decidir sus jugadas?",
     "options": [
       "Aspectos útiles para planificar las acciones",
-      "Una reproducción visual de todos los detalles",
-      "Solo las preferencias declaradas por los jugadores",
-      "Únicamente los nombres de movimientos legales"
+      "Una reproducción visual detallada del entorno",
+      "Un catálogo de preferencias expresadas por los jugadores",
+      "Una traducción verbal de los nombres de cada movimiento"
     ],
     "answer": 0,
     "hint": "El modelo se orientaba a elegir acciones y anticipar sus consecuencias.",
     "explanation": "MuZero aprendía un modelo orientado a elegir acciones y anticipar resultados. No necesitaba reproducir todos los detalles del entorno.",
     "source": "https://deepmind.google/blog/muzero-mastering-go-chess-shogi-and-atari-without-rules/",
     "sourceTitle": "Google DeepMind: MuZero — Mastering Go, chess, shogi and Atari without rules",
-    "sourceLocator": "A general and powerful learning algorithm",
-    "reviewedAt": "2026-09-20",
+    "sourceLocator": "Generalising to unknown models: value, policy y reward",
+    "reviewedAt": "2026-10-01",
     "factKey": "historia:muzero-planning-relevant-model",
     "track": "historia"
   },
   {
     "id": "H0265",
     "band": 3,
-    "topic": "La IA compite",
+    "topic": "Historia de la IA",
     "family": "agent57",
     "prompt": "¿De qué consola procedían los videojuegos de la prueba utilizada para Agent57?",
     "options": [
@@ -5856,7 +5856,7 @@
   {
     "id": "H0266",
     "band": 3,
-    "topic": "La IA compite",
+    "topic": "Historia de la IA",
     "family": "agent57",
     "prompt": "¿Qué referencia dijo superar Agent57 en cada juego en el anuncio de marzo de 2020?",
     "options": [
@@ -5878,7 +5878,7 @@
   {
     "id": "H0267",
     "band": 3,
-    "topic": "Libros sobre IA",
+    "topic": "Cultura y ficción",
     "family": "life30",
     "prompt": "¿Quién escribió «Life 3.0», sobre posibles futuros de la inteligencia artificial?",
     "options": [
@@ -5900,7 +5900,7 @@
   {
     "id": "H0268",
     "band": 3,
-    "topic": "Libros sobre IA",
+    "topic": "Cultura y ficción",
     "family": "life30",
     "prompt": "¿En qué disciplina es profesor Max Tegmark, autor de «Life 3.0»?",
     "options": [
@@ -5922,7 +5922,7 @@
   {
     "id": "H0269",
     "band": 3,
-    "topic": "Libros sobre IA",
+    "topic": "Cultura y ficción",
     "family": "bostrom-book",
     "prompt": "¿Quién escribió «Superintelligence: Paths, Dangers, Strategies»?",
     "options": [
@@ -5944,29 +5944,29 @@
   {
     "id": "H0270",
     "band": 3,
-    "topic": "Libros sobre IA",
+    "topic": "Cultura y ficción",
     "family": "bostrom-book",
     "prompt": "¿Qué problema ilustra Bostrom con su experimento mental de una IA dedicada a fabricar clips?",
     "options": [
       "Perseguir un objetivo sin respetar los intereses humanos",
-      "Confundir una fotografía con una grabación de sonido",
-      "Agotar una batería por un fallo en el cargador",
-      "Perder archivos por una interrupción de la red"
+      "Copiar prejuicios sociales de los ejemplos de entrenamiento",
+      "Confundir el significado de una palabra por su doble sentido",
+      "Priorizar las peticiones más recientes sobre las anteriores"
     ],
     "answer": 0,
     "hint": "El sistema cumple una finalidad muy estrecha sin tener en cuenta sus consecuencias.",
     "explanation": "Bostrom imagina un sistema que persigue su objetivo de producir clips de una forma incompatible con intereses humanos. Es un experimento mental, no un suceso real ni una predicción confirmada.",
-    "source": "https://blog.oup.com/2014/09/interview-nick-bostrom-superintelligence/",
-    "sourceTitle": "Oxford University Press: An interview with Nick Bostrom",
-    "sourceLocator": "Experimento mental de la fábrica de clips",
-    "reviewedAt": "2026-09-19",
+    "source": "https://nickbostrom.com/papers/ethical-issues-in-advanced-ai/",
+    "sourceTitle": "Nick Bostrom: Ethical Issues in Advanced Artificial Intelligence",
+    "sourceLocator": "Apartado 2, Artificial intellects need not have humanlike motives, y apartado 4",
+    "reviewedAt": "2026-10-01",
     "factKey": "historia:bostrom-paperclip-purpose",
     "track": "historia"
   },
   {
     "id": "H0271",
     "band": 4,
-    "topic": "Libros sobre IA",
+    "topic": "Cultura y ficción",
     "family": "weapons-math",
     "prompt": "¿Quién escribió «Weapons of Math Destruction», conocido en español como «Armas de destrucción matemática»?",
     "options": [
@@ -5988,29 +5988,29 @@
   {
     "id": "H0272",
     "band": 3,
-    "topic": "Libros sobre IA",
+    "topic": "Cultura y ficción",
     "family": "weapons-math",
     "prompt": "¿Qué denuncia Cathy O’Neil en «Armas de destrucción matemática»?",
     "options": [
       "Que ciertos modelos opacos pueden amplificar discriminaciones",
-      "Que cuantos más datos use un modelo, más justo será siempre",
-      "Que la automatización elimina cualquier decisión de valor",
-      "Que la responsabilidad debe delegarse por completo en los programas"
+      "Que el principal problema de los modelos es su consumo eléctrico",
+      "Que las patentes matemáticas frenan el avance de los algoritmos",
+      "Que escasean los datos sobre movimientos de los mercados"
     ],
     "answer": 0,
     "hint": "La autora analiza usos de modelos en decisiones que afectan a las personas.",
     "explanation": "O’Neil examina usos de modelos en decisiones sobre empleo, crédito o educación y sostiene que algunos pueden reforzar discriminaciones. Se trata de la tesis de su libro.",
-    "source": "https://www.penguinrandomhouse.com/books/241363/weapons-of-math-destruction-by-cathy-oneil/",
-    "sourceTitle": "Penguin Random House: Weapons of Math Destruction — Cathy O’Neil",
-    "sourceLocator": "Descripción editorial de la tesis del libro",
-    "reviewedAt": "2026-09-19",
+    "source": "https://www.penguin.co.uk/books/304513/weapons-of-math-destruction-by-oneil-cathy/9780241608326",
+    "sourceTitle": "Penguin: Weapons of Math Destruction — Cathy O’Neil",
+    "sourceLocator": "Sinopsis: opacidad, discriminación y decisiones sobre educación, crédito y empleo",
+    "reviewedAt": "2026-10-01",
     "factKey": "historia:oneil-attributed-book-thesis",
     "track": "historia"
   },
   {
     "id": "H0273",
     "band": 4,
-    "topic": "Libros sobre IA",
+    "topic": "Cultura y ficción",
     "family": "buolamwini",
     "prompt": "¿Qué investigadora publicó «Unmasking AI» en 2023?",
     "options": [
@@ -6032,7 +6032,7 @@
   {
     "id": "H0274",
     "band": 3,
-    "topic": "Libros sobre IA",
+    "topic": "Cultura y ficción",
     "family": "buolamwini",
     "prompt": "¿De quién es la investigación del MIT sobre reconocimiento facial que aparece en el documental «Coded Bias»?",
     "options": [
@@ -6054,7 +6054,7 @@
   {
     "id": "H0275",
     "band": 3,
-    "topic": "Libros sobre IA",
+    "topic": "Cultura y ficción",
     "family": "mollick-book",
     "prompt": "¿Quién escribió «Co-Intelligence», publicado en 2024?",
     "options": [
@@ -6076,7 +6076,7 @@
   {
     "id": "H0276",
     "band": 3,
-    "topic": "Libros sobre IA",
+    "topic": "Cultura y ficción",
     "family": "mollick-book",
     "prompt": "¿Cómo se llama la newsletter de Ethan Mollick mencionada en la presentación de «Co-Intelligence»?",
     "options": [
@@ -6098,7 +6098,7 @@
   {
     "id": "H0277",
     "band": 4,
-    "topic": "Libros sobre IA",
+    "topic": "Cultura y ficción",
     "family": "coming-wave",
     "prompt": "¿Quién firma «The Coming Wave» junto con Michael Bhaskar?",
     "options": [
@@ -6120,7 +6120,7 @@
   {
     "id": "H0278",
     "band": 5,
-    "topic": "Libros sobre IA",
+    "topic": "Cultura y ficción",
     "family": "ai-snake-oil",
     "prompt": "¿Qué pareja escribió «AI Snake Oil», anunciado en 2024?",
     "options": [
@@ -6142,7 +6142,7 @@
   {
     "id": "H0279",
     "band": 5,
-    "topic": "Libros sobre IA",
+    "topic": "Cultura y ficción",
     "family": "nilsson-book",
     "prompt": "¿Quién escribió «The Quest for Artificial Intelligence: A History of Ideas and Achievements»?",
     "options": [
@@ -6166,7 +6166,7 @@
   {
     "id": "H0280",
     "band": 4,
-    "topic": "Libros sobre IA",
+    "topic": "Cultura y ficción",
     "family": "supremacy-book",
     "prompt": "¿Qué periodista escribió «Supremacy», sobre la carrera empresarial por la IA?",
     "options": [
@@ -6188,7 +6188,7 @@
   {
     "id": "H0281",
     "band": 4,
-    "topic": "Libros sobre IA",
+    "topic": "Cultura y ficción",
     "family": "empire-ai-book",
     "prompt": "¿Quién escribió «Empire of AI», publicado originalmente en 2025?",
     "options": [
@@ -6210,7 +6210,7 @@
   {
     "id": "H0282",
     "band": 5,
-    "topic": "Libros sobre IA",
+    "topic": "Cultura y ficción",
     "family": "master-algorithm",
     "prompt": "¿Quién es el autor de «The Master Algorithm»?",
     "options": [
@@ -6232,7 +6232,7 @@
   {
     "id": "H0283",
     "band": 5,
-    "topic": "Libros sobre IA",
+    "topic": "Cultura y ficción",
     "family": "rebooting-ai",
     "prompt": "¿Qué pareja escribió «Rebooting AI»?",
     "options": [
@@ -6254,7 +6254,7 @@
   {
     "id": "H0284",
     "band": 3,
-    "topic": "IA en la ficción",
+    "topic": "Cultura y ficción",
     "family": "rur",
     "prompt": "¿Quién escribió «R.U.R.», la obra que popularizó la palabra robot?",
     "options": [
@@ -6276,7 +6276,7 @@
   {
     "id": "H0285",
     "band": 3,
-    "topic": "IA en la ficción",
+    "topic": "Cultura y ficción",
     "family": "rur",
     "prompt": "¿Qué tipo de obra era originalmente «R.U.R.»?",
     "options": [
@@ -6298,7 +6298,7 @@
   {
     "id": "H0286",
     "band": 3,
-    "topic": "IA en la ficción",
+    "topic": "Cultura y ficción",
     "family": "rur",
     "prompt": "La palabra «robot» procede del checo «robota». ¿Con qué idea se relaciona su origen?",
     "options": [
@@ -6320,7 +6320,7 @@
   {
     "id": "H0287",
     "band": 4,
-    "topic": "Robots con historia",
+    "topic": "Robótica",
     "family": "eric-robot",
     "prompt": "¿En qué década se construyó el robot británico Eric, reconstruido después por el Science Museum?",
     "options": [
@@ -6342,7 +6342,7 @@
   {
     "id": "H0288",
     "band": 1,
-    "topic": "IA en la ficción",
+    "topic": "Cultura y ficción",
     "family": "asimov-laws",
     "prompt": "¿Quién escribió la colección de relatos «Yo, robot»?",
     "options": [
@@ -6364,7 +6364,7 @@
   {
     "id": "H0289",
     "band": 2,
-    "topic": "IA en la ficción",
+    "topic": "Cultura y ficción",
     "family": "asimov-laws",
     "prompt": "En las leyes ficticias de Asimov, ¿qué tiene prioridad sobre obedecer una orden humana?",
     "options": [
@@ -6386,7 +6386,7 @@
   {
     "id": "H0290",
     "band": 3,
-    "topic": "IA en la ficción",
+    "topic": "Cultura y ficción",
     "family": "asimov-laws",
     "prompt": "¿Qué protege la tercera de las leyes ficticias de Asimov, subordinada a las dos primeras?",
     "options": [
@@ -6407,8 +6407,8 @@
   },
   {
     "id": "H0291",
-    "band": 2,
-    "topic": "IA en la ficción",
+    "band": 1,
+    "topic": "Cultura y ficción",
     "family": "blade-runner",
     "prompt": "¿Cómo se llama a los seres humanos artificiales perseguidos en «Blade Runner»?",
     "options": [
@@ -6423,14 +6423,14 @@
     "source": "https://www.bfi.org.uk/film/ec064a2a-f7a8-536a-afa2-ed076aad151f/blade-runner",
     "sourceTitle": "BFI: Blade Runner (1982)",
     "sourceLocator": "Ficha y sinopsis",
-    "reviewedAt": "2026-09-19",
+    "reviewedAt": "2026-10-01",
     "factKey": "historia:blade-runner-replicants",
     "track": "historia"
   },
   {
     "id": "H0292",
     "band": 2,
-    "topic": "IA en la ficción",
+    "topic": "Cultura y ficción",
     "family": "blade-runner",
     "prompt": "¿Quién dirigió «Blade Runner», estrenada en 1982?",
     "options": [
@@ -6452,7 +6452,7 @@
   {
     "id": "H0293",
     "band": 3,
-    "topic": "IA en la ficción",
+    "topic": "Cultura y ficción",
     "family": "blade-runner",
     "prompt": "¿Qué novela de Philip K. Dick inspiró «Blade Runner»?",
     "options": [
@@ -6474,7 +6474,7 @@
   {
     "id": "H0294",
     "band": 3,
-    "topic": "IA en la ficción",
+    "topic": "Cultura y ficción",
     "family": "metropolis",
     "prompt": "¿Quién dirigió «Metropolis», película de 1927 con una célebre figura robótica?",
     "options": [
@@ -6496,7 +6496,7 @@
   {
     "id": "H0295",
     "band": 5,
-    "topic": "IA en la ficción",
+    "topic": "Cultura y ficción",
     "family": "metropolis",
     "prompt": "¿Qué actriz interpretó a María y a su doble robótico en «Metropolis»?",
     "options": [
@@ -6518,7 +6518,7 @@
   {
     "id": "H0296",
     "band": 3,
-    "topic": "IA en la ficción",
+    "topic": "Cultura y ficción",
     "family": "metropolis",
     "prompt": "En «Metrópolis», ¿para qué se da al robot la apariencia de María?",
     "options": [
@@ -6539,8 +6539,8 @@
   },
   {
     "id": "H0297",
-    "band": 2,
-    "topic": "IA en la ficción",
+    "band": 1,
+    "topic": "Cultura y ficción",
     "family": "data-star-trek",
     "prompt": "¿En qué saga aparece el androide Data?",
     "options": [
@@ -6555,14 +6555,14 @@
     "source": "https://www.startrek.com/news/android-ancestry-soong-type-data-lore",
     "sourceTitle": "StarTrek.com: Android Ancestry",
     "sourceLocator": "Apartados introductorios, Data, Lore y Lal",
-    "reviewedAt": "2026-09-19",
+    "reviewedAt": "2026-10-01",
     "factKey": "historia:data-series",
     "track": "historia"
   },
   {
     "id": "H0298",
     "band": 3,
-    "topic": "IA en la ficción",
+    "topic": "Cultura y ficción",
     "family": "data-star-trek",
     "prompt": "¿Qué actor interpretó al androide Data?",
     "options": [
@@ -6584,7 +6584,7 @@
   {
     "id": "H0299",
     "band": 4,
-    "topic": "IA en la ficción",
+    "topic": "Cultura y ficción",
     "family": "data-star-trek",
     "prompt": "En «Star Trek», ¿qué poseía Lore que Data inicialmente no tenía?",
     "options": [
@@ -6606,7 +6606,7 @@
   {
     "id": "H0300",
     "band": 4,
-    "topic": "IA en la ficción",
+    "topic": "Cultura y ficción",
     "family": "data-star-trek",
     "prompt": "En «Star Trek», ¿qué permitió Data elegir a Lal, el androide que había creado?",
     "options": [
@@ -6628,7 +6628,7 @@
   {
     "id": "H0301",
     "band": 1,
-    "topic": "IA en la ficción",
+    "topic": "Cultura y ficción",
     "family": "matrix",
     "prompt": "¿Quién interpreta a Neo en «Matrix», la película de 1999?",
     "options": [
@@ -6650,7 +6650,7 @@
   {
     "id": "H0302",
     "band": 2,
-    "topic": "IA en la ficción",
+    "topic": "Cultura y ficción",
     "family": "matrix",
     "prompt": "¿Quién dirigió «Matrix» en 1999?",
     "options": [
@@ -6672,7 +6672,7 @@
   {
     "id": "H0303",
     "band": 3,
-    "topic": "IA en la ficción",
+    "topic": "Cultura y ficción",
     "family": "matrix",
     "prompt": "¿Qué actor interpreta al agente Smith en la primera «Matrix»?",
     "options": [
@@ -6694,7 +6694,7 @@
   {
     "id": "H0304",
     "band": 3,
-    "topic": "IA en la ficción",
+    "topic": "Cultura y ficción",
     "family": "hitchhiker",
     "prompt": "¿En qué obra aparece Marvin, el robot de personalidad pesimista?",
     "options": [
@@ -6716,7 +6716,7 @@
   {
     "id": "H0305",
     "band": 3,
-    "topic": "IA en la ficción",
+    "topic": "Cultura y ficción",
     "family": "hitchhiker",
     "prompt": "¿Quién creó el universo de la «Guía del autoestopista galáctico», donde aparece Marvin?",
     "options": [
@@ -6849,24 +6849,24 @@
   },
   {
     "id": "H0311",
-    "band": 4,
+    "band": 3,
     "topic": "Historia de la IA",
     "family": "wiener-cybernetics",
-    "prompt": "¿De qué año es la edición original de «Cybernetics» de Wiener?",
+    "prompt": "¿Qué idea ocupa un lugar central en la cibernética de Norbert Wiener?",
     "options": [
-      "1968",
-      "1988",
-      "1948",
-      "1928"
+      "El cifrado para mantener secretos los mensajes",
+      "La compresión para reducir el espacio de los datos",
+      "La retroalimentación entre un sistema y los efectos de su actividad",
+      "La traducción entre distintos lenguajes de programación"
     ],
     "answer": 2,
-    "hint": "La obra es anterior a la reunión de Dartmouth que dio nombre al campo de la IA.",
-    "explanation": "MIT Press distingue expresamente la edición original de 1948.",
-    "source": "https://direct.mit.edu/books/oa-monograph/4581/chapter/204488/Original-Edition-1948",
-    "sourceTitle": "MIT Press: Cybernetics — Original Edition (1948)",
-    "sourceLocator": "Créditos de autoría y título de la edición original",
-    "reviewedAt": "2026-09-19",
-    "factKey": "historia:wiener-first-year",
+    "hint": "La información no circula en una sola dirección: vuelve al sistema.",
+    "explanation": "Wiener estudió la comunicación y el control en sistemas con retroalimentación. Su libro «Cybernetics», publicado en 1948, relacionó estas ideas con máquinas y seres vivos.",
+    "source": "https://mitpress.mit.edu/9780262537841/cybernetics-or-control-and-communication-in-the-animal-and-the-machine/",
+    "sourceTitle": "MIT Press: Cybernetics or Control and Communication in the Animal and the Machine",
+    "sourceLocator": "Description: sistemas con bucles de feedback y mensaje-respuesta",
+    "reviewedAt": "2026-10-01",
+    "factKey": "historia:wiener-cybernetics-feedback",
     "track": "historia"
   },
   {
@@ -6915,24 +6915,24 @@
   },
   {
     "id": "H0314",
-    "band": 4,
+    "band": 3,
     "topic": "Historia de la IA",
     "family": "audrey",
-    "prompt": "¿En qué año sitúa el Computer History Museum la creación de AUDREY?",
+    "prompt": "¿Qué limitación tenía AUDREY, uno de los primeros sistemas de reconocimiento de voz?",
     "options": [
-      "1992",
-      "1952",
-      "1932",
-      "1972"
+      "Reconocía palabras escritas, pero no pronunciadas",
+      "Su reconocimiento de dígitos dependía de la voz de su inventor",
+      "Reconocía varias lenguas, pero confundía los nombres propios",
+      "Transcribía conversaciones, pero no podía reconocer números"
     ],
     "answer": 1,
-    "hint": "La demostración es una de las primeras referencias de reconocimiento automático de voz.",
-    "explanation": "La máquina reconocía un pequeño vocabulario de dígitos hablados.",
+    "hint": "Reconocer una voz conocida no equivale a reconocer las de personas distintas.",
+    "explanation": "La demostración de AUDREY de 1952 reconocía los dígitos del cero al nueve cuando los pronunciaba su inventor. Ilustra lo limitado que era aún el reconocimiento de voz.",
     "source": "https://computerhistory.org/blog/audrey-alexa-hal-and-more/",
     "sourceTitle": "Computer History Museum: Audrey, Alexa, HAL, and More",
-    "sourceLocator": "The First Round: Template Matching and Knowledge-based AI",
-    "reviewedAt": "2026-09-19",
-    "factKey": "historia:audrey-year",
+    "sourceLocator": "The First Round: Template Matching and Knowledge-based AI, primer párrafo",
+    "reviewedAt": "2026-10-01",
+    "factKey": "historia:audrey-speaker-dependence",
     "track": "historia"
   },
   {
@@ -6984,7 +6984,7 @@
   {
     "id": "H0317",
     "band": 2,
-    "topic": "La IA compite",
+    "topic": "Historia de la IA",
     "family": "watson-jeopardy",
     "prompt": "¿Qué empresa creó Watson, el sistema que ganó el concurso «Jeopardy!» en 2011?",
     "options": [
@@ -7118,20 +7118,20 @@
     "band": 3,
     "topic": "Historia de la IA",
     "family": "mycin",
-    "prompt": "¿Qué tipo de infecciones se citan como objeto del sistema histórico MYCIN?",
+    "prompt": "¿Sobre qué tipo de infecciones asesoraba el sistema histórico MYCIN?",
     "options": [
-      "Parasitarias exclusivamente",
-      "Causadas únicamente por priones",
+      "Parasitarias",
+      "Causadas por priones",
       "Bacterianas",
-      "Víricas exclusivamente"
+      "Víricas"
     ],
     "answer": 2,
     "hint": "El sistema apoyaba decisiones sobre ciertos tratamientos contra infecciones.",
-    "explanation": "McCarthy describe MYCIN como un programa de asesoramiento sobre estas infecciones.",
+    "explanation": "MYCIN asesoraba a médicos sobre infecciones bacterianas de la sangre y meningitis, y recomendaba antibióticos. Fue un sistema experto experimental, no un sustituto de la atención médica.",
     "source": "https://www-formal.stanford.edu/jmc/someneed/someneed.html",
     "sourceTitle": "John McCarthy: Some Expert Systems Need Common Sense",
     "sourceLocator": "Descripción de MYCIN y de su diálogo con el usuario",
-    "reviewedAt": "2026-09-19",
+    "reviewedAt": "2026-10-01",
     "factKey": "historia:mycin-infections",
     "track": "historia"
   },
@@ -7160,7 +7160,7 @@
   {
     "id": "H0325",
     "band": 4,
-    "topic": "IA para la ciencia",
+    "topic": "Ciencia y medio ambiente",
     "family": "remote-agent",
     "prompt": "¿Qué sonda participó en el experimento de IA Remote Agent de 1999?",
     "options": [
@@ -7182,7 +7182,7 @@
   {
     "id": "H0326",
     "band": 3,
-    "topic": "IA para la ciencia",
+    "topic": "Ciencia y medio ambiente",
     "family": "remote-agent",
     "prompt": "¿Cómo probaron los científicos si Remote Agent respondía a problemas durante su experimento espacial?",
     "options": [
@@ -7204,7 +7204,7 @@
   {
     "id": "H0327",
     "band": 3,
-    "topic": "IA para la ciencia",
+    "topic": "Ciencia y medio ambiente",
     "family": "remote-agent",
     "prompt": "Además de dar órdenes a la nave, ¿qué capacidad probó Remote Agent?",
     "options": [
@@ -7225,8 +7225,8 @@
   },
   {
     "id": "H0328",
-    "band": 2,
-    "topic": "Robots con historia",
+    "band": 1,
+    "topic": "Robótica",
     "family": "boston-robots",
     "prompt": "¿Qué tipo de robot es Atlas, de Boston Dynamics?",
     "options": [
@@ -7241,14 +7241,14 @@
     "source": "https://bostondynamics.com/about/",
     "sourceTitle": "Boston Dynamics: About Us",
     "sourceLocator": "Robots working in the real world y cronología 1992–2024",
-    "reviewedAt": "2026-09-19",
+    "reviewedAt": "2026-10-01",
     "factKey": "historia:atlas-shape",
     "track": "historia"
   },
   {
     "id": "H0329",
     "band": 2,
-    "topic": "Robots con historia",
+    "topic": "Robótica",
     "family": "boston-robots",
     "prompt": "¿Para qué ofrece Boston Dynamics su robot móvil Spot en entornos industriales?",
     "options": [
@@ -7270,7 +7270,7 @@
   {
     "id": "H0330",
     "band": 3,
-    "topic": "Robots con historia",
+    "topic": "Robótica",
     "family": "boston-robots",
     "prompt": "¿Para qué entorno de trabajo se presentó Stretch en 2021?",
     "options": [
@@ -7292,7 +7292,7 @@
   {
     "id": "H0331",
     "band": 4,
-    "topic": "Robots con historia",
+    "topic": "Robótica",
     "family": "boston-robots",
     "prompt": "¿Qué investigador fundó Boston Dynamics en 1992 a partir del entorno del MIT Leg Lab?",
     "options": [
@@ -7314,7 +7314,7 @@
   {
     "id": "H0332",
     "band": 3,
-    "topic": "IA y creación artística",
+    "topic": "Cultura y ficción",
     "family": "emily-howell",
     "prompt": "¿Qué creaba el programa Emily Howell de David Cope?",
     "options": [
@@ -7336,7 +7336,7 @@
   {
     "id": "H0333",
     "band": 4,
-    "topic": "IA y creación artística",
+    "topic": "Cultura y ficción",
     "family": "emily-howell",
     "prompt": "¿Quién creó el programa de composición musical Emily Howell?",
     "options": [
@@ -7358,7 +7358,7 @@
   {
     "id": "H0334",
     "band": 4,
-    "topic": "IA y creación artística",
+    "topic": "Cultura y ficción",
     "family": "film-2001",
     "prompt": "¿Qué canción interpretada por un ordenador en Bell Labs inspiró una escena de HAL en «2001»?",
     "options": [
@@ -7446,7 +7446,7 @@
   {
     "id": "H0338",
     "band": 2,
-    "topic": "Robots con historia",
+    "topic": "Robótica",
     "family": "sojourner",
     "prompt": "¿Qué planeta recorrió el pequeño rover Sojourner en 1997?",
     "options": [
@@ -7468,7 +7468,7 @@
   {
     "id": "H0339",
     "band": 2,
-    "topic": "Robots con historia",
+    "topic": "Robótica",
     "family": "ingenuity",
     "prompt": "¿Por qué la gran distancia entre la Tierra y Marte favorece que un robot como Ingenuity actúe de forma autónoma?",
     "options": [
@@ -7490,7 +7490,7 @@
   {
     "id": "H0340",
     "band": 3,
-    "topic": "Robots con historia",
+    "topic": "Robótica",
     "family": "curiosity-aegis",
     "prompt": "Desde 2016, ¿qué permite hacer AEGIS al rover Curiosity en Marte?",
     "options": [
@@ -7512,7 +7512,7 @@
   {
     "id": "H0341",
     "band": 3,
-    "topic": "Robots con historia",
+    "topic": "Robótica",
     "family": "dart-smart-nav",
     "prompt": "¿Qué tarea hizo SMART Nav en la misión DART de la NASA?",
     "options": [
@@ -7534,7 +7534,7 @@
   {
     "id": "H0342",
     "band": 2,
-    "topic": "IA en la ficción",
+    "topic": "Cultura y ficción",
     "family": "astro-boy",
     "prompt": "¿Qué es Astro Boy en las historias de Osamu Tezuka?",
     "options": [
@@ -7556,7 +7556,7 @@
   {
     "id": "H0343",
     "band": 3,
-    "topic": "IA en la ficción",
+    "topic": "Cultura y ficción",
     "family": "astro-boy",
     "prompt": "¿Qué autor creó a Astro Boy?",
     "options": [
@@ -7578,7 +7578,7 @@
   {
     "id": "H0344",
     "band": 3,
-    "topic": "IA en la ficción",
+    "topic": "Cultura y ficción",
     "family": "astro-boy",
     "prompt": "En las historias de «Astro Boy», ¿qué motivo provoca que algunos humanos discriminen al protagonista?",
     "options": [
@@ -7600,7 +7600,7 @@
   {
     "id": "H0345",
     "band": 3,
-    "topic": "IA en la ficción",
+    "topic": "Cultura y ficción",
     "family": "iron-giant",
     "prompt": "¿Quién dirigió «El gigante de hierro», la película de animación de 1999?",
     "options": [
@@ -7622,7 +7622,7 @@
   {
     "id": "H0346",
     "band": 2,
-    "topic": "IA en la ficción",
+    "topic": "Cultura y ficción",
     "family": "interstellar",
     "prompt": "¿En qué película de Christopher Nolan aparecen TARS y CASE?",
     "options": [
@@ -7644,7 +7644,7 @@
   {
     "id": "H0347",
     "band": 4,
-    "topic": "IA en la ficción",
+    "topic": "Cultura y ficción",
     "family": "i-robot-film",
     "prompt": "¿Quién dirigió la película «Yo, robot» estrenada en 2004?",
     "options": [
@@ -7666,7 +7666,7 @@
   {
     "id": "H0348",
     "band": 3,
-    "topic": "IA en la ficción",
+    "topic": "Cultura y ficción",
     "family": "klara-sun",
     "prompt": "¿Quién escribió la novela «Klara y el Sol»?",
     "options": [
@@ -7688,29 +7688,29 @@
   {
     "id": "H0349",
     "band": 2,
-    "topic": "IA en la ficción",
+    "topic": "Cultura y ficción",
     "family": "klara-sun",
-    "prompt": "¿Cómo se presenta a Klara en la novela «Klara y el Sol»?",
+    "prompt": "¿Qué papel tiene Klara en «Klara y el Sol»?",
     "options": [
-      "Como una amiga artificial",
-      "Como una médica humana",
-      "Como una exploradora extraterrestre",
-      "Como una mascota biológica"
+      "Una amiga artificial de compañía",
+      "Una profesora virtual de una escuela",
+      "Una asistente robótica de cirugía",
+      "Una piloto automática de transporte"
     ],
     "answer": 0,
     "hint": "Al principio observa a las personas desde una tienda.",
-    "explanation": "Espera que un cliente la elija y la lleve consigo.",
+    "explanation": "Klara es una «amiga artificial». Al comienzo observa a las personas desde una tienda y espera que alguien la elija para llevarla consigo.",
     "source": "https://www.penguinrandomhouse.com/books/782038/klara-and-the-sun-movie-tie-in-a-gma-book-club-pick-by-kazuo-ishiguro/",
     "sourceTitle": "Penguin Random House: Klara and the Sun",
     "sourceLocator": "Autoría y sinopsis de la novela",
-    "reviewedAt": "2026-09-19",
+    "reviewedAt": "2026-10-01",
     "factKey": "historia:klara-role",
     "track": "historia"
   },
   {
     "id": "H0350",
     "band": 4,
-    "topic": "IA en la ficción",
+    "topic": "Cultura y ficción",
     "family": "machines-like-me",
     "prompt": "¿Quién escribió «Máquinas como yo», una novela con un humano sintético llamado Adam?",
     "options": [
