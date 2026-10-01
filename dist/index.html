@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#9D2235">
+  <title>El reto estrategIA · ¿Cuánto sabes de IA?</title>
+  <meta name="description" content="Cultura general sobre inteligencia artificial. Quince preguntas de dificultad creciente, tres comodines y dos seguros. Un concurso para celebrar tres años de estrategIA.">
+  <meta property="og:title" content="El reto estrategIA · ¿Cuánto sabes de IA?">
+  <meta property="og:description" content="Quince preguntas. Tres comodines. Dos seguros. ¿Hasta dónde llegas? Cultura general sobre IA, a tu ritmo.">
+  <meta property="og:type" content="website"><meta property="og:url" content="https://elcontemplador.github.io/reto-estrategia-ia/">
+  <link rel="canonical" href="https://elcontemplador.github.io/reto-estrategia-ia/">
+  <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg"><link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Saltar al juego</a>
+  <header class="masthead">
+    <a class="identity" href="./" aria-label="El reto estrategIA, inicio"><span>EL RETO <strong>estrateg<span class="brand-ia">IA</span></strong><small>CULTURA GENERAL SOBRE IA</small></span></a>
+    <span class="anniversary">3 años <span>mirando al futuro</span></span>
+    <nav aria-label="Opciones del juego"><button class="icon-button" id="sound" disabled aria-label="Sonido apagado. Activar sonido" aria-pressed="false">♪ <span>Sonido apagado</span></button><button class="text-button" id="rules" aria-haspopup="dialog" disabled>Cómo jugar</button></nav>
+  </header>
+  <main id="main" tabindex="-1"><div class="loading" role="status">Preparando el reto…</div></main>
+  <footer><span>Tercer aniversario de <a href="https://estrategiabyaleph.substack.com/" target="_blank" rel="noopener noreferrer">estrategIA ↗</a></span><div><a href="https://elcontemplador.github.io/estrategIA-lab/" target="_blank" rel="noopener noreferrer">Volver a estrategIA LAB ↗</a><button id="method" class="text-button" aria-haspopup="dialog" disabled>Preguntas y fuentes</button><span class="footer-note">Sin reloj. A tu ritmo.</span></div></footer>
+  <dialog id="modal" aria-labelledby="modal-title"><div class="dialog-top"><button class="close" id="close-modal" aria-label="Cerrar ventana">×</button><h2 id="modal-title"></h2></div><div id="modal-body" tabindex="0" role="region" aria-labelledby="modal-title"></div><p id="modal-notice" role="status" aria-live="polite"></p></dialog>
+  <div id="notice" class="notice" role="status" aria-live="polite"></div>
+  <noscript>Este juego necesita JavaScript para mostrar las preguntas y guardar tu partida.</noscript>
+  <script>
+    (()=>{
+      let complete=false;
+      function failed(){if(complete)return;const main=document.getElementById('main');main.innerHTML='<section class="error-view"><h1 tabindex="-1">No hemos podido iniciar el reto.</h1><p>Comprueba tu conexión y vuelve a cargar la página.</p><button class="primary" id="retry">Volver a cargar →</button></section>';document.getElementById('retry').onclick=()=>location.reload();const status=document.getElementById('notice');status.textContent='No hemos podido iniciar el reto. Puedes volver a cargar la página.';status.classList.add('visible');main.querySelector('h1').focus();}
+      const timeout=setTimeout(failed,20000);
+      import('./app.js').then(()=>{complete=true;clearTimeout(timeout);}).catch(()=>{clearTimeout(timeout);failed();});
+    })();
+  </script>
+</body>
+</html>

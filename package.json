@@ -1,0 +1,17 @@
+{
+  "name": "reto-estrategia-ia",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Concurso de cultura general sobre inteligencia artificial de estrategIA",
+  "engines": { "node": ">=24" },
+  "scripts": {
+    "test": "node qa/engine.test.mjs",
+    "test:bank": "node qa/bank-audit.mjs",
+    "test:browser": "node qa/smoke.cjs"
+  },
+  "devDependencies": {
+    "playwright": "1.62.1",
+    "axe-core": "4.13.0"
+  }
+}

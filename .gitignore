@@ -1,0 +1,9 @@
+node_modules/
+.openai/
+.DS_Store
+qa/artifacts/
+qa/bank-audit-report.json
+__pycache__/
+*.log
+.env
+.env.*
