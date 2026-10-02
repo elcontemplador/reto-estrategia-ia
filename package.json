@@ -7,6 +7,7 @@
   "engines": { "node": ">=24" },
   "scripts": {
     "test": "node qa/engine.test.mjs",
+    "test:calibration": "node --test qa/calibration.test.mjs",
     "test:bank": "node qa/bank-audit.mjs",
     "test:browser": "node qa/smoke.cjs",
     "test:usability": "node qa/usability.cjs"

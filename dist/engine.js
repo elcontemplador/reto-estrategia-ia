@@ -1,4 +1,5 @@
 import {LEGACY_QUESTIONS} from './legacy-questions.js';
+import {LEGACY_BANDS} from './legacy-bands.js';
 // The scoring and lifelines follow the original ALEPH game.
 export const POINTS = Object.freeze([0,100,200,300,500,1000,1500,2500,4000,6500,10000,15000,25000,40000,65000,100000]);
 export const BANDS = Object.freeze(['Para empezar','Ya sabes más','A media altura','El gran desafío','La cima']);
@@ -63,7 +64,8 @@ export function restoreGame(value,bank){
       if(!current||!Number.isInteger(q.answer)||q.answer<0||q.answer>3||!Array.isArray(q.options)||q.options.length!==4||new Set(q.options).size!==4)throw new Error('Pregunta alterada');
       // Accept only a canonical current or explicitly archived variant in its original slot.
       // Never recover arbitrary question text, scoring bands or answers from local storage.
-      const original=[current,...LEGACY_QUESTIONS.filter(old=>old.id===current.id&&old.family===current.family)].find(candidate=>candidate.band===expectedBand&&q.band===candidate.band&&q.family===candidate.family&&q.options.every(x=>candidate.options.includes(x))&&q.options[q.answer]===candidate.options[candidate.answer]);
+      const priorLevels=(LEGACY_BANDS[current.id]||[]).map(band=>({...current,band}));
+      const original=[current,...priorLevels,...LEGACY_QUESTIONS.filter(old=>old.id===current.id&&old.family===current.family)].find(candidate=>candidate.band===expectedBand&&q.band===candidate.band&&q.family===candidate.family&&q.options.every(x=>candidate.options.includes(x))&&q.options[q.answer]===candidate.options[candidate.answer]);
       if(!original)throw new Error('Pregunta alterada');
       return {...original,options:q.options,answer:q.answer};
     };
