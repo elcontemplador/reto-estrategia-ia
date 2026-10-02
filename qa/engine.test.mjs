@@ -2,6 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import {validateBank} from '../dist/bank.js';
+import {LEGACY_QUESTIONS} from '../dist/legacy-questions.js';
 import {POINTS,createGame,makeRound,selectAnswer,revealAnswer,nextQuestion,stopGame,useAid,restoreGame} from '../dist/engine.js';
 const bank=Array.from({length:500},(_,i)=>({id:`fixture${i}`,factKey:`f${i}`,family:`family${i}`,band:1+Math.floor(i/100),topic:`tema${i%7}`,prompt:`Prueba ${i}`,options:[`Correcta${i}`,'B','C','D'],answer:0,hint:'Pista de prueba',explanation:'Explicación de prueba'}));
 const rng=()=>{let x=23;return ()=>{x=(1664525*x+1013904223)>>>0;return x/4294967296;};};
@@ -32,3 +33,53 @@ test('El historial recuperado debe conservar el orden de respuestas mostrado',()
 
 test('Una fecha de revisión como array se rechaza antes de mostrar la fuente',()=>{const real=JSON.parse(fs.readFileSync(new URL('../dist/questions.json',import.meta.url),'utf8'));real[0].reviewedAt=[real[0].reviewedAt];assert.throws(()=>validateBank(real));});
 test('Las fuentes opcionales de pistas requieren HTTPS y un título',()=>{const b=JSON.parse(fs.readFileSync(new URL('../dist/questions.json',import.meta.url),'utf8'));for(const patch of [{hintSource:'javascript:alert(1)',hintSourceTitle:'Pista'},{hintSource:'https://example.com',hintSourceTitle:''}]){const altered=structuredClone(b);Object.assign(altered[0],patch);assert.throws(()=>validateBank(altered));}const valid=structuredClone(b);Object.assign(valid[0],{hintSource:'https://example.com',hintSourceTitle:'Pista documentada'});assert.equal(validateBank(valid),valid);});
+
+const currentBank=JSON.parse(fs.readFileSync(new URL('../dist/questions.json',import.meta.url),'utf8'));
+function gameWithLegacy(old){
+  const g=createGame(currentBank.filter(q=>q.family!==old.family),new Set(),rng());
+  const index=(old.band-1)*3,options=[...old.options].reverse();
+  g.round[index]={...structuredClone(old),options,answer:options.indexOf(old.options[old.answer])};
+  for(let i=0;i<index;i++){winOne(g);nextQuestion(g);}
+  return g;
+}
+for(const old of LEGACY_QUESTIONS)test(`La variante anterior ${old.id} conserva selección, ayudas, historial y resultado`,()=>{
+  const g=gameWithLegacy(old),index=g.index;
+  useAid(g,'half',currentBank);useAid(g,'hint',currentBank);selectAnswer(g,g.round[index].answer);
+  const restored=restoreGame(JSON.parse(JSON.stringify(g)),currentBank);
+  assert.deepEqual(restored,g);
+  winOne(restored);assert.deepEqual(restoreGame(JSON.parse(JSON.stringify(restored)),currentBank),restored);
+  nextQuestion(restored);stopGame(restored);
+  assert.deepEqual(restoreGame(JSON.parse(JSON.stringify(restored)),currentBank),restored);
+});
+test('Las variantes antiguas rechazan opciones mezcladas, respuesta falsa, familia y nivel manipulados',()=>{
+  for(const old of LEGACY_QUESTIONS){
+    const g=gameWithLegacy(old),index=g.index;
+    for(const mutate of [q=>{q.options[0]='Una alternativa inventada';},q=>{q.answer=(q.answer+1)%4;},q=>{q.family='otra-familia';},q=>{q.band=old.band===1?2:1;}]){
+      const corrupt=structuredClone(g);mutate(corrupt.round[index]);assert.equal(restoreGame(corrupt,currentBank),null);
+    }
+    const current=currentBank.find(q=>q.id===old.id);
+    if(JSON.stringify(current.options)!==JSON.stringify(old.options)){
+      const mixed=structuredClone(g),q=mixed.round[index];q.options[0]=current.options.find(option=>!old.options.includes(option));
+      assert.equal(restoreGame(mixed,currentBank),null);
+    }
+    assert.equal(restoreGame(g,currentBank.filter(q=>q.id!==old.id)),null);
+  }
+});
+test('Cambiar una pregunta antigua conserva la etapa y recupera la nueva sustituta',()=>{
+  for(const old of LEGACY_QUESTIONS){
+    const g=restoreGame(gameWithLegacy(old),currentBank),index=g.index;
+    assert.equal(useAid(g,'swap',currentBank,new Set(),rng()),true);
+    assert.notEqual(g.round[index].id,old.id);assert.equal(g.round[index].band,old.band);
+    assert.deepEqual(restoreGame(JSON.parse(JSON.stringify(g)),currentBank),g);
+  }
+});
+test('Las partidas nuevas solo usan preguntas, niveles y opciones del banco actual',()=>{
+  const random=rng(),seen=new Set();
+  for(let i=0;i<500;i++)for(const q of createGame(currentBank,new Set(),random).round){
+    const canonical=currentBank.find(item=>item.id===q.id);
+    assert.equal(q.band,canonical.band);assert.equal(q.prompt,canonical.prompt);
+    assert.deepEqual([...q.options].sort(),[...canonical.options].sort());
+    if(LEGACY_QUESTIONS.some(old=>old.id===q.id))seen.add(q.id);
+  }
+  assert.equal(seen.size,5);
+});

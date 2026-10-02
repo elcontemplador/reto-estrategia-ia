@@ -8,7 +8,8 @@
   "scripts": {
     "test": "node qa/engine.test.mjs",
     "test:bank": "node qa/bank-audit.mjs",
-    "test:browser": "node qa/smoke.cjs"
+    "test:browser": "node qa/smoke.cjs",
+    "test:usability": "node qa/usability.cjs"
   },
   "devDependencies": {
     "playwright": "1.62.1",

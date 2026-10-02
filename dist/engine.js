@@ -1,3 +1,4 @@
+import {LEGACY_QUESTIONS} from './legacy-questions.js';
 // The scoring and lifelines follow the original ALEPH game.
 export const POINTS = Object.freeze([0,100,200,300,500,1000,1500,2500,4000,6500,10000,15000,25000,40000,65000,100000]);
 export const BANDS = Object.freeze(['Para empezar','Ya sabes más','A media altura','El gran desafío','La cima']);
@@ -57,9 +58,13 @@ export function restoreGame(value,bank){
     if(!g||!Array.isArray(g.round)||g.round.length!==15||!['question','feedback','result'].includes(g.phase))return null;
     if(!Number.isInteger(g.index)||g.index<0||g.index>14||!Number.isInteger(g.correct)||g.correct<0||g.correct>15)return null;
     if(!Array.isArray(g.history)||!Array.isArray(g.retired)||g.retired.length>1||!Array.isArray(g.hidden))return null;
-    const normalize=q=>{
-      const original=map.get(q?.id);
-      if(!original||!Number.isInteger(q.answer)||q.answer<0||q.answer>3||!Array.isArray(q.options)||q.options.length!==4||new Set(q.options).size!==4||!q.options.every(x=>original.options.includes(x))||q.options[q.answer]!==original.options[original.answer])throw new Error('Pregunta alterada');
+    const normalize=(q,index)=>{
+      const current=map.get(q?.id),expectedBand=Math.floor(index/3)+1;
+      if(!current||!Number.isInteger(q.answer)||q.answer<0||q.answer>3||!Array.isArray(q.options)||q.options.length!==4||new Set(q.options).size!==4)throw new Error('Pregunta alterada');
+      // Accept only a canonical current or explicitly archived variant in its original slot.
+      // Never recover arbitrary question text, scoring bands or answers from local storage.
+      const original=[current,...LEGACY_QUESTIONS.filter(old=>old.id===current.id&&old.family===current.family)].find(candidate=>candidate.band===expectedBand&&q.band===candidate.band&&q.family===candidate.family&&q.options.every(x=>candidate.options.includes(x))&&q.options[q.answer]===candidate.options[candidate.answer]);
+      if(!original)throw new Error('Pregunta alterada');
       return {...original,options:q.options,answer:q.answer};
     };
     g.round=g.round.map(normalize);
@@ -71,7 +76,7 @@ export function restoreGame(value,bank){
     if((g.hint&&g.aids.hint)||(g.hidden.length&&g.aids.half)||(g.retired.length&&g.aids.swap))return null;
     let correct=0,miss=false;
     for(let i=0;i<g.history.length;i++){
-      const h=g.history[i];h.question=normalize(h.question);
+      const h=g.history[i];h.question=normalize(h.question,i);
       if(i>14||h.question.id!==g.round[i].id||h.question.answer!==g.round[i].answer||h.question.options.some((option,j)=>option!==g.round[i].options[j])||!Number.isInteger(h.selected)||h.selected<0||h.selected>3||h.correct!==(h.selected===h.question.answer)||miss)return null;
       if(h.correct)correct++;else miss=true;
     }

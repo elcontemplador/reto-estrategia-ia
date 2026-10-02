@@ -478,9 +478,9 @@
     "prompt": "¿Qué ayuda para crear una presentación anunció Microsoft 365 Copilot en 2023?",
     "options": [
       "Preparar diapositivas a partir de un documento",
-      "Grabar automáticamente la voz del público",
-      "Imprimir y encuadernar el documento",
-      "Traducir simultáneamente una sala sin micrófonos"
+      "Convertir cada página en una imagen sin texto editable",
+      "Mantener el documento como adjunto sin crear diapositivas",
+      "Elegir una plantilla sin utilizar el contenido del documento"
     ],
     "answer": 0,
     "hint": "El contenido escrito puede servir como punto de partida.",
@@ -488,7 +488,7 @@
     "source": "https://blogs.microsoft.com/blog/2023/03/16/introducing-microsoft-365-copilot-your-copilot-for-work/",
     "sourceTitle": "Microsoft · Presentación de Microsoft 365 Copilot (2023)",
     "sourceLocator": "Microsoft 365 Copilot transforms work: Unleash creativity",
-    "reviewedAt": "2026-09-19",
+    "reviewedAt": "2026-10-02",
     "track": "sociedad"
   },
   {
@@ -1411,11 +1411,11 @@
   },
   {
     "id": "S0064",
-    "band": 5,
+    "band": 3,
     "topic": "Política y gobierno",
     "family": "ai-act-biometria",
     "factKey": "ai-act-verificacion-exclusion",
-    "prompt": "Al regular la biometría, ¿qué diferencia el Reglamento europeo de IA de 2024 de identificar a alguien entre muchas personas?",
+    "prompt": "¿Qué significa «verificación biométrica» en el Reglamento europeo de IA de 2024?",
     "options": [
       "Verificar que alguien es la persona que afirma ser",
       "Identificar desconocidos comparándolos con una base de datos",
@@ -1428,7 +1428,7 @@
     "source": "https://www.boe.es/buscar/doc.php?id=DOUE-L-2024-81079",
     "sourceTitle": "BOE · Reglamento (UE) 2024/1689, texto publicado en 2024",
     "sourceLocator": "Anexo III, punto 1.a.",
-    "reviewedAt": "2026-10-01",
+    "reviewedAt": "2026-10-02",
     "track": "sociedad",
     "hintSource": "https://www.boe.es/buscar/doc.php?id=DOUE-L-2024-81079",
     "hintSourceTitle": "BOE · Reglamento (UE) 2024/1689, texto publicado en 2024"
@@ -2092,9 +2092,9 @@
     "prompt": "¿Qué ayuda anunció Apple Intelligence en 2024 para manejar muchas notificaciones?",
     "options": [
       "Priorizar y resumir su contenido",
-      "Ordenarlas por el color del icono de cada aplicación",
-      "Convertir todos los avisos en llamadas de voz",
-      "Reenviarlas a todos los contactos del teléfono"
+      "Ordenarlas por la hora de llegada sin analizar el texto",
+      "Agruparlas por aplicación sin resumir sus mensajes",
+      "Ocultarlas según un horario fijo elegido por el usuario"
     ],
     "answer": 0,
     "hint": "Ayudaba a identificar la información principal entre distintos avisos.",
@@ -2102,7 +2102,7 @@
     "source": "https://machinelearning.apple.com/research/introducing-apple-foundation-models",
     "sourceTitle": "Apple · Modelos de Apple Intelligence (2024)",
     "sourceLocator": "Introducción, usos cotidianos",
-    "reviewedAt": "2026-10-01",
+    "reviewedAt": "2026-10-02",
     "track": "sociedad"
   },
   {
@@ -3880,9 +3880,9 @@
     "prompt": "¿Qué práctica de idiomas añadió Duolingo Max con su función Roleplay de 2023?",
     "options": [
       "Conversaciones simuladas con personajes",
-      "Clases presenciales obligatorias",
-      "Dictados grabados sin posibilidad de responder",
-      "Exámenes de conducir en otra lengua"
+      "Completar huecos en frases con una respuesta fijada",
+      "Traducir listas de palabras fuera de una conversación",
+      "Escuchar diálogos grabados sin intervenir en ellos"
     ],
     "answer": 0,
     "hint": "Permite ensayar diálogos en situaciones como pedir algo en una cafetería.",
@@ -3890,7 +3890,7 @@
     "source": "https://blog.duolingo.com/duolingo-max/",
     "sourceTitle": "Duolingo · Duolingo Max",
     "sourceLocator": "Descripción de la modalidad de aprendizaje de idiomas y colaboración con GPT-4; página actualizada desde su publicación original",
-    "reviewedAt": "2026-09-19",
+    "reviewedAt": "2026-10-02",
     "track": "sociedad"
   },
   {

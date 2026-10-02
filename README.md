@@ -25,6 +25,7 @@ npm test
 npm run test:bank
 npx playwright install chromium
 npm run test:browser
+npm run test:usability
 python -m http.server 4319 --bind 127.0.0.1 --directory dist
 ```
 
@@ -37,9 +38,13 @@ Abre `http://127.0.0.1:4319/` para jugar localmente. En Linux, la instalación d
 
 La actualización editorial del 1 de octubre de 2026 mejora 94 fichas: menos fechas menores, alternativas más plausibles, más preguntas iniciales y nuevos casos de gobernanza y uso responsable. Las preguntas con cuatro años como opciones pasan de 48 a 20. Las 60 etiquetas anteriores se agrupan en 15 categorías. Se mantienen personajes, empresas, ciencia y ficción como parte de la cultura general sobre IA.
 
-Distribución actual por niveles: **101 / 212 / 358 / 251 / 78**. SHA-256 del banco: `3b7cada41245199c042e2e26e3aa8cba067832f85889b24bc802e97d9b7d44e6`. Cada ficha indica su propia fecha de revisión; esta actualización no atribuye una nueva comprobación factual a las preguntas que solo cambian de etiqueta.
+Distribución actual por niveles: **101 / 212 / 360 / 251 / 76**. SHA-256 del banco: `6df11754dd581dd324054c2007d41c74b1d5a744306158e46ec72e70de5a8319`. Cada ficha indica su propia fecha de revisión; esta actualización no atribuye una nueva comprobación factual a las preguntas que solo cambian de etiqueta o reciben un enlace más preciso.
 
-Si una partida guardada contiene preguntas modificadas que ya no pueden recuperarse, el juego informa de la actualización y conserva la mejor marca y el número de partidas terminadas.
+La revisión del 2 de octubre de 2026 simplifica el enunciado S0064, mejora los distractores de S0022, S0094 y S0174 y sitúa C0345 y S0064 en el nivel 3. Se conservan 1.000 preguntas y las respuestas correctas. Se han verificado 160 enlaces a entradas concretas del glosario de Google; el inventario general sigue contando páginas, no fragmentos de una misma página. Las fechas de revisión documental solo cambian en las cinco fichas revisadas materialmente.
+
+Las ventanas de reglas, fuentes y referencias comparten una única zona de lectura, incluido el título, y mantienen visible el cierre al ampliar el texto. En móvil se muestra cuántos comodines quedan, con acceso directo a ellos; sus botones aparecen antes de confirmar. La portada condiciona el guardado a la disponibilidad del navegador. La imagen para compartir está en `dist/assets/social-card.png`.
+
+Las partidas iniciadas antes de la revisión del 2 de octubre conservan las versiones anteriores de las cinco preguntas afectadas, sus opciones y su nivel. Esta compatibilidad utiliza variantes canónicas archivadas; las nuevas partidas reciben el banco vigente. Si otra actualización contiene preguntas que ya no pueden recuperarse, el juego informa del cambio y conserva la mejor marca y el número de partidas terminadas.
 
 ## Alcance de la revisión
 
