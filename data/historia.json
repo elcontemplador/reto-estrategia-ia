@@ -89,7 +89,7 @@
   },
   {
     "id": "H0005",
-    "band": 3,
+    "band": 2,
     "topic": "Historia de la IA",
     "family": "dartmouth-1956",
     "prompt": "¿Qué universidad acogió la reunión de verano de 1956 asociada al nacimiento de la IA como campo?",
@@ -111,7 +111,7 @@
   },
   {
     "id": "H0006",
-    "band": 3,
+    "band": 2,
     "topic": "Historia de la IA",
     "family": "dartmouth-1956",
     "prompt": "¿En qué década se celebró la reunión de Dartmouth que dio impulso al campo de la IA?",
@@ -133,7 +133,7 @@
   },
   {
     "id": "H0007",
-    "band": 3,
+    "band": 2,
     "topic": "Historia de la IA",
     "family": "mccarthy",
     "prompt": "¿Qué investigador utilizó «inteligencia artificial» en la propuesta de Dartmouth de 1955?",
@@ -155,7 +155,7 @@
   },
   {
     "id": "H0008",
-    "band": 4,
+    "band": 3,
     "topic": "Historia de la IA",
     "family": "mccarthy",
     "prompt": "¿Qué lenguaje de programación creó John McCarthy en 1958?",
@@ -221,7 +221,7 @@
   },
   {
     "id": "H0011",
-    "band": 4,
+    "band": 3,
     "topic": "Personas",
     "family": "minsky",
     "prompt": "¿Quién escribió «The Society of Mind», un libro sobre la organización de la inteligencia?",
@@ -243,7 +243,7 @@
   },
   {
     "id": "H0012",
-    "band": 4,
+    "band": 3,
     "topic": "Personas",
     "family": "minsky",
     "prompt": "¿Cuál de estos títulos es un libro de Marvin Minsky publicado en 2006?",
@@ -287,7 +287,7 @@
   },
   {
     "id": "H0014",
-    "band": 3,
+    "band": 2,
     "topic": "Personas",
     "family": "minsky",
     "prompt": "En «La sociedad de la mente», ¿cómo explica Marvin Minsky la inteligencia?",
@@ -419,7 +419,7 @@
   },
   {
     "id": "H0020",
-    "band": 3,
+    "band": 2,
     "topic": "Historia de la IA",
     "family": "eliza",
     "prompt": "¿Qué reacción de los usuarios de ELIZA sorprendió a su creador, Joseph Weizenbaum?",
@@ -463,7 +463,7 @@
   },
   {
     "id": "H0022",
-    "band": 3,
+    "band": 2,
     "topic": "Historia de la IA",
     "family": "newell-simon",
     "prompt": "¿Qué tarea realizaba Logic Theorist, desarrollado por Newell, Simon y Shaw?",
@@ -485,7 +485,7 @@
   },
   {
     "id": "H0023",
-    "band": 3,
+    "band": 1,
     "topic": "Historia de la IA",
     "family": "newell-simon",
     "prompt": "¿Para qué se creó el programa General Problem Solver de Newell y Simon?",
@@ -507,7 +507,7 @@
   },
   {
     "id": "H0024",
-    "band": 3,
+    "band": 2,
     "topic": "Historia de la IA",
     "family": "newell-simon",
     "prompt": "Para estudiar cómo resolvemos problemas, ¿qué pedían Newell y Simon a las personas de sus experimentos?",
@@ -595,7 +595,7 @@
   },
   {
     "id": "H0028",
-    "band": 3,
+    "band": 2,
     "topic": "Personas",
     "family": "simon-career",
     "prompt": "¿Qué premio compartieron Allen Newell y Herbert Simon en 1975?",
@@ -683,7 +683,7 @@
   },
   {
     "id": "H0032",
-    "band": 5,
+    "band": 4,
     "topic": "Robótica",
     "family": "shakey",
     "prompt": "¿Qué planificador se asocia históricamente al robot Shakey?",
@@ -705,7 +705,7 @@
   },
   {
     "id": "H0033",
-    "band": 3,
+    "band": 1,
     "topic": "Robótica",
     "family": "centibots",
     "prompt": "El proyecto Centibots investigó grupos de robots móviles. ¿Qué quería conseguir?",
@@ -793,7 +793,7 @@
   },
   {
     "id": "H0037",
-    "band": 5,
+    "band": 3,
     "topic": "Historia de la IA",
     "family": "deep-blue",
     "prompt": "¿Qué combinación ayudaba a Deep Blue a elegir jugadas frente a Kasparov?",
@@ -881,7 +881,7 @@
   },
   {
     "id": "H0041",
-    "band": 3,
+    "band": 2,
     "topic": "Historia de la IA",
     "family": "watson-jeopardy",
     "prompt": "Durante su participación en Jeopardy! en 2011, ¿cómo accedía Watson a la información para responder?",
@@ -925,7 +925,7 @@
   },
   {
     "id": "H0043",
-    "band": 3,
+    "band": 2,
     "topic": "Historia de la IA",
     "family": "alphago",
     "prompt": "Antes de mejorar jugando contra sí mismo, ¿con qué empezó a entrenarse AlphaGo?",
@@ -1057,7 +1057,7 @@
   },
   {
     "id": "H0049",
-    "band": 3,
+    "band": 2,
     "topic": "Cultura y ficción",
     "family": "aaron",
     "prompt": "¿Cómo entendía Harold Cohen su trabajo artístico con el programa AARON?",
@@ -1123,7 +1123,7 @@
   },
   {
     "id": "H0052",
-    "band": 4,
+    "band": 2,
     "topic": "Personas",
     "family": "nobel-physics-2024",
     "prompt": "¿Qué capacidad estudiaba la máquina de Boltzmann desarrollada por Geoffrey Hinton y sus colaboradores?",
@@ -1213,7 +1213,7 @@
   },
   {
     "id": "H0056",
-    "band": 4,
+    "band": 3,
     "topic": "Personas",
     "family": "nobel-chemistry-2024",
     "prompt": "¿Quién recibió la otra mitad del Nobel de Química de 2024 por el diseño computacional de proteínas?",
@@ -1235,7 +1235,7 @@
   },
   {
     "id": "H0057",
-    "band": 3,
+    "band": 4,
     "topic": "Personas",
     "family": "nobel-chemistry-2024",
     "prompt": "Antes de fundar DeepMind, ¿qué investigó Demis Hassabis en su doctorado en neurociencia?",
@@ -1411,7 +1411,7 @@
   },
   {
     "id": "H0065",
-    "band": 3,
+    "band": 2,
     "topic": "Personas",
     "family": "turing-2024",
     "prompt": "¿Qué áreas inspiraron el trabajo de Barto y Sutton sobre aprendizaje por refuerzo?",
@@ -1455,7 +1455,7 @@
   },
   {
     "id": "H0067",
-    "band": 2,
+    "band": 1,
     "topic": "Personas",
     "family": "early-neural-models",
     "prompt": "¿Qué sistema biológico inspiró el perceptrón de Rosenblatt?",
@@ -1565,7 +1565,7 @@
   },
   {
     "id": "H0072",
-    "band": 2,
+    "band": 1,
     "topic": "Personas",
     "family": "stanford-hai",
     "prompt": "¿Qué expresa la IA «centrada en las personas» que promueve Stanford HAI?",
@@ -1587,7 +1587,7 @@
   },
   {
     "id": "H0073",
-    "band": 3,
+    "band": 2,
     "topic": "Historia de la IA",
     "family": "shannon-theseus",
     "prompt": "¿Qué animal representaba Theseus, la máquina de Claude Shannon que recorría un laberinto?",
@@ -1609,7 +1609,7 @@
   },
   {
     "id": "H0074",
-    "band": 3,
+    "band": 2,
     "topic": "Historia de la IA",
     "family": "shannon-theseus",
     "prompt": "Además de sus experimentos con máquinas, ¿con qué teoría se identifica a Claude Shannon?",
@@ -1631,7 +1631,7 @@
   },
   {
     "id": "H0075",
-    "band": 2,
+    "band": 1,
     "topic": "Historia de la IA",
     "family": "shannon-theseus",
     "prompt": "Theseus, el ratón mecánico de Claude Shannon, aprendía a salir de un laberinto. ¿Qué hacía al volver al mismo recorrido?",
@@ -1719,7 +1719,7 @@
   },
   {
     "id": "H0079",
-    "band": 3,
+    "band": 1,
     "topic": "Historia de la IA",
     "family": "samuel-checkers",
     "prompt": "¿Qué información aprovechaba el programa de damas de Arthur Samuel para mejorar?",
@@ -1741,7 +1741,7 @@
   },
   {
     "id": "H0080",
-    "band": 3,
+    "band": 2,
     "topic": "Historia de la IA",
     "family": "td-gammon",
     "prompt": "¿Qué juego de tablero con dados utilizó Gerald Tesauro en el proyecto TD-Gammon?",
@@ -1763,7 +1763,7 @@
   },
   {
     "id": "H0081",
-    "band": 5,
+    "band": 4,
     "topic": "Historia de la IA",
     "family": "td-gammon",
     "prompt": "¿Qué investigador de IBM lideró el desarrollo de TD-Gammon?",
@@ -1851,7 +1851,7 @@
   },
   {
     "id": "H0085",
-    "band": 3,
+    "band": 1,
     "topic": "Historia de la IA",
     "family": "stanley",
     "prompt": "En Stanley, el coche autónomo de Stanford, ¿en qué se convertía la información de sus sensores?",
@@ -1917,7 +1917,7 @@
   },
   {
     "id": "H0088",
-    "band": 2,
+    "band": 1,
     "topic": "Historia de la IA",
     "family": "boss",
     "prompt": "¿Qué debían hacer los vehículos del DARPA Urban Challenge de 2007?",
@@ -1939,7 +1939,7 @@
   },
   {
     "id": "H0089",
-    "band": 3,
+    "band": 1,
     "topic": "Historia de la IA",
     "family": "boss",
     "prompt": "En el DARPA Urban Challenge de 2007, ganado por Boss, ¿qué se evaluaba además de la rapidez?",
@@ -2005,7 +2005,7 @@
   },
   {
     "id": "H0092",
-    "band": 2,
+    "band": 1,
     "topic": "Historia de la IA",
     "family": "libratus",
     "prompt": "Libratus se midió con profesionales del póquer durante muchas manos. ¿Por qué era útil repetir tantas partidas?",
@@ -2093,7 +2093,7 @@
   },
   {
     "id": "H0096",
-    "band": 4,
+    "band": 3,
     "topic": "Historia de la IA",
     "family": "chinook",
     "prompt": "Según el resultado del proyecto Chinook de 2007, ¿qué ocurre en las damas inglesas desde la posición inicial si ambos bandos juegan perfectamente?",
@@ -2161,7 +2161,7 @@
   },
   {
     "id": "H0099",
-    "band": 2,
+    "band": 1,
     "topic": "Cultura y ficción",
     "family": "film-2001",
     "prompt": "En «2001: una odisea del espacio», ¿qué es HAL 9000?",
@@ -2183,7 +2183,7 @@
   },
   {
     "id": "H0100",
-    "band": 3,
+    "band": 2,
     "topic": "Cultura y ficción",
     "family": "film-2001",
     "prompt": "¿En qué década se estrenó «2001: Una odisea del espacio»?",
@@ -2251,7 +2251,7 @@
   },
   {
     "id": "H0103",
-    "band": 4,
+    "band": 3,
     "topic": "Cultura y ficción",
     "family": "film-wargames",
     "prompt": "¿Qué actor interpreta al joven que entra en el ordenador de «Juegos de guerra»?",
@@ -2343,7 +2343,7 @@
   },
   {
     "id": "H0107",
-    "band": 4,
+    "band": 3,
     "topic": "Cultura y ficción",
     "family": "film-her",
     "prompt": "¿Qué actor interpreta a Theodore Twombly en «Her»?",
@@ -2409,7 +2409,7 @@
   },
   {
     "id": "H0110",
-    "band": 4,
+    "band": 3,
     "topic": "Cultura y ficción",
     "family": "film-exmachina",
     "prompt": "¿Quién interpreta a Ava en «Ex Machina»?",
@@ -2431,7 +2431,7 @@
   },
   {
     "id": "H0111",
-    "band": 3,
+    "band": 1,
     "topic": "Cultura y ficción",
     "family": "film-exmachina",
     "prompt": "¿Qué prueba sobre inteligencia de máquinas se menciona expresamente en la sinopsis oficial de «Ex Machina»?",
@@ -2497,7 +2497,7 @@
   },
   {
     "id": "H0114",
-    "band": 4,
+    "band": 3,
     "topic": "Cultura y ficción",
     "family": "film-ai",
     "prompt": "¿Qué actor interpreta al niño robot David en «A.I. Inteligencia Artificial»?",
@@ -2695,7 +2695,7 @@
   },
   {
     "id": "H0123",
-    "band": 2,
+    "band": 1,
     "topic": "Cultura y ficción",
     "family": "film-walle",
     "prompt": "En «WALL-E», ¿qué función cumple Auto?",
@@ -2739,7 +2739,7 @@
   },
   {
     "id": "H0125",
-    "band": 1,
+    "band": 2,
     "topic": "Cultura y ficción",
     "family": "film-big-hero",
     "prompt": "¿Para qué ámbito fue diseñado originalmente Baymax?",
@@ -2783,7 +2783,7 @@
   },
   {
     "id": "H0127",
-    "band": 4,
+    "band": 2,
     "topic": "Cultura y ficción",
     "family": "carme-torras",
     "prompt": "¿Para qué se publicaron materiales docentes junto con la edición inglesa de la novela de Carme Torras «The Vestigial Heart»?",
@@ -2805,7 +2805,7 @@
   },
   {
     "id": "H0128",
-    "band": 2,
+    "band": 3,
     "topic": "Cultura y ficción",
     "family": "film-wild-robot",
     "prompt": "¿Cómo se llama el robot protagonista de «Robot salvaje»?",
@@ -2895,7 +2895,7 @@
   },
   {
     "id": "H0132",
-    "band": 1,
+    "band": 2,
     "topic": "Cultura y ficción",
     "family": "starwars-droids",
     "prompt": "¿Cuál es la especialidad principal de C-3PO en «Star Wars»?",
@@ -2917,7 +2917,7 @@
   },
   {
     "id": "H0133",
-    "band": 2,
+    "band": 1,
     "topic": "Cultura y ficción",
     "family": "starwars-droids",
     "prompt": "En «Star Wars», ¿en qué se especializa R2-D2 como droide astromecánico?",
@@ -2983,7 +2983,7 @@
   },
   {
     "id": "H0136",
-    "band": 1,
+    "band": 2,
     "topic": "Historia de la IA",
     "family": "deep-blue",
     "prompt": "¿Qué empresa creó Deep Blue, el ordenador que derrotó a Kasparov en ajedrez?",
@@ -3029,7 +3029,7 @@
   },
   {
     "id": "H0138",
-    "band": 3,
+    "band": 2,
     "topic": "Cultura y ficción",
     "family": "book-aima",
     "prompt": "¿Qué idea organiza el manual «Inteligencia artificial: un enfoque moderno», de Russell y Norvig?",
@@ -3139,7 +3139,7 @@
   },
   {
     "id": "H0143",
-    "band": 3,
+    "band": 2,
     "topic": "Cultura y ficción",
     "family": "book-why",
     "prompt": "¿Qué relación anuncia el subtítulo de «The Book of Why»?",
@@ -3227,7 +3227,7 @@
   },
   {
     "id": "H0147",
-    "band": 3,
+    "band": 4,
     "topic": "Cultura y ficción",
     "family": "book-atlas",
     "prompt": "¿Quién escribió «Atlas of AI»?",
@@ -3271,7 +3271,7 @@
   },
   {
     "id": "H0149",
-    "band": 3,
+    "band": 2,
     "topic": "Cultura y ficción",
     "family": "anadol-unsupervised",
     "prompt": "¿Qué museo presentó «Unsupervised» de Refik Anadol entre 2022 y 2023?",
@@ -3293,7 +3293,7 @@
   },
   {
     "id": "H0150",
-    "band": 3,
+    "band": 2,
     "topic": "Cultura y ficción",
     "family": "anadol-unsupervised",
     "prompt": "¿Qué material del MoMA utilizó Anadol para entrenar el modelo de «Unsupervised»?",
@@ -3471,7 +3471,7 @@
   },
   {
     "id": "H0158",
-    "band": 4,
+    "band": 2,
     "topic": "Cultura y ficción",
     "family": "training-humans",
     "prompt": "¿Qué querían examinar Kate Crawford y Trevor Paglen en la exposición «Training Humans»?",
@@ -3561,7 +3561,7 @@
   },
   {
     "id": "H0162",
-    "band": 3,
+    "band": 2,
     "topic": "Historia de la IA",
     "family": "torres-quevedo",
     "prompt": "¿Qué permitía hacer el Telekino de Leonardo Torres Quevedo?",
@@ -3627,7 +3627,7 @@
   },
   {
     "id": "H0165",
-    "band": 3,
+    "band": 2,
     "topic": "Robótica",
     "family": "walter-tortoises",
     "prompt": "¿Qué combinación de señales guiaba a las tortugas de Grey Walter?",
@@ -3825,7 +3825,7 @@
   },
   {
     "id": "H0174",
-    "band": 3,
+    "band": 4,
     "topic": "Historia de la IA",
     "family": "menace",
     "prompt": "¿Con qué objetos cotidianos construyó Michie la versión de MENACE descrita por Edimburgo?",
@@ -3891,7 +3891,7 @@
   },
   {
     "id": "H0177",
-    "band": 3,
+    "band": 2,
     "topic": "Historia de la IA",
     "family": "nimrod",
     "prompt": "¿Qué juego de retirar piezas de montones utilizó Ferranti en una demostración informática de 1951?",
@@ -3979,7 +3979,7 @@
   },
   {
     "id": "H0181",
-    "band": 5,
+    "band": 4,
     "topic": "Historia de la IA",
     "family": "shrdlu",
     "prompt": "¿Qué investigador desarrolló SHRDLU durante su trabajo doctoral en el MIT?",
@@ -4023,7 +4023,7 @@
   },
   {
     "id": "H0183",
-    "band": 4,
+    "band": 1,
     "topic": "Robótica",
     "family": "minsky-arm",
     "prompt": "¿Qué animal inspiraba el movimiento del Tentacle Arm de Marvin Minsky?",
@@ -4067,7 +4067,7 @@
   },
   {
     "id": "H0185",
-    "band": 4,
+    "band": 1,
     "topic": "Personas",
     "family": "dendral",
     "prompt": "¿Qué factor resultó especialmente importante para la eficacia de DENDRAL como sistema experto?",
@@ -4155,7 +4155,7 @@
   },
   {
     "id": "H0189",
-    "band": 4,
+    "band": 2,
     "topic": "Robótica",
     "family": "stanford-cart",
     "prompt": "¿Cómo adaptaba el Stanford Cart su recorrido cuando encontraba obstáculos nuevos?",
@@ -4177,7 +4177,7 @@
   },
   {
     "id": "H0190",
-    "band": 4,
+    "band": 2,
     "topic": "Robótica",
     "family": "orm",
     "prompt": "¿Qué dificultad hizo abandonar el brazo robótico Orm?",
@@ -4265,7 +4265,7 @@
   },
   {
     "id": "H0194",
-    "band": 2,
+    "band": 1,
     "topic": "Personas",
     "family": "asturias-ai-2022",
     "prompt": "¿En qué categoría recibieron el Princesa de Asturias de 2022 Hinton, LeCun, Bengio y Hassabis?",
@@ -4331,7 +4331,7 @@
   },
   {
     "id": "H0197",
-    "band": 3,
+    "band": 4,
     "topic": "Personas",
     "family": "nuria-oliver",
     "prompt": "¿En qué ciudad española cofundó Nuria Oliver una unidad de ELLIS?",
@@ -4377,7 +4377,7 @@
   },
   {
     "id": "H0199",
-    "band": 4,
+    "band": 3,
     "topic": "Personas",
     "family": "carme-torras",
     "prompt": "¿En qué centro conjunto del CSIC y la UPC ha investigado Carme Torras en robótica asistencial?",
@@ -4399,7 +4399,7 @@
   },
   {
     "id": "H0200",
-    "band": 3,
+    "band": 4,
     "topic": "Personas",
     "family": "lopez-mantaras",
     "prompt": "¿Qué investigador fue fundador del Instituto de Investigación en Inteligencia Artificial del CSIC?",
@@ -4421,7 +4421,7 @@
   },
   {
     "id": "H0201",
-    "band": 4,
+    "band": 3,
     "topic": "Personas",
     "family": "lopez-mantaras",
     "prompt": "¿Qué hacía SaxEx, desarrollado por investigadores del IIIA-CSIC?",
@@ -4465,7 +4465,7 @@
   },
   {
     "id": "H0203",
-    "band": 3,
+    "band": 1,
     "topic": "Historia de la IA",
     "family": "alphastar",
     "prompt": "¿Por qué AlphaStar debía explorar el mapa al jugar a StarCraft II?",
@@ -4531,7 +4531,7 @@
   },
   {
     "id": "H0206",
-    "band": 3,
+    "band": 2,
     "topic": "Historia de la IA",
     "family": "alphazero",
     "prompt": "¿Cómo se conoce habitualmente el shogi, uno de los juegos de AlphaZero?",
@@ -4575,7 +4575,7 @@
   },
   {
     "id": "H0208",
-    "band": 5,
+    "band": 4,
     "topic": "Historia de la IA",
     "family": "alphazero",
     "prompt": "¿Qué libro de Matthew Sadler y Natasha Regan analizó las partidas de AlphaZero?",
@@ -4619,7 +4619,7 @@
   },
   {
     "id": "H0210",
-    "band": 3,
+    "band": 4,
     "topic": "Historia de la IA",
     "family": "pluribus",
     "prompt": "¿Con qué organización colaboró Carnegie Mellon en el desarrollo de Pluribus?",
@@ -4641,7 +4641,7 @@
   },
   {
     "id": "H0211",
-    "band": 2,
+    "band": 3,
     "topic": "Historia de la IA",
     "family": "sophy",
     "prompt": "¿En qué saga de videojuegos compite la IA Sophy?",
@@ -4663,7 +4663,7 @@
   },
   {
     "id": "H0212",
-    "band": 2,
+    "band": 1,
     "topic": "Historia de la IA",
     "family": "sophy",
     "prompt": "Además de la velocidad, ¿qué incluyó Sony entre los objetivos de Gran Turismo Sophy?",
@@ -4751,7 +4751,7 @@
   },
   {
     "id": "H0216",
-    "band": 3,
+    "band": 1,
     "topic": "Historia de la IA",
     "family": "cicero",
     "prompt": "Además de decidir movimientos, ¿qué debía hacer CICERO en Diplomacy?",
@@ -4795,7 +4795,7 @@
   },
   {
     "id": "H0218",
-    "band": 4,
+    "band": 5,
     "topic": "Historia de la IA",
     "family": "deepstack",
     "prompt": "¿En qué modalidad de póquer se evaluó DeepStack en el estudio publicado en 2017?",
@@ -4841,7 +4841,7 @@
   },
   {
     "id": "H0220",
-    "band": 4,
+    "band": 3,
     "topic": "Historia de la IA",
     "family": "robocup",
     "prompt": "¿Qué desafío añade el fútbol de RoboCup frente al ajedrez para una IA?",
@@ -4863,7 +4863,7 @@
   },
   {
     "id": "H0221",
-    "band": 3,
+    "band": 1,
     "topic": "Historia de la IA",
     "family": "robocup",
     "prompt": "¿Por qué los equipos de la liga de plataforma estándar de RoboCup usan el mismo modelo de robot?",
@@ -4929,7 +4929,7 @@
   },
   {
     "id": "H0224",
-    "band": 1,
+    "band": 2,
     "topic": "Robótica",
     "family": "asimo",
     "prompt": "¿Cómo se desplazaba el robot ASIMO de Honda?",
@@ -4951,7 +4951,7 @@
   },
   {
     "id": "H0225",
-    "band": 2,
+    "band": 1,
     "topic": "Robótica",
     "family": "asimo",
     "prompt": "¿Por qué Honda tuvo en cuenta puertas, interruptores y mesas al elegir la altura de ASIMO?",
@@ -4973,7 +4973,7 @@
   },
   {
     "id": "H0226",
-    "band": 1,
+    "band": 2,
     "topic": "Robótica",
     "family": "aibo",
     "prompt": "¿A qué animal se parece la mascota robótica AIBO de Sony?",
@@ -5017,7 +5017,7 @@
   },
   {
     "id": "H0228",
-    "band": 2,
+    "band": 1,
     "topic": "Robótica",
     "family": "aibo",
     "prompt": "¿Qué podía adaptar AIBO con la interacción repetida con sus usuarios?",
@@ -5039,7 +5039,7 @@
   },
   {
     "id": "H0229",
-    "band": 2,
+    "band": 1,
     "topic": "Robótica",
     "family": "unimate",
     "prompt": "¿En qué entorno comenzó a trabajar el robot Unimate en General Motors en 1961?",
@@ -5149,7 +5149,7 @@
   },
   {
     "id": "H0234",
-    "band": 2,
+    "band": 1,
     "topic": "Robótica",
     "family": "irobot-history",
     "prompt": "¿Para qué están diseñados los sensores de desnivel de un robot aspirador Roomba?",
@@ -5171,7 +5171,7 @@
   },
   {
     "id": "H0235",
-    "band": 3,
+    "band": 1,
     "topic": "Historia de la IA",
     "family": "lunar",
     "prompt": "¿Qué materiales ayudaba a estudiar el sistema LUNAR de 1972?",
@@ -5193,7 +5193,7 @@
   },
   {
     "id": "H0236",
-    "band": 3,
+    "band": 2,
     "topic": "Historia de la IA",
     "family": "lunar",
     "prompt": "¿Cómo podían los geólogos consultar la información del sistema LUNAR?",
@@ -5215,7 +5215,7 @@
   },
   {
     "id": "H0237",
-    "band": 4,
+    "band": 5,
     "topic": "Historia de la IA",
     "family": "lunar",
     "prompt": "¿Qué investigadora participó en el desarrollo de LUNAR, uno de los primeros sistemas de consulta en lenguaje natural?",
@@ -5237,7 +5237,7 @@
   },
   {
     "id": "H0238",
-    "band": 5,
+    "band": 4,
     "topic": "Robótica",
     "family": "stanford-arm",
     "prompt": "¿Quién diseñó el Stanford Arm de 1969?",
@@ -5259,7 +5259,7 @@
   },
   {
     "id": "H0239",
-    "band": 3,
+    "band": 2,
     "topic": "Robótica",
     "family": "stanford-arm",
     "prompt": "¿Qué combinó el Stanford Arm para guiar un montaje automático de piezas?",
@@ -5347,7 +5347,7 @@
   },
   {
     "id": "H0243",
-    "band": 3,
+    "band": 4,
     "topic": "Historia de la IA",
     "family": "robocup",
     "prompt": "¿Qué robot humanoide se incorporó en 2008 a la liga de plataforma estándar de RoboCup?",
@@ -5415,7 +5415,7 @@
   },
   {
     "id": "H0246",
-    "band": 2,
+    "band": 1,
     "topic": "Robótica",
     "family": "pepper",
     "prompt": "¿Qué podían hacer los visitantes de las tiendas de SoftBank con Pepper desde junio de 2014?",
@@ -5481,7 +5481,7 @@
   },
   {
     "id": "H0249",
-    "band": 1,
+    "band": 2,
     "topic": "Robótica",
     "family": "ingenuity",
     "prompt": "¿En qué planeta realizó sus vuelos el helicóptero robótico Ingenuity de la NASA?",
@@ -5569,7 +5569,7 @@
   },
   {
     "id": "H0253",
-    "band": 3,
+    "band": 1,
     "topic": "Ciencia y medio ambiente",
     "family": "alphafold",
     "prompt": "¿Cómo se evaluaron en CASP14 las predicciones de AlphaFold 2?",
@@ -5635,7 +5635,7 @@
   },
   {
     "id": "H0256",
-    "band": 3,
+    "band": 1,
     "topic": "Ciencia y medio ambiente",
     "family": "alphageometry",
     "prompt": "¿Qué sistema presentado por DeepMind en 2024 resolvía problemas de geometría de olimpiadas?",
@@ -5657,7 +5657,7 @@
   },
   {
     "id": "H0257",
-    "band": 3,
+    "band": 2,
     "topic": "Ciencia y medio ambiente",
     "family": "alphageometry",
     "prompt": "¿Qué resolvió AlphaGeometry en la evaluación presentada en 2024?",
@@ -5723,7 +5723,7 @@
   },
   {
     "id": "H0260",
-    "band": 3,
+    "band": 2,
     "topic": "Ciencia y medio ambiente",
     "family": "alphadev",
     "prompt": "¿Qué hizo el equipo de AlphaDev con algoritmos de ordenación descubiertos por el sistema?",
@@ -5811,7 +5811,7 @@
   },
   {
     "id": "H0264",
-    "band": 4,
+    "band": 2,
     "topic": "Historia de la IA",
     "family": "muzero",
     "prompt": "¿Qué aprendía a representar MuZero para decidir sus jugadas?",
@@ -5833,7 +5833,7 @@
   },
   {
     "id": "H0265",
-    "band": 3,
+    "band": 4,
     "topic": "Historia de la IA",
     "family": "agent57",
     "prompt": "¿De qué consola procedían los videojuegos de la prueba utilizada para Agent57?",
@@ -5855,7 +5855,7 @@
   },
   {
     "id": "H0266",
-    "band": 3,
+    "band": 2,
     "topic": "Historia de la IA",
     "family": "agent57",
     "prompt": "¿Qué referencia dijo superar Agent57 en cada juego en el anuncio de marzo de 2020?",
@@ -5877,7 +5877,7 @@
   },
   {
     "id": "H0267",
-    "band": 3,
+    "band": 4,
     "topic": "Cultura y ficción",
     "family": "life30",
     "prompt": "¿Quién escribió «Life 3.0», sobre posibles futuros de la inteligencia artificial?",
@@ -5943,7 +5943,7 @@
   },
   {
     "id": "H0270",
-    "band": 3,
+    "band": 2,
     "topic": "Cultura y ficción",
     "family": "bostrom-book",
     "prompt": "¿Qué problema ilustra Bostrom con su experimento mental de una IA dedicada a fabricar clips?",
@@ -6031,7 +6031,7 @@
   },
   {
     "id": "H0274",
-    "band": 3,
+    "band": 4,
     "topic": "Cultura y ficción",
     "family": "buolamwini",
     "prompt": "¿De quién es la investigación del MIT sobre reconocimiento facial que aparece en el documental «Coded Bias»?",
@@ -6075,7 +6075,7 @@
   },
   {
     "id": "H0276",
-    "band": 3,
+    "band": 4,
     "topic": "Cultura y ficción",
     "family": "mollick-book",
     "prompt": "¿Cómo se llama la newsletter de Ethan Mollick mencionada en la presentación de «Co-Intelligence»?",
@@ -6119,7 +6119,7 @@
   },
   {
     "id": "H0278",
-    "band": 5,
+    "band": 4,
     "topic": "Cultura y ficción",
     "family": "ai-snake-oil",
     "prompt": "¿Qué pareja escribió «AI Snake Oil», anunciado en 2024?",
@@ -6209,7 +6209,7 @@
   },
   {
     "id": "H0282",
-    "band": 5,
+    "band": 4,
     "topic": "Cultura y ficción",
     "family": "master-algorithm",
     "prompt": "¿Quién es el autor de «The Master Algorithm»?",
@@ -6231,7 +6231,7 @@
   },
   {
     "id": "H0283",
-    "band": 5,
+    "band": 4,
     "topic": "Cultura y ficción",
     "family": "rebooting-ai",
     "prompt": "¿Qué pareja escribió «Rebooting AI»?",
@@ -6297,7 +6297,7 @@
   },
   {
     "id": "H0286",
-    "band": 3,
+    "band": 2,
     "topic": "Cultura y ficción",
     "family": "rur",
     "prompt": "La palabra «robot» procede del checo «robota». ¿Con qué idea se relaciona su origen?",
@@ -6539,7 +6539,7 @@
   },
   {
     "id": "H0297",
-    "band": 1,
+    "band": 2,
     "topic": "Cultura y ficción",
     "family": "data-star-trek",
     "prompt": "¿En qué saga aparece el androide Data?",
@@ -6583,7 +6583,7 @@
   },
   {
     "id": "H0299",
-    "band": 4,
+    "band": 2,
     "topic": "Cultura y ficción",
     "family": "data-star-trek",
     "prompt": "En «Star Trek», ¿qué poseía Lore que Data inicialmente no tenía?",
@@ -6605,7 +6605,7 @@
   },
   {
     "id": "H0300",
-    "band": 4,
+    "band": 3,
     "topic": "Cultura y ficción",
     "family": "data-star-trek",
     "prompt": "En «Star Trek», ¿qué permitió Data elegir a Lal, el androide que había creado?",
@@ -6827,7 +6827,7 @@
   },
   {
     "id": "H0310",
-    "band": 3,
+    "band": 2,
     "topic": "Historia de la IA",
     "family": "wiener-cybernetics",
     "prompt": "¿Qué dos ámbitos compara el subtítulo del libro «Cybernetics» de Norbert Wiener?",
@@ -6871,7 +6871,7 @@
   },
   {
     "id": "H0312",
-    "band": 3,
+    "band": 4,
     "topic": "Historia de la IA",
     "family": "audrey",
     "prompt": "¿Qué reconocía la máquina AUDREY de 1952?",
@@ -6915,7 +6915,7 @@
   },
   {
     "id": "H0314",
-    "band": 3,
+    "band": 2,
     "topic": "Historia de la IA",
     "family": "audrey",
     "prompt": "¿Qué limitación tenía AUDREY, uno de los primeros sistemas de reconocimiento de voz?",
@@ -6937,7 +6937,7 @@
   },
   {
     "id": "H0315",
-    "band": 3,
+    "band": 1,
     "topic": "Historia de la IA",
     "family": "shoebox",
     "prompt": "¿Qué limitaba las interacciones con Shoebox, la demostración de reconocimiento de voz de IBM?",
@@ -7005,7 +7005,7 @@
   },
   {
     "id": "H0318",
-    "band": 3,
+    "band": 5,
     "topic": "Historia de la IA",
     "family": "shoebox",
     "prompt": "¿Cuántas palabras reconocía el Shoebox de IBM?",
@@ -7071,7 +7071,7 @@
   },
   {
     "id": "H0321",
-    "band": 3,
+    "band": 2,
     "topic": "Historia de la IA",
     "family": "alvinn",
     "prompt": "¿Qué imágenes utilizó ALVINN para entrenar su red de conducción?",
@@ -7137,7 +7137,7 @@
   },
   {
     "id": "H0324",
-    "band": 3,
+    "band": 2,
     "topic": "Historia de la IA",
     "family": "mycin",
     "prompt": "¿Cómo obtenía MYCIN información del usuario?",
@@ -7181,7 +7181,7 @@
   },
   {
     "id": "H0326",
-    "band": 3,
+    "band": 1,
     "topic": "Ciencia y medio ambiente",
     "family": "remote-agent",
     "prompt": "¿Cómo probaron los científicos si Remote Agent respondía a problemas durante su experimento espacial?",
@@ -7225,7 +7225,7 @@
   },
   {
     "id": "H0328",
-    "band": 1,
+    "band": 2,
     "topic": "Robótica",
     "family": "boston-robots",
     "prompt": "¿Qué tipo de robot es Atlas, de Boston Dynamics?",
@@ -7247,7 +7247,7 @@
   },
   {
     "id": "H0329",
-    "band": 2,
+    "band": 1,
     "topic": "Robótica",
     "family": "boston-robots",
     "prompt": "¿Para qué ofrece Boston Dynamics su robot móvil Spot en entornos industriales?",
@@ -7379,7 +7379,7 @@
   },
   {
     "id": "H0335",
-    "band": 3,
+    "band": 4,
     "topic": "Historia de la IA",
     "family": "lovelace",
     "prompt": "¿Qué tipo de contenido, además de símbolos, imaginó Ada Lovelace que podrían representar las máquinas?",
@@ -7401,7 +7401,7 @@
   },
   {
     "id": "H0336",
-    "band": 3,
+    "band": 2,
     "topic": "Historia de la IA",
     "family": "lovelace",
     "prompt": "¿Qué inventor inspiró el trabajo de Ada Lovelace mencionado por el Science Museum?",
@@ -7467,7 +7467,7 @@
   },
   {
     "id": "H0339",
-    "band": 2,
+    "band": 1,
     "topic": "Robótica",
     "family": "ingenuity",
     "prompt": "¿Por qué la gran distancia entre la Tierra y Marte favorece que un robot como Ingenuity actúe de forma autónoma?",
@@ -7489,7 +7489,7 @@
   },
   {
     "id": "H0340",
-    "band": 3,
+    "band": 1,
     "topic": "Robótica",
     "family": "curiosity-aegis",
     "prompt": "Desde 2016, ¿qué permite hacer AEGIS al rover Curiosity en Marte?",
@@ -7511,7 +7511,7 @@
   },
   {
     "id": "H0341",
-    "band": 3,
+    "band": 1,
     "topic": "Robótica",
     "family": "dart-smart-nav",
     "prompt": "¿Qué tarea hizo SMART Nav en la misión DART de la NASA?",
@@ -7577,7 +7577,7 @@
   },
   {
     "id": "H0344",
-    "band": 3,
+    "band": 2,
     "topic": "Cultura y ficción",
     "family": "astro-boy",
     "prompt": "En las historias de «Astro Boy», ¿qué motivo provoca que algunos humanos discriminen al protagonista?",

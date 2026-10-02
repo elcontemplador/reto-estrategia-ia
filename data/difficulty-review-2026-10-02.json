@@ -1,0 +1,4425 @@
+{
+  "date": "2026-10-02",
+  "kind": "editorial-estimate",
+  "empiricalPlayerData": false,
+  "audience": "Personas adultas interesadas en IA, sin presuponer programación ni formación especializada.",
+  "rubric": {
+    "1": "Reconocimiento cotidiano, deducción directa o equivalencia clara dentro del enunciado y las opciones.",
+    "2": "Cultura digital básica, un hito conocido o una distinción sencilla; puede requerir vocabulario de IA básico.",
+    "3": "Comprensión conceptual, cultura específica intermedia o un hito menos conocido con alternativas plausibles.",
+    "4": "Conocimiento especializado, discriminación de conceptos próximos o una referencia cultural/histórica específica.",
+    "5": "Detalle muy especializado, recuerdo preciso entre alternativas próximas o discriminación especialmente exigente."
+  },
+  "method": [
+    "Lectura de los 1000 enunciados y sus cuatro opciones.",
+    "Valoración antes de usar pista u otros comodines.",
+    "Contraste independiente de las 410 propuestas iniciales; 18 discrepancias resueltas al integrar.",
+    "Conservación de enunciados, opciones, respuestas, fuentes, familias y fechas factuales."
+  ],
+  "reviewedIds": [
+    "C0001",
+    "C0002",
+    "C0003",
+    "C0004",
+    "C0005",
+    "C0006",
+    "C0007",
+    "C0008",
+    "C0009",
+    "C0010",
+    "C0011",
+    "C0012",
+    "C0013",
+    "C0014",
+    "C0015",
+    "C0016",
+    "C0017",
+    "C0018",
+    "C0019",
+    "C0020",
+    "C0021",
+    "C0022",
+    "C0023",
+    "C0024",
+    "C0025",
+    "C0026",
+    "C0027",
+    "C0028",
+    "C0029",
+    "C0030",
+    "C0031",
+    "C0032",
+    "C0033",
+    "C0034",
+    "C0035",
+    "C0036",
+    "C0037",
+    "C0038",
+    "C0039",
+    "C0040",
+    "C0041",
+    "C0042",
+    "C0043",
+    "C0044",
+    "C0045",
+    "C0046",
+    "C0047",
+    "C0048",
+    "C0049",
+    "C0050",
+    "C0051",
+    "C0052",
+    "C0053",
+    "C0054",
+    "C0055",
+    "C0056",
+    "C0057",
+    "C0058",
+    "C0059",
+    "C0060",
+    "C0061",
+    "C0062",
+    "C0063",
+    "C0064",
+    "C0065",
+    "C0066",
+    "C0067",
+    "C0068",
+    "C0069",
+    "C0070",
+    "C0071",
+    "C0072",
+    "C0073",
+    "C0074",
+    "C0075",
+    "C0076",
+    "C0077",
+    "C0078",
+    "C0079",
+    "C0080",
+    "C0081",
+    "C0082",
+    "C0083",
+    "C0084",
+    "C0085",
+    "C0086",
+    "C0087",
+    "C0088",
+    "C0089",
+    "C0090",
+    "C0091",
+    "C0092",
+    "C0093",
+    "C0094",
+    "C0095",
+    "C0096",
+    "C0097",
+    "C0098",
+    "C0099",
+    "C0100",
+    "C0101",
+    "C0102",
+    "C0103",
+    "C0104",
+    "C0105",
+    "C0106",
+    "C0107",
+    "C0108",
+    "C0109",
+    "C0110",
+    "C0111",
+    "C0112",
+    "C0113",
+    "C0114",
+    "C0115",
+    "C0116",
+    "C0117",
+    "C0118",
+    "C0119",
+    "C0120",
+    "C0121",
+    "C0122",
+    "C0123",
+    "C0124",
+    "C0125",
+    "C0126",
+    "C0127",
+    "C0128",
+    "C0129",
+    "C0130",
+    "C0131",
+    "C0132",
+    "C0133",
+    "C0134",
+    "C0135",
+    "C0136",
+    "C0137",
+    "C0138",
+    "C0139",
+    "C0140",
+    "C0141",
+    "C0142",
+    "C0143",
+    "C0144",
+    "C0145",
+    "C0146",
+    "C0147",
+    "C0148",
+    "C0149",
+    "C0150",
+    "C0151",
+    "C0152",
+    "C0153",
+    "C0154",
+    "C0155",
+    "C0156",
+    "C0157",
+    "C0158",
+    "C0159",
+    "C0160",
+    "C0161",
+    "C0162",
+    "C0163",
+    "C0164",
+    "C0165",
+    "C0166",
+    "C0167",
+    "C0168",
+    "C0169",
+    "C0170",
+    "C0171",
+    "C0172",
+    "C0173",
+    "C0174",
+    "C0175",
+    "C0176",
+    "C0177",
+    "C0178",
+    "C0179",
+    "C0180",
+    "C0181",
+    "C0182",
+    "C0183",
+    "C0184",
+    "C0185",
+    "C0186",
+    "C0187",
+    "C0188",
+    "C0189",
+    "C0190",
+    "C0191",
+    "C0192",
+    "C0193",
+    "C0194",
+    "C0195",
+    "C0196",
+    "C0197",
+    "C0198",
+    "C0199",
+    "C0200",
+    "C0201",
+    "C0202",
+    "C0203",
+    "C0204",
+    "C0205",
+    "C0206",
+    "C0207",
+    "C0208",
+    "C0209",
+    "C0210",
+    "C0211",
+    "C0212",
+    "C0213",
+    "C0214",
+    "C0215",
+    "C0216",
+    "C0217",
+    "C0218",
+    "C0219",
+    "C0220",
+    "C0221",
+    "C0222",
+    "C0223",
+    "C0224",
+    "C0225",
+    "C0226",
+    "C0227",
+    "C0228",
+    "C0229",
+    "C0230",
+    "C0231",
+    "C0232",
+    "C0233",
+    "C0234",
+    "C0235",
+    "C0236",
+    "C0237",
+    "C0238",
+    "C0239",
+    "C0240",
+    "C0241",
+    "C0242",
+    "C0243",
+    "C0244",
+    "C0245",
+    "C0246",
+    "C0247",
+    "C0248",
+    "C0249",
+    "C0250",
+    "C0251",
+    "C0252",
+    "C0253",
+    "C0254",
+    "C0255",
+    "C0256",
+    "C0257",
+    "C0258",
+    "C0259",
+    "C0260",
+    "C0261",
+    "C0262",
+    "C0263",
+    "C0264",
+    "C0265",
+    "C0266",
+    "C0267",
+    "C0268",
+    "C0269",
+    "C0270",
+    "C0271",
+    "C0272",
+    "C0273",
+    "C0274",
+    "C0275",
+    "C0276",
+    "C0277",
+    "C0278",
+    "C0279",
+    "C0280",
+    "C0281",
+    "C0282",
+    "C0283",
+    "C0284",
+    "C0285",
+    "C0286",
+    "C0287",
+    "C0288",
+    "C0289",
+    "C0290",
+    "C0291",
+    "C0292",
+    "C0293",
+    "C0294",
+    "C0295",
+    "C0296",
+    "C0297",
+    "C0298",
+    "C0299",
+    "C0300",
+    "C0301",
+    "C0302",
+    "C0303",
+    "C0304",
+    "C0305",
+    "C0306",
+    "C0307",
+    "C0308",
+    "C0309",
+    "C0310",
+    "C0311",
+    "C0312",
+    "C0313",
+    "C0314",
+    "C0315",
+    "C0316",
+    "C0317",
+    "C0318",
+    "C0319",
+    "C0320",
+    "C0321",
+    "C0322",
+    "C0323",
+    "C0324",
+    "C0325",
+    "C0326",
+    "C0327",
+    "C0328",
+    "C0329",
+    "C0330",
+    "C0331",
+    "C0332",
+    "C0333",
+    "C0334",
+    "C0335",
+    "C0336",
+    "C0337",
+    "C0338",
+    "C0339",
+    "C0340",
+    "C0341",
+    "C0342",
+    "C0343",
+    "C0344",
+    "C0345",
+    "C0346",
+    "C0347",
+    "C0348",
+    "C0349",
+    "C0350",
+    "H0001",
+    "H0002",
+    "H0003",
+    "H0004",
+    "H0005",
+    "H0006",
+    "H0007",
+    "H0008",
+    "H0009",
+    "H0010",
+    "H0011",
+    "H0012",
+    "H0013",
+    "H0014",
+    "H0015",
+    "H0016",
+    "H0017",
+    "H0018",
+    "H0019",
+    "H0020",
+    "H0021",
+    "H0022",
+    "H0023",
+    "H0024",
+    "H0025",
+    "H0026",
+    "H0027",
+    "H0028",
+    "H0029",
+    "H0030",
+    "H0031",
+    "H0032",
+    "H0033",
+    "H0034",
+    "H0035",
+    "H0036",
+    "H0037",
+    "H0038",
+    "H0039",
+    "H0040",
+    "H0041",
+    "H0042",
+    "H0043",
+    "H0044",
+    "H0045",
+    "H0046",
+    "H0047",
+    "H0048",
+    "H0049",
+    "H0050",
+    "H0051",
+    "H0052",
+    "H0053",
+    "H0054",
+    "H0055",
+    "H0056",
+    "H0057",
+    "H0058",
+    "H0059",
+    "H0060",
+    "H0061",
+    "H0062",
+    "H0063",
+    "H0064",
+    "H0065",
+    "H0066",
+    "H0067",
+    "H0068",
+    "H0069",
+    "H0070",
+    "H0071",
+    "H0072",
+    "H0073",
+    "H0074",
+    "H0075",
+    "H0076",
+    "H0077",
+    "H0078",
+    "H0079",
+    "H0080",
+    "H0081",
+    "H0082",
+    "H0083",
+    "H0084",
+    "H0085",
+    "H0086",
+    "H0087",
+    "H0088",
+    "H0089",
+    "H0090",
+    "H0091",
+    "H0092",
+    "H0093",
+    "H0094",
+    "H0095",
+    "H0096",
+    "H0097",
+    "H0098",
+    "H0099",
+    "H0100",
+    "H0101",
+    "H0102",
+    "H0103",
+    "H0104",
+    "H0105",
+    "H0106",
+    "H0107",
+    "H0108",
+    "H0109",
+    "H0110",
+    "H0111",
+    "H0112",
+    "H0113",
+    "H0114",
+    "H0115",
+    "H0116",
+    "H0117",
+    "H0118",
+    "H0119",
+    "H0120",
+    "H0121",
+    "H0122",
+    "H0123",
+    "H0124",
+    "H0125",
+    "H0126",
+    "H0127",
+    "H0128",
+    "H0129",
+    "H0130",
+    "H0131",
+    "H0132",
+    "H0133",
+    "H0134",
+    "H0135",
+    "H0136",
+    "H0137",
+    "H0138",
+    "H0139",
+    "H0140",
+    "H0141",
+    "H0142",
+    "H0143",
+    "H0144",
+    "H0145",
+    "H0146",
+    "H0147",
+    "H0148",
+    "H0149",
+    "H0150",
+    "H0151",
+    "H0152",
+    "H0153",
+    "H0154",
+    "H0155",
+    "H0156",
+    "H0157",
+    "H0158",
+    "H0159",
+    "H0160",
+    "H0161",
+    "H0162",
+    "H0163",
+    "H0164",
+    "H0165",
+    "H0166",
+    "H0167",
+    "H0168",
+    "H0169",
+    "H0170",
+    "H0171",
+    "H0172",
+    "H0173",
+    "H0174",
+    "H0175",
+    "H0176",
+    "H0177",
+    "H0178",
+    "H0179",
+    "H0180",
+    "H0181",
+    "H0182",
+    "H0183",
+    "H0184",
+    "H0185",
+    "H0186",
+    "H0187",
+    "H0188",
+    "H0189",
+    "H0190",
+    "H0191",
+    "H0192",
+    "H0193",
+    "H0194",
+    "H0195",
+    "H0196",
+    "H0197",
+    "H0198",
+    "H0199",
+    "H0200",
+    "H0201",
+    "H0202",
+    "H0203",
+    "H0204",
+    "H0205",
+    "H0206",
+    "H0207",
+    "H0208",
+    "H0209",
+    "H0210",
+    "H0211",
+    "H0212",
+    "H0213",
+    "H0214",
+    "H0215",
+    "H0216",
+    "H0217",
+    "H0218",
+    "H0219",
+    "H0220",
+    "H0221",
+    "H0222",
+    "H0223",
+    "H0224",
+    "H0225",
+    "H0226",
+    "H0227",
+    "H0228",
+    "H0229",
+    "H0230",
+    "H0231",
+    "H0232",
+    "H0233",
+    "H0234",
+    "H0235",
+    "H0236",
+    "H0237",
+    "H0238",
+    "H0239",
+    "H0240",
+    "H0241",
+    "H0242",
+    "H0243",
+    "H0244",
+    "H0245",
+    "H0246",
+    "H0247",
+    "H0248",
+    "H0249",
+    "H0250",
+    "H0251",
+    "H0252",
+    "H0253",
+    "H0254",
+    "H0255",
+    "H0256",
+    "H0257",
+    "H0258",
+    "H0259",
+    "H0260",
+    "H0261",
+    "H0262",
+    "H0263",
+    "H0264",
+    "H0265",
+    "H0266",
+    "H0267",
+    "H0268",
+    "H0269",
+    "H0270",
+    "H0271",
+    "H0272",
+    "H0273",
+    "H0274",
+    "H0275",
+    "H0276",
+    "H0277",
+    "H0278",
+    "H0279",
+    "H0280",
+    "H0281",
+    "H0282",
+    "H0283",
+    "H0284",
+    "H0285",
+    "H0286",
+    "H0287",
+    "H0288",
+    "H0289",
+    "H0290",
+    "H0291",
+    "H0292",
+    "H0293",
+    "H0294",
+    "H0295",
+    "H0296",
+    "H0297",
+    "H0298",
+    "H0299",
+    "H0300",
+    "H0301",
+    "H0302",
+    "H0303",
+    "H0304",
+    "H0305",
+    "H0306",
+    "H0307",
+    "H0308",
+    "H0309",
+    "H0310",
+    "H0311",
+    "H0312",
+    "H0313",
+    "H0314",
+    "H0315",
+    "H0316",
+    "H0317",
+    "H0318",
+    "H0319",
+    "H0320",
+    "H0321",
+    "H0322",
+    "H0323",
+    "H0324",
+    "H0325",
+    "H0326",
+    "H0327",
+    "H0328",
+    "H0329",
+    "H0330",
+    "H0331",
+    "H0332",
+    "H0333",
+    "H0334",
+    "H0335",
+    "H0336",
+    "H0337",
+    "H0338",
+    "H0339",
+    "H0340",
+    "H0341",
+    "H0342",
+    "H0343",
+    "H0344",
+    "H0345",
+    "H0346",
+    "H0347",
+    "H0348",
+    "H0349",
+    "H0350",
+    "S0001",
+    "S0002",
+    "S0003",
+    "S0004",
+    "S0005",
+    "S0006",
+    "S0007",
+    "S0008",
+    "S0009",
+    "S0010",
+    "S0011",
+    "S0012",
+    "S0013",
+    "S0014",
+    "S0015",
+    "S0016",
+    "S0017",
+    "S0018",
+    "S0019",
+    "S0020",
+    "S0021",
+    "S0022",
+    "S0023",
+    "S0024",
+    "S0025",
+    "S0026",
+    "S0027",
+    "S0028",
+    "S0029",
+    "S0030",
+    "S0031",
+    "S0032",
+    "S0033",
+    "S0034",
+    "S0035",
+    "S0036",
+    "S0037",
+    "S0038",
+    "S0039",
+    "S0040",
+    "S0041",
+    "S0042",
+    "S0043",
+    "S0044",
+    "S0045",
+    "S0046",
+    "S0047",
+    "S0048",
+    "S0049",
+    "S0050",
+    "S0051",
+    "S0052",
+    "S0053",
+    "S0054",
+    "S0055",
+    "S0056",
+    "S0057",
+    "S0058",
+    "S0059",
+    "S0060",
+    "S0061",
+    "S0062",
+    "S0063",
+    "S0064",
+    "S0065",
+    "S0066",
+    "S0067",
+    "S0068",
+    "S0069",
+    "S0070",
+    "S0071",
+    "S0072",
+    "S0073",
+    "S0074",
+    "S0075",
+    "S0076",
+    "S0077",
+    "S0078",
+    "S0079",
+    "S0080",
+    "S0081",
+    "S0082",
+    "S0083",
+    "S0084",
+    "S0085",
+    "S0086",
+    "S0087",
+    "S0088",
+    "S0089",
+    "S0090",
+    "S0091",
+    "S0092",
+    "S0093",
+    "S0094",
+    "S0095",
+    "S0096",
+    "S0097",
+    "S0098",
+    "S0099",
+    "S0100",
+    "S0101",
+    "S0102",
+    "S0103",
+    "S0104",
+    "S0105",
+    "S0106",
+    "S0107",
+    "S0108",
+    "S0109",
+    "S0110",
+    "S0111",
+    "S0112",
+    "S0113",
+    "S0114",
+    "S0115",
+    "S0116",
+    "S0117",
+    "S0118",
+    "S0119",
+    "S0120",
+    "S0121",
+    "S0122",
+    "S0123",
+    "S0124",
+    "S0125",
+    "S0126",
+    "S0127",
+    "S0128",
+    "S0129",
+    "S0130",
+    "S0131",
+    "S0132",
+    "S0133",
+    "S0134",
+    "S0135",
+    "S0136",
+    "S0137",
+    "S0138",
+    "S0139",
+    "S0140",
+    "S0141",
+    "S0142",
+    "S0143",
+    "S0144",
+    "S0145",
+    "S0146",
+    "S0147",
+    "S0148",
+    "S0149",
+    "S0150",
+    "S0151",
+    "S0152",
+    "S0153",
+    "S0154",
+    "S0155",
+    "S0156",
+    "S0157",
+    "S0158",
+    "S0159",
+    "S0160",
+    "S0161",
+    "S0162",
+    "S0163",
+    "S0164",
+    "S0165",
+    "S0166",
+    "S0167",
+    "S0168",
+    "S0169",
+    "S0170",
+    "S0171",
+    "S0172",
+    "S0173",
+    "S0174",
+    "S0175",
+    "S0176",
+    "S0177",
+    "S0178",
+    "S0179",
+    "S0180",
+    "S0181",
+    "S0182",
+    "S0183",
+    "S0184",
+    "S0185",
+    "S0186",
+    "S0187",
+    "S0188",
+    "S0189",
+    "S0190",
+    "S0191",
+    "S0192",
+    "S0193",
+    "S0194",
+    "S0195",
+    "S0196",
+    "S0197",
+    "S0198",
+    "S0199",
+    "S0200",
+    "S0201",
+    "S0202",
+    "S0203",
+    "S0204",
+    "S0205",
+    "S0206",
+    "S0207",
+    "S0208",
+    "S0209",
+    "S0210",
+    "S0211",
+    "S0212",
+    "S0213",
+    "S0214",
+    "S0215",
+    "S0216",
+    "S0217",
+    "S0218",
+    "S0219",
+    "S0220",
+    "S0221",
+    "S0222",
+    "S0223",
+    "S0224",
+    "S0225",
+    "S0226",
+    "S0227",
+    "S0228",
+    "S0229",
+    "S0230",
+    "S0231",
+    "S0232",
+    "S0233",
+    "S0234",
+    "S0235",
+    "S0236",
+    "S0237",
+    "S0238",
+    "S0239",
+    "S0240",
+    "S0241",
+    "S0242",
+    "S0243",
+    "S0244",
+    "S0245",
+    "S0246",
+    "S0247",
+    "S0248",
+    "S0249",
+    "S0250",
+    "S0251",
+    "S0252",
+    "S0253",
+    "S0254",
+    "S0255",
+    "S0256",
+    "S0257",
+    "S0258",
+    "S0259",
+    "S0260",
+    "S0261",
+    "S0262",
+    "S0263",
+    "S0264",
+    "S0265",
+    "S0266",
+    "S0267",
+    "S0268",
+    "S0269",
+    "S0270",
+    "S0271",
+    "S0272",
+    "S0273",
+    "S0274",
+    "S0275",
+    "S0276",
+    "S0277",
+    "S0278",
+    "S0279",
+    "S0280",
+    "S0281",
+    "S0282",
+    "S0283",
+    "S0284",
+    "S0285",
+    "S0286",
+    "S0287",
+    "S0288",
+    "S0289",
+    "S0290",
+    "S0291",
+    "S0292",
+    "S0293",
+    "S0294",
+    "S0295",
+    "S0296",
+    "S0297",
+    "S0298",
+    "S0299",
+    "S0300"
+  ],
+  "changes": [
+    {
+      "id": "C0004",
+      "from": 3,
+      "to": 2,
+      "reason": "Basta distinguir datos sin etiquetas de aprendizaje supervisado; los otros enfoques se describen explícitamente.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0013",
+      "from": 3,
+      "to": 2,
+      "reason": "Agrupamiento reformula reunir ejemplos similares; no exige identificar un algoritmo.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0014",
+      "from": 2,
+      "to": 1,
+      "reason": "El enunciado define dos resultados y solo spam o legítimo cumple esa condición.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0015",
+      "from": 3,
+      "to": 2,
+      "reason": "Multiclase se deduce de más de dos categorías; las alternativas no compiten conceptualmente.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0032",
+      "from": 3,
+      "to": 2,
+      "reason": "Ajuste fino reproduce el ajuste descrito; las alternativas son fases diferentes.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0040",
+      "from": 2,
+      "to": 1,
+      "reason": "Ochenta aciertos de cien y porcentaje total de aciertos son equivalentes directos.",
+      "confidence": "alta",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0043",
+      "from": 2,
+      "to": 1,
+      "reason": "La amplitud de tareas se opone explícitamente a las opciones de tarea única o idioma único.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0045",
+      "from": 3,
+      "to": 2,
+      "reason": "Verdad de referencia traduce literalmente respuesta de referencia; las otras opciones no son respuestas correctas.",
+      "confidence": "alta",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0046",
+      "from": 3,
+      "to": 2,
+      "reason": "Distinguir colores de cantidades requiere una distinción básica entre categoría y magnitud.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0049",
+      "from": 2,
+      "to": 1,
+      "reason": "Sintéticos equivale a generados artificialmente y todas las alternativas son observaciones reales.",
+      "confidence": "alta",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0050",
+      "from": 2,
+      "to": 1,
+      "reason": "Solo una opción incluye una foto y su categoría; el etiquetado resulta explícito.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0058",
+      "from": 2,
+      "to": 1,
+      "reason": "Apartarse del comportamiento habitual equivale a anomalía; las otras operaciones no buscan casos raros.",
+      "confidence": "alta",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0061",
+      "from": 3,
+      "to": 2,
+      "reason": "El propio enunciado por lotes describe un grupo de ejemplos; las alternativas cambian la tarea.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0064",
+      "from": 2,
+      "to": 1,
+      "reason": "Automático remite directamente a automatización frente a otros sesgos.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0068",
+      "from": 2,
+      "to": 1,
+      "reason": "Explicabilidad y hacer comprensible son equivalentes; los distractores son métricas ajenas.",
+      "confidence": "alta",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0070",
+      "from": 3,
+      "to": 2,
+      "reason": "Reconocimiento básico de determinismo; tres alternativas expresan aleatoriedad.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0072",
+      "from": 3,
+      "to": 2,
+      "reason": "Bosque y varios árboles permiten deducir la combinación; otras opciones niegan el conjunto.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0073",
+      "from": 3,
+      "to": 2,
+      "reason": "Consultar los ejemplos más parecidos reformula vecinos más cercanos.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0079",
+      "from": 4,
+      "to": 3,
+      "reason": "Exige conocer el objetivo de pérdida, pero solo una alternativa evalúa discrepancia predictiva.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0080",
+      "from": 2,
+      "to": 1,
+      "reason": "Todo instalado y procesado en el dispositivo permite deducir que no necesita internet.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0082",
+      "from": 3,
+      "to": 2,
+      "reason": "Respeto al orden temporal puede razonarse sin conocimiento especializado de validación.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0083",
+      "from": 4,
+      "to": 3,
+      "reason": "Identifica una técnica habitual de evaluación; no exige variantes ni cálculo de validación cruzada.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0086",
+      "from": 4,
+      "to": 3,
+      "reason": "Requiere conocer la finalidad de normalizar, pero no escoger fórmula ni técnica específica.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0088",
+      "from": 3,
+      "to": 1,
+      "reason": "Eliminar copias equivale directamente a deduplicar; los distractores no eliminan copias.",
+      "confidence": "alta",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0089",
+      "from": 3,
+      "to": 2,
+      "reason": "El enunciado explicita orden y la respuesta es ordinal.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0091",
+      "from": 3,
+      "to": 2,
+      "reason": "Se resuelve contando 99 casos correctos y un spam no detectado.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0096",
+      "from": 3,
+      "to": 2,
+      "reason": "Umbral es el límite de puntuación que ya describe el enunciado.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0097",
+      "from": 4,
+      "to": 3,
+      "reason": "Reconocimiento de una tabla común de evaluación; no exige interpretar sus celdas.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0099",
+      "from": 3,
+      "to": 2,
+      "reason": "Varias etiquetas simultáneas y multietiqueta coinciden directamente.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0100",
+      "from": 3,
+      "to": 2,
+      "reason": "Aprender dos tareas conjuntamente remite a multitarea; distractores ajenos a ese aprendizaje.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0101",
+      "from": 3,
+      "to": 2,
+      "reason": "Mezcla de datos etiquetados y no etiquetados permite deducir semisupervisado.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0102",
+      "from": 4,
+      "to": 3,
+      "reason": "Definición introductoria de autosupervisión con contraste claro frente a anotación y recompensa externas.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0103",
+      "from": 3,
+      "to": 2,
+      "reason": "Reutilizar aprendizaje en otra tarea equivale a transferencia; no exige mecanismos.",
+      "confidence": "alta",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0106",
+      "from": 3,
+      "to": 2,
+      "reason": "Reconocer personas y lugares exige una distinción introductoria del procesamiento de textos.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0107",
+      "from": 4,
+      "to": 3,
+      "reason": "Correferencia es terminología menos conocida, pero el ejemplo hace explícita la relación.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0111",
+      "from": 2,
+      "to": 1,
+      "reason": "Comprensión ordinaria de las dos frases; no exige conocimiento de IA.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0113",
+      "from": 4,
+      "to": 3,
+      "reason": "Bolsa de palabras puede distinguirse de las otras representaciones sin detalle especializado.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0114",
+      "from": 2,
+      "to": 1,
+      "reason": "Suprimir no invierte un sentido evidente; alternativas prometen mejoras automáticas.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0117",
+      "from": 3,
+      "to": 2,
+      "reason": "Seleccionar frases del original se relaciona directamente con extractivo.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0122",
+      "from": 3,
+      "to": 1,
+      "reason": "La opción respuesta a preguntas visuales reproduce exactamente la tarea descrita.",
+      "confidence": "alta",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0124",
+      "from": 3,
+      "to": 2,
+      "reason": "Articulaciones corporales se relacionan con pose; las otras opciones describen objetos distintos.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0130",
+      "from": 2,
+      "to": 1,
+      "reason": "Mayor resolución reformula superresolución; las alternativas son tareas diferentes.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0140",
+      "from": 4,
+      "to": 3,
+      "reason": "Definición introductoria de aprendizaje federado frente a mecanismos distintos.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0141",
+      "from": 4,
+      "to": 3,
+      "reason": "Exige reconocer embedding, pero no propiedades vectoriales ni cálculos especializados.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0142",
+      "from": 3,
+      "to": 2,
+      "reason": "Base adaptable coincide con fundacional; las alternativas niegan aprendizaje o adaptación.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0143",
+      "from": 3,
+      "to": 2,
+      "reason": "Peticiones de entrenamiento y ajuste con instrucciones permiten una asociación directa.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0149",
+      "from": 2,
+      "to": 1,
+      "reason": "Leer un cartel y traducirlo son dos operaciones cotidianas; los otros pares no corresponden a la entrada.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0151",
+      "from": 4,
+      "to": 3,
+      "reason": "Hay que reconocer entrada y salida como secuencias; las alternativas dan una categoría o cantidad única.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0155",
+      "from": 3,
+      "to": 2,
+      "reason": "Detectar quién trabaja para quién equivale a extraer relaciones.",
+      "confidence": "alta",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0156",
+      "from": 2,
+      "to": 1,
+      "reason": "Términos que representan asuntos principales equivale a palabras clave.",
+      "confidence": "alta",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0158",
+      "from": 3,
+      "to": 2,
+      "reason": "La opción relleno de campos ofrece una descripción comprensible de extraer los datos de una reserva.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0162",
+      "from": 2,
+      "to": 1,
+      "reason": "Timbre y ladrido son eventos sonoros; las otras opciones trabajan habla o hablantes.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0164",
+      "from": 3,
+      "to": 2,
+      "reason": "Transcripción musical a notas resulta deducible; distractores realizan operaciones distintas.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0165",
+      "from": 3,
+      "to": 1,
+      "reason": "Reconocimiento óptico exige una entrada visual y solo partituras impresas lo es.",
+      "confidence": "alta",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0168",
+      "from": 2,
+      "to": 1,
+      "reason": "Fecha de nacimiento y su fecha es el único par que responde al formato campo y valor.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0169",
+      "from": 3,
+      "to": 2,
+      "reason": "Gemelo digital remite a representación vinculada; distractores excluyen la conexión con el objeto.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0170",
+      "from": 2,
+      "to": 1,
+      "reason": "Mantenimiento predictivo se reformula como anticipar mantenimiento o fallo.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0172",
+      "from": 3,
+      "to": 1,
+      "reason": "Pinza blanda para objetos variados remite a adaptarse; distractores rígidos o sin sujeción se descartan.",
+      "confidence": "alta",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0173",
+      "from": 2,
+      "to": 1,
+      "reason": "Solo un recorrido es ejecutable y sin colisiones; los otros incumplen restricciones evidentes.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0175",
+      "from": 3,
+      "to": 2,
+      "reason": "Integrar cámara y radar equivale a fusión de sensores.",
+      "confidence": "alta",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0177",
+      "from": 4,
+      "to": 2,
+      "reason": "Profundidad métrica conduce a distancia frente a categoría, brillo o movimiento.",
+      "confidence": "alta",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0179",
+      "from": 3,
+      "to": 2,
+      "reason": "Oclusión puede reconocerse como ocultación sin teoría de visión especializada.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0181",
+      "from": 2,
+      "to": 1,
+      "reason": "Atípico se define como alejado de la mayoría.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0183",
+      "from": 4,
+      "to": 2,
+      "reason": "Detener entrenamiento se corresponde literalmente con parada temprana.",
+      "confidence": "alta",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0184",
+      "from": 3,
+      "to": 2,
+      "reason": "Reconocimiento del buscador de Microsoft en su asistente; otras opciones son competidores.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0185",
+      "from": 3,
+      "to": 2,
+      "reason": "Modelo de referencia y comparar propuesta son equivalentes básicos.",
+      "confidence": "alta",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0187",
+      "from": 3,
+      "to": 1,
+      "reason": "Solo una alternativa compara con criterios comunes; las demás invalidan expresamente la comparación.",
+      "confidence": "alta",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0188",
+      "from": 4,
+      "to": 2,
+      "reason": "Verbosidad remite a respuestas largas; las otras opciones no describen exceso de palabras.",
+      "confidence": "alta",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0189",
+      "from": 3,
+      "to": 1,
+      "reason": "La ambigüedad requiere revisión; los distractores recurren a certezas o duplicaciones injustificadas.",
+      "confidence": "alta",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0194",
+      "from": 4,
+      "to": 3,
+      "reason": "El nombre error absoluto medio permite razonar media de magnitudes, sin cálculo ni estadística avanzada.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0196",
+      "from": 4,
+      "to": 3,
+      "reason": "Reconocimiento introductorio de generador y discriminador; no exige entrenamiento adversario.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0199",
+      "from": 4,
+      "to": 3,
+      "reason": "Profesor y estudiante facilitan reconocer imitación de salidas entre alternativas poco plausibles.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0200",
+      "from": 1,
+      "to": 2,
+      "reason": "Bixby exige cultura tecnológica de marca menos universal que reconocimiento cotidiano.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0202",
+      "from": 2,
+      "to": 1,
+      "reason": "Un clic solo prueba interacción; no permite concluir lectura ni satisfacción.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0203",
+      "from": 4,
+      "to": 3,
+      "reason": "El ajuste final de una lista ya puntuada puede identificarse por orden de operaciones.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0205",
+      "from": 3,
+      "to": 2,
+      "reason": "Ficha de modelo es la única documentación centrada en uso y evaluación del modelo.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0206",
+      "from": 3,
+      "to": 2,
+      "reason": "Composición y recogida corresponden al conjunto de datos; distractores describen modelos.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0207",
+      "from": 2,
+      "to": 1,
+      "reason": "Origen reformula procedencia; las otras opciones son métricas ajenas.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0208",
+      "from": 2,
+      "to": 1,
+      "reason": "Inventados por simulación equivale a sintéticos; demás opciones son observaciones reales.",
+      "confidence": "alta",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0211",
+      "from": 4,
+      "to": 3,
+      "reason": "Definición introductoria de política de agente frente a registro, prueba o recompensa.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0212",
+      "from": 4,
+      "to": 3,
+      "reason": "La explotación de puntos puede razonarse por el incentivo; otras respuestas niegan reglas o atribuyen demostración sin apoyo.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0214",
+      "from": 3,
+      "to": 1,
+      "reason": "Sim-to-real se explica literalmente como diferencia entre condiciones simuladas y reales.",
+      "confidence": "alta",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0215",
+      "from": 2,
+      "to": 1,
+      "reason": "Regla básica del póquer explícita en contraste con cartas públicas y apuestas visibles.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0216",
+      "from": 3,
+      "to": 4,
+      "reason": "Identificar destinatarias de un programa concreto de Stanford requiere historia especializada, no un concepto general.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0217",
+      "from": 3,
+      "to": 1,
+      "reason": "Autojuego se corresponde directamente con versiones de sí mismo.",
+      "confidence": "alta",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0219",
+      "from": 2,
+      "to": 1,
+      "reason": "Solo una alternativa persigue un objetivo y actúa; otras describen salidas fijas o clasificación.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0220",
+      "from": 3,
+      "to": 2,
+      "reason": "El espacio de acción se deduce de herramientas y permisos frente a límites de contexto o temas.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0221",
+      "from": 3,
+      "to": 2,
+      "reason": "El ciclo observar y actuar reproduce la descripción; otros procesos no responden a resultados.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0222",
+      "from": 3,
+      "to": 2,
+      "reason": "Subagente de un coordinador sugiere una parte del trabajo; las otras respuestas son absolutas o globales.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0223",
+      "from": 3,
+      "to": 2,
+      "reason": "Orquestación es la única respuesta que organiza la coordinación descrita.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0226",
+      "from": 3,
+      "to": 2,
+      "reason": "Recibir resultados es retroalimentación, frente a cambios de permisos o parámetros.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0227",
+      "from": 3,
+      "to": 1,
+      "reason": "Enviar cada tipo de consulta al especialista equivale a enrutamiento por tipo.",
+      "confidence": "alta",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0228",
+      "from": 2,
+      "to": 1,
+      "reason": "Los distractores anteponen autonomía, adopción sin comprobar o uniformidad cultural; se descartan por conocimiento general institucional.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0230",
+      "from": 4,
+      "to": 3,
+      "reason": "Definición introductoria de ingeniería de características; no requiere construir variables.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0231",
+      "from": 4,
+      "to": 3,
+      "reason": "Reducir dimensionalidad se asocia a menos variables; exige una distinción básica entre filas y variables.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0233",
+      "from": 4,
+      "to": 2,
+      "reason": "Importancia de variables se corresponde directamente con influencia de variables.",
+      "confidence": "alta",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0234",
+      "from": 4,
+      "to": 3,
+      "reason": "Sobremuestrear remite a aumentar presencia; no se pregunta por técnicas ni sesgos secundarios.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0235",
+      "from": 2,
+      "to": 1,
+      "reason": "El enunciado ya afirma diferencias por acentos; la media puede ocultarlas.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0236",
+      "from": 4,
+      "to": 3,
+      "reason": "Muestreo con reposición es un concepto estadístico introductorio, sin cálculo.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0240",
+      "from": 3,
+      "to": 1,
+      "reason": "La respuesta repite grupos por semejanza; distractores prometen verdad o categorías universales.",
+      "confidence": "alta",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0241",
+      "from": 4,
+      "to": 3,
+      "reason": "Definición inicial de k-means; no exige convergencia ni función objetivo.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0242",
+      "from": 4,
+      "to": 3,
+      "reason": "Reconocimiento del parámetro principal de k-means con distractores de unidades ajenas.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0244",
+      "from": 4,
+      "to": 3,
+      "reason": "Sustitutiva permite asociar proxy con aproximación indirecta entre alternativas incompatibles.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0245",
+      "from": 2,
+      "to": 1,
+      "reason": "Formación docente es la única opción pedagógica plausible; las otras eliminan formación o docentes.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0246",
+      "from": 3,
+      "to": 2,
+      "reason": "Crear precio por superficie se identifica como característica derivada sin cálculo especializado.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0247",
+      "from": 3,
+      "to": 2,
+      "reason": "Reconocer posible memorización de un ejemplo repetido requiere razonamiento básico de evaluación.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0249",
+      "from": 4,
+      "to": 2,
+      "reason": "Antes y después equivale a bidireccional, sin arquitectura ni entrenamiento.",
+      "confidence": "alta",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0250",
+      "from": 3,
+      "to": 2,
+      "reason": "Contextual y diferente según frase son equivalentes; las otras opciones prescinden del contexto.",
+      "confidence": "alta",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0251",
+      "from": 3,
+      "to": 2,
+      "reason": "Una media no fija cada subgrupo; razonamiento básico de agregación.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0252",
+      "from": 2,
+      "to": 1,
+      "reason": "Actúa como una editora asigna explícitamente un rol.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0253",
+      "from": 3,
+      "to": 2,
+      "reason": "Encadenar peticiones implica utilizar una salida en la siguiente.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0255",
+      "from": 4,
+      "to": 2,
+      "reason": "Perdido en el medio ofrece la respuesta entre opciones que no aluden a posición.",
+      "confidence": "alta",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0256",
+      "from": 5,
+      "to": 4,
+      "reason": "Requiere conocer activación dispersa de expertos, pero se pregunta solo el principio general.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0259",
+      "from": 5,
+      "to": 3,
+      "reason": "Recurrente se asocia a información anterior; las alternativas no conservan estado de secuencia.",
+      "confidence": "alta",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0261",
+      "from": 5,
+      "to": 2,
+      "reason": "Distinguir historial de veracidad es comprensión mediática básica, no conocimiento técnico de C2PA.",
+      "confidence": "alta",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0262",
+      "from": 3,
+      "to": 2,
+      "reason": "El ejemplo explicita que la pista del fondo deja de servir; otras opciones no describen el problema.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0263",
+      "from": 4,
+      "to": 2,
+      "reason": "La ausencia de metadatos no demuestra falsedad; las demás opciones son conclusiones injustificadas.",
+      "confidence": "alta",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0264",
+      "from": 3,
+      "to": 1,
+      "reason": "Registrar versión y condiciones es la única comparación reproducible; las otras omiten datos.",
+      "confidence": "alta",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0265",
+      "from": 2,
+      "to": 1,
+      "reason": "Las alternativas prometen infalibilidad o eliminar personas; solo automatizar desarrollo resulta plausible.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0266",
+      "from": 2,
+      "to": 1,
+      "reason": "Menor consumo de memoria facilita recursos limitados; distractores ofrecen recursos o capacidades ilimitados.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0268",
+      "from": 4,
+      "to": 2,
+      "reason": "Entre cinco primeros se corresponde literalmente con acierto top-5.",
+      "confidence": "alta",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0269",
+      "from": 3,
+      "to": 1,
+      "reason": "Se resuelve con la proporción elemental seis de diez.",
+      "confidence": "alta",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0272",
+      "from": 3,
+      "to": 2,
+      "reason": "Misma petición a dos modelos es la única comparación homogénea ofrecida.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0273",
+      "from": 4,
+      "to": 2,
+      "reason": "Sin cambiar respuestas permite descartar contenido y parámetros; el orden es la única manipulación compatible.",
+      "confidence": "alta",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0274",
+      "from": 2,
+      "to": 1,
+      "reason": "La regla literal rechaza una grafía diferente; las otras opciones contradicen la condición.",
+      "confidence": "alta",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0279",
+      "from": 3,
+      "to": 2,
+      "reason": "Seguir condiciones explica un árbol; las otras opciones no muestran el proceso.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0280",
+      "from": 4,
+      "to": 3,
+      "reason": "Exige reconocer hoja como terminal, pero no interpretar un árbol complejo.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0282",
+      "from": 4,
+      "to": 3,
+      "reason": "Filtrar nubes se vincula a descartar imágenes; aún requiere comprender observación remota.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0285",
+      "from": 3,
+      "to": 2,
+      "reason": "Wildfire y pronosticar permiten asociar propagación de fuego y humo; alternativas son otros fenómenos.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0286",
+      "from": 5,
+      "to": 3,
+      "reason": "Monitorización sísmica remite a llegada de ondas; distractores estudian otras propiedades del terreno.",
+      "confidence": "alta",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0291",
+      "from": 4,
+      "to": 3,
+      "reason": "Prótesis de habla orienta a palabras intentadas frente a visión o movimientos de manos.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0292",
+      "from": 3,
+      "to": 2,
+      "reason": "Pronósticos con variaciones expresan escenarios distintos, sin conocimiento específico de AIFS.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0293",
+      "from": 4,
+      "to": 3,
+      "reason": "Visión de cultivos permite estimar vegetación visible; salinidad, fertilizantes y raíces no se observan directamente.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0296",
+      "from": 5,
+      "to": 4,
+      "reason": "Texto e imágenes de las inscripciones es una combinación deducible; otras entradas requieren medidas distintas.",
+      "confidence": "alta",
+      "track": "conceptos",
+      "reviewReason": "El enunciado no revela las modalidades de Aeneas y las combinaciones texto-radiocarbono e imágenes-análisis químico son verosímiles para alguien sin formación arqueológica. Bajar desde5 es razonable, pero4 refleja mejor identificar el diseño de un sistema concreto de 2025."
+    },
+    {
+      "id": "C0298",
+      "from": 3,
+      "to": 1,
+      "reason": "Transcribir manuscritos es la única capacidad plausible; distractores garantizan autoría o autenticidad.",
+      "confidence": "alta",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0299",
+      "from": 3,
+      "to": 1,
+      "reason": "Mezclar columnas indica un problema evidente de orden de lectura.",
+      "confidence": "alta",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0300",
+      "from": 3,
+      "to": 2,
+      "reason": "Marcas en hoja de respuestas se asocia directamente con casillas marcadas.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0301",
+      "from": 5,
+      "to": 4,
+      "reason": "Exige conocer el mecanismo de privacidad diferencial; no aborda garantías matemáticas.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0302",
+      "from": 5,
+      "to": 4,
+      "reason": "Agregación segura se identifica por combinación protegida; no exige criptografía ni protocolo.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0303",
+      "from": 4,
+      "to": 3,
+      "reason": "Desaprendizaje remite a retirar influencia aprendida; distractores solo eliminan archivos o acceso.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0305",
+      "from": 4,
+      "to": 3,
+      "reason": "Definición introductoria de ejemplo adversario; las otras opciones no plantean engaño.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0307",
+      "from": 4,
+      "to": 3,
+      "reason": "Indirecta y consulta de contenido externo permiten distinguirla de mensaje directo.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0308",
+      "from": 5,
+      "to": 4,
+      "reason": "La pertenencia remite al conjunto de entrenamiento; concepto especializado sin detalle del ataque.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0309",
+      "from": 5,
+      "to": 4,
+      "reason": "Extraer modelo se asocia a reproducir funcionalidad; las otras opciones no extraen el modelo.",
+      "confidence": "alta",
+      "track": "conceptos",
+      "reviewReason": "Distinguir extracción de funcionalidad mediante consultas de extracción de información requiere un concepto específico de seguridad de modelos. El nombre del ataque no expresa por sí solo reproducción del comportamiento para el público general; la pista sí lo aclara. Recomiendo4, sin mantener5."
+    },
+    {
+      "id": "C0310",
+      "from": 5,
+      "to": 4,
+      "reason": "Requiere reconocer activación específica de puerta trasera frente a error aleatorio o deriva.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0311",
+      "from": 4,
+      "to": 3,
+      "reason": "Contrafactual exige distinguir cambio hipotético de confianza e influencia global; concepto accesible.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0312",
+      "from": 3,
+      "to": 2,
+      "reason": "Selección a bordo permite deducir menor necesidad de instrucciones terrestres.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0315",
+      "from": 5,
+      "to": 2,
+      "reason": "Novedades y patrón normal se reformulan en casos nuevos que se apartan; no exige método especializado.",
+      "confidence": "alta",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0316",
+      "from": 5,
+      "to": 4,
+      "reason": "Hay que reconocer pseudoetiquetado, sin técnica de selección ni sus riesgos.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0317",
+      "from": 5,
+      "to": 4,
+      "reason": "Supervisión débil requiere distinguir etiquetas heurísticas de anotación completa y autosupervisión.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0319",
+      "from": 5,
+      "to": 4,
+      "reason": "Metaaprendizaje exige una distinción conceptual frente a ensemble o reducción, sin detalle de algoritmos.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0320",
+      "from": 5,
+      "to": 4,
+      "reason": "Hay que distinguir interferencia entre tareas de sobreajuste e infraajuste, sin análisis especializado.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0321",
+      "from": 5,
+      "to": 4,
+      "reason": "Reconocimiento del colapso en entrenamiento recursivo, sin resultados cuantitativos del trabajo.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0322",
+      "from": 5,
+      "to": 3,
+      "reason": "Agregar respuestas es la única opción que compara varios recorridos; otras eligen longitud o repiten.",
+      "confidence": "alta",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0325",
+      "from": 4,
+      "to": 2,
+      "reason": "Buscar un sonido en archivos de audio es la única aplicación plausible frente a traducir a lenguaje humano o reconstruir forma.",
+      "confidence": "alta",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0326",
+      "from": 4,
+      "to": 3,
+      "reason": "Derivar según dificultad reproduce la tarea; exige distinguir cascada de promedio y entrenamiento sucesivo.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0327",
+      "from": 4,
+      "to": 2,
+      "reason": "Transferencia de estilo remite a contenido más estilo; demás opciones son exposiciones o fotogramas.",
+      "confidence": "alta",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0328",
+      "from": 4,
+      "to": 2,
+      "reason": "Pesca ilegal permite deducir detección de embarcaciones frente a nubes o nivel del mar.",
+      "confidence": "alta",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0330",
+      "from": 3,
+      "to": 2,
+      "reason": "Interpolación remite a imágenes intermedias entre las ya existentes.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0331",
+      "from": 3,
+      "to": 2,
+      "reason": "Conservar palabras e idioma deja como cambio las características del hablante.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0334",
+      "from": 5,
+      "to": 3,
+      "reason": "Enlace de entidades y base de conocimiento son la única opción de vinculación.",
+      "confidence": "alta",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0335",
+      "from": 3,
+      "to": 1,
+      "reason": "Ambigüedad gramatical cotidiana; no requiere conocimientos de IA.",
+      "confidence": "alta",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0340",
+      "from": 5,
+      "to": 3,
+      "reason": "Reanálisis se relaciona con observaciones y modelos; distractores excluyen datos o modelos explícitamente.",
+      "confidence": "alta",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0341",
+      "from": 4,
+      "to": 3,
+      "reason": "Prueba subjetiva remite a promediar opiniones frente a magnitudes físicas.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0343",
+      "from": 2,
+      "to": 1,
+      "reason": "Revisión y decisión de una persona equivale directamente a intervención humana.",
+      "confidence": "alta",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0344",
+      "from": 3,
+      "to": 2,
+      "reason": "Secuencia siempre fijada coincide con flujo predefinido.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0345",
+      "from": 3,
+      "to": 2,
+      "reason": "Neurosimbólica combina las dos partes que el enunciado ya describe; alternativas excluyen una.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0349",
+      "from": 3,
+      "to": 1,
+      "reason": "Global equivale al conjunto de muchos casos frente a alternativas de un solo caso.",
+      "confidence": "alta",
+      "track": "conceptos"
+    },
+    {
+      "id": "C0350",
+      "from": 4,
+      "to": 3,
+      "reason": "Probabilística añade incertidumbre; distractores proponen clasificación o agrupación ajenas a regresión.",
+      "confidence": "media",
+      "track": "conceptos"
+    },
+    {
+      "id": "H0005",
+      "from": 3,
+      "to": 2,
+      "reason": "Hito fundacional muy conocido en divulgación de IA; las alternativas son universidades ajenas a ese encuentro.",
+      "confidence": "media",
+      "track": "historia"
+    },
+    {
+      "id": "H0006",
+      "from": 3,
+      "to": 2,
+      "reason": "Pide una década muy separada de las alternativas, no el año exacto del hito fundacional.",
+      "confidence": "media",
+      "track": "historia"
+    },
+    {
+      "id": "H0007",
+      "from": 3,
+      "to": 2,
+      "reason": "McCarthy es el único pionero temprano de IA entre figuras asociadas a Linux y a la web.",
+      "confidence": "alta",
+      "track": "historia"
+    },
+    {
+      "id": "H0008",
+      "from": 4,
+      "to": 3,
+      "reason": "LISP es el único lenguaje de la primera época entre alternativas aparecidas décadas después.",
+      "confidence": "alta",
+      "track": "historia"
+    },
+    {
+      "id": "H0011",
+      "from": 4,
+      "to": 3,
+      "reason": "Minsky es el único investigador de IA entre divulgadores de física, lo que permite descarte informado.",
+      "confidence": "alta",
+      "track": "historia"
+    },
+    {
+      "id": "H0012",
+      "from": 4,
+      "to": 3,
+      "reason": "Los otros tres títulos son libros científicos muy conocidos de autores ajenos; el tema de la mente señala el candidato.",
+      "confidence": "media",
+      "track": "historia"
+    },
+    {
+      "id": "H0014",
+      "from": 3,
+      "to": 2,
+      "reason": "La pluralidad del título y las alternativas permiten reconocer la interacción de procesos sin conocer el libro.",
+      "confidence": "media",
+      "track": "historia"
+    },
+    {
+      "id": "H0020",
+      "from": 3,
+      "to": 2,
+      "reason": "La confianza en el interlocutor artificial se reconoce con experiencia conversacional básica; los distractores son menos congruentes.",
+      "confidence": "media",
+      "track": "historia"
+    },
+    {
+      "id": "H0022",
+      "from": 3,
+      "to": 2,
+      "reason": "Logic Theorist vincula explícitamente lógica y teoría; demostrar teoremas es la única tarea matemática entre las opciones.",
+      "confidence": "alta",
+      "track": "historia"
+    },
+    {
+      "id": "H0023",
+      "from": 3,
+      "to": 1,
+      "reason": "General Problem Solver expresa literalmente la finalidad general frente a tres aplicaciones específicas ajenas.",
+      "confidence": "alta",
+      "track": "historia"
+    },
+    {
+      "id": "H0024",
+      "from": 3,
+      "to": 2,
+      "reason": "Pensar en voz alta es una vía intuitiva de observar la resolución; las otras opciones no registran el proceso.",
+      "confidence": "media",
+      "track": "historia"
+    },
+    {
+      "id": "H0028",
+      "from": 3,
+      "to": 2,
+      "reason": "El Turing es el único reconocimiento de informática frente a premios de física y matemáticas.",
+      "confidence": "alta",
+      "track": "historia"
+    },
+    {
+      "id": "H0032",
+      "from": 5,
+      "to": 4,
+      "reason": "Exige conocer un planificador histórico especializado, pero los otros nombres corresponden a aplicaciones distintas y conocidas.",
+      "confidence": "media",
+      "track": "historia"
+    },
+    {
+      "id": "H0033",
+      "from": 3,
+      "to": 1,
+      "reason": "El enunciado subraya grupos de robots; cooperar para explorar es la única respuesta que usa ese rasgo.",
+      "confidence": "alta",
+      "track": "historia"
+    },
+    {
+      "id": "H0037",
+      "from": 5,
+      "to": 3,
+      "reason": "Exige distinguir búsqueda clásica de aprendizaje neuronal, una comparación conceptual, sin detalle técnico exigente.",
+      "confidence": "alta",
+      "track": "historia"
+    },
+    {
+      "id": "H0041",
+      "from": 3,
+      "to": 2,
+      "reason": "Recursos propios frente a ayuda externa en un concurso permite una deducción básica; dos distractores duplican la consulta en línea.",
+      "confidence": "media",
+      "track": "historia"
+    },
+    {
+      "id": "H0043",
+      "from": 3,
+      "to": 2,
+      "reason": "Partidas humanas es el único entrenamiento pertinente frente a comentarios deportivos, encuestas o azar.",
+      "confidence": "alta",
+      "track": "historia"
+    },
+    {
+      "id": "H0049",
+      "from": 3,
+      "to": 2,
+      "reason": "La colaboración artística con el programa se distingue de restauración, atribución y copia fotográfica sin saber detalles del proyecto.",
+      "confidence": "media",
+      "track": "historia"
+    },
+    {
+      "id": "H0052",
+      "from": 4,
+      "to": 2,
+      "reason": "Solo la respuesta correcta describe aprendizaje; las demás excluyen aprender o relacionar ejemplos.",
+      "confidence": "alta",
+      "track": "historia"
+    },
+    {
+      "id": "H0056",
+      "from": 4,
+      "to": 3,
+      "reason": "Completa el trío de un Nobel reciente muy divulgado; las alternativas son figuras vinculadas a otros campos o al Nobel de Física.",
+      "confidence": "media",
+      "track": "historia"
+    },
+    {
+      "id": "H0057",
+      "from": 3,
+      "to": 4,
+      "reason": "Pide un detalle de tesis doctoral con cuatro líneas de neurociencia plausibles; no se deduce del nombre del investigador.",
+      "confidence": "media",
+      "track": "historia"
+    },
+    {
+      "id": "H0065",
+      "from": 3,
+      "to": 2,
+      "reason": "La relación entre aprendizaje por recompensa, conducta y cerebro es una distinción básica entre disciplinas.",
+      "confidence": "media",
+      "track": "historia"
+    },
+    {
+      "id": "H0067",
+      "from": 2,
+      "to": 1,
+      "reason": "Perceptrón y conexiones de procesamiento remiten a neuronas frente a otros tejidos sin función cognitiva.",
+      "confidence": "media",
+      "track": "historia"
+    },
+    {
+      "id": "H0072",
+      "from": 2,
+      "to": 1,
+      "reason": "Centrada en las personas expresa directamente la prioridad del impacto humano.",
+      "confidence": "alta",
+      "track": "historia"
+    },
+    {
+      "id": "H0073",
+      "from": 3,
+      "to": 2,
+      "reason": "La asociación ratón-laberinto es familiar y los otros animales son muy poco plausibles para una máquina de sobremesa.",
+      "confidence": "media",
+      "track": "historia"
+    },
+    {
+      "id": "H0074",
+      "from": 3,
+      "to": 2,
+      "reason": "Shannon se asocia a información; las otras teorías son conocimientos generales ligados a disciplinas ajenas.",
+      "confidence": "media",
+      "track": "historia"
+    },
+    {
+      "id": "H0075",
+      "from": 2,
+      "to": 1,
+      "reason": "El enunciado ya afirma que aprendía el recorrido: recordar la ruta es su consecuencia directa.",
+      "confidence": "alta",
+      "track": "historia"
+    },
+    {
+      "id": "H0079",
+      "from": 3,
+      "to": 1,
+      "reason": "Solo posiciones y resultados sirven para aprender a jugar; popularidad, catálogo físico y comentarios no son rivales plausibles.",
+      "confidence": "alta",
+      "track": "historia"
+    },
+    {
+      "id": "H0080",
+      "from": 3,
+      "to": 2,
+      "reason": "El nombre TD-Gammon ofrece una pista lingüística directa hacia backgammon entre juegos conocidos.",
+      "confidence": "alta",
+      "track": "historia"
+    },
+    {
+      "id": "H0081",
+      "from": 5,
+      "to": 4,
+      "reason": "Autoría especializada de un proyecto importante; alternativas de pioneros de una generación distinta facilitan el descarte informado.",
+      "confidence": "media",
+      "track": "historia"
+    },
+    {
+      "id": "H0085",
+      "from": 3,
+      "to": 1,
+      "reason": "Un coche autónomo debe convertir sensores en órdenes de conducción; las otras opciones requieren un conductor o trabajo posterior.",
+      "confidence": "alta",
+      "track": "historia"
+    },
+    {
+      "id": "H0088",
+      "from": 2,
+      "to": 1,
+      "reason": "Compartir vías respetando normas es una necesidad cotidiana de circulación urbana.",
+      "confidence": "media",
+      "track": "historia"
+    },
+    {
+      "id": "H0089",
+      "from": 3,
+      "to": 1,
+      "reason": "Normas y decisiones seguras es el único criterio pertinente en una prueba de circulación frente a confort, potencia y precio.",
+      "confidence": "alta",
+      "track": "historia"
+    },
+    {
+      "id": "H0092",
+      "from": 2,
+      "to": 1,
+      "reason": "Repetir partidas para reducir la suerte es una deducción cotidiana; las otras opciones contradicen la competición.",
+      "confidence": "alta",
+      "track": "historia"
+    },
+    {
+      "id": "H0096",
+      "from": 4,
+      "to": 3,
+      "reason": "Requiere conocer el resultado general de las damas resueltas, no los métodos técnicos de la demostración.",
+      "confidence": "media",
+      "track": "historia"
+    },
+    {
+      "id": "H0099",
+      "from": 2,
+      "to": 1,
+      "reason": "Reconocimiento central de uno de los ordenadores ficticios más conocidos, sin detalles argumentales.",
+      "confidence": "media",
+      "track": "historia"
+    },
+    {
+      "id": "H0100",
+      "from": 3,
+      "to": 2,
+      "reason": "Pide la década de un clásico muy conocido, con alternativas separadas veinte años.",
+      "confidence": "media",
+      "track": "historia"
+    },
+    {
+      "id": "H0103",
+      "from": 4,
+      "to": 3,
+      "reason": "El protagonista de una película conocida es memoria cultural intermedia, no detalle de producción especializado.",
+      "confidence": "media",
+      "track": "historia"
+    },
+    {
+      "id": "H0107",
+      "from": 4,
+      "to": 3,
+      "reason": "Identifica al protagonista de Her, comparable a otras preguntas de reparto de nivel intermedio.",
+      "confidence": "media",
+      "track": "historia"
+    },
+    {
+      "id": "H0110",
+      "from": 4,
+      "to": 3,
+      "reason": "Identifica a la protagonista de Ex Machina, comparable al nombre del personaje y al reparto de otras películas.",
+      "confidence": "media",
+      "track": "historia"
+    },
+    {
+      "id": "H0111",
+      "from": 3,
+      "to": 1,
+      "reason": "Solo Turing es una prueba de inteligencia de máquinas; los demás tests pertenecen a ámbitos claramente diferentes.",
+      "confidence": "alta",
+      "track": "historia"
+    },
+    {
+      "id": "H0114",
+      "from": 4,
+      "to": 3,
+      "reason": "Actor protagonista reconocible de A.I.; exige recuerdo cinematográfico, no un detalle secundario de producción.",
+      "confidence": "media",
+      "track": "historia"
+    },
+    {
+      "id": "H0123",
+      "from": 2,
+      "to": 1,
+      "reason": "Auto y la nave orientan directamente a piloto automático frente a tareas domésticas y residuos.",
+      "confidence": "alta",
+      "track": "historia"
+    },
+    {
+      "id": "H0125",
+      "from": 1,
+      "to": 2,
+      "reason": "Sin usar la pista, hay que reconocer la función de un personaje concreto; el enunciado no revela que sea sanitario.",
+      "confidence": "alta",
+      "track": "historia"
+    },
+    {
+      "id": "H0127",
+      "from": 4,
+      "to": 2,
+      "reason": "Una novela ofrece contexto claro para discutir ética; las otras opciones son formación técnica de hardware.",
+      "confidence": "alta",
+      "track": "historia"
+    },
+    {
+      "id": "H0128",
+      "from": 2,
+      "to": 3,
+      "reason": "El nombre propio de la protagonista de una obra reciente es recuerdo cultural menos universal que WALL-E o Terminator.",
+      "confidence": "media",
+      "track": "historia"
+    },
+    {
+      "id": "H0132",
+      "from": 1,
+      "to": 2,
+      "reason": "Exige conocer la especialidad de un personaje; su función no aparece en el enunciado.",
+      "confidence": "alta",
+      "track": "historia"
+    },
+    {
+      "id": "H0133",
+      "from": 2,
+      "to": 1,
+      "reason": "Astromecánico permite deducir reparación y asistencia a naves frente a cocina, diplomacia y cirugía.",
+      "confidence": "media",
+      "track": "historia"
+    },
+    {
+      "id": "H0136",
+      "from": 1,
+      "to": 2,
+      "reason": "Recordar la empresa de Deep Blue es cultura digital básica, con cuatro empresas tecnológicas plausibles.",
+      "confidence": "media",
+      "track": "historia"
+    },
+    {
+      "id": "H0138",
+      "from": 3,
+      "to": 2,
+      "reason": "La definición de agente es conceptual básica frente a anatomía humana, velocidad y lenguaje de programación.",
+      "confidence": "media",
+      "track": "historia"
+    },
+    {
+      "id": "H0143",
+      "from": 3,
+      "to": 2,
+      "reason": "El porqué del título remite a causa y efecto, sin necesidad de memorizar el subtítulo.",
+      "confidence": "media",
+      "track": "historia"
+    },
+    {
+      "id": "H0147",
+      "from": 3,
+      "to": 4,
+      "reason": "Autoría concreta entre cuatro investigadoras plausibles; comparable a otros libros de ensayo de nivel 4.",
+      "confidence": "media",
+      "track": "historia"
+    },
+    {
+      "id": "H0149",
+      "from": 3,
+      "to": 2,
+      "reason": "Arte digital contemporáneo en un museo moderno se distingue de tres grandes museos principalmente históricos.",
+      "confidence": "media",
+      "track": "historia"
+    },
+    {
+      "id": "H0150",
+      "from": 3,
+      "to": 2,
+      "reason": "La colección es la materia artística natural frente a entradas, visitantes y audioguías.",
+      "confidence": "media",
+      "track": "historia"
+    },
+    {
+      "id": "H0158",
+      "from": 4,
+      "to": 2,
+      "reason": "Training Humans vincula directamente entrenamiento y clasificación de personas; los otros temas no se corresponden con el título.",
+      "confidence": "alta",
+      "track": "historia"
+    },
+    {
+      "id": "H0162",
+      "from": 3,
+      "to": 2,
+      "reason": "Telekino y el contexto histórico orientan a control a distancia frente a capacidades de IA modernas.",
+      "confidence": "media",
+      "track": "historia"
+    },
+    {
+      "id": "H0165",
+      "from": 3,
+      "to": 2,
+      "reason": "Luz y contacto es la única pareja de sensores plausible para navegación robótica sencilla entre las opciones.",
+      "confidence": "alta",
+      "track": "historia"
+    },
+    {
+      "id": "H0174",
+      "from": 3,
+      "to": 4,
+      "reason": "La construcción concreta de MENACE con cajas y cuentas es un detalle histórico especializado no deducible del nombre.",
+      "confidence": "media",
+      "track": "historia"
+    },
+    {
+      "id": "H0177",
+      "from": 3,
+      "to": 2,
+      "reason": "La descripción de retirar piezas de montones identifica Nim frente a tres juegos de reglas claramente distintas.",
+      "confidence": "media",
+      "track": "historia"
+    },
+    {
+      "id": "H0181",
+      "from": 5,
+      "to": 4,
+      "reason": "Autor de un programa histórico destacado: memoria especializada comparable a ELIZA o MENACE, sin un segundo detalle exigente.",
+      "confidence": "media",
+      "track": "historia"
+    },
+    {
+      "id": "H0183",
+      "from": 4,
+      "to": 1,
+      "reason": "Tentacle Arm y las alternativas de animales apuntan de forma directa al pulpo.",
+      "confidence": "alta",
+      "track": "historia"
+    },
+    {
+      "id": "H0185",
+      "from": 4,
+      "to": 1,
+      "reason": "El enunciado sistema experto apunta al conocimiento especializado; los otros factores son ajenos a su capacidad de razonar.",
+      "confidence": "alta",
+      "track": "historia"
+    },
+    {
+      "id": "H0189",
+      "from": 4,
+      "to": 2,
+      "reason": "Recalcular a partir de percepción es la única adaptación autónoma; las demás opciones repiten rutas o dependen de operadores.",
+      "confidence": "alta",
+      "track": "historia"
+    },
+    {
+      "id": "H0190",
+      "from": 4,
+      "to": 2,
+      "reason": "La precisión de movimientos es la única limitación ligada directamente a la función de un brazo robótico.",
+      "confidence": "alta",
+      "track": "historia"
+    },
+    {
+      "id": "H0194",
+      "from": 2,
+      "to": 1,
+      "reason": "Aportaciones de investigadores de IA encajan de forma directa en Investigación Científica y Técnica.",
+      "confidence": "alta",
+      "track": "historia"
+    },
+    {
+      "id": "H0197",
+      "from": 3,
+      "to": 4,
+      "reason": "Pide la ciudad de una unidad de investigación concreta con cuatro ciudades españolas plausibles.",
+      "confidence": "media",
+      "track": "historia"
+    },
+    {
+      "id": "H0199",
+      "from": 4,
+      "to": 3,
+      "reason": "El nombre Instituto de Robótica e Informática Industrial permite distinguirlo de otros centros por especialidad.",
+      "confidence": "media",
+      "track": "historia"
+    },
+    {
+      "id": "H0200",
+      "from": 3,
+      "to": 4,
+      "reason": "La identidad del fundador de un centro concreto entre investigadores españoles requiere conocimiento especializado.",
+      "confidence": "media",
+      "track": "historia"
+    },
+    {
+      "id": "H0201",
+      "from": 4,
+      "to": 3,
+      "reason": "SaxEx orienta hacia saxofón e interpretación musical; los otros proyectos tienen fines claramente diferentes.",
+      "confidence": "media",
+      "track": "historia"
+    },
+    {
+      "id": "H0203",
+      "from": 3,
+      "to": 1,
+      "reason": "Explorar un mapa implica descubrir información del rival; las otras opciones contradicen reglas normales de un juego.",
+      "confidence": "alta",
+      "track": "historia"
+    },
+    {
+      "id": "H0206",
+      "from": 3,
+      "to": 2,
+      "reason": "Reconocer shogi como ajedrez japonés es cultura general de juegos, sin conocer técnicas de IA.",
+      "confidence": "media",
+      "track": "historia"
+    },
+    {
+      "id": "H0208",
+      "from": 5,
+      "to": 4,
+      "reason": "Libro específico, pero los otros títulos son clásicos sobre ajedrecistas humanos y ayudan al descarte informado.",
+      "confidence": "media",
+      "track": "historia"
+    },
+    {
+      "id": "H0210",
+      "from": 3,
+      "to": 4,
+      "reason": "La organización coproductora de un sistema concreto es un detalle histórico con cuatro laboratorios plausibles.",
+      "confidence": "media",
+      "track": "historia"
+    },
+    {
+      "id": "H0211",
+      "from": 2,
+      "to": 3,
+      "reason": "Asociar Sophy con una saga concreta requiere conocer ese proyecto menos divulgado; el enunciado no revela carreras.",
+      "confidence": "alta",
+      "track": "historia"
+    },
+    {
+      "id": "H0212",
+      "from": 2,
+      "to": 1,
+      "reason": "Deportividad y evitar colisiones es el único objetivo coherente de competir bien frente a restricciones arbitrarias.",
+      "confidence": "alta",
+      "track": "historia"
+    },
+    {
+      "id": "H0216",
+      "from": 3,
+      "to": 1,
+      "reason": "Diplomacy y decidir con aliados remiten directamente a negociar, frente a tareas ajenas al juego.",
+      "confidence": "alta",
+      "track": "historia"
+    },
+    {
+      "id": "H0218",
+      "from": 4,
+      "to": 5,
+      "reason": "Distingue modalidades próximas de póquer y límites de apuesta de un estudio específico; requiere memoria precisa.",
+      "confidence": "media",
+      "track": "historia"
+    },
+    {
+      "id": "H0220",
+      "from": 4,
+      "to": 3,
+      "reason": "Exige combinar tiempo real e información incompleta, una comparación conceptual intermedia con cuatro opciones estructuradas.",
+      "confidence": "media",
+      "track": "historia"
+    },
+    {
+      "id": "H0221",
+      "from": 3,
+      "to": 1,
+      "reason": "Usar el mismo robot permite comparar software; las alternativas confunden igualdad de hardware con telecontrol o ausencia de sensores.",
+      "confidence": "alta",
+      "track": "historia"
+    },
+    {
+      "id": "H0224",
+      "from": 1,
+      "to": 2,
+      "reason": "Sin ver al robot ni consumir pista, hay que conocer el aspecto concreto de ASIMO.",
+      "confidence": "media",
+      "track": "historia"
+    },
+    {
+      "id": "H0225",
+      "from": 2,
+      "to": 1,
+      "reason": "Puertas, interruptores y mesas proporcionan directamente la finalidad de adaptarse a un entorno humano.",
+      "confidence": "alta",
+      "track": "historia"
+    },
+    {
+      "id": "H0226",
+      "from": 1,
+      "to": 2,
+      "reason": "Reconocer qué animal representa AIBO requiere cultura tecnológica específica, no información aportada por la pregunta.",
+      "confidence": "media",
+      "track": "historia"
+    },
+    {
+      "id": "H0228",
+      "from": 2,
+      "to": 1,
+      "reason": "Solo el comportamiento cambia por interacción; los otros cambios exigirían modificar físicamente el robot.",
+      "confidence": "media",
+      "track": "historia"
+    },
+    {
+      "id": "H0229",
+      "from": 2,
+      "to": 1,
+      "reason": "General Motors y el primer robot de producción orientan claramente a una fábrica frente a instituciones ajenas.",
+      "confidence": "media",
+      "track": "historia"
+    },
+    {
+      "id": "H0234",
+      "from": 2,
+      "to": 1,
+      "reason": "Sensores de desnivel describe de forma directa detectar escalones y evitar caídas.",
+      "confidence": "alta",
+      "track": "historia"
+    },
+    {
+      "id": "H0235",
+      "from": 3,
+      "to": 1,
+      "reason": "El nombre LUNAR identifica literalmente el único material procedente de la Luna.",
+      "confidence": "alta",
+      "track": "historia"
+    },
+    {
+      "id": "H0236",
+      "from": 3,
+      "to": 2,
+      "reason": "Preguntas escritas es la única forma razonable de consultar información; las otras alternativas describen entradas ajenas.",
+      "confidence": "alta",
+      "track": "historia"
+    },
+    {
+      "id": "H0237",
+      "from": 4,
+      "to": 5,
+      "reason": "La participación de una investigadora en un sistema de 1972 es un detalle especializado de autoría secundaria.",
+      "confidence": "media",
+      "track": "historia"
+    },
+    {
+      "id": "H0238",
+      "from": 5,
+      "to": 4,
+      "reason": "Diseñador de un brazo histórico destacado; las otras figuras se asocian a áreas de IA distintas.",
+      "confidence": "media",
+      "track": "historia"
+    },
+    {
+      "id": "H0239",
+      "from": 3,
+      "to": 2,
+      "reason": "Ver y tocar es la única combinación pertinente para montaje entre sensores meteorológicos, voz y orientación.",
+      "confidence": "alta",
+      "track": "historia"
+    },
+    {
+      "id": "H0243",
+      "from": 3,
+      "to": 4,
+      "reason": "Modelo incorporado a una liga en un año concreto: dato especializado entre cuatro robots conocidos.",
+      "confidence": "media",
+      "track": "historia"
+    },
+    {
+      "id": "H0246",
+      "from": 2,
+      "to": 1,
+      "reason": "Conversar es la interacción comercial plausible; masaje, fabricar prendas y guiar por la calle se alejan del contexto.",
+      "confidence": "media",
+      "track": "historia"
+    },
+    {
+      "id": "H0249",
+      "from": 1,
+      "to": 2,
+      "reason": "Relacionar una misión concreta con Marte es cultura científica básica; el nombre no revela el planeta.",
+      "confidence": "media",
+      "track": "historia"
+    },
+    {
+      "id": "H0253",
+      "from": 3,
+      "to": 1,
+      "reason": "Contrastar con resultados experimentales es la única validación científica pertinente entre las opciones.",
+      "confidence": "alta",
+      "track": "historia"
+    },
+    {
+      "id": "H0256",
+      "from": 3,
+      "to": 1,
+      "reason": "AlphaGeometry contiene literalmente geometría; los otros nombres remiten a tareas diferentes.",
+      "confidence": "alta",
+      "track": "historia"
+    },
+    {
+      "id": "H0257",
+      "from": 3,
+      "to": 2,
+      "reason": "El ámbito geométrico del nombre permite descartar evaluaciones de toda la matemática o de física.",
+      "confidence": "media",
+      "track": "historia"
+    },
+    {
+      "id": "H0260",
+      "from": 3,
+      "to": 2,
+      "reason": "Publicar en software es la única salida práctica coherente frente a museo, videojuegos o reserva privada.",
+      "confidence": "alta",
+      "track": "historia"
+    },
+    {
+      "id": "H0264",
+      "from": 4,
+      "to": 2,
+      "reason": "Para decidir jugadas se necesitan aspectos útiles para planificar; las otras opciones no tienen relación funcional.",
+      "confidence": "alta",
+      "track": "historia"
+    },
+    {
+      "id": "H0265",
+      "from": 3,
+      "to": 4,
+      "reason": "La consola usada por un conjunto de evaluación concreto es un detalle técnico histórico con alternativas plausibles.",
+      "confidence": "media",
+      "track": "historia"
+    },
+    {
+      "id": "H0266",
+      "from": 3,
+      "to": 2,
+      "reason": "Distinguir una referencia humana de récords absolutos requiere lectura crítica básica, sin conocer el experimento.",
+      "confidence": "media",
+      "track": "historia"
+    },
+    {
+      "id": "H0267",
+      "from": 3,
+      "to": 4,
+      "reason": "La autoría de un ensayo concreto entre cuatro físicos divulgadores plausibles requiere conocimiento especializado.",
+      "confidence": "media",
+      "track": "historia"
+    },
+    {
+      "id": "H0270",
+      "from": 3,
+      "to": 2,
+      "reason": "El objetivo estrecho de fabricar clips permite reconocer el problema de fines y consecuencias.",
+      "confidence": "media",
+      "track": "historia"
+    },
+    {
+      "id": "H0274",
+      "from": 3,
+      "to": 4,
+      "reason": "La protagonista investigadora de un documental concreto requiere conocimiento específico con cuatro investigadoras plausibles.",
+      "confidence": "media",
+      "track": "historia"
+    },
+    {
+      "id": "H0276",
+      "from": 3,
+      "to": 4,
+      "reason": "El nombre de una newsletter específica entre cuatro publicaciones de IA requiere memoria editorial especializada.",
+      "confidence": "media",
+      "track": "historia"
+    },
+    {
+      "id": "H0278",
+      "from": 5,
+      "to": 4,
+      "reason": "Autoría de un ensayo de divulgación de IA, comparable al resto de libros de nivel 4; no exige detalle adicional.",
+      "confidence": "media",
+      "track": "historia"
+    },
+    {
+      "id": "H0282",
+      "from": 5,
+      "to": 4,
+      "reason": "Autoría de un ensayo de IA, comparable a Human Compatible o The Alignment Problem, sin detalle adicional.",
+      "confidence": "media",
+      "track": "historia"
+    },
+    {
+      "id": "H0283",
+      "from": 5,
+      "to": 4,
+      "reason": "Pareja autora de un ensayo de IA; comparable al resto de autorías especializadas del banco.",
+      "confidence": "media",
+      "track": "historia"
+    },
+    {
+      "id": "H0286",
+      "from": 3,
+      "to": 2,
+      "reason": "La relación entre robot y trabajo es cultura general y las alternativas son semánticamente lejanas.",
+      "confidence": "media",
+      "track": "historia"
+    },
+    {
+      "id": "H0297",
+      "from": 1,
+      "to": 2,
+      "reason": "Hay que reconocer a un personaje concreto de una saga; cuatro universos de ciencia ficción son alternativas plausibles.",
+      "confidence": "media",
+      "track": "historia"
+    },
+    {
+      "id": "H0299",
+      "from": 4,
+      "to": 2,
+      "reason": "Emociones es la única diferencia posible: Data ya tiene cuerpo, habla y memoria por ser un personaje androide.",
+      "confidence": "alta",
+      "track": "historia"
+    },
+    {
+      "id": "H0300",
+      "from": 4,
+      "to": 3,
+      "reason": "Detalle argumental de la serie, pero las otras opciones son decisiones externas a la identidad del androide creado.",
+      "confidence": "media",
+      "track": "historia"
+    },
+    {
+      "id": "H0310",
+      "from": 3,
+      "to": 2,
+      "reason": "Animales y máquinas conecta con cibernética; las otras parejas son ámbitos de disciplinas claramente diferentes.",
+      "confidence": "media",
+      "track": "historia"
+    },
+    {
+      "id": "H0312",
+      "from": 3,
+      "to": 4,
+      "reason": "El vocabulario exacto reconocido por un sistema de 1952 requiere conocimiento histórico específico.",
+      "confidence": "media",
+      "track": "historia"
+    },
+    {
+      "id": "H0314",
+      "from": 3,
+      "to": 2,
+      "reason": "La dependencia de una voz es una limitación plausible; las otras alternativas contradicen el reconocimiento oral temprano.",
+      "confidence": "alta",
+      "track": "historia"
+    },
+    {
+      "id": "H0315",
+      "from": 3,
+      "to": 1,
+      "reason": "Un vocabulario pequeño es la única limitación coherente con reconocimiento de voz frente a teclado, fotografías y traducción.",
+      "confidence": "alta",
+      "track": "historia"
+    },
+    {
+      "id": "H0318",
+      "from": 3,
+      "to": 5,
+      "reason": "Cantidad exacta de palabras de un prototipo antiguo: memoria numérica especializada sin apoyo semántico en las opciones.",
+      "confidence": "alta",
+      "track": "historia"
+    },
+    {
+      "id": "H0321",
+      "from": 3,
+      "to": 2,
+      "reason": "Imágenes de carreteras es la única entrada visual útil para conducción frente a mapas manuales y diagramas de piezas.",
+      "confidence": "alta",
+      "track": "historia"
+    },
+    {
+      "id": "H0324",
+      "from": 3,
+      "to": 2,
+      "reason": "Un diálogo de datos es la forma básica de consulta de un sistema experto frente a percepción o pruebas físicas directas.",
+      "confidence": "alta",
+      "track": "historia"
+    },
+    {
+      "id": "H0326",
+      "from": 3,
+      "to": 1,
+      "reason": "Introducir fallos y comprobar recuperación es la única prueba pertinente frente a tamaño de programa o maniobras sin errores.",
+      "confidence": "alta",
+      "track": "historia"
+    },
+    {
+      "id": "H0328",
+      "from": 1,
+      "to": 2,
+      "reason": "Reconocer el tipo corporal de Atlas exige conocer ese robot específico sin apoyo visual.",
+      "confidence": "media",
+      "track": "historia"
+    },
+    {
+      "id": "H0329",
+      "from": 2,
+      "to": 1,
+      "reason": "Inspeccionar es la única tarea físicamente plausible de Spot frente a pasajeros, cirugía con patas y excavación masiva.",
+      "confidence": "alta",
+      "track": "historia"
+    },
+    {
+      "id": "H0335",
+      "from": 3,
+      "to": 4,
+      "reason": "Pide el ejemplo preciso imaginado por Lovelace con cuatro contenidos representables plausibles.",
+      "confidence": "media",
+      "track": "historia"
+    },
+    {
+      "id": "H0336",
+      "from": 3,
+      "to": 2,
+      "reason": "La relación Lovelace-Babbage es un hito básico de historia de informática; los otros inventores pertenecen a ámbitos distintos.",
+      "confidence": "media",
+      "track": "historia"
+    },
+    {
+      "id": "H0339",
+      "from": 2,
+      "to": 1,
+      "reason": "El retraso de comunicaciones es la única explicación razonable; las otras opciones son físicamente incongruentes.",
+      "confidence": "alta",
+      "track": "historia"
+    },
+    {
+      "id": "H0340",
+      "from": 3,
+      "to": 1,
+      "reason": "Elegir rocas es la única acción posible para un rover ya en Marte frente a cambiar planeta, instrumento o aterrizaje pasado.",
+      "confidence": "alta",
+      "track": "historia"
+    },
+    {
+      "id": "H0341",
+      "from": 3,
+      "to": 1,
+      "reason": "SMART Nav y DART orientan a navegación final; los otros objetivos exceden claramente la función de ese sistema.",
+      "confidence": "alta",
+      "track": "historia"
+    },
+    {
+      "id": "H0344",
+      "from": 3,
+      "to": 2,
+      "reason": "El protagonista artificial y las alternativas hacen evidente el motivo de discriminación sin recordar un episodio.",
+      "confidence": "alta",
+      "track": "historia",
+      "reviewReason": "El enunciado no identifica a Astro Boy como robot; reconocer ese rasgo es cultura de ficción básica, no deducción inmediata."
+    },
+    {
+      "id": "S0003",
+      "from": 3,
+      "to": 2,
+      "reason": "Tres alternativas restringen absurdamente un lanzamiento público; la prueba abierta resulta reconocible.",
+      "confidence": "media",
+      "track": "sociedad"
+    },
+    {
+      "id": "S0008",
+      "from": 3,
+      "to": 2,
+      "reason": "Solo publicar modelos y código corresponde a publicar un sistema de transcripción; los otros productos son ajenos.",
+      "confidence": "media",
+      "track": "sociedad"
+    },
+    {
+      "id": "S0011",
+      "from": 3,
+      "to": 2,
+      "reason": "Nano se identifica por oposición a Ultra, Titan y Max al preguntar por dispositivos.",
+      "confidence": "media",
+      "track": "sociedad"
+    },
+    {
+      "id": "S0014",
+      "from": 3,
+      "to": 1,
+      "reason": "La transparencia de un chatbot pide revelar que es IA; las otras opciones hablan de hardware o programación.",
+      "confidence": "alta",
+      "track": "sociedad"
+    },
+    {
+      "id": "S0024",
+      "from": 3,
+      "to": 2,
+      "reason": "GPT-4 es la única opción vinculada a OpenAI frente a modelos de otros proveedores.",
+      "confidence": "media",
+      "track": "sociedad"
+    },
+    {
+      "id": "S0027",
+      "from": 5,
+      "to": 3,
+      "reason": "El matiz normativo exige comprensión, pero solo el resumen es una obligación proporcionada entre las opciones.",
+      "confidence": "alta",
+      "track": "sociedad"
+    },
+    {
+      "id": "S0028",
+      "from": 2,
+      "to": 1,
+      "reason": "UNESCO es la única organización educativa y cultural frente a FIFA, OPEP y OTAN.",
+      "confidence": "media",
+      "track": "sociedad"
+    },
+    {
+      "id": "S0029",
+      "from": 4,
+      "to": 2,
+      "reason": "La respuesta expresa el sentido corriente de proporcionalidad; no exige memorizar la recomendación.",
+      "confidence": "alta",
+      "track": "sociedad"
+    },
+    {
+      "id": "S0031",
+      "from": 2,
+      "to": 1,
+      "reason": "Derechos y dignidad es la única base ética plausible frente a rentabilidad, nacionalidad o velocidad.",
+      "confidence": "media",
+      "track": "sociedad"
+    },
+    {
+      "id": "S0033",
+      "from": 2,
+      "to": 1,
+      "reason": "Solo el riesgo es un fundamento regulatorio plausible; tamaño de archivo, hardware y precio no compiten.",
+      "confidence": "media",
+      "track": "sociedad"
+    },
+    {
+      "id": "S0034",
+      "from": 3,
+      "to": 2,
+      "reason": "La Comisión es el órgano ejecutivo pertinente; las alternativas son bancarias o ajenas a la UE.",
+      "confidence": "media",
+      "track": "sociedad"
+    },
+    {
+      "id": "S0040",
+      "from": 3,
+      "to": 2,
+      "reason": "El rastreo indiscriminado se distingue de tres operaciones fotográficas ordinarias.",
+      "confidence": "media",
+      "track": "sociedad"
+    },
+    {
+      "id": "S0041",
+      "from": 4,
+      "to": 2,
+      "reason": "Solo una pareja incluye Corea del Sur, país de Seúl que ya aparece en el enunciado.",
+      "confidence": "alta",
+      "track": "sociedad"
+    },
+    {
+      "id": "S0042",
+      "from": 3,
+      "to": 2,
+      "reason": "No desplegar responde al riesgo no mitigable; las otras medidas no reducen ese riesgo.",
+      "confidence": "media",
+      "track": "sociedad"
+    },
+    {
+      "id": "S0046",
+      "from": 3,
+      "to": 1,
+      "reason": "La Agencia Internacional de la Energía se identifica literalmente por el ámbito energético preguntado.",
+      "confidence": "alta",
+      "track": "sociedad"
+    },
+    {
+      "id": "S0050",
+      "from": 3,
+      "to": 1,
+      "reason": "Seleccionar personal afecta al empleo; fondos de pantalla, compresión y colores son distractores muy lejanos.",
+      "confidence": "alta",
+      "track": "sociedad"
+    },
+    {
+      "id": "S0051",
+      "from": 4,
+      "to": 1,
+      "reason": "El enunciado pide un sistema de OpenAI y solo una opción lleva expresamente ese proveedor.",
+      "confidence": "alta",
+      "track": "sociedad"
+    },
+    {
+      "id": "S0054",
+      "from": 4,
+      "to": 2,
+      "reason": "La expansión de las siglas se reconoce con lenguaje básico de IA y el nombre Meta.",
+      "confidence": "alta",
+      "track": "sociedad"
+    },
+    {
+      "id": "S0056",
+      "from": 4,
+      "to": 3,
+      "reason": "Distinguir Opus de Sonnet y Haiku exige conocimiento de producto, pero no un detalle de nivel final.",
+      "confidence": "media",
+      "track": "sociedad"
+    },
+    {
+      "id": "S0069",
+      "from": 2,
+      "to": 1,
+      "reason": "La propia denominación de la agencia contiene la acción supervisar de la respuesta.",
+      "confidence": "media",
+      "track": "sociedad"
+    },
+    {
+      "id": "S0070",
+      "from": 3,
+      "to": 2,
+      "reason": "Real decreto es el instrumento estatal plausible frente a directiva europea, ordenanza y tratado.",
+      "confidence": "media",
+      "track": "sociedad"
+    },
+    {
+      "id": "S0073",
+      "from": 2,
+      "to": 1,
+      "reason": "La fecha y las alternativas de expresidentes permiten responder con actualidad política general española.",
+      "confidence": "media",
+      "track": "sociedad"
+    },
+    {
+      "id": "S0078",
+      "from": 5,
+      "to": 2,
+      "reason": "Una decisión sobre ayudas sociales remite a derechos fundamentales frente a rendimiento financiero, propiedad industrial y energía.",
+      "confidence": "alta",
+      "track": "sociedad"
+    },
+    {
+      "id": "S0079",
+      "from": 5,
+      "to": 2,
+      "reason": "Explicar una decisión es describir el papel de la IA; las otras opciones piden divulgaciones íntegras e improcedentes.",
+      "confidence": "alta",
+      "track": "sociedad"
+    },
+    {
+      "id": "S0080",
+      "from": 3,
+      "to": 2,
+      "reason": "Responsabilidad según función y contexto contrasta con atribuciones exclusivas manifiestamente insuficientes.",
+      "confidence": "media",
+      "track": "sociedad"
+    },
+    {
+      "id": "S0084",
+      "from": 4,
+      "to": 3,
+      "reason": "MCP es un término de cultura de herramientas; desarrollar las siglas requiere familiaridad, no conocimiento de implementación.",
+      "confidence": "media",
+      "track": "sociedad"
+    },
+    {
+      "id": "S0085",
+      "from": 5,
+      "to": 2,
+      "reason": "El propio ejemplo declara inaccesibilidad y permite deducir que no está resuelta toda la equidad.",
+      "confidence": "alta",
+      "track": "sociedad"
+    },
+    {
+      "id": "S0093",
+      "from": 4,
+      "to": 2,
+      "reason": "Los distractores identifican servicios de Microsoft, Google y Amazon frente al sistema de Apple solicitado.",
+      "confidence": "alta",
+      "track": "sociedad"
+    },
+    {
+      "id": "S0099",
+      "from": 3,
+      "to": 2,
+      "reason": "Media se corresponde con imágenes y vídeos; Write y Brand Kit remiten a funciones diferentes.",
+      "confidence": "media",
+      "track": "sociedad"
+    },
+    {
+      "id": "S0100",
+      "from": 3,
+      "to": 2,
+      "reason": "Resize y Switch describen transformaciones de tamaño y formato presentes en el enunciado.",
+      "confidence": "media",
+      "track": "sociedad"
+    },
+    {
+      "id": "S0102",
+      "from": 3,
+      "to": 2,
+      "reason": "Poder cuestionar un resultado perjudicial es el único efecto garantista plausible de la información.",
+      "confidence": "media",
+      "track": "sociedad"
+    },
+    {
+      "id": "S0103",
+      "from": 4,
+      "to": 5,
+      "reason": "Ciudad alemana de fundación de un traductor: detalle biográfico empresarial entre cuatro alternativas próximas.",
+      "confidence": "media",
+      "track": "sociedad"
+    },
+    {
+      "id": "S0104",
+      "from": 4,
+      "to": 2,
+      "reason": "Reconocer sesgos no intencionales es una idea básica; las alternativas absolutas son fácilmente descartables.",
+      "confidence": "alta",
+      "track": "sociedad"
+    },
+    {
+      "id": "S0106",
+      "from": 5,
+      "to": 3,
+      "reason": "La excepción artística añade un matiz real, pero tres alternativas extremas facilitan distinguir una divulgación compatible.",
+      "confidence": "alta",
+      "track": "sociedad"
+    },
+    {
+      "id": "S0108",
+      "from": 4,
+      "to": 5,
+      "reason": "País donde crecieron dos fundadores: dato biográfico poco difundido que no se deduce sin gastar pista.",
+      "confidence": "media",
+      "track": "sociedad"
+    },
+    {
+      "id": "S0111",
+      "from": 5,
+      "to": 3,
+      "reason": "El intercambio entre privacidad y precisión exige comprensión conceptual, pero las otras opciones prometen mejoras automáticas.",
+      "confidence": "alta",
+      "track": "sociedad"
+    },
+    {
+      "id": "S0118",
+      "from": 2,
+      "to": 1,
+      "reason": "Kamala Harris es la única vicepresidenta estadounidense entre las cuatro figuras propuestas.",
+      "confidence": "media",
+      "track": "sociedad"
+    },
+    {
+      "id": "S0125",
+      "from": 4,
+      "to": 5,
+      "reason": "Año exacto de inauguración de una versión concreta de supercomputador, con cuatro años contiguos.",
+      "confidence": "media",
+      "track": "sociedad"
+    },
+    {
+      "id": "S0126",
+      "from": 4,
+      "to": 2,
+      "reason": "Solo CENIA se sitúa en América Latina entre instituciones cuyo país aparece expresamente.",
+      "confidence": "alta",
+      "track": "sociedad"
+    },
+    {
+      "id": "S0127",
+      "from": 3,
+      "to": 2,
+      "reason": "La presidencia chilena fechada permite responder con cultura política contemporánea.",
+      "confidence": "media",
+      "track": "sociedad"
+    },
+    {
+      "id": "S0131",
+      "from": 3,
+      "to": 1,
+      "reason": "El enunciado ya dice Brasil y política de IA; solo una expansión de las siglas coincide.",
+      "confidence": "alta",
+      "track": "sociedad"
+    },
+    {
+      "id": "S0133",
+      "from": 2,
+      "to": 1,
+      "reason": "Identificar al presidente estadounidense de 2023 es cultura general muy extendida.",
+      "confidence": "media",
+      "track": "sociedad"
+    },
+    {
+      "id": "S0136",
+      "from": 2,
+      "to": 1,
+      "reason": "Mejorar servicios públicos es la única respuesta pertinente frente a restricciones a usos privados o sectoriales.",
+      "confidence": "media",
+      "track": "sociedad"
+    },
+    {
+      "id": "S0138",
+      "from": 3,
+      "to": 4,
+      "reason": "La ciudad de una cumbre concreta de 2017 requiere memoria específica del evento.",
+      "confidence": "media",
+      "track": "sociedad"
+    },
+    {
+      "id": "S0143",
+      "from": 2,
+      "to": 1,
+      "reason": "Tres opciones incluyen olores, sabores o aromas, que una cámara o micrófono ordinarios no recogen.",
+      "confidence": "media",
+      "track": "sociedad"
+    },
+    {
+      "id": "S0148",
+      "from": 4,
+      "to": 5,
+      "reason": "Colaboración promocional con un cineasta y su estudio en un anuncio concreto: detalle especializado sin pista.",
+      "confidence": "media",
+      "track": "sociedad"
+    },
+    {
+      "id": "S0149",
+      "from": 2,
+      "to": 1,
+      "reason": "Describir música por texto es el único procedimiento razonable entre alternativas con requisitos artificiales.",
+      "confidence": "media",
+      "track": "sociedad"
+    },
+    {
+      "id": "S0151",
+      "from": 3,
+      "to": 2,
+      "reason": "La pareja música-descripción es coherente con un conjunto para generación musical; los distractores son comerciales o documentales.",
+      "confidence": "media",
+      "track": "sociedad"
+    },
+    {
+      "id": "S0155",
+      "from": 5,
+      "to": 3,
+      "reason": "Distinguir evaluaciones relacionadas requiere comprensión institucional, pero las alternativas anulan o reducen indebidamente los controles.",
+      "confidence": "alta",
+      "track": "sociedad"
+    },
+    {
+      "id": "S0158",
+      "from": 3,
+      "to": 1,
+      "reason": "Solo una opción puntúa conducta de personas; las otras clasifican películas, fotos o equipos deportivos.",
+      "confidence": "alta",
+      "track": "sociedad"
+    },
+    {
+      "id": "S0163",
+      "from": 3,
+      "to": 2,
+      "reason": "Flash indica rapidez y encaja con una variante ligera; conserva cierta exigencia de vocabulario de producto.",
+      "confidence": "media",
+      "track": "sociedad"
+    },
+    {
+      "id": "S0165",
+      "from": 4,
+      "to": 3,
+      "reason": "La combinación Google y móvil en 2021 hace Android muy plausible frente a dos sistemas ya marginales.",
+      "confidence": "alta",
+      "track": "sociedad",
+      "reviewReason": "La razón propuesta utiliza Google, pero Google no aparece en el enunciado ni opciones. Sin conocer Project Relate quedan Android e iOS como alternativas plausibles; descartar dos sistemas antiguos no basta para nivel 2."
+    },
+    {
+      "id": "S0167",
+      "from": 2,
+      "to": 1,
+      "reason": "Repeat describe reproducir lo dicho frente a traducir, escribir o reconocer canciones.",
+      "confidence": "media",
+      "track": "sociedad"
+    },
+    {
+      "id": "S0168",
+      "from": 2,
+      "to": 1,
+      "reason": "Khanmigo contiene el nombre distintivo de Khan Academy, ausente en las alternativas.",
+      "confidence": "media",
+      "track": "sociedad"
+    },
+    {
+      "id": "S0171",
+      "from": 2,
+      "to": 1,
+      "reason": "Be My Eyes y la ayuda visual apuntan a baja visión frente a profesiones ajenas.",
+      "confidence": "media",
+      "track": "sociedad"
+    },
+    {
+      "id": "S0173",
+      "from": 4,
+      "to": 5,
+      "reason": "Nombre provisional ya sustituido entre cuatro marcas verosímiles; exige memoria muy específica.",
+      "confidence": "media",
+      "track": "sociedad"
+    },
+    {
+      "id": "S0175",
+      "from": 4,
+      "to": 3,
+      "reason": "GPT-4 frente a generaciones anteriores es un dato de la ola de lanzamientos de 2023, no una distinción técnica fina.",
+      "confidence": "media",
+      "track": "sociedad"
+    },
+    {
+      "id": "S0181",
+      "from": 3,
+      "to": 2,
+      "reason": "Solo una opción contempla ambos objetivos ambientales; las otras excluyen expresamente una parte.",
+      "confidence": "media",
+      "track": "sociedad"
+    },
+    {
+      "id": "S0185",
+      "from": 3,
+      "to": 2,
+      "reason": "OCR permite reconocer comprensión de documentos frente a nombres orientados a voz, código o representaciones.",
+      "confidence": "media",
+      "track": "sociedad"
+    },
+    {
+      "id": "S0187",
+      "from": 3,
+      "to": 2,
+      "reason": "El CEO de Anthropic es una figura central de cultura empresarial de IA, comparable a otros CEO ya en nivel 2.",
+      "confidence": "media",
+      "track": "sociedad"
+    },
+    {
+      "id": "S0188",
+      "from": 4,
+      "to": 3,
+      "reason": "La presidencia de Anthropic exige un papel empresarial concreto, de menor difusión que el CEO.",
+      "confidence": "media",
+      "track": "sociedad"
+    },
+    {
+      "id": "S0194",
+      "from": 4,
+      "to": 3,
+      "reason": "La expansión de SSI requiere familiaridad con la empresa, pero no un detalle de su tecnología.",
+      "confidence": "media",
+      "track": "sociedad"
+    },
+    {
+      "id": "S0197",
+      "from": 3,
+      "to": 2,
+      "reason": "El año de GPT-4 es un hito principal de la IA generativa, comparable al lanzamiento de ChatGPT.",
+      "confidence": "media",
+      "track": "sociedad"
+    },
+    {
+      "id": "S0199",
+      "from": 3,
+      "to": 2,
+      "reason": "Razonamiento distingue o1 de opciones centradas en vídeo, voz y fotografía.",
+      "confidence": "media",
+      "track": "sociedad"
+    },
+    {
+      "id": "S0200",
+      "from": 4,
+      "to": 1,
+      "reason": "Supervisar exige poder intervenir; las otras alternativas mantienen errores o delegan en el mismo sistema.",
+      "confidence": "alta",
+      "track": "sociedad"
+    },
+    {
+      "id": "S0202",
+      "from": 3,
+      "to": 2,
+      "reason": "Solo un trío reúne modelos de Google; las alternativas mezclan marcas de otros proveedores.",
+      "confidence": "media",
+      "track": "sociedad"
+    },
+    {
+      "id": "S0206",
+      "from": 4,
+      "to": 2,
+      "reason": "Conservar datos y decisiones expresa trazabilidad; los distractores eliminan precisamente el historial.",
+      "confidence": "alta",
+      "track": "sociedad"
+    },
+    {
+      "id": "S0208",
+      "from": 3,
+      "to": 1,
+      "reason": "Reducir diferencias entre países es el objetivo público coherente frente a campañas comerciales y beneficios de accionistas.",
+      "confidence": "alta",
+      "track": "sociedad"
+    },
+    {
+      "id": "S0209",
+      "from": 3,
+      "to": 1,
+      "reason": "Diversos actores responde directamente a gobernanza inclusiva frente a participación reservada a capital, patentes o proveedores.",
+      "confidence": "alta",
+      "track": "sociedad"
+    },
+    {
+      "id": "S0215",
+      "from": 4,
+      "to": 3,
+      "reason": "El responsable de impugnación es un requisito administrativo concreto con distractores jurídicos descartables.",
+      "confidence": "media",
+      "track": "sociedad"
+    },
+    {
+      "id": "S0216",
+      "from": 4,
+      "to": 1,
+      "reason": "Ante daño, reparar o retirar es la única actuación efectiva frente a mantener contrato, resultados o condiciones.",
+      "confidence": "alta",
+      "track": "sociedad"
+    },
+    {
+      "id": "S0218",
+      "from": 2,
+      "to": 1,
+      "reason": "España e IA ya aparecen en el enunciado y solo una expansión de ENIA coincide.",
+      "confidence": "media",
+      "track": "sociedad"
+    },
+    {
+      "id": "S0219",
+      "from": 2,
+      "to": 1,
+      "reason": "Identificar al presidente español de 2020 no requiere conocimiento de la estrategia.",
+      "confidence": "media",
+      "track": "sociedad"
+    },
+    {
+      "id": "S0220",
+      "from": 3,
+      "to": 2,
+      "reason": "Adaptación jurídica es la única finalidad coherente del entorno de prueba entre alternativas sin garantías.",
+      "confidence": "media",
+      "track": "sociedad"
+    },
+    {
+      "id": "S0221",
+      "from": 2,
+      "to": 1,
+      "reason": "Combinar formación nacional y atracción exterior se distingue de tres limitaciones arbitrarias.",
+      "confidence": "media",
+      "track": "sociedad"
+    },
+    {
+      "id": "S0224",
+      "from": 4,
+      "to": 1,
+      "reason": "Educación accesible es la única respuesta coherente con comprensión pública frente a marketing o requisitos avanzados.",
+      "confidence": "alta",
+      "track": "sociedad"
+    },
+    {
+      "id": "S0225",
+      "from": 4,
+      "to": 2,
+      "reason": "Validar para un uso exige cumplir sus requisitos; marca visual y garantía comercial son distractores alejados.",
+      "confidence": "alta",
+      "track": "sociedad"
+    },
+    {
+      "id": "S0226",
+      "from": 5,
+      "to": 3,
+      "reason": "La logística interna se distingue de tres formas explícitas de influir en el voto; no hace falta memorizar todo el anexo.",
+      "confidence": "alta",
+      "track": "sociedad"
+    },
+    {
+      "id": "S0227",
+      "from": 4,
+      "to": 2,
+      "reason": "La AIE y el consumo de centros de datos apuntan a electricidad; las otras redes son menos plausibles.",
+      "confidence": "alta",
+      "track": "sociedad"
+    },
+    {
+      "id": "S0231",
+      "from": 4,
+      "to": 5,
+      "reason": "Presidente estonio en una fecha concreta entre otros mandatarios estonios: memoria especializada.",
+      "confidence": "media",
+      "track": "sociedad"
+    },
+    {
+      "id": "S0232",
+      "from": 4,
+      "to": 5,
+      "reason": "Nombre de un programa educativo estonio anterior entre cuatro denominaciones plausibles.",
+      "confidence": "media",
+      "track": "sociedad"
+    },
+    {
+      "id": "S0234",
+      "from": 3,
+      "to": 2,
+      "reason": "Etiquetas y marcas de agua distinguen procedencia; las otras medidas no resuelven autenticidad.",
+      "confidence": "media",
+      "track": "sociedad"
+    },
+    {
+      "id": "S0235",
+      "from": 2,
+      "to": 1,
+      "reason": "Modi es el único dirigente indio entre los propuestos para inaugurar una cumbre en India.",
+      "confidence": "media",
+      "track": "sociedad"
+    },
+    {
+      "id": "S0237",
+      "from": 2,
+      "to": 1,
+      "reason": "La fecha identifica al presidente estadounidense de amplia notoriedad sin conocer el contenido de la orden.",
+      "confidence": "media",
+      "track": "sociedad"
+    },
+    {
+      "id": "S0243",
+      "from": 2,
+      "to": 1,
+      "reason": "Conservar la licencia contrasta con eliminarla o imponer requisitos físicos y cambios de nombre inverosímiles.",
+      "confidence": "media",
+      "track": "sociedad"
+    },
+    {
+      "id": "S0250",
+      "from": 5,
+      "to": 3,
+      "reason": "La concentración local frente al promedio mundial es una distinción conceptual, con algunos distractores técnicos plausibles.",
+      "confidence": "alta",
+      "track": "sociedad"
+    },
+    {
+      "id": "S0251",
+      "from": 3,
+      "to": 4,
+      "reason": "Año exacto de fundación de NVIDIA entre fechas próximas: memoria histórica empresarial especializada.",
+      "confidence": "media",
+      "track": "sociedad"
+    },
+    {
+      "id": "S0252",
+      "from": 5,
+      "to": 3,
+      "reason": "Las otras parejas son fundadores notorios de Apple, Google y Microsoft, lo que facilita descarte por cultura general.",
+      "confidence": "alta",
+      "track": "sociedad"
+    },
+    {
+      "id": "S0258",
+      "from": 4,
+      "to": 5,
+      "reason": "Año de presentación conjunta de tres servicios de AWS entre cuatro años próximos.",
+      "confidence": "media",
+      "track": "sociedad"
+    },
+    {
+      "id": "S0263",
+      "from": 2,
+      "to": 1,
+      "reason": "Filtrar fotos sin animales facilita revisar imágenes; las otras acciones no son tareas fotográficas.",
+      "confidence": "media",
+      "track": "sociedad"
+    },
+    {
+      "id": "S0265",
+      "from": 3,
+      "to": 4,
+      "reason": "País de un piloto específico de 2018, sin información suficiente para deducirlo antes de usar pista.",
+      "confidence": "media",
+      "track": "sociedad"
+    },
+    {
+      "id": "S0269",
+      "from": 4,
+      "to": 5,
+      "reason": "Empleador anterior de un cofundador menos conocido, con cuatro empresas plausibles.",
+      "confidence": "media",
+      "track": "sociedad"
+    },
+    {
+      "id": "S0271",
+      "from": 2,
+      "to": 1,
+      "reason": "Editar un contenido generado es una función básica frente a restricciones arbitrarias al resultado.",
+      "confidence": "media",
+      "track": "sociedad"
+    },
+    {
+      "id": "S0278",
+      "from": 4,
+      "to": 5,
+      "reason": "Fecha exacta de lanzamiento de una estrategia canadiense entre años próximos.",
+      "confidence": "media",
+      "track": "sociedad"
+    },
+    {
+      "id": "S0280",
+      "from": 4,
+      "to": 5,
+      "reason": "Reconocer tres institutos entre combinaciones de centros canadienses reales requiere conocimiento especializado.",
+      "confidence": "media",
+      "track": "sociedad"
+    },
+    {
+      "id": "S0286",
+      "from": 4,
+      "to": 3,
+      "reason": "Ultra 1.0 se distingue de Nano y de otras generaciones; requiere familiaridad con la gama de Google.",
+      "confidence": "media",
+      "track": "sociedad"
+    },
+    {
+      "id": "S0288",
+      "from": 4,
+      "to": 5,
+      "reason": "Nombre específico del modelo de stickers en un anuncio de 2023 entre cuatro nombres de aves.",
+      "confidence": "media",
+      "track": "sociedad"
+    },
+    {
+      "id": "S0289",
+      "from": 3,
+      "to": 2,
+      "reason": "Llama es la familia de Meta frente a familias de Google y OpenAI.",
+      "confidence": "media",
+      "track": "sociedad"
+    },
+    {
+      "id": "S0296",
+      "from": 2,
+      "to": 1,
+      "reason": "Write indica redactar frente a música, vídeo o separación de voces.",
+      "confidence": "media",
+      "track": "sociedad"
+    },
+    {
+      "id": "S0300",
+      "from": 3,
+      "to": 1,
+      "reason": "Design corresponde directamente a propuestas de diseño frente a Write, Eraser y Switch.",
+      "confidence": "alta",
+      "track": "sociedad"
+    }
+  ],
+  "reviewDisagreements": [
+    {
+      "id": "C0008",
+      "proposed": 1,
+      "suggested": 2,
+      "reason": "Dataset no se define en el enunciado. La rebaja presupone traducir vocabulario inglés de datos; para un público adulto español sin especialización corresponde mejor a cultura digital básica. No es un error grave, pero conservar 2 evita que la primera banda dependa de ese vocabulario."
+    },
+    {
+      "id": "C0034",
+      "proposed": 1,
+      "suggested": 2,
+      "reason": "Relacionar ajustar un modelo con entrenamiento, distinguiéndolo de prueba, exige conocer una distinción básica de aprendizaje automático. La pista usa practicar, pero ese apoyo solo aparece al consumirla; mantener 2 en la pregunta basal."
+    },
+    {
+      "id": "C0131",
+      "proposed": 1,
+      "suggested": 2,
+      "reason": "Ruido aplicado a una imagen es una acepción técnica básica; quien no la conozca puede considerar otras operaciones de corrección. No equivale tan literalmente a eliminar perturbaciones como en audio. Conservar 2 resulta más prudente."
+    },
+    {
+      "id": "C0153",
+      "proposed": 1,
+      "suggested": 2,
+      "reason": "El término prompt no aparece definido en las opciones. Conocer su equivalencia con petición/instrucciones es cultura digital básica de nivel2; no debería suponerse como reconocimiento cotidiano universal de nivel1."
+    },
+    {
+      "id": "C0296",
+      "proposed": 3,
+      "suggested": 4,
+      "reason": "El enunciado no revela las modalidades de Aeneas y las combinaciones texto-radiocarbono e imágenes-análisis químico son verosímiles para alguien sin formación arqueológica. Bajar desde5 es razonable, pero4 refleja mejor identificar el diseño de un sistema concreto de 2025."
+    },
+    {
+      "id": "C0309",
+      "proposed": 3,
+      "suggested": 4,
+      "reason": "Distinguir extracción de funcionalidad mediante consultas de extracción de información requiere un concepto específico de seguridad de modelos. El nombre del ataque no expresa por sí solo reproducción del comportamiento para el público general; la pista sí lo aclara. Recomiendo4, sin mantener5."
+    },
+    {
+      "id": "H0064",
+      "proposed": 4,
+      "suggested": 5,
+      "reason": "El grado universitario de Sutton sigue siendo un dato biográfico muy específico; el enunciado no dice aprendizaje por refuerzo y la relación con psicología requiere conocimiento previo."
+    },
+    {
+      "id": "H0153",
+      "proposed": 2,
+      "suggested": 3,
+      "reason": "El enunciado no aclara que Belamy sea arte generativo; cuatro orígenes de la familia son plausibles para quien no conoce la serie."
+    },
+    {
+      "id": "H0245",
+      "proposed": 3,
+      "suggested": 4,
+      "reason": "Honda/Toyota y Sony son fabricantes reales de robots; no basta descartar las otras empresas por sector para identificar coproductores concretos de Pepper."
+    },
+    {
+      "id": "H0262",
+      "proposed": 3,
+      "suggested": 4,
+      "reason": "El enunciado no menciona proteínas. Relacionar AlphaMissense con AlphaFold exige saber qué estudia el primer sistema, más allá de reconocer nombres Alpha."
+    },
+    {
+      "id": "H0296",
+      "proposed": 2,
+      "suggested": 3,
+      "reason": "Dar apariencia de María podría servir para suplantarla o protegerla; la finalidad concreta requiere conocer el argumento de Metrópolis."
+    },
+    {
+      "id": "H0344",
+      "proposed": 1,
+      "suggested": 2,
+      "reason": "El enunciado no identifica a Astro Boy como robot; reconocer ese rasgo es cultura de ficción básica, no deducción inmediata."
+    },
+    {
+      "id": "S0065",
+      "proposed": 2,
+      "suggested": 3,
+      "reason": "El nombre de una arquitectura de NVIDIA no prueba la disciplina del homenajeado: científicos de campos distintos pueden ser homenajeados. Para acertar hay que conocer a David Blackwell; el contexto computacional orienta, pero no descarta las otras disciplinas."
+    },
+    {
+      "id": "S0072",
+      "proposed": 1,
+      "suggested": 2,
+      "reason": "El enunciado solo nombra ALIA, sin indicar España. Reconocer su origen español y alcance lingüístico exige cultura digital previa; las otras combinaciones de lenguas son posibles para proyectos de modelos."
+    },
+    {
+      "id": "S0116",
+      "proposed": 1,
+      "suggested": 2,
+      "reason": "El enunciado no dice que Aya fuera multilingüe. Entrenar para inglés, francés o castellano no es absurdo ni contradictorio con perseguir un objetivo lingüístico: hace falta familiaridad con el proyecto para escoger ampliar idiomas."
+    },
+    {
+      "id": "S0134",
+      "proposed": 2,
+      "suggested": 3,
+      "reason": "Que un presidente firme un instrumento no excluye una ley del Congreso ni un tratado: también los firma. Identificar 14110 como orden ejecutiva requiere conocimiento institucional concreto, ausente del enunciado."
+    },
+    {
+      "id": "S0165",
+      "proposed": 2,
+      "suggested": 3,
+      "reason": "La razón propuesta utiliza Google, pero Google no aparece en el enunciado ni opciones. Sin conocer Project Relate quedan Android e iOS como alternativas plausibles; descartar dos sistemas antiguos no basta para nivel 2."
+    },
+    {
+      "id": "S0205",
+      "proposed": 3,
+      "suggested": 4,
+      "reason": "Copresidentes de un órgano específico de ONU es conocimiento institucional especializado. Las parejas de dirigentes políticos y tecnológicos son plausibles para un órgano asesor; no hay descarte suficiente para rebajar."
+    }
+  ],
+  "uncertain": [
+    {
+      "id": "C0218",
+      "reason": "Programa educativo concreto, pero escolar es la única opción no especializada; conservar 2 hasta observar jugadores."
+    },
+    {
+      "id": "C0284",
+      "reason": "Dynamic Targeting ofrece una pista de apuntado, pero las otras operaciones de a bordo son plausibles; conservar 5."
+    },
+    {
+      "id": "C0296",
+      "reason": "Texto e imágenes se deduce por plausibilidad; revisar distractores antes de buscar dificultad especializada."
+    },
+    {
+      "id": "H0048",
+      "reason": "Nombre del museo de una exposición concreta: frontera 4/5; se conserva 4 por ser un acontecimiento contemporáneo reseñado."
+    },
+    {
+      "id": "H0068",
+      "reason": "Detalle exacto de la demostración del perceptrón: frontera 4/5; mantener por ahora y observar fallos reales."
+    },
+    {
+      "id": "H0073",
+      "reason": "La deducción ratón-laberinto permite proponer 2, pero puede depender de familiaridad cultural. La pista ayuda mucho; no se ha usado para bajar la dificultad basal."
+    },
+    {
+      "id": "H0125",
+      "reason": "La popularidad de Baymax varía por edad y exposición a Disney; propuesto 2 por reconocimiento cultural específico, pendiente de partidas humanas."
+    },
+    {
+      "id": "H0128",
+      "reason": "Roz puede ser muy familiar para familias con niños y poco para otros adultos; propuesto 3 sin asumir popularidad universal."
+    },
+    {
+      "id": "H0155",
+      "reason": "Formato de una obra poco conocida: frontera 4/5. El título Show da contexto de espectáculo, pero no identifica cabaré drag. Se conserva 4."
+    },
+    {
+      "id": "H0179",
+      "reason": "Sin la pista de frutos secos, el animal del robot Squee requiere conocimiento concreto. Se conserva 4 y no se infiere facilidad desde la pista."
+    },
+    {
+      "id": "H0187",
+      "reason": "Aplicación química de DENDRAL: frontera 3/4; los otros ámbitos se alejan de la historia de sistemas expertos. Se conserva 3."
+    },
+    {
+      "id": "H0237",
+      "reason": "Se propone 5 por autoría secundaria; un experto que conozca la época de las otras investigadoras podrá descartar, pero exige conocimientos biográficos adicionales."
+    },
+    {
+      "id": "H0278",
+      "reason": "Las autorías de ensayos actuales pueden ser más fáciles para lectores habituales de estrategIA; propuesto 4 por coherencia con otras autorías."
+    },
+    {
+      "id": "H0287",
+      "reason": "Década del robot Eric: detalle poco conocido aunque intervalos muy separados facilitan descartar; se conserva 4."
+    },
+    {
+      "id": "H0344",
+      "reason": "Se propone 1 por descarte de alternativas poco plausibles. No acredita conocimiento profundo de Astro Boy."
+    },
+    {
+      "id": "S0010",
+      "reason": "Conservar nivel 2: Pichai es conocido para público interesado; variar según exposición a noticias."
+    },
+    {
+      "id": "S0060",
+      "reason": "Conservar nivel 3: Bedrock es menos conocido fuera de servicios de nube."
+    },
+    {
+      "id": "S0196",
+      "reason": "Conservar nivel 2: entrada visual de GPT-4 es un hito conocido; las versiones posteriores pueden confundir."
+    }
+  ],
+  "beforeSha256": "6df11754dd581dd324054c2007d41c74b1d5a744306158e46ec72e70de5a8319",
+  "afterSha256": "7b98564f8ccd63f38140ab4feb14f32fd218a95fb614000f013c9cc8061f3216",
+  "beforeLevels": {
+    "1": 101,
+    "2": 212,
+    "3": 360,
+    "4": 251,
+    "5": 76
+  },
+  "afterLevels": {
+    "1": 209,
+    "2": 296,
+    "3": 257,
+    "4": 185,
+    "5": 53
+  },
+  "trackLevels": {
+    "conceptos": {
+      "1": 90,
+      "2": 118,
+      "3": 86,
+      "4": 49,
+      "5": 7
+    },
+    "historia": {
+      "1": 49,
+      "2": 87,
+      "3": 96,
+      "4": 95,
+      "5": 23
+    },
+    "sociedad": {
+      "1": 70,
+      "2": 91,
+      "3": 75,
+      "4": 41,
+      "5": 23
+    }
+  },
+  "limits": [
+    "No son tasas de acierto medidas ni una predicción del rendimiento de jugadores.",
+    "Las fronteras entre bandas siguen siendo estimaciones editoriales.",
+    "Conceptos tiene siete preguntas en nivel 5; la prioridad a preguntas inéditas puede reducir su presencia tras varias partidas.",
+    "No se ha hecho una nueva verificación factual individual de todas las fuentes."
+  ],
+  "priorCommit": "cdd8bc8b054e44ca79528982c3ba71ac3967e5c0"
+}

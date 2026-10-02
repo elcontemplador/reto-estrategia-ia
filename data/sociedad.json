@@ -47,7 +47,7 @@
   },
   {
     "id": "S0003",
-    "band": 3,
+    "band": 2,
     "topic": "Empresas y herramientas",
     "family": "chatgpt-2022",
     "factKey": "chatgpt-preview",
@@ -157,7 +157,7 @@
   },
   {
     "id": "S0008",
-    "band": 3,
+    "band": 2,
     "topic": "Empresas y herramientas",
     "family": "whisper-2022",
     "factKey": "whisper-publicacion",
@@ -225,7 +225,7 @@
   },
   {
     "id": "S0011",
-    "band": 3,
+    "band": 2,
     "topic": "Empresas y herramientas",
     "family": "gemini-2023",
     "factKey": "gemini-nano",
@@ -293,7 +293,7 @@
   },
   {
     "id": "S0014",
-    "band": 3,
+    "band": 1,
     "topic": "Política y gobierno",
     "family": "ai-act-transparencia",
     "factKey": "ai-act-chatbot-aviso",
@@ -517,7 +517,7 @@
   },
   {
     "id": "S0024",
-    "band": 3,
+    "band": 2,
     "topic": "Empresas y herramientas",
     "family": "copilot365-2023",
     "factKey": "copilot365-gpt4",
@@ -583,7 +583,7 @@
   },
   {
     "id": "S0027",
-    "band": 5,
+    "band": 3,
     "topic": "Política y gobierno",
     "family": "ai-act-modelos-abiertos",
     "factKey": "ai-act-abiertos-resumen-datos",
@@ -607,7 +607,7 @@
   },
   {
     "id": "S0028",
-    "band": 2,
+    "band": 1,
     "topic": "IA y sociedad",
     "family": "unesco-2021",
     "factKey": "unesco-organismo",
@@ -629,7 +629,7 @@
   },
   {
     "id": "S0029",
-    "band": 4,
+    "band": 2,
     "topic": "IA y sociedad",
     "family": "unesco-etica-proporcionalidad",
     "factKey": "unesco-uso-proporcionado",
@@ -675,7 +675,7 @@
   },
   {
     "id": "S0031",
-    "band": 2,
+    "band": 1,
     "topic": "IA y sociedad",
     "family": "unesco-2021",
     "factKey": "unesco-eje",
@@ -719,7 +719,7 @@
   },
   {
     "id": "S0033",
-    "band": 2,
+    "band": 1,
     "topic": "Política y gobierno",
     "family": "aiact-2024",
     "factKey": "aiact-riesgo",
@@ -741,7 +741,7 @@
   },
   {
     "id": "S0034",
-    "band": 3,
+    "band": 2,
     "topic": "Política y gobierno",
     "family": "aiact-2024",
     "factKey": "aiact-oficina",
@@ -875,7 +875,7 @@
   },
   {
     "id": "S0040",
-    "band": 3,
+    "band": 2,
     "topic": "Política y gobierno",
     "family": "ai-act-practicas-prohibidas",
     "factKey": "ai-act-raspado-facial",
@@ -899,7 +899,7 @@
   },
   {
     "id": "S0041",
-    "band": 4,
+    "band": 2,
     "topic": "Política y gobierno",
     "family": "seoul-2024",
     "factKey": "seoul-coanfitriones",
@@ -921,7 +921,7 @@
   },
   {
     "id": "S0042",
-    "band": 3,
+    "band": 2,
     "topic": "Política y gobierno",
     "family": "seoul-2024",
     "factKey": "seul-compromiso-umbral",
@@ -1009,7 +1009,7 @@
   },
   {
     "id": "S0046",
-    "band": 3,
+    "band": 1,
     "topic": "Política y gobierno",
     "family": "paris-2025",
     "factKey": "paris-observatorio-energia",
@@ -1097,7 +1097,7 @@
   },
   {
     "id": "S0050",
-    "band": 3,
+    "band": 1,
     "topic": "Política y gobierno",
     "family": "ai-act-empleo",
     "factKey": "ai-act-seleccion-personal",
@@ -1121,7 +1121,7 @@
   },
   {
     "id": "S0051",
-    "band": 4,
+    "band": 1,
     "topic": "Empresas y herramientas",
     "family": "github-2021",
     "factKey": "github-copilot-codex",
@@ -1187,7 +1187,7 @@
   },
   {
     "id": "S0054",
-    "band": 4,
+    "band": 2,
     "topic": "Empresas y herramientas",
     "family": "llama-2023",
     "factKey": "llama-siglas",
@@ -1231,7 +1231,7 @@
   },
   {
     "id": "S0056",
-    "band": 4,
+    "band": 3,
     "topic": "Empresas y herramientas",
     "family": "claude3-2024",
     "factKey": "claude3-opus",
@@ -1523,7 +1523,7 @@
   },
   {
     "id": "S0069",
-    "band": 2,
+    "band": 1,
     "topic": "Política y gobierno",
     "family": "aesia-2023",
     "factKey": "aesia-funcion-supervision",
@@ -1545,7 +1545,7 @@
   },
   {
     "id": "S0070",
-    "band": 3,
+    "band": 2,
     "topic": "Política y gobierno",
     "family": "aesia-2023",
     "factKey": "aesia-norma",
@@ -1611,7 +1611,7 @@
   },
   {
     "id": "S0073",
-    "band": 2,
+    "band": 1,
     "topic": "Personas",
     "family": "alia-2025",
     "factKey": "alia-sanchez",
@@ -1723,7 +1723,7 @@
   },
   {
     "id": "S0078",
-    "band": 5,
+    "band": 2,
     "topic": "Política y gobierno",
     "family": "ai-act-impacto-derechos",
     "factKey": "ai-act-administracion-fria",
@@ -1747,7 +1747,7 @@
   },
   {
     "id": "S0079",
-    "band": 5,
+    "band": 2,
     "topic": "Política y gobierno",
     "family": "ai-act-explicacion-decisiones",
     "factKey": "ai-act-explicacion-contenido",
@@ -1771,7 +1771,7 @@
   },
   {
     "id": "S0080",
-    "band": 3,
+    "band": 2,
     "topic": "Política y gobierno",
     "family": "ocde-principios",
     "factKey": "ocde-responsabilidad-actores",
@@ -1861,7 +1861,7 @@
   },
   {
     "id": "S0084",
-    "band": 4,
+    "band": 3,
     "topic": "Empresas y herramientas",
     "family": "mcp-2024",
     "factKey": "mcp-siglas",
@@ -1883,7 +1883,7 @@
   },
   {
     "id": "S0085",
-    "band": 5,
+    "band": 2,
     "topic": "IA y sociedad",
     "family": "nist-equidad-accesibilidad",
     "factKey": "nist-balance-no-accesibilidad",
@@ -2063,7 +2063,7 @@
   },
   {
     "id": "S0093",
-    "band": 4,
+    "band": 2,
     "topic": "Empresas y herramientas",
     "family": "apple-2024",
     "factKey": "apple-pcc",
@@ -2197,7 +2197,7 @@
   },
   {
     "id": "S0099",
-    "band": 3,
+    "band": 2,
     "topic": "Empresas y herramientas",
     "family": "canva-2023",
     "factKey": "canva-magic-media",
@@ -2219,7 +2219,7 @@
   },
   {
     "id": "S0100",
-    "band": 3,
+    "band": 2,
     "topic": "Empresas y herramientas",
     "family": "canva-2023",
     "factKey": "canva-switch",
@@ -2263,7 +2263,7 @@
   },
   {
     "id": "S0102",
-    "band": 3,
+    "band": 2,
     "topic": "IA y sociedad",
     "family": "ocde-transparencia-impugnacion",
     "factKey": "ocde-cuestionar-resultados",
@@ -2287,7 +2287,7 @@
   },
   {
     "id": "S0103",
-    "band": 4,
+    "band": 5,
     "topic": "Empresas y herramientas",
     "family": "deepl-origen",
     "factKey": "deepl-ciudad",
@@ -2309,7 +2309,7 @@
   },
   {
     "id": "S0104",
-    "band": 4,
+    "band": 2,
     "topic": "IA y sociedad",
     "family": "nist-origen-sesgos",
     "factKey": "nist-sesgo-sin-intencion",
@@ -2355,7 +2355,7 @@
   },
   {
     "id": "S0106",
-    "band": 5,
+    "band": 3,
     "topic": "Cultura y ficción",
     "family": "ai-act-transparencia",
     "factKey": "ai-act-deepfake-obra",
@@ -2401,7 +2401,7 @@
   },
   {
     "id": "S0108",
-    "band": 4,
+    "band": 5,
     "topic": "Personas",
     "family": "eleven-2023",
     "factKey": "eleven-origen-polonia",
@@ -2467,7 +2467,7 @@
   },
   {
     "id": "S0111",
-    "band": 5,
+    "band": 3,
     "topic": "IA y sociedad",
     "family": "nist-compromisos-privacidad",
     "factKey": "nist-privacidad-precision",
@@ -2627,7 +2627,7 @@
   },
   {
     "id": "S0118",
-    "band": 2,
+    "band": 1,
     "topic": "Personas",
     "family": "bletchley-2023",
     "factKey": "bletchley-harris",
@@ -2783,7 +2783,7 @@
   },
   {
     "id": "S0125",
-    "band": 4,
+    "band": 5,
     "topic": "Tecnología e infraestructura",
     "family": "marenostrum5-2023",
     "factKey": "mn5-anio",
@@ -2807,7 +2807,7 @@
   },
   {
     "id": "S0126",
-    "band": 4,
+    "band": 2,
     "topic": "Política y gobierno",
     "family": "latamgpt-2026",
     "factKey": "latamgpt-coordinador",
@@ -2829,7 +2829,7 @@
   },
   {
     "id": "S0127",
-    "band": 3,
+    "band": 2,
     "topic": "Personas",
     "family": "latamgpt-2026",
     "factKey": "latamgpt-boric",
@@ -2921,7 +2921,7 @@
   },
   {
     "id": "S0131",
-    "band": 3,
+    "band": 1,
     "topic": "Política y gobierno",
     "family": "pbia-2024",
     "factKey": "pbia-siglas",
@@ -2965,7 +2965,7 @@
   },
   {
     "id": "S0133",
-    "band": 2,
+    "band": 1,
     "topic": "Personas",
     "family": "eo14110-2023",
     "factKey": "eo14110-biden",
@@ -3031,7 +3031,7 @@
   },
   {
     "id": "S0136",
-    "band": 2,
+    "band": 1,
     "topic": "Política y gobierno",
     "family": "uruguay-2024",
     "factKey": "uruguay-objetivo-servicios",
@@ -3075,7 +3075,7 @@
   },
   {
     "id": "S0138",
-    "band": 3,
+    "band": 4,
     "topic": "IA y sociedad",
     "family": "aiforgood-2017",
     "factKey": "aiforgood-ciudad",
@@ -3185,7 +3185,7 @@
   },
   {
     "id": "S0143",
-    "band": 2,
+    "band": 1,
     "topic": "Empresas y herramientas",
     "family": "teachable-2019",
     "factKey": "teachable-entradas",
@@ -3295,7 +3295,7 @@
   },
   {
     "id": "S0148",
-    "band": 4,
+    "band": 5,
     "topic": "Cultura y ficción",
     "family": "veoimagen-2024",
     "factKey": "veo-glover",
@@ -3317,7 +3317,7 @@
   },
   {
     "id": "S0149",
-    "band": 2,
+    "band": 1,
     "topic": "Empresas y herramientas",
     "family": "musiclm-2023",
     "factKey": "musiclm-peticion-texto",
@@ -3361,7 +3361,7 @@
   },
   {
     "id": "S0151",
-    "band": 3,
+    "band": 2,
     "topic": "Empresas y herramientas",
     "family": "musiclm-2023",
     "factKey": "musiccaps-contenido",
@@ -3451,7 +3451,7 @@
   },
   {
     "id": "S0155",
-    "band": 5,
+    "band": 3,
     "topic": "Política y gobierno",
     "family": "ai-act-evaluaciones-complementarias",
     "factKey": "ai-act-fria-dpia",
@@ -3519,7 +3519,7 @@
   },
   {
     "id": "S0158",
-    "band": 3,
+    "band": 1,
     "topic": "Política y gobierno",
     "family": "ai-act-practicas-prohibidas",
     "factKey": "ai-act-puntuacion-social",
@@ -3631,7 +3631,7 @@
   },
   {
     "id": "S0163",
-    "band": 3,
+    "band": 2,
     "topic": "Empresas y herramientas",
     "family": "astra-2024",
     "factKey": "gemini15-flash",
@@ -3675,7 +3675,7 @@
   },
   {
     "id": "S0165",
-    "band": 4,
+    "band": 3,
     "topic": "Empresas y herramientas",
     "family": "relate-2021",
     "factKey": "relate-android",
@@ -3719,7 +3719,7 @@
   },
   {
     "id": "S0167",
-    "band": 2,
+    "band": 1,
     "topic": "IA y sociedad",
     "family": "relate-2021",
     "factKey": "relate-repeat",
@@ -3741,7 +3741,7 @@
   },
   {
     "id": "S0168",
-    "band": 2,
+    "band": 1,
     "topic": "IA y sociedad",
     "family": "khanmigo-2023",
     "factKey": "khanmigo-organizacion",
@@ -3807,7 +3807,7 @@
   },
   {
     "id": "S0171",
-    "band": 2,
+    "band": 1,
     "topic": "IA y sociedad",
     "family": "bemyai-2023",
     "factKey": "bemyai-publico",
@@ -3851,7 +3851,7 @@
   },
   {
     "id": "S0173",
-    "band": 4,
+    "band": 5,
     "topic": "Empresas y herramientas",
     "family": "bemyai-2023",
     "factKey": "bemyai-nombre-original",
@@ -3895,7 +3895,7 @@
   },
   {
     "id": "S0175",
-    "band": 4,
+    "band": 3,
     "topic": "Empresas y herramientas",
     "family": "duomax-2023",
     "factKey": "duomax-modelo",
@@ -4029,7 +4029,7 @@
   },
   {
     "id": "S0181",
-    "band": 3,
+    "band": 2,
     "topic": "Política y gobierno",
     "family": "aesia-sostenibilidad",
     "factKey": "aesia-doble-perspectiva-ambiental",
@@ -4119,7 +4119,7 @@
   },
   {
     "id": "S0185",
-    "band": 3,
+    "band": 2,
     "topic": "Empresas y herramientas",
     "family": "mistral-ocr-2025",
     "factKey": "mistral-ocr-nombre",
@@ -4163,7 +4163,7 @@
   },
   {
     "id": "S0187",
-    "band": 3,
+    "band": 2,
     "topic": "Personas",
     "family": "anthropic-fundacion",
     "factKey": "anthropic-dario",
@@ -4185,7 +4185,7 @@
   },
   {
     "id": "S0188",
-    "band": 4,
+    "band": 3,
     "topic": "Personas",
     "family": "anthropic-fundacion",
     "factKey": "anthropic-daniela",
@@ -4319,7 +4319,7 @@
   },
   {
     "id": "S0194",
-    "band": 4,
+    "band": 3,
     "topic": "Empresas y herramientas",
     "family": "ssi-fundacion",
     "factKey": "ssi-significado",
@@ -4385,7 +4385,7 @@
   },
   {
     "id": "S0197",
-    "band": 3,
+    "band": 2,
     "topic": "Empresas y herramientas",
     "family": "gpt4-2023",
     "factKey": "gpt4-anio",
@@ -4429,7 +4429,7 @@
   },
   {
     "id": "S0199",
-    "band": 3,
+    "band": 2,
     "topic": "Empresas y herramientas",
     "family": "o1-2024",
     "factKey": "o1-razonamiento",
@@ -4451,7 +4451,7 @@
   },
   {
     "id": "S0200",
-    "band": 4,
+    "band": 1,
     "topic": "Política y gobierno",
     "family": "ai-act-supervision-humana",
     "factKey": "ai-act-supervisor-revertir",
@@ -4497,7 +4497,7 @@
   },
   {
     "id": "S0202",
-    "band": 3,
+    "band": 2,
     "topic": "Empresas y herramientas",
     "family": "flow-2025",
     "factKey": "flow-modelos",
@@ -4585,7 +4585,7 @@
   },
   {
     "id": "S0206",
-    "band": 4,
+    "band": 2,
     "topic": "IA y sociedad",
     "family": "ocde-trazabilidad",
     "factKey": "ocde-rastro-decisiones",
@@ -4631,7 +4631,7 @@
   },
   {
     "id": "S0208",
-    "band": 3,
+    "band": 1,
     "topic": "Política y gobierno",
     "family": "un-informe-2024",
     "factKey": "onu-fondo-capacidades",
@@ -4653,7 +4653,7 @@
   },
   {
     "id": "S0209",
-    "band": 3,
+    "band": 1,
     "topic": "IA y sociedad",
     "family": "unesco-gobernanza-inclusiva",
     "factKey": "unesco-participacion-actores",
@@ -4791,7 +4791,7 @@
   },
   {
     "id": "S0215",
-    "band": 4,
+    "band": 3,
     "topic": "Política y gobierno",
     "family": "ley40-automatizacion",
     "factKey": "ley40-responsables-impugnacion",
@@ -4815,7 +4815,7 @@
   },
   {
     "id": "S0216",
-    "band": 4,
+    "band": 1,
     "topic": "IA y sociedad",
     "family": "ocde-intervencion-segura",
     "factKey": "ocde-anular-reparar-retirar",
@@ -4861,7 +4861,7 @@
   },
   {
     "id": "S0218",
-    "band": 2,
+    "band": 1,
     "topic": "Política y gobierno",
     "family": "enia-2020",
     "factKey": "enia-siglas",
@@ -4883,7 +4883,7 @@
   },
   {
     "id": "S0219",
-    "band": 2,
+    "band": 1,
     "topic": "Personas",
     "family": "enia-2020",
     "factKey": "enia-presidente",
@@ -4905,7 +4905,7 @@
   },
   {
     "id": "S0220",
-    "band": 3,
+    "band": 2,
     "topic": "Política y gobierno",
     "family": "aesia-entornos-prueba",
     "factKey": "aesia-entornos-finalidad",
@@ -4929,7 +4929,7 @@
   },
   {
     "id": "S0221",
-    "band": 2,
+    "band": 1,
     "topic": "Política y gobierno",
     "family": "enia-2020",
     "factKey": "enia-talento",
@@ -4995,7 +4995,7 @@
   },
   {
     "id": "S0224",
-    "band": 4,
+    "band": 1,
     "topic": "IA y sociedad",
     "family": "unesco-alfabetizacion",
     "factKey": "unesco-formacion-ciudadania",
@@ -5019,7 +5019,7 @@
   },
   {
     "id": "S0225",
-    "band": 4,
+    "band": 2,
     "topic": "IA y sociedad",
     "family": "nist-validacion-contexto",
     "factKey": "nist-validacion-uso-previsto",
@@ -5043,7 +5043,7 @@
   },
   {
     "id": "S0226",
-    "band": 5,
+    "band": 3,
     "topic": "Política y gobierno",
     "family": "ai-act-elecciones",
     "factKey": "ai-act-logistica-electoral-exclusion",
@@ -5067,7 +5067,7 @@
   },
   {
     "id": "S0227",
-    "band": 4,
+    "band": 2,
     "topic": "IA y sociedad",
     "family": "iea-energia-infraestructura",
     "factKey": "iea-conexion-red-cuello-botella",
@@ -5157,7 +5157,7 @@
   },
   {
     "id": "S0231",
-    "band": 4,
+    "band": 5,
     "topic": "Personas",
     "family": "aileap-2025",
     "factKey": "aileap-karis",
@@ -5181,7 +5181,7 @@
   },
   {
     "id": "S0232",
-    "band": 4,
+    "band": 5,
     "topic": "Política y gobierno",
     "family": "aileap-2025",
     "factKey": "aileap-tiger",
@@ -5225,7 +5225,7 @@
   },
   {
     "id": "S0234",
-    "band": 3,
+    "band": 2,
     "topic": "Política y gobierno",
     "family": "india-cumbre-2026",
     "factKey": "india-etiquetado-contenidos",
@@ -5247,7 +5247,7 @@
   },
   {
     "id": "S0235",
-    "band": 2,
+    "band": 1,
     "topic": "Personas",
     "family": "india-cumbre-2026",
     "factKey": "india-modi",
@@ -5291,7 +5291,7 @@
   },
   {
     "id": "S0237",
-    "band": 2,
+    "band": 1,
     "topic": "Personas",
     "family": "eeuu-orden-2025",
     "factKey": "trump-orden-autor",
@@ -5423,7 +5423,7 @@
   },
   {
     "id": "S0243",
-    "band": 2,
+    "band": 1,
     "topic": "Empresas y herramientas",
     "family": "stable-2022",
     "factKey": "stable-diffusion-licencia-distribucion",
@@ -5581,7 +5581,7 @@
   },
   {
     "id": "S0250",
-    "band": 5,
+    "band": 3,
     "topic": "IA y sociedad",
     "family": "iea-energia-concentracion",
     "factKey": "iea-impacto-local-global",
@@ -5605,7 +5605,7 @@
   },
   {
     "id": "S0251",
-    "band": 3,
+    "band": 4,
     "topic": "Empresas y herramientas",
     "family": "nvidia-fundacion",
     "factKey": "nvidia-anio",
@@ -5627,7 +5627,7 @@
   },
   {
     "id": "S0252",
-    "band": 5,
+    "band": 3,
     "topic": "Personas",
     "family": "nvidia-fundacion",
     "factKey": "nvidia-fundadores",
@@ -5759,7 +5759,7 @@
   },
   {
     "id": "S0258",
-    "band": 4,
+    "band": 5,
     "topic": "Empresas y herramientas",
     "family": "aws-2016",
     "factKey": "aws-trio-anio",
@@ -5869,7 +5869,7 @@
   },
   {
     "id": "S0263",
-    "band": 2,
+    "band": 1,
     "topic": "Empresas y herramientas",
     "family": "wildlife-2019",
     "factKey": "wildlife-fotos-vacias",
@@ -5913,7 +5913,7 @@
   },
   {
     "id": "S0265",
-    "band": 3,
+    "band": 4,
     "topic": "IA y sociedad",
     "family": "floodhub",
     "factKey": "floodhub-india",
@@ -6003,7 +6003,7 @@
   },
   {
     "id": "S0269",
-    "band": 4,
+    "band": 5,
     "topic": "Personas",
     "family": "heygen",
     "factKey": "heygen-snap",
@@ -6047,7 +6047,7 @@
   },
   {
     "id": "S0271",
-    "band": 2,
+    "band": 1,
     "topic": "Empresas y herramientas",
     "family": "gamma",
     "factKey": "gamma-edicion-borrador",
@@ -6205,7 +6205,7 @@
   },
   {
     "id": "S0278",
-    "band": 4,
+    "band": 5,
     "topic": "Política y gobierno",
     "family": "canada-2017",
     "factKey": "canada-estrategia-anio",
@@ -6251,7 +6251,7 @@
   },
   {
     "id": "S0280",
-    "band": 4,
+    "band": 5,
     "topic": "Política y gobierno",
     "family": "canada-2017",
     "factKey": "canada-tres-centros",
@@ -6383,7 +6383,7 @@
   },
   {
     "id": "S0286",
-    "band": 4,
+    "band": 3,
     "topic": "Empresas y herramientas",
     "family": "bard-gemini-2024",
     "factKey": "gemini-advanced-ultra",
@@ -6427,7 +6427,7 @@
   },
   {
     "id": "S0288",
-    "band": 4,
+    "band": 5,
     "topic": "Empresas y herramientas",
     "family": "meta-asistente-2023",
     "factKey": "meta-emu",
@@ -6449,7 +6449,7 @@
   },
   {
     "id": "S0289",
-    "band": 3,
+    "band": 2,
     "topic": "Empresas y herramientas",
     "family": "meta-asistente-2023",
     "factKey": "meta-llama2",
@@ -6607,7 +6607,7 @@
   },
   {
     "id": "S0296",
-    "band": 2,
+    "band": 1,
     "topic": "Empresas y herramientas",
     "family": "canva-magic-2023",
     "factKey": "canva-write-tarea",
@@ -6697,7 +6697,7 @@
   },
   {
     "id": "S0300",
-    "band": 3,
+    "band": 1,
     "topic": "Empresas y herramientas",
     "family": "canva-magic-2023",
     "factKey": "canva-design",

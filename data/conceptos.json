@@ -67,7 +67,7 @@
   },
   {
     "id": "C0004",
-    "band": 3,
+    "band": 2,
     "topic": "Conceptos y aprendizaje",
     "family": "aprendizajes",
     "prompt": "Un sistema busca grupos en datos que no tienen categorías asignadas. ¿Qué aprendizaje utiliza?",
@@ -265,7 +265,7 @@
   },
   {
     "id": "C0013",
-    "band": 3,
+    "band": 2,
     "topic": "Conceptos y aprendizaje",
     "family": "agrupamiento",
     "prompt": "¿Qué tarea reúne automáticamente ejemplos similares sin partir de categorías etiquetadas?",
@@ -287,7 +287,7 @@
   },
   {
     "id": "C0014",
-    "band": 2,
+    "band": 1,
     "topic": "Conceptos y aprendizaje",
     "family": "salidas",
     "prompt": "¿Cuál de estas tareas es una clasificación binaria, con solo dos resultados posibles?",
@@ -309,7 +309,7 @@
   },
   {
     "id": "C0015",
-    "band": 3,
+    "band": 2,
     "topic": "Conceptos y aprendizaje",
     "family": "salidas",
     "prompt": "¿Cómo se llama una clasificación que asigna una única etiqueta entre más de dos categorías?",
@@ -683,7 +683,7 @@
   },
   {
     "id": "C0032",
-    "band": 3,
+    "band": 2,
     "topic": "Conceptos y aprendizaje",
     "family": "adaptacion",
     "prompt": "¿Qué significa ajustar un modelo ya entrenado con datos de una tarea concreta?",
@@ -859,7 +859,7 @@
   },
   {
     "id": "C0040",
-    "band": 2,
+    "band": 1,
     "topic": "Datos y evaluación",
     "family": "matriz_clasificacion",
     "prompt": "Un clasificador acierta en 80 de 100 casos. ¿Qué medida global vale el 80 %?",
@@ -925,7 +925,7 @@
   },
   {
     "id": "C0043",
-    "band": 2,
+    "band": 1,
     "topic": "Conceptos y aprendizaje",
     "family": "ia_general",
     "prompt": "¿A qué aspira el concepto de inteligencia artificial general?",
@@ -969,7 +969,7 @@
   },
   {
     "id": "C0045",
-    "band": 3,
+    "band": 2,
     "topic": "Datos y evaluación",
     "family": "referencias",
     "prompt": "¿Cómo se llama la respuesta de referencia con la que se compara una predicción?",
@@ -991,7 +991,7 @@
   },
   {
     "id": "C0046",
-    "band": 3,
+    "band": 2,
     "topic": "Datos y evaluación",
     "family": "tipos_dato",
     "prompt": "¿Cuál de estas variables es categórica?",
@@ -1057,7 +1057,7 @@
   },
   {
     "id": "C0049",
-    "band": 2,
+    "band": 1,
     "topic": "Datos y evaluación",
     "family": "datos_sinteticos",
     "prompt": "¿Qué distingue a los datos sintéticos?",
@@ -1079,7 +1079,7 @@
   },
   {
     "id": "C0050",
-    "band": 2,
+    "band": 1,
     "topic": "Datos y evaluación",
     "family": "anotacion",
     "prompt": "¿Cuál es un ejemplo etiquetado para aprender a reconocer animales?",
@@ -1255,7 +1255,7 @@
   },
   {
     "id": "C0058",
-    "band": 2,
+    "band": 1,
     "topic": "Aplicaciones cotidianas",
     "family": "anomalias",
     "prompt": "¿Qué tarea busca observaciones que se apartan del comportamiento habitual?",
@@ -1321,7 +1321,7 @@
   },
   {
     "id": "C0061",
-    "band": 3,
+    "band": 2,
     "topic": "Aplicaciones cotidianas",
     "family": "inferencia_modos",
     "prompt": "Un sistema analiza juntos miles de documentos con un modelo ya entrenado. ¿Qué es la inferencia por lotes?",
@@ -1387,7 +1387,7 @@
   },
   {
     "id": "C0064",
-    "band": 2,
+    "band": 1,
     "topic": "IA y sociedad",
     "family": "sesgos_humanos",
     "prompt": "¿Cómo se llama favorecer una recomendación errónea por proceder de un sistema automático?",
@@ -1475,7 +1475,7 @@
   },
   {
     "id": "C0068",
-    "band": 2,
+    "band": 1,
     "topic": "IA y sociedad",
     "family": "explicaciones",
     "prompt": "¿Qué busca la explicabilidad de un sistema de IA?",
@@ -1519,7 +1519,7 @@
   },
   {
     "id": "C0070",
-    "band": 3,
+    "band": 2,
     "topic": "Conceptos y aprendizaje",
     "family": "determinismo",
     "prompt": "¿Cómo se llama un sistema que siempre devuelve la misma salida ante la misma entrada?",
@@ -1563,7 +1563,7 @@
   },
   {
     "id": "C0072",
-    "band": 3,
+    "band": 2,
     "topic": "Conceptos y aprendizaje",
     "family": "arboles",
     "prompt": "¿Cómo produce una respuesta un bosque de decisión?",
@@ -1585,7 +1585,7 @@
   },
   {
     "id": "C0073",
-    "band": 3,
+    "band": 2,
     "topic": "Conceptos y aprendizaje",
     "family": "vecindad",
     "prompt": "Para clasificar una flor, un modelo consulta las flores más parecidas entre ejemplos conocidos. ¿Qué método utiliza?",
@@ -1717,7 +1717,7 @@
   },
   {
     "id": "C0079",
-    "band": 4,
+    "band": 3,
     "topic": "Datos y evaluación",
     "family": "entrenamiento_error",
     "prompt": "¿Qué expresa una función de pérdida durante el entrenamiento?",
@@ -1739,7 +1739,7 @@
   },
   {
     "id": "C0080",
-    "band": 2,
+    "band": 1,
     "topic": "Aplicaciones cotidianas",
     "family": "ia_local",
     "prompt": "Si una función de IA y sus datos necesarios están instalados en el dispositivo, ¿puede funcionar sin internet?",
@@ -1783,7 +1783,7 @@
   },
   {
     "id": "C0082",
-    "band": 3,
+    "band": 2,
     "topic": "Datos y evaluación",
     "family": "evaluacion_temporal",
     "prompt": "Para comprobar un pronóstico que se usará en el futuro, ¿qué partición temporal evita entrenar con información posterior a la prueba?",
@@ -1805,7 +1805,7 @@
   },
   {
     "id": "C0083",
-    "band": 4,
+    "band": 3,
     "topic": "Datos y evaluación",
     "family": "particiones",
     "prompt": "¿Qué técnica evalúa repetidamente un modelo usando diferentes particiones de los datos?",
@@ -1871,7 +1871,7 @@
   },
   {
     "id": "C0086",
-    "band": 4,
+    "band": 3,
     "topic": "Datos y evaluación",
     "family": "escalas",
     "prompt": "¿Para qué se normalizan características numéricas antes de entrenar ciertos modelos?",
@@ -1915,7 +1915,7 @@
   },
   {
     "id": "C0088",
-    "band": 3,
+    "band": 1,
     "topic": "Datos y evaluación",
     "family": "calidad_datos",
     "prompt": "Un conjunto de entrenamiento repite cien veces una misma reseña por un error de importación. ¿Qué operación elimina esas copias?",
@@ -1937,7 +1937,7 @@
   },
   {
     "id": "C0089",
-    "band": 3,
+    "band": 2,
     "topic": "Datos y evaluación",
     "family": "tipos_dato",
     "prompt": "Las categorías «bajo», «medio» y «alto» tienen un orden. ¿Qué tipo de dato representan?",
@@ -1981,7 +1981,7 @@
   },
   {
     "id": "C0091",
-    "band": 3,
+    "band": 2,
     "topic": "Datos y evaluación",
     "family": "representacion",
     "prompt": "Hay 99 correos legítimos y uno de spam. Un filtro declara que todos son legítimos. ¿Qué ocurre?",
@@ -2091,7 +2091,7 @@
   },
   {
     "id": "C0096",
-    "band": 3,
+    "band": 2,
     "topic": "Datos y evaluación",
     "family": "umbrales",
     "prompt": "¿Qué se fija para decidir a partir de qué puntuación un caso se clasifica como positivo?",
@@ -2113,7 +2113,7 @@
   },
   {
     "id": "C0097",
-    "band": 4,
+    "band": 3,
     "topic": "Datos y evaluación",
     "family": "matriz_clasificacion",
     "prompt": "¿Qué tabla cruza las clases reales con las predichas por un modelo?",
@@ -2157,7 +2157,7 @@
   },
   {
     "id": "C0099",
-    "band": 3,
+    "band": 2,
     "topic": "Conceptos y aprendizaje",
     "family": "salidas",
     "prompt": "Una foto puede recibir a la vez «playa», «personas» y «atardecer». ¿Qué clasificación permite eso?",
@@ -2179,7 +2179,7 @@
   },
   {
     "id": "C0100",
-    "band": 3,
+    "band": 2,
     "topic": "Conceptos y aprendizaje",
     "family": "modalidades",
     "prompt": "Un mismo modelo aprende conjuntamente a traducir y a resumir, compartiendo parte de lo aprendido. ¿Qué enfoque describe?",
@@ -2201,7 +2201,7 @@
   },
   {
     "id": "C0101",
-    "band": 3,
+    "band": 2,
     "topic": "Conceptos y aprendizaje",
     "family": "aprendizajes",
     "prompt": "¿Qué aprendizaje combina ejemplos etiquetados con otros sin etiquetar?",
@@ -2223,7 +2223,7 @@
   },
   {
     "id": "C0102",
-    "band": 4,
+    "band": 3,
     "topic": "Conceptos y aprendizaje",
     "family": "aprendizajes",
     "prompt": "¿Qué aprendizaje obtiene la señal de entrenamiento a partir de los propios datos?",
@@ -2245,7 +2245,7 @@
   },
   {
     "id": "C0103",
-    "band": 3,
+    "band": 2,
     "topic": "Conceptos y aprendizaje",
     "family": "adaptacion",
     "prompt": "¿Qué aprendizaje reutiliza lo aprendido en una tarea para ayudar con otra?",
@@ -2311,7 +2311,7 @@
   },
   {
     "id": "C0106",
-    "band": 3,
+    "band": 2,
     "topic": "Lenguaje y comunicación",
     "family": "entidades",
     "prompt": "¿Qué tarea localiza nombres de personas, lugares u organizaciones dentro de un texto?",
@@ -2333,7 +2333,7 @@
   },
   {
     "id": "C0107",
-    "band": 4,
+    "band": 3,
     "topic": "Lenguaje y comunicación",
     "family": "referencias_linguisticas",
     "prompt": "En «Marta llegó. Ella saludó», ¿qué tarea relaciona «ella» con «Marta»?",
@@ -2421,7 +2421,7 @@
   },
   {
     "id": "C0111",
-    "band": 2,
+    "band": 1,
     "topic": "Lenguaje y comunicación",
     "family": "representacion_texto",
     "prompt": "«El perro persigue al gato» y «El gato persigue al perro» contienen las mismas palabras. ¿Qué cambia?",
@@ -2465,7 +2465,7 @@
   },
   {
     "id": "C0113",
-    "band": 4,
+    "band": 3,
     "topic": "Lenguaje y comunicación",
     "family": "representacion_texto",
     "prompt": "¿Qué representación registra las palabras de un texto sin conservar su orden?",
@@ -2487,7 +2487,7 @@
   },
   {
     "id": "C0114",
-    "band": 2,
+    "band": 1,
     "topic": "Lenguaje y comunicación",
     "family": "preproceso_texto",
     "prompt": "Al preparar textos para IA, se elimina «no» de «este producto no funciona». ¿Qué riesgo ilustra?",
@@ -2553,7 +2553,7 @@
   },
   {
     "id": "C0117",
-    "band": 3,
+    "band": 2,
     "topic": "Lenguaje y comunicación",
     "family": "resumen",
     "prompt": "Un resumen se compone solo de frases seleccionadas del documento original. ¿Cómo se llama este enfoque?",
@@ -2663,7 +2663,7 @@
   },
   {
     "id": "C0122",
-    "band": 3,
+    "band": 1,
     "topic": "Imagen y sonido",
     "family": "imagen_lenguaje",
     "prompt": "Un sistema contesta «¿De qué color es el coche?» mirando una foto. ¿Qué tarea realiza?",
@@ -2707,7 +2707,7 @@
   },
   {
     "id": "C0124",
-    "band": 3,
+    "band": 2,
     "topic": "Imagen y sonido",
     "family": "cuerpo",
     "prompt": "¿Qué estima un sistema que localiza hombros, codos y rodillas en una imagen?",
@@ -2839,7 +2839,7 @@
   },
   {
     "id": "C0130",
-    "band": 2,
+    "band": 1,
     "topic": "Imagen y sonido",
     "family": "restauracion",
     "prompt": "¿Qué busca la superresolución de imágenes?",
@@ -3059,7 +3059,7 @@
   },
   {
     "id": "C0140",
-    "band": 4,
+    "band": 3,
     "topic": "Conceptos y aprendizaje",
     "family": "descentralizado",
     "prompt": "¿Qué aprendizaje entrena de forma distribuida manteniendo los datos de cada participante en su dispositivo?",
@@ -3081,7 +3081,7 @@
   },
   {
     "id": "C0141",
-    "band": 4,
+    "band": 3,
     "topic": "Lenguaje y comunicación",
     "family": "representaciones",
     "prompt": "En IA, ¿qué es un embedding?",
@@ -3103,7 +3103,7 @@
   },
   {
     "id": "C0142",
-    "band": 3,
+    "band": 2,
     "topic": "Conceptos y aprendizaje",
     "family": "modelos_base",
     "prompt": "¿Qué caracteriza a un modelo fundacional?",
@@ -3125,7 +3125,7 @@
   },
   {
     "id": "C0143",
-    "band": 3,
+    "band": 2,
     "topic": "Lenguaje y comunicación",
     "family": "adaptacion",
     "prompt": "Un modelo se entrena con peticiones y ejemplos de cómo responderlas. ¿Qué adaptación describe?",
@@ -3257,7 +3257,7 @@
   },
   {
     "id": "C0149",
-    "band": 2,
+    "band": 1,
     "topic": "Aplicaciones cotidianas",
     "family": "ocr",
     "prompt": "Una aplicación muestra en español el texto de un cartel fotografiado en otro idioma. ¿Qué dos tareas combina?",
@@ -3301,7 +3301,7 @@
   },
   {
     "id": "C0151",
-    "band": 4,
+    "band": 3,
     "topic": "Lenguaje y comunicación",
     "family": "codificacion",
     "prompt": "¿Qué tarea es un ejemplo de transformación de secuencia a secuencia?",
@@ -3389,7 +3389,7 @@
   },
   {
     "id": "C0155",
-    "band": 3,
+    "band": 2,
     "topic": "Lenguaje y comunicación",
     "family": "entidades",
     "prompt": "Después de identificar personas y organizaciones, ¿qué tarea puede detectar que una persona trabaja para una organización?",
@@ -3411,7 +3411,7 @@
   },
   {
     "id": "C0156",
-    "band": 2,
+    "band": 1,
     "topic": "Lenguaje y comunicación",
     "family": "temas",
     "prompt": "¿Qué tarea selecciona términos que representan los asuntos principales de un documento?",
@@ -3455,7 +3455,7 @@
   },
   {
     "id": "C0158",
-    "band": 3,
+    "band": 2,
     "topic": "Lenguaje y comunicación",
     "family": "dialogo",
     "prompt": "Un asistente de reservas extrae «Madrid», «mañana» y «dos personas». ¿Qué tarea realiza?",
@@ -3543,7 +3543,7 @@
   },
   {
     "id": "C0162",
-    "band": 2,
+    "band": 1,
     "topic": "Imagen y sonido",
     "family": "eventos_audio",
     "prompt": "Un sistema marca en una grabación cuándo suena un timbre o un ladrido. ¿Qué tarea realiza?",
@@ -3587,7 +3587,7 @@
   },
   {
     "id": "C0164",
-    "band": 3,
+    "band": 2,
     "topic": "Imagen y sonido",
     "family": "musica",
     "prompt": "¿Qué busca la transcripción musical automática?",
@@ -3609,7 +3609,7 @@
   },
   {
     "id": "C0165",
-    "band": 3,
+    "band": 1,
     "topic": "Imagen y sonido",
     "family": "documentos_musicales",
     "prompt": "¿Qué puede leer el reconocimiento óptico de música de Audiveris?",
@@ -3675,7 +3675,7 @@
   },
   {
     "id": "C0168",
-    "band": 2,
+    "band": 1,
     "topic": "Aplicaciones cotidianas",
     "family": "estructura_documental",
     "prompt": "¿Qué par ilustra una extracción de campo y valor en un formulario?",
@@ -3697,7 +3697,7 @@
   },
   {
     "id": "C0169",
-    "band": 3,
+    "band": 2,
     "topic": "Aplicaciones cotidianas",
     "family": "gemelos",
     "prompt": "¿Qué es un gemelo digital de una máquina?",
@@ -3719,7 +3719,7 @@
   },
   {
     "id": "C0170",
-    "band": 2,
+    "band": 1,
     "topic": "Aplicaciones cotidianas",
     "family": "mantenimiento",
     "prompt": "¿Qué intenta anticipar el mantenimiento predictivo con datos de sensores?",
@@ -3763,7 +3763,7 @@
   },
   {
     "id": "C0172",
-    "band": 3,
+    "band": 1,
     "topic": "Robótica",
     "family": "robotica_blanda",
     "prompt": "¿Qué ventaja buscaba la pinza robótica blanda del MIT presentada en 2019 para sujetar objetos variados?",
@@ -3785,7 +3785,7 @@
   },
   {
     "id": "C0173",
-    "band": 2,
+    "band": 1,
     "topic": "Robótica",
     "family": "navegacion_robotica",
     "prompt": "¿Qué recorrido busca la planificación de trayectorias de un robot?",
@@ -3829,7 +3829,7 @@
   },
   {
     "id": "C0175",
-    "band": 3,
+    "band": 2,
     "topic": "Robótica",
     "family": "sensores",
     "prompt": "Un vehículo integra lo que ve una cámara y lo que mide un radar para estimar su entorno. ¿Qué está utilizando?",
@@ -3873,7 +3873,7 @@
   },
   {
     "id": "C0177",
-    "band": 4,
+    "band": 2,
     "topic": "Imagen y sonido",
     "family": "geometria_visual",
     "prompt": "En un mapa de profundidad métrica de una escena, ¿qué representa cada valor?",
@@ -3917,7 +3917,7 @@
   },
   {
     "id": "C0179",
-    "band": 3,
+    "band": 2,
     "topic": "Imagen y sonido",
     "family": "geometria_visual",
     "prompt": "En visión artificial, ¿qué ocurre cuando hay oclusión de un objeto?",
@@ -3961,7 +3961,7 @@
   },
   {
     "id": "C0181",
-    "band": 2,
+    "band": 1,
     "topic": "Datos y evaluación",
     "family": "atipicos",
     "prompt": "¿Qué es un valor atípico u outlier en un conjunto de datos?",
@@ -4005,7 +4005,7 @@
   },
   {
     "id": "C0183",
-    "band": 4,
+    "band": 2,
     "topic": "Conceptos y aprendizaje",
     "family": "generalizacion",
     "prompt": "¿Qué técnica detiene el entrenamiento al dejar de mejorar el rendimiento de validación?",
@@ -4027,7 +4027,7 @@
   },
   {
     "id": "C0184",
-    "band": 3,
+    "band": 2,
     "topic": "Aplicaciones cotidianas",
     "family": "cortana-2014",
     "prompt": "¿Qué buscador alimentaba Cortana según su presentación de 2014?",
@@ -4049,7 +4049,7 @@
   },
   {
     "id": "C0185",
-    "band": 3,
+    "band": 2,
     "topic": "Datos y evaluación",
     "family": "comparacion",
     "prompt": "¿Para qué sirve un modelo de referencia o baseline?",
@@ -4093,7 +4093,7 @@
   },
   {
     "id": "C0187",
-    "band": 3,
+    "band": 1,
     "topic": "Datos y evaluación",
     "family": "comparacion",
     "prompt": "En una prueba A/B, dos grupos comparables usan variantes distintas de un sistema. ¿Qué se compara?",
@@ -4115,7 +4115,7 @@
   },
   {
     "id": "C0188",
-    "band": 4,
+    "band": 2,
     "topic": "Datos y evaluación",
     "family": "jueces_ia",
     "prompt": "El estudio MT-Bench de 2023 llamó «sesgo de verbosidad» de un juez IA a su tendencia a…",
@@ -4137,7 +4137,7 @@
   },
   {
     "id": "C0189",
-    "band": 3,
+    "band": 1,
     "topic": "Datos y evaluación",
     "family": "evaluacion_humana",
     "prompt": "Dos personas asignan etiquetas distintas a la misma reseña ambigua. ¿Qué muestra ese desacuerdo?",
@@ -4247,7 +4247,7 @@
   },
   {
     "id": "C0194",
-    "band": 4,
+    "band": 3,
     "topic": "Datos y evaluación",
     "family": "error_numerico",
     "prompt": "¿Qué resume el error absoluto medio en una predicción numérica?",
@@ -4291,7 +4291,7 @@
   },
   {
     "id": "C0196",
-    "band": 4,
+    "band": 3,
     "topic": "Conceptos y aprendizaje",
     "family": "adversarias",
     "prompt": "¿Qué dos papeles se enfrentan en una red generativa adversaria o GAN?",
@@ -4357,7 +4357,7 @@
   },
   {
     "id": "C0199",
-    "band": 4,
+    "band": 3,
     "topic": "Conceptos y aprendizaje",
     "family": "compresion_modelos",
     "prompt": "En la destilación de modelos, ¿qué aprende el modelo estudiante?",
@@ -4379,7 +4379,7 @@
   },
   {
     "id": "C0200",
-    "band": 1,
+    "band": 2,
     "topic": "Aplicaciones cotidianas",
     "family": "bixby-2017",
     "prompt": "¿Cómo se llama el asistente que Samsung presentó con el Galaxy S8?",
@@ -4423,7 +4423,7 @@
   },
   {
     "id": "C0202",
-    "band": 2,
+    "band": 1,
     "topic": "Aplicaciones cotidianas",
     "family": "feedback",
     "prompt": "Un recomendador usa clics para estimar interés. ¿Qué se observa directamente en un clic?",
@@ -4445,7 +4445,7 @@
   },
   {
     "id": "C0203",
-    "band": 4,
+    "band": 3,
     "topic": "Aplicaciones cotidianas",
     "family": "etapas_recomendacion",
     "prompt": "Tras puntuar recomendaciones, se eliminan artículos ya comprados. ¿Qué etapa describe?",
@@ -4489,7 +4489,7 @@
   },
   {
     "id": "C0205",
-    "band": 3,
+    "band": 2,
     "topic": "Datos y evaluación",
     "family": "documentacion",
     "prompt": "¿Qué documento resume el uso previsto y las evaluaciones de un modelo?",
@@ -4511,7 +4511,7 @@
   },
   {
     "id": "C0206",
-    "band": 3,
+    "band": 2,
     "topic": "Datos y evaluación",
     "family": "documentacion",
     "prompt": "¿Qué documenta una ficha de un conjunto de datos o datasheet?",
@@ -4533,7 +4533,7 @@
   },
   {
     "id": "C0207",
-    "band": 2,
+    "band": 1,
     "topic": "Datos y evaluación",
     "family": "trazabilidad",
     "prompt": "¿Qué describe la procedencia o provenance de un contenido digital?",
@@ -4555,7 +4555,7 @@
   },
   {
     "id": "C0208",
-    "band": 2,
+    "band": 1,
     "topic": "Datos y evaluación",
     "family": "datos_sinteticos",
     "prompt": "Para probar una aplicación se inventan temperaturas con un simulador, sin medirlas con sensores. ¿Qué tipo de datos son?",
@@ -4621,7 +4621,7 @@
   },
   {
     "id": "C0211",
-    "band": 4,
+    "band": 3,
     "topic": "Conceptos y aprendizaje",
     "family": "refuerzo",
     "prompt": "En aprendizaje por refuerzo, ¿qué determina la política de un agente al encontrarse en una situación?",
@@ -4643,7 +4643,7 @@
   },
   {
     "id": "C0212",
-    "band": 4,
+    "band": 3,
     "topic": "Aplicaciones cotidianas",
     "family": "refuerzo",
     "prompt": "En el ejemplo de Coast Runners analizado por DeepMind, ¿por qué la IA daba vueltas en lugar de terminar la carrera?",
@@ -4687,7 +4687,7 @@
   },
   {
     "id": "C0214",
-    "band": 3,
+    "band": 1,
     "topic": "Robótica",
     "family": "simulacion_robotica",
     "prompt": "Un robot entrenado en un simulador funciona peor con objetos reales. ¿Qué diferencia intenta reducir la investigación sim-to-real?",
@@ -4709,7 +4709,7 @@
   },
   {
     "id": "C0215",
-    "band": 2,
+    "band": 1,
     "topic": "Historia de la IA",
     "family": "juegos_informacion",
     "prompt": "Al decidir una apuesta en el póquer Texas Hold’em, ¿qué información no conoce normalmente una IA sobre sus rivales?",
@@ -4731,7 +4731,7 @@
   },
   {
     "id": "C0216",
-    "band": 3,
+    "band": 4,
     "topic": "Aplicaciones cotidianas",
     "family": "ai4all",
     "prompt": "¿A quién acercaba la IA el programa de verano de Stanford de 2015 que dio origen a AI4ALL?",
@@ -4753,7 +4753,7 @@
   },
   {
     "id": "C0217",
-    "band": 3,
+    "band": 1,
     "topic": "Historia de la IA",
     "family": "autojuego",
     "prompt": "En el autojuego usado para entrenar IA, ¿contra quién puede practicar un sistema?",
@@ -4797,7 +4797,7 @@
   },
   {
     "id": "C0219",
-    "band": 2,
+    "band": 1,
     "topic": "Aplicaciones cotidianas",
     "family": "agentes",
     "prompt": "¿Qué capacidad caracteriza a un agente de IA orientado a realizar un encargo?",
@@ -4819,7 +4819,7 @@
   },
   {
     "id": "C0220",
-    "band": 3,
+    "band": 2,
     "topic": "Aplicaciones cotidianas",
     "family": "agentes",
     "prompt": "En un agente de software, ¿qué delimita su espacio de acción?",
@@ -4841,7 +4841,7 @@
   },
   {
     "id": "C0221",
-    "band": 3,
+    "band": 2,
     "topic": "Aplicaciones cotidianas",
     "family": "agentes",
     "prompt": "¿Qué esquema habitual describe a un agente que actúa y usa el resultado para decidir su siguiente paso?",
@@ -4863,7 +4863,7 @@
   },
   {
     "id": "C0222",
-    "band": 3,
+    "band": 2,
     "topic": "Aplicaciones cotidianas",
     "family": "roles_agente",
     "prompt": "¿Qué papel tiene un subagente en un sistema con un agente coordinador?",
@@ -4885,7 +4885,7 @@
   },
   {
     "id": "C0223",
-    "band": 3,
+    "band": 2,
     "topic": "Aplicaciones cotidianas",
     "family": "roles_agente",
     "prompt": "Un sistema reparte investigación, redacción y revisión entre varios agentes y reúne sus resultados. ¿Qué organiza esa coordinación?",
@@ -4951,7 +4951,7 @@
   },
   {
     "id": "C0226",
-    "band": 3,
+    "band": 2,
     "topic": "Aplicaciones cotidianas",
     "family": "agentes",
     "prompt": "Después de ejecutar una herramienta, un agente recibe su resultado o un error. ¿Qué información obtiene?",
@@ -4973,7 +4973,7 @@
   },
   {
     "id": "C0227",
-    "band": 3,
+    "band": 1,
     "topic": "Aplicaciones cotidianas",
     "family": "roles_agente",
     "prompt": "Un sistema envía consultas de facturas al agente contable y problemas de conexión al agente técnico. ¿Qué patrón utiliza?",
@@ -4995,7 +4995,7 @@
   },
   {
     "id": "C0228",
-    "band": 2,
+    "band": 1,
     "topic": "Aplicaciones cotidianas",
     "family": "unesco_educacion_generativa",
     "prompt": "¿Qué enfoque promovió la guía de UNESCO de 2023 sobre IA generativa en educación?",
@@ -5039,7 +5039,7 @@
   },
   {
     "id": "C0230",
-    "band": 4,
+    "band": 3,
     "topic": "Datos y evaluación",
     "family": "preparacion_datos",
     "prompt": "¿Qué se hace en la ingeniería de características?",
@@ -5061,7 +5061,7 @@
   },
   {
     "id": "C0231",
-    "band": 4,
+    "band": 3,
     "topic": "Datos y evaluación",
     "family": "representaciones",
     "prompt": "¿Qué busca la reducción de dimensionalidad?",
@@ -5105,7 +5105,7 @@
   },
   {
     "id": "C0233",
-    "band": 4,
+    "band": 2,
     "topic": "Datos y evaluación",
     "family": "interpretacion_modelos",
     "prompt": "¿Qué intentan cuantificar las importancias de características?",
@@ -5127,7 +5127,7 @@
   },
   {
     "id": "C0234",
-    "band": 4,
+    "band": 3,
     "topic": "Datos y evaluación",
     "family": "equilibrado",
     "prompt": "¿Qué hace el sobremuestreo de una clase minoritaria?",
@@ -5149,7 +5149,7 @@
   },
   {
     "id": "C0235",
-    "band": 2,
+    "band": 1,
     "topic": "Datos y evaluación",
     "family": "evaluacion_grupos",
     "prompt": "Un reconocedor del habla acierta mucho de media, pero falla más con un grupo de acentos. ¿Qué oculta la media global?",
@@ -5171,7 +5171,7 @@
   },
   {
     "id": "C0236",
-    "band": 4,
+    "band": 3,
     "topic": "Datos y evaluación",
     "family": "muestreo",
     "prompt": "¿Qué permite el muestreo con reposición?",
@@ -5259,7 +5259,7 @@
   },
   {
     "id": "C0240",
-    "band": 3,
+    "band": 1,
     "topic": "Datos y evaluación",
     "family": "agrupamiento",
     "prompt": "Un algoritmo agrupa noticias por semejanza sin recibir categorías. ¿Qué representan inicialmente sus grupos?",
@@ -5281,7 +5281,7 @@
   },
   {
     "id": "C0241",
-    "band": 4,
+    "band": 3,
     "topic": "Conceptos y aprendizaje",
     "family": "agrupamiento",
     "prompt": "¿Qué utiliza k-means para asignar ejemplos a grupos?",
@@ -5303,7 +5303,7 @@
   },
   {
     "id": "C0242",
-    "band": 4,
+    "band": 3,
     "topic": "Conceptos y aprendizaje",
     "family": "agrupamiento",
     "prompt": "En el algoritmo clásico k-means, ¿qué indica el valor k que se elige?",
@@ -5347,7 +5347,7 @@
   },
   {
     "id": "C0244",
-    "band": 4,
+    "band": 3,
     "topic": "Datos y evaluación",
     "family": "etiquetas_proxy",
     "prompt": "¿Qué es una etiqueta proxy o sustitutiva?",
@@ -5369,7 +5369,7 @@
   },
   {
     "id": "C0245",
-    "band": 2,
+    "band": 1,
     "topic": "Aplicaciones cotidianas",
     "family": "unesco_educacion_generativa",
     "prompt": "Además de regulación, ¿qué pidió UNESCO en septiembre de 2023 para incorporar IA generativa en las escuelas?",
@@ -5391,7 +5391,7 @@
   },
   {
     "id": "C0246",
-    "band": 3,
+    "band": 2,
     "topic": "Datos y evaluación",
     "family": "preparacion_datos",
     "prompt": "Calcular «precio por metro cuadrado» a partir de precio y superficie crea…",
@@ -5413,7 +5413,7 @@
   },
   {
     "id": "C0247",
-    "band": 3,
+    "band": 2,
     "topic": "Datos y evaluación",
     "family": "fugas",
     "prompt": "La misma pregunta y su respuesta aparecen en el entrenamiento y en la prueba final de un modelo. ¿Qué problema puede introducir?",
@@ -5457,7 +5457,7 @@
   },
   {
     "id": "C0249",
-    "band": 4,
+    "band": 2,
     "topic": "Lenguaje y comunicación",
     "family": "modelado_lenguaje",
     "prompt": "Para interpretar «banco» en una frase, un modelo usa palabras situadas antes y después. ¿Qué contexto está utilizando?",
@@ -5479,7 +5479,7 @@
   },
   {
     "id": "C0250",
-    "band": 3,
+    "band": 2,
     "topic": "Lenguaje y comunicación",
     "family": "representaciones",
     "prompt": "¿Qué permite una representación contextual de una palabra?",
@@ -5501,7 +5501,7 @@
   },
   {
     "id": "C0251",
-    "band": 3,
+    "band": 2,
     "topic": "Datos y evaluación",
     "family": "evaluacion_grupos",
     "prompt": "Un modelo obtiene un 90 % de aciertos en el conjunto total. ¿Qué permite saber esa cifra sobre dos grupos de usuarios distintos?",
@@ -5523,7 +5523,7 @@
   },
   {
     "id": "C0252",
-    "band": 2,
+    "band": 1,
     "topic": "Lenguaje y comunicación",
     "family": "prompts",
     "prompt": "Una petición comienza «Actúa como una editora de estilo». ¿Qué técnica utiliza?",
@@ -5545,7 +5545,7 @@
   },
   {
     "id": "C0253",
-    "band": 3,
+    "band": 2,
     "topic": "Lenguaje y comunicación",
     "family": "prompts",
     "prompt": "¿Qué caracteriza al encadenamiento de prompts?",
@@ -5589,7 +5589,7 @@
   },
   {
     "id": "C0255",
-    "band": 4,
+    "band": 2,
     "topic": "Lenguaje y comunicación",
     "family": "contexto_largo",
     "prompt": "¿Qué dificultad describe el efecto «perdido en el medio» en algunos LLM?",
@@ -5611,7 +5611,7 @@
   },
   {
     "id": "C0256",
-    "band": 5,
+    "band": 4,
     "topic": "Conceptos y aprendizaje",
     "family": "expertos",
     "prompt": "En una mezcla dispersa de expertos, ¿qué se activa para una entrada concreta?",
@@ -5677,7 +5677,7 @@
   },
   {
     "id": "C0259",
-    "band": 5,
+    "band": 3,
     "topic": "Conceptos y aprendizaje",
     "family": "redes_secuenciales",
     "prompt": "¿Qué reutiliza una red neuronal recurrente al procesar una secuencia?",
@@ -5721,7 +5721,7 @@
   },
   {
     "id": "C0261",
-    "band": 5,
+    "band": 2,
     "topic": "Aplicaciones cotidianas",
     "family": "c2pa",
     "prompt": "Una imagen tiene credenciales C2PA válidas. ¿Qué distingue comprobar esas credenciales de verificar la noticia que la acompaña?",
@@ -5743,7 +5743,7 @@
   },
   {
     "id": "C0262",
-    "band": 3,
+    "band": 2,
     "topic": "Datos y evaluación",
     "family": "atajos_modelos",
     "prompt": "Un clasificador aprende a reconocer vacas por la hierba del fondo y falla cuando aparecen en una playa. ¿Qué problema ilustra?",
@@ -5765,7 +5765,7 @@
   },
   {
     "id": "C0263",
-    "band": 4,
+    "band": 2,
     "topic": "Aplicaciones cotidianas",
     "family": "c2pa",
     "prompt": "Una copia de una foto no conserva credenciales C2PA. ¿Qué puede concluirse a partir de esa ausencia?",
@@ -5787,7 +5787,7 @@
   },
   {
     "id": "C0264",
-    "band": 3,
+    "band": 1,
     "topic": "Datos y evaluación",
     "family": "documentacion",
     "prompt": "Al comparar resultados de IA obtenidos en dos momentos, ¿qué permite saber si se probó el mismo sistema?",
@@ -5809,7 +5809,7 @@
   },
   {
     "id": "C0265",
-    "band": 2,
+    "band": 1,
     "topic": "Conceptos y aprendizaje",
     "family": "automatizacion",
     "prompt": "¿Qué puede automatizar AutoML durante el desarrollo de un sistema?",
@@ -5831,7 +5831,7 @@
   },
   {
     "id": "C0266",
-    "band": 2,
+    "band": 1,
     "topic": "Conceptos y aprendizaje",
     "family": "despliegue",
     "prompt": "¿Qué puede facilitar un modelo compacto frente a otro que requiere mucha memoria?",
@@ -5875,7 +5875,7 @@
   },
   {
     "id": "C0268",
-    "band": 4,
+    "band": 2,
     "topic": "Datos y evaluación",
     "family": "listas_evaluadas",
     "prompt": "Un evaluador acepta la etiqueta objetivo si está entre las cinco primeras propuestas. ¿Qué mide?",
@@ -5897,7 +5897,7 @@
   },
   {
     "id": "C0269",
-    "band": 3,
+    "band": 1,
     "topic": "Datos y evaluación",
     "family": "listas_evaluadas",
     "prompt": "De los primeros diez resultados de un buscador, seis son pertinentes. ¿Cuál es su precisión en ese grupo de diez?",
@@ -5963,7 +5963,7 @@
   },
   {
     "id": "C0272",
-    "band": 3,
+    "band": 2,
     "topic": "Datos y evaluación",
     "family": "metodos_eval",
     "prompt": "En una evaluación comparativa en paralelo, ¿qué respuestas se enfrentan?",
@@ -5985,7 +5985,7 @@
   },
   {
     "id": "C0273",
-    "band": 4,
+    "band": 2,
     "topic": "Datos y evaluación",
     "family": "jueces_ia",
     "prompt": "En los experimentos MT-Bench de 2023, ¿qué podía alterar el juicio de algunos modelos al comparar dos respuestas sin cambiarlas?",
@@ -6007,7 +6007,7 @@
   },
   {
     "id": "C0274",
-    "band": 2,
+    "band": 1,
     "topic": "Datos y evaluación",
     "family": "evaluacion_textual",
     "prompt": "Una prueba solo acepta exactamente «Nueva York». Un modelo responde «New York» para nombrar la misma ciudad. ¿Qué ocurre con esa regla?",
@@ -6117,7 +6117,7 @@
   },
   {
     "id": "C0279",
-    "band": 3,
+    "band": 2,
     "topic": "Conceptos y aprendizaje",
     "family": "arboles",
     "prompt": "¿Qué puede facilitar que una persona entienda un árbol de decisión pequeño?",
@@ -6139,7 +6139,7 @@
   },
   {
     "id": "C0280",
-    "band": 4,
+    "band": 3,
     "topic": "Conceptos y aprendizaje",
     "family": "arboles",
     "prompt": "¿Qué contiene una hoja de un árbol de decisión usado para predecir?",
@@ -6183,7 +6183,7 @@
   },
   {
     "id": "C0282",
-    "band": 4,
+    "band": 3,
     "topic": "Ciencia y medio ambiente",
     "family": "satelites_ia",
     "prompt": "¿Para qué se diseñó el filtrado de nubes con IA de Φsat-1?",
@@ -6249,7 +6249,7 @@
   },
   {
     "id": "C0285",
-    "band": 3,
+    "band": 2,
     "topic": "Ciencia y medio ambiente",
     "family": "incendios",
     "prompt": "¿Qué busca pronosticar el proyecto Wildfire Digital Twin descrito por NASA?",
@@ -6271,7 +6271,7 @@
   },
   {
     "id": "C0286",
-    "band": 5,
+    "band": 3,
     "topic": "Ciencia y medio ambiente",
     "family": "sismologia",
     "prompt": "En el trabajo del USGS sobre monitorización sísmica publicado en 2021, ¿qué detecta uno de los modelos?",
@@ -6381,7 +6381,7 @@
   },
   {
     "id": "C0291",
-    "band": 4,
+    "band": 3,
     "topic": "Ciencia y medio ambiente",
     "family": "neuroprotesis",
     "prompt": "En la neuroprótesis de habla divulgada por NIH en 2021, ¿con qué relacionaba el aprendizaje automático la actividad cerebral?",
@@ -6403,7 +6403,7 @@
   },
   {
     "id": "C0292",
-    "band": 3,
+    "band": 2,
     "topic": "Ciencia y medio ambiente",
     "family": "meteorologia_ia",
     "prompt": "¿Qué aporta un conjunto de pronósticos meteorológicos con variaciones, como AIFS ENS?",
@@ -6425,7 +6425,7 @@
   },
   {
     "id": "C0293",
-    "band": 4,
+    "band": 3,
     "topic": "Aplicaciones cotidianas",
     "family": "agricultura",
     "prompt": "En el proyecto del USDA sobre visión artificial en cultivos de soja, ¿qué se pretende estimar y cartografiar?",
@@ -6491,7 +6491,7 @@
   },
   {
     "id": "C0296",
-    "band": 5,
+    "band": 4,
     "topic": "Cultura y ficción",
     "family": "epigrafia",
     "prompt": "¿Qué dos tipos de entrada combina Aeneas para estudiar inscripciones, según su presentación de 2025?",
@@ -6535,7 +6535,7 @@
   },
   {
     "id": "C0298",
-    "band": 3,
+    "band": 1,
     "topic": "Cultura y ficción",
     "family": "transkribus",
     "prompt": "¿Qué tarea realiza Transkribus con imágenes de documentos manuscritos?",
@@ -6557,7 +6557,7 @@
   },
   {
     "id": "C0299",
-    "band": 3,
+    "band": 1,
     "topic": "Aplicaciones cotidianas",
     "family": "estructura_documental",
     "prompt": "Una IA reconoce las palabras de un periódico, pero mezcla las líneas de dos columnas. ¿Qué aspecto del documento necesita resolver?",
@@ -6579,7 +6579,7 @@
   },
   {
     "id": "C0300",
-    "band": 3,
+    "band": 2,
     "topic": "Aplicaciones cotidianas",
     "family": "ocr_proceso",
     "prompt": "¿Qué detecta el reconocimiento óptico de marcas en una hoja de respuestas?",
@@ -6601,7 +6601,7 @@
   },
   {
     "id": "C0301",
-    "band": 5,
+    "band": 4,
     "topic": "Seguridad y confianza",
     "family": "privacidad_estadistica",
     "prompt": "¿Qué técnica usan muchos métodos de privacidad diferencial para que un resultado no revele demasiado sobre una persona?",
@@ -6623,7 +6623,7 @@
   },
   {
     "id": "C0302",
-    "band": 5,
+    "band": 4,
     "topic": "Seguridad y confianza",
     "family": "descentralizado",
     "prompt": "En un entrenamiento repartido entre móviles, ¿qué permite la agregación segura?",
@@ -6645,7 +6645,7 @@
   },
   {
     "id": "C0303",
-    "band": 4,
+    "band": 3,
     "topic": "Seguridad y confianza",
     "family": "olvido_modelo",
     "prompt": "¿Qué busca el desaprendizaje automático o machine unlearning?",
@@ -6689,7 +6689,7 @@
   },
   {
     "id": "C0305",
-    "band": 4,
+    "band": 3,
     "topic": "Seguridad y confianza",
     "family": "ataques_entrada",
     "prompt": "¿Qué es un ejemplo adversario frente a un clasificador?",
@@ -6733,7 +6733,7 @@
   },
   {
     "id": "C0307",
-    "band": 4,
+    "band": 3,
     "topic": "Seguridad y confianza",
     "family": "inyeccion_instrucciones",
     "prompt": "Según la distinción de OWASP, ¿dónde llega una inyección indirecta de instrucciones?",
@@ -6755,7 +6755,7 @@
   },
   {
     "id": "C0308",
-    "band": 5,
+    "band": 4,
     "topic": "Seguridad y confianza",
     "family": "ataques_privacidad",
     "prompt": "¿Qué trata de averiguar un ataque de inferencia de pertenencia?",
@@ -6777,7 +6777,7 @@
   },
   {
     "id": "C0309",
-    "band": 5,
+    "band": 4,
     "topic": "Seguridad y confianza",
     "family": "ataques_modelo",
     "prompt": "¿Qué busca un ataque de extracción de modelo al observar sus entradas y respuestas?",
@@ -6799,7 +6799,7 @@
   },
   {
     "id": "C0310",
-    "band": 5,
+    "band": 4,
     "topic": "Seguridad y confianza",
     "family": "ataques_modelo",
     "prompt": "¿Qué caracteriza a una puerta trasera en un modelo de IA?",
@@ -6821,7 +6821,7 @@
   },
   {
     "id": "C0311",
-    "band": 4,
+    "band": 3,
     "topic": "Datos y evaluación",
     "family": "interpretacion_modelos",
     "prompt": "¿Qué muestra una explicación contrafactual de una predicción?",
@@ -6843,7 +6843,7 @@
   },
   {
     "id": "C0312",
-    "band": 3,
+    "band": 2,
     "topic": "Ciencia y medio ambiente",
     "family": "aegis",
     "prompt": "¿Qué evita AEGIS al seleccionar ciertos objetivos científicos a bordo de Curiosity?",
@@ -6909,7 +6909,7 @@
   },
   {
     "id": "C0315",
-    "band": 5,
+    "band": 2,
     "topic": "Datos y evaluación",
     "family": "atipicos",
     "prompt": "¿Qué busca la detección de novedades tras aprender de datos considerados normales?",
@@ -6931,7 +6931,7 @@
   },
   {
     "id": "C0316",
-    "band": 5,
+    "band": 4,
     "topic": "Conceptos y aprendizaje",
     "family": "aprendizajes",
     "prompt": "¿Qué utiliza el autoentrenamiento para ampliar un conjunto etiquetado?",
@@ -6953,7 +6953,7 @@
   },
   {
     "id": "C0317",
-    "band": 5,
+    "band": 4,
     "topic": "Conceptos y aprendizaje",
     "family": "anotacion",
     "prompt": "¿Qué puede aportar supervisión débil a un conjunto sin etiquetas manuales completas?",
@@ -6997,7 +6997,7 @@
   },
   {
     "id": "C0319",
-    "band": 5,
+    "band": 4,
     "topic": "Conceptos y aprendizaje",
     "family": "adaptacion",
     "prompt": "¿Qué busca el metaaprendizaje?",
@@ -7019,7 +7019,7 @@
   },
   {
     "id": "C0320",
-    "band": 5,
+    "band": 4,
     "topic": "Conceptos y aprendizaje",
     "family": "actualizacion",
     "prompt": "¿Qué describe el olvido catastrófico en una red neuronal?",
@@ -7041,7 +7041,7 @@
   },
   {
     "id": "C0321",
-    "band": 5,
+    "band": 4,
     "topic": "Conceptos y aprendizaje",
     "family": "datos_sinteticos",
     "prompt": "¿Qué fenómeno estudia el trabajo de 2024 sobre modelos entrenados recursivamente con datos generados?",
@@ -7063,7 +7063,7 @@
   },
   {
     "id": "C0322",
-    "band": 5,
+    "band": 3,
     "topic": "Lenguaje y comunicación",
     "family": "razonamiento_metodos",
     "prompt": "¿Qué hace la autoconsistencia al generar varias soluciones a una tarea de razonamiento?",
@@ -7131,7 +7131,7 @@
   },
   {
     "id": "C0325",
-    "band": 4,
+    "band": 2,
     "topic": "Ciencia y medio ambiente",
     "family": "cetaceos",
     "prompt": "Tras vincular el Biotwang con ballenas de Bryde, ¿para qué ayudó la IA en el estudio de NOAA divulgado en 2024?",
@@ -7153,7 +7153,7 @@
   },
   {
     "id": "C0326",
-    "band": 4,
+    "band": 3,
     "topic": "Conceptos y aprendizaje",
     "family": "despliegue",
     "prompt": "¿Qué hace una cascada de modelos para atender tareas de distinta dificultad?",
@@ -7175,7 +7175,7 @@
   },
   {
     "id": "C0327",
-    "band": 4,
+    "band": 2,
     "topic": "Conceptos y aprendizaje",
     "family": "estilo_visual",
     "prompt": "¿Qué combina la transferencia neuronal de estilo propuesta por Gatys y colaboradores en 2015?",
@@ -7197,7 +7197,7 @@
   },
   {
     "id": "C0328",
-    "band": 4,
+    "band": 2,
     "topic": "Ciencia y medio ambiente",
     "family": "satelites_ia",
     "prompt": "¿Qué detecta una aplicación de IA de Φsat-2 para apoyar la vigilancia de actividades como la pesca ilegal?",
@@ -7241,7 +7241,7 @@
   },
   {
     "id": "C0330",
-    "band": 3,
+    "band": 2,
     "topic": "Conceptos y aprendizaje",
     "family": "video",
     "prompt": "¿Qué genera la interpolación de fotogramas?",
@@ -7263,7 +7263,7 @@
   },
   {
     "id": "C0331",
-    "band": 3,
+    "band": 2,
     "topic": "Imagen y sonido",
     "family": "transformacion_voz",
     "prompt": "¿Qué intenta cambiar la conversión de voz conservando el contenido lingüístico?",
@@ -7329,7 +7329,7 @@
   },
   {
     "id": "C0334",
-    "band": 5,
+    "band": 3,
     "topic": "Lenguaje y comunicación",
     "family": "entidades",
     "prompt": "¿Qué añade el enlace de entidades al simple reconocimiento de un nombre en un texto?",
@@ -7351,7 +7351,7 @@
   },
   {
     "id": "C0335",
-    "band": 3,
+    "band": 1,
     "topic": "Lenguaje y comunicación",
     "family": "analisis_gramatical",
     "prompt": "En «Ana vio a Luis con unos prismáticos», sin más contexto, ¿qué puede quedar ambiguo para un sistema de lenguaje?",
@@ -7461,7 +7461,7 @@
   },
   {
     "id": "C0340",
-    "band": 5,
+    "band": 3,
     "topic": "Ciencia y medio ambiente",
     "family": "meteorologia_ia",
     "prompt": "GraphCast se entrenó con el reanálisis ERA5. ¿Qué combina un reanálisis meteorológico?",
@@ -7483,7 +7483,7 @@
   },
   {
     "id": "C0341",
-    "band": 4,
+    "band": 3,
     "topic": "Datos y evaluación",
     "family": "metricas_audio",
     "prompt": "En una prueba subjetiva de calidad de voz, ¿cómo se obtiene la puntuación MOS?",
@@ -7527,7 +7527,7 @@
   },
   {
     "id": "C0343",
-    "band": 2,
+    "band": 1,
     "topic": "Aplicaciones cotidianas",
     "family": "supervision_humana",
     "prompt": "Una persona revisa una propuesta de IA y puede corregirla o rechazarla antes de aplicarla. ¿Qué enfoque representa?",
@@ -7549,7 +7549,7 @@
   },
   {
     "id": "C0344",
-    "band": 3,
+    "band": 2,
     "topic": "Aplicaciones cotidianas",
     "family": "agentes",
     "prompt": "En la distinción de Anthropic, un sistema que siempre sigue la secuencia fijada «traducir, revisar y entregar» es…",
@@ -7571,7 +7571,7 @@
   },
   {
     "id": "C0345",
-    "band": 3,
+    "band": 2,
     "topic": "Conceptos y aprendizaje",
     "family": "paradigmas",
     "prompt": "Un sistema combina aprendizaje con redes neuronales y razonamiento mediante reglas explícitas. ¿Qué enfoque describe?",
@@ -7659,7 +7659,7 @@
   },
   {
     "id": "C0349",
-    "band": 3,
+    "band": 1,
     "topic": "Datos y evaluación",
     "family": "interpretacion_modelos",
     "prompt": "Un informe describe patrones de miles de decisiones del modelo; otro analiza solo una decisión. ¿Cuál ofrece una explicación global?",
@@ -7681,7 +7681,7 @@
   },
   {
     "id": "C0350",
-    "band": 4,
+    "band": 3,
     "topic": "Conceptos y aprendizaje",
     "family": "prediccion_numerica",
     "prompt": "¿Qué añade una regresión probabilística a la estimación de un valor?",

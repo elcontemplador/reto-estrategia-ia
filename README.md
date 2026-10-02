@@ -22,6 +22,7 @@ Requisitos de mantenimiento: Node.js 24, npm y Python 3. El juego publicado no n
 npm ci
 python qa/compose_bank.py --check
 npm test
+npm run test:calibration
 npm run test:bank
 npx playwright install chromium
 npm run test:browser
@@ -38,13 +39,21 @@ Abre `http://127.0.0.1:4319/` para jugar localmente. En Linux, la instalación d
 
 La actualización editorial del 1 de octubre de 2026 mejora 94 fichas: menos fechas menores, alternativas más plausibles, más preguntas iniciales y nuevos casos de gobernanza y uso responsable. Las preguntas con cuatro años como opciones pasan de 48 a 20. Las 60 etiquetas anteriores se agrupan en 15 categorías. Se mantienen personajes, empresas, ciencia y ficción como parte de la cultura general sobre IA.
 
-Distribución actual por niveles: **101 / 212 / 360 / 251 / 76**. SHA-256 del banco: `6df11754dd581dd324054c2007d41c74b1d5a744306158e46ec72e70de5a8319`. Cada ficha indica su propia fecha de revisión; esta actualización no atribuye una nueva comprobación factual a las preguntas que solo cambian de etiqueta o reciben un enlace más preciso.
+Distribución actual por niveles: **209 / 296 / 257 / 185 / 53**. SHA-256 del banco: `7b98564f8ccd63f38140ab4feb14f32fd218a95fb614000f013c9cc8061f3216`. Cada ficha indica su propia fecha de revisión; esta actualización no atribuye una nueva comprobación factual a las preguntas que solo cambian de nivel o etiqueta, o reciben un enlace más preciso.
 
 La revisión del 2 de octubre de 2026 simplifica el enunciado S0064, mejora los distractores de S0022, S0094 y S0174 y sitúa C0345 y S0064 en el nivel 3. Se conservan 1.000 preguntas y las respuestas correctas. Se han verificado 160 enlaces a entradas concretas del glosario de Google; el inventario general sigue contando páginas, no fragmentos de una misma página. Las fechas de revisión documental solo cambian en las cinco fichas revisadas materialmente.
 
 Las ventanas de reglas, fuentes y referencias comparten una única zona de lectura, incluido el título, y mantienen visible el cierre al ampliar el texto. En móvil se muestra cuántos comodines quedan, con acceso directo a ellos; sus botones aparecen antes de confirmar. La portada condiciona el guardado a la disponibilidad del navegador. La imagen para compartir está en `dist/assets/social-card.png`.
 
 Las partidas iniciadas antes de la revisión del 2 de octubre conservan las versiones anteriores de las cinco preguntas afectadas, sus opciones y su nivel. Esta compatibilidad utiliza variantes canónicas archivadas; las nuevas partidas reciben el banco vigente. Si otra actualización contiene preguntas que ya no pueden recuperarse, el juego informa del cambio y conserva la mejor marca y el número de partidas terminadas.
+
+## Revisión de dificultad del 2 de octubre de 2026
+
+Se han leído las 1.000 preguntas y se han contrastado de forma independiente todas las propuestas de cambio. Se reasignan **396 preguntas** según los conocimientos necesarios y las alternativas de respuesta, pensando en una persona interesada en IA sin formación especializada y antes de utilizar comodines. El vocabulario técnico por sí solo no justifica un nivel alto. Se conservan los enunciados, las opciones, las respuestas y las fuentes.
+
+La escala distingue reconocimiento cotidiano (1), cultura digital básica (2), conocimientos intermedios (3), conocimientos especializados o referencias específicas (4) y detalles muy especializados o discriminaciones exigentes (5). El registro `data/difficulty-review-2026-10-02.json` documenta la cobertura, los motivos, las discrepancias resueltas y las incertidumbres. Es una estimación editorial asistida por IA; no procede de tasas de acierto observadas ni valida una progresión idéntica para todos los jugadores.
+
+Las partidas ya empezadas conservan sus niveles anteriores mediante `dist/legacy-bands.js`; las nuevas utilizan la distribución revisada. En el nivel 5 quedan siete preguntas de conceptos: su variedad es limitada y, cuando se agotan las alternativas nuevas compatibles, la selección puede recurrir a otro ámbito antes de repetir. No se han elevado niveles para cubrir cuotas artificiales. Las pruebas incluyen la recuperación exacta de 1.000 partidas anteriores y el rechazo de guardados manipulados.
 
 ## Alcance de la revisión
 
