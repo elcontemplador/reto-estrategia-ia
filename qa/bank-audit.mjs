@@ -11,7 +11,7 @@ assert.equal(new Set(bank.map(q=>q.prompt.toLocaleLowerCase('es'))).size,1000);
 let seed=19092026;
 const rng=()=>{seed=(Math.imul(1664525,seed)+1013904223)>>>0;return seed/4294967296;};
 const canonical=new Map(bank.map(q=>[q.id,q]));
-const report={questions:bank.length,rounds:0,swaps:0,historyScenarios:{},sourcePages:new Set(bank.map(q=>q.source)).size};
+const report={questions:bank.length,rounds:0,swaps:0,historyScenarios:{},sourcePages:new Set(bank.map(q=>{const url=new URL(q.source);url.hash='';return url.href;})).size};
 for(const fraction of [0,0.5,0.9,0.99,1]){
   let tested=0;
   for(let n=0;n<1000;n++){
